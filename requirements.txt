@@ -1,0 +1,5 @@
+datasets
+google-generativeai
+matplotlib
+seaborn
+numpy

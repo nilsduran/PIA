@@ -31,10 +31,15 @@ MAX_OUTPUT_TOKENS_WITH_REASONING = 1000
 NUM_SAMPLES_TO_TEST = 10
 SUBJECTS = [
     "Medicine",
-    "Pathology",
-    "Pharmacology",
-    "Pediatrics",
-    "Surgery",
+    "Skin",
+    "Gynaecology_Obstetrics",
+    "Anatomy",
+    "Social_Preventive_Medicine",
+    # "Medicine",
+    # "Pathology",
+    # "Pharmacology",
+    # "Pediatrics",
+    # "Surgery",
     # "Anaesthesia",
     # "Anatomy",
     # "Biochemistry",
@@ -196,6 +201,16 @@ for agent_name, results in agent_results.items():
 
 
 agent_names_for_plot = list(accuracies.keys())
+agent_names_for_plot = [
+    "Medicina general",
+    "Dermatologia",
+    "Nefrologia",
+    "Infermeria",
+    "Drets humans",
+    "Barreja",
+    "Genèric",
+    "Moda (votació)",
+]
 accuracy_values = list(accuracies.values())
 plt.figure(figsize=(12, 7))
 # Use a color palette with over 20 different colors
