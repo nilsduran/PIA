@@ -1,0 +1,822 @@
+Question: Growth hormone has its effect on growth through?
+A. Directly
+B. IG1-1
+C. Thyroxine
+D. Intranuclear receptors
+Correct Answer: B
+Explanation: Ans. is 'b' i.e., IGI-1GH has two major functions :-i) Growth of skeletal system :- The growth is mediated by somatomedins (IGF). Increased deposition of cailage (including chondroitin sulfate) and bone with increased proliferation of chondrocytes and osteocytes.ii) Metabolic effects :- Most of the metabolic effects are due to direct action of GH. These include gluconeogenesis, decreased peripheral utilization of glucose (decreased uptake), lipolysis and anabolic effect on proteins.
+
+Question: Glucose sympo occurs with:
+A. Na+
+B. Ca++
+C. K+
+D. Cl-
+Correct Answer: A
+Explanation: A i.e. Na+
+
+Question: Which of the following is measured by the device, Bellow's spirometer?
+A. TLC
+B. RV
+C. Closing volume
+D. ERV
+Correct Answer: D
+Explanation: The spirometer is a simple device for measuring gas volumes. The frequently used water spirometer, rolling seal spirometer and bellows spirometer. The last two are not water-filled and are more poable. The VT, IRV, ERV, IC, and VC can all be measured with a spirometer (as can the forced expiratory volume in 1 second , forced vital capacity , and forced expiratory flow ). The RV, the FRC, and the TLC, however, cannot be determined with a spirometer because the subject cannot exhale all the gas in the lungs. The lung volumes not measurable with spirometry can be determined by the nitrogen-washout technique, by the helium-dilution technique, and by body plethysmography. The FRC is usually determined, and RV (which is equal to FRC minus ERV) and the TLC (which is equal to VC plus RV) are then calculated from volumes obtained by spirometry. Ref: Levitzky M.G. (2007). Chapter 3. Alveolar Ventilation. In M.G. Levitzky (Ed), Pulmonary Physiology, 7e.
+
+Question: The WBC that is considered “second line of defence” is:
+A. Neutrophil
+B. Eosinophil
+C. Basophil
+D. Monocyte
+Correct Answer: D
+Explanation: Monocyte is considered as the second line of defence.
+ 
+Phagocytosis by Macrophages.
+Macrophages are the end-stage product of monocytes that enter the tissues from the blood. When activated by the immune system, they are much more powerful phagocytes than neutrophils, often capable of phagocytizing as many as 100 bacteria. They also have the ability to engulf much larger particles, even whole RBCs or, occasionally, malarial parasites, whereas neutrophils are not capable of phagocytizing particles much larger than bacteria. Also, after digesting particles, macrophages can extrude the residual products and often survive and function for many more months.
+Reference: GUYTON AND HALL TEXTBOOK OF MEDICAL PHYSIOLOGY, THIRTEENTH EDITION(INTERNATIONAL EDITION ) page no 458
+
+Question: What is the pressure of inspiration?
+A. Intrapleuarl
+B. Transpulmonary
+C. Trans chest wall
+D. Alveolar pressure
+Correct Answer: A
+Explanation: Ans: a (Intrapleural) Ref: Ganong,22nd ed,p. 6651The main pressure in lung related to inspiration is intrapleural pressure.Intrapleural pressure.The pressure in the intrapleural space between the lungs and chest wall is intrapleural pressure.Intrapleural pressure changes from -2.5 to -6 mmHg during inspiration. During strong inspiratory effort it may reach up to -30 mmHg.Transpulmonary pressureIt is the difference between alveolar pressure and intrapleural pressure. It is the measure of elastic forces in the lungs.Alveolar pressure or intrapulmonary pressureIt is the pressure inside the lung alveoli. When no air flows the alveolar pressure is considered to be equal to the atmospheric pressure, i.e., 0 cm of water.During inspiration it decreases to -1 cm of water.During expiration it increases to+1 cm of water.
+
+Question: Fever associated with infection
+A. Accelerates bacterial and viral replication
+B. Left shifts the oxygen dissociation curve
+C. Is due to interleukin-1 released from CD4 T-helper cells
+D. Increase oxygen release to tissue
+Correct Answer: D
+Explanation: Fever right shifts the oxygen dissociation curve, which allows for a greater release of oxygen to the tissue, making oxygen easily available to neutrophils and monocytes for use in the oxygen-dependent myeloperoxidase system of bactericidal killing. Having more oxygen available to tissue also enhances wound healing. In addition, fever interferes with bacterial and viral replication by providing a hostile environment for incubation. Fever is produced by the release of interleukin-I from macrophages. Interleukin-I, in turn, stimulates the hypothalamus to synthesize prostaglandins, which interact with the thermoregulatory center to produce fever.
+
+Question: Which of the following hormonal activity is expected immediately prior to Ovulation?
+A. LH surge
+B. FSH surge
+C. Progestrone surge
+D. Estrogen surge
+Correct Answer: A
+Explanation: Ovulation occurs due to the effect of increased concentration of LH. In the pre-ovulatory phase of the menstrual cycle, the ovarian follicle will undergo a series of transformations called cumulus expansion, which is stimulated by FSH. This is followed by LH surge.
+
+Question: Which of the following is released from hypothalamus?
+A. Orexin
+B. Cortisol releasing hormone
+C. Neuropeptide
+D. Ghrelin
+Correct Answer: B
+Explanation: There are 6 established hypothalamic releasing and inhibiting hormones : 
+
+Corticotropin-releasing hormone (CRH),
+Thyrotropin releasing hormone (TRH),
+Growth hormone releasing hormone (GRH),
+Growth  hormone inhibiting hormone (GIH),
+Luteinizing hormone releasing hormone (LHRH) and
+Prolactin inhibiting hormone(PIH).
+
+Question: Vestibulo-Ocular Reflex Mediated by:
+A. Flocculonodular Lobe
+B. Vermal portion of Spinocerebel 1 um
+C. Neocerebellum
+D. Paravermal region of Spinocerebellum
+Correct Answer: A
+Explanation: Ans:A (Flocculonodular Lobe) Ref: Pal GK. Cerbellurn. In: Textbook of Medical Physiology. Ahuja Publishing House. 2007: 116: 871.Explanation:Functional Division of CerebellumVestibulo cerebellum/Arch-cerebellum (Flocculonodular lobe)Connections with vestibular apparatusConcerned with equilibrium and learning induced changes in vesiihulo-occular reflexSpino cerebellumVermis - controls muscle movements of axial bodyIntermediate zone - controls muscle movements of limbsCerbrocerbellum (Ponto cerebellum/Neo cerbellurn) Overall planning programming of motor activities
+
+Question: Which of the following is freely filtered by kidney across glomerular capillariesa)  Albumin (across glomerular capillaries)b) Globulinc) Creatinined) HCO3 e)  Glucose
+A. cde
+B. acd
+C. bde
+D. ade
+Correct Answer: A
+Explanation: Freely filterable substances by glomerulus
+-        Water
+-        Na+
+-        Cl-
+-        HCO3-
+-        Inulin
+-        Glucose
+-        Creatinine
+ 
+-        Free Calcium or phosphate
+
+Question: Shock causes:
+A. Stagnant hypoxia
+B. Anemic hypoxia
+C. Hypoxic hypoxia
+D. Histotoxic hypoxia
+Correct Answer: A
+Explanation: Ans: A (Stagnant hypoxia)Ref: Pat GK, Hypoxia and Oxygen Therapy, In: Textbook of Medical Physiology, 2nd ed, Abuja Publishing House 2011: 94: 754-55Explanation:Refer the explanation of previous question
+
+Question: Pain-sensitive intracranial structure is:
+A. Piamater
+B. Pial vassels
+C. Duramater
+D. Brain matter
+Correct Answer: C
+Explanation: C i.e.Duramater
+
+Question: Most sensitive nerve fiber to hypoxia
+A. A
+B. B
+C. C
+D. All are equally sensitive
+Correct Answer: B
+Explanation: Question repeated
+
+Question: Least conduction velocity is seen in:
+A. AV node
+B. Purkinje fibers
+C. Bundle of His
+D. Ventricular myocardial fibres
+Correct Answer: A
+
+Question: Progesterone production in the ovary is primarily by:
+A. Stroma
+B. Corpora albicans
+C. Corpora lutea
+D. Mature follicles
+Correct Answer: C
+
+Question: Which of the following results in increase in secretion of ADH?
+A. Hypervolemia
+B. Hypeension
+C. Hypovolemia
+D. Decrease osmolarity
+Correct Answer: C
+Explanation: Ans: C HypovolemiaRef: Guyton 12th/e p. 9051Hypovolemia (Decreased ECF) stimulates the release of ADH.Vasopressin secretion is increased by: - i) Increased osmolarity (osmotic pressure) of plasma; ii) Decreased ECF volume; iii) Pain, emotion, stress, exercise; iv) Nausea and vomiting; v) Standing; vi) Clofibrate, Carbamazapine; vii) Angiotensin II.
+
+Question: 1-a hydroxylation in Vitamin-D metabolism takes place in
+A. Skin
+B. Liver
+C. Kidney
+D. Blood
+Correct Answer: C
+Explanation: Vitamin D is a fat-soluble vitamin molecule found in fish liver oils, and also produced in the skin when subjected to ultraviolet rays from sunlight. The main function of the vitamin is to increase the utilization of calcium and phosphorus in bones and teeth. A mixture of several forms of vitamin D: Vitamin D3 is synthesized in the skin upon exposure to ultraviolet light; in contrast, vitamin D2 is obtained only from the diet. Both vitamins D2 and D3 are metabolized to 25-hydroxyvitamin D in the liver, and then to the active 1,25 dihydroxy form in the kidney. Vitamin D has a major role in the intestinal absorption of calcium, bone calcium balance and renal excretion of calcium.Ref: Ganong&;s review of medical physiology;24th edition; page no-379
+
+Question: Vitamin B12 intrinsic factor absorption occurs in
+A. Duodenum
+B. Ileum
+C. Jejunum
+D. Colon
+Correct Answer: B
+Explanation: Most of the vitamins are absorbed in the upper small intestine, but vitamin B12 is absorbed in the ileum.Vitamin B12 binds to intrinsic factor and the complex is absorbed across the ileal mucosa.Vitamin B12 and folate absorption are Na+ independent.Other vitamins are absorbed by carriers that are Na+ cotranspoers.(Ref: Ganong&;s Review of medical physiology, 23 rd edition, page 458)
+
+Question: During cardiac imaging the phase of minimum motion of hea is:
+A. Late systole
+B. Mid systole
+C. Late diastole
+D. Mid diastole
+Correct Answer: D
+Explanation: D i.e. Mid diastole- During cardiac imaging (such as MRI, CT, electron beam tomography), mid diastolic phase (or diastasis) of cardiac cycle is usually (but not always) associated with lowest (minimum) mean motion of hea.Q- Optimum phase (i.e. with minimum cardiac motion) for cardiac and coronary vessel imaging is mid-diastole (diastasis) at low or intermediate hea rates; but is variable and may occur in late systole at high hea rates.Cardiac Motion and Imaging- Radiological imaging by CT and MRI can detect coronary aery disease in early stage. However, the use of these tools to cardiac imaging is severely limited because of motion aifacts produced by constantly in motion hea completing an entire cycle of contraction and relaxation in about 1 second.- So radiological cardiac imaging requires a 'window' of minimum cardiac motion to reduce motion aifacts and achieve meaningful images. The phase of minimum cardiac motion is although variable and depends on several factors especially hea rate and the chamber (i.e. right /left - atrium or ventricle) to be specifically imaged. However, the phase of minimum cardiac motion (= optimum phase for cardiac & coronary vessel imaging).
+
+Question: Tonic neck relfex is lost in lesion of -
+A. Cerebral coex
+B. Midbrain
+C. Medulla
+D. Spinal cord
+Correct Answer: C
+Explanation: Ans. is 'c' i.e., Medulla
+
+Question: CAMP acts through:
+A. Activation of protein kinase
+B. Activation of adenylate cyclase
+C. Ca2+ release.
+D. All
+Correct Answer: A
+Explanation: A i.e., Activation of protein kinase
+
+Question: The placenta secretes a hormone that is utilized in the early detection of pregnancy. This hormone is:
+A. Endothelial growth factor (EGF)
+B. Human chorionic gonadotropin (hCG)
+C. Human chorionic somatotropin (HCS)
+D. Relaxin
+Correct Answer: B
+Explanation: The synthesis and secretion of hCG begins about day 6 of pregnancy, presumably from the trophoblast cells. Pregnancy tests utilize the measurement of hCG for detection of the embryo. Endothelial growth factor (EGF) is synthesized by the cytotrophoblast cells in the early placenta, then is synthesized by the syncytiotrophoblast cells later (6-8 week old placenta). EGF maintains the trophoblast. Relaxin is synthesized by decidual cells at the time of paurition and acts to "soften" the cervix and pelvic ligaments. IGF act similarly to EGF by stimulating differentiation of the cytotrophoblast cells. HCS is synthesized by syncytiotrophoblast cells and will promote general growth. It is essential in the stimulation of mammary duct proliferation in development of the breast during pregnancy. Ref: Barrett K.E., Barman S.M., Boitano S., Brooks H.L. (2012). Chapter 22. Reproductive Development & Function of the Female Reproductive System. In K.E. Barrett, S.M. Barman, S. Boitano, H.L. Brooks (Eds), Ganong's Review of Medical Physiology, 24e.
+
+Question: When a person changes position from standing to lying down, following change is seen:
+A. Hea rate increases
+B. Venous return to hea increases immediately
+C. Cerebral blood flow increases
+D. Blood flow at apices of lung decreases
+Correct Answer: B
+Explanation: B i.e. Venous return to hea increases immediately In standing posture, 300- 500m1 of blood pools in venous capacitance vessels of lower extremities, which is immediately returned towards heaQ on assuming lying down posture. Cardiovascular system Onlying On standing - Stroke volume - Cardiac output - Venous return - Central blood pool Increase Decrease - Central venous pressure - Aerial BP - Abdominal & limb flow - Hea rate - Peripheral venous pooling - Total peripheral resistance Decrease Increase - Abdominal & limb resistance - Small vein pressure
+
+Question: Intrinsic factor of castle is secreted by which of the following cells in gastric glands
+A. Chief cells
+B. Parietal cells
+C. Enterochromaffin cells
+D. B cells
+Correct Answer: B
+Explanation: The stomach also adds a significant volume of digestive juices to the meal. Like salivary secretion, the stomach actually readies itself to receive the meal before it is actually taken in, during the so-called cephalic phase that can be influenced by food preferences. The gastric secretions arise from glands in the wall of the stomach that drain into its lumen, and also from the surface cells that secrete primarily mucus and bicarbonate to protect the stomach from digesting itself, as well as substances known as trefoil peptides that stabilize the mucus-bicarbonate layer. The glandular secretions of the stomach differ in different regions of the organ. The most characteristic secretions derive from the glands in the fundus or body of the stomach. These contain two distinctive cell types from which the gastric secretions arise: the parietal cells, which secrete hydrochloric acid and intrinsic factor; and the chief cells, which produce pepsinogens and gastric lipase. The acid secreted by parietal cells serves to sterilize the meal and also to begin the hydrolysis of dietary macromolecules. Intrinsic factor is impoant for the later absorption ofvitamin B12 or cobalamin. Pepsinogen is the precursor of pepsin, which initiates protein digestion. Lipase similarly begins the digestion of dietary fats.REF: GANONG&;S REVIEW OF MEDICAL PHYSIOLOGY, KIM BARRETT, HEDDWEN BROOKS, SCOTT BOITANO, SUSAN BARMANTWENTY THIRD EDITIONPAGE NO:432
+
+Question: Which of the following is orexigenic?
+A. Serotonin
+B. Ghrelin
+C. OCX
+D. GA
+Correct Answer: B
+Explanation: Ghrelin: Anorexigenic and somatotrophic signal from the stomach Akio Inui1 About the author top of page Abstract Ghrelin, an endogenous ligand for the growth hormone secretagogue receptor, is synthesized principally in the stomach and is released in response to fasting. Ghrelin is structurally related to motilin and, together, they represent a novel family of gut-brain regulatory peptides. In addition to having a powerful effect on the secretion of growth hormone, ghrelin stimulates energy production and signals directly to the hypothalamic regulatory nuclei that control energy homeostasis. The study of ghrelin has extended our understanding of how growth is controlled and has shown that the stomach is an impoant component of this system.
+
+Question: Which of the following is used in exocytosis?
+A. Ca
+B. Mg
+C. Na
+D. K
+Correct Answer: A
+Explanation: Ans. (a) CaExocytosis is a calcium dependent process where in the cellular contents are moved out of the cell in the form of vesicles (Cell Vomiting)
+
+Question: Renal threshold for serum glucose level-
+A. 100 mg/dl
+B. 200 mg/dl
+C. 300 mg/dl
+D. 400 mg/dl
+Correct Answer: B
+Explanation: Ans. is 'b' i.e., 200 mg/dl * The transport maximum for glucose is 375 mg/min whereas the filtered load of glucose is only 125 mg/min.* Therefore, in normal conditions 100% of glucose is reabsorbed in proximal tubules.* When plasma glucose concentration is 100 mg/dl the filtered load is at its normal level, 125 mg/min, there is no loss of glucose in the urine.* However, when the plasma concentration of glucose rises above about 200 mg/dl, increasing the filtered load about 250 mg/min, a small amount of glucose begins to appear in the urine.* This point is termed as threshold for glucose.* Note that this appearance of glucose in the urine occurs before the transport maximum is reached.* The reason for the difference between threshold and transport maximum is that not all nephron have same transport maimum for glucose, and some of the nephron therefore begin to excrete glucose before others have reached their transport maximum.* The overall transport maximum for the kidneys, which is normally about 375 mg/min, is reached when all nephrons have reached their maximal capacity to reabsorb glucose.* That means, above filtered load of 250 mg/min of glucose, some glucose will appear in the urine (threshold level), whereas above filtered load of 375 mg/min, all the glucose will be excreted because all the nephrons have reached to their transport maximum.* Thus, Renal threshold for glucosei) At plasma levels - 200 mg/dlii) At filtered load - 250 mg/min
+
+Question: Functional unit of muscle:
+A. Sarcomere
+B. Actin
+C. Myosin
+D. Troponin
+Correct Answer: A
+Explanation: Functional unit of muscle is : sarcomere It is the pa of myofibril present between two succsive z lines. Ref: Guyton and Hall textbook of medical physiology 12th edition, page number:86,87
+
+Question: Bilateral destruction of auditory cortex in man causes
+A. Almost total deafness
+B. Hearing defect for higher frequency sounds
+C. Deficiency in interpretation of sounds
+D. Inability for the orientation of sounds
+Correct Answer: C
+Explanation: (C) Deficiency in interpretation of sounds # Lesion of auditory cortex leads to loss of recognition of total patterns with loss of analysis of properties of sound and sound localisation.> Thus lesion of auditory cortex leads to defect in interpretation of sounds.
+
+Question: The nerve impulse which leads to initiation of smooth muscle contraction
+A. Cause opening of the calcium channel which leads to increase in Ca+2 contraction
+B. Cause both plasma membrane and T - tubules to undergo depolarisation
+C. Inhibits Na+ entry in sarcomere
+D. Is initiated by binding of acetylcholine to receptors in sarcoplasmic reticulum
+Correct Answer: A
+Explanation: Ans. (a) Cause opening of the calcium channel which leads to increase in Ca2+ contraction(Ref: Ganong, 25th ed/p.116)The never impulse which leads to initiation of smooth muscle contraction Cause opening of the calcium channel which leads to increase in Ca2+ contraction
+
+Question: Buerger waves (alpha waves) of EEG have the rhythm per sec of -
+A. 0-4
+B. 7-Apr
+C. 13-Aug
+D. 13-30
+Correct Answer: C
+Explanation: C i.e. 8-13
+
+Question: True about gastric acid secretion:
+A. Secretion ,l,ses with secretin
+B. H2 blockers prevent release
+C. Total acid output indicates parietal cell mass activity
+D. All
+Correct Answer: D
+Explanation: A i.e. Secretion decreases with secretin B i.e., H2 blocker prevents relapse C i.e., Total acid output indicates parietal cell mass activity
+
+Question: Thin filament consists of all except:
+A. Actin
+B. Troponin
+C. Myosin
+D. Tropomyosin
+Correct Answer: C
+Explanation: Myosin is thick filament. All others  in the options are thin filaments.
+
+Question: CO2 is primarily transpoed in the aerial blood as
+A. Dissolved CO2.
+B. Carbonic Acid.
+C. Carbamino-hemoglobin.
+D. Bicarbonate
+Correct Answer: D
+Explanation: D i.e. Bicarbonate Transpo of CO2 in the form of bicarbonate ions accounts for approximately 70% of transpoed carbon dioxide from the tissues to lungs Q. So CO2 is transpoed as plasma HCO3 - > RBC > HCO3- > Carbamino compound > dissolved CO2 Q &Transpo of Carbon Dioxide Carbon dioxide is transpoed in the blood as: HCO3- (70%) > carbamino compounds (23%) > dissolved CO2 (7%) Chloride Shift/ Hamburger Phenomenon When the negatively charged (HCO3-) bicarbonate ions move out of red blood cell into the plasma, to maintain the electrolytic equilibrium the negatively charged chloride ions move into the Red blood Cells from plasma (In plasma plenty of sodium chloride is present). This process is mediated by band 3 membrane protein Chloride shift occurs in: 1 secondQ Hematocrit of venous blood is: greater (by 3%)than that of aerial bloodQ PH of venous blood (7.36) is lower than that of aerial blood (7.40)Q * For each CO2 molecule added to RBC there is increase in one osmotically active paicle in cell either HCO3- or CI-. So RBC take up water & swell. For this reason plus a fact that some aerial fluid returns lymphatics rather than the veins, the hematocrit of venous blood is 3% greater than aerial bloodQ. Amount of 02 enters the body/min = 250 inVininQ Amount of CO2 excreted by lung/ min = 200 inVininQ (288 L/day)Q * CO2 is 20 times more soluble than 02
+
+Question: Best prognosis in nerve injury
+A. Neuropraxia
+B. Axonotemesis
+C. Neurotemesis
+D. Complete transaction
+Correct Answer: A
+Explanation: Neurapraxia is a disorder of the peripheral nervous system in which there is a temporary loss of motor and sensory function due to blockage of nerve conduction, usually lasting an average of six to eight weeks before full recovery.Ref: Ganong&;s review of medical physiology 23rd edition
+
+Question: Which of the following clinical laboratory observations is suggestive of Hanup disease?
+A. Burnt sugar smell in urine
+B. High plasma phenylalanine levels
+C. Extremely high levels of citrulline in urine
+D. High fecal levels of tryptophan and indole derivatives
+Correct Answer: D
+Explanation: High fecal levels of tryptophan and indole derivatives Hanup disease is autosomal recessive metabolic disorder also known as pellagra like dermatosis. This affect the absorption of nonpolar( neutral ) amino acids specially tryptophan. So there is no absorption of tryptophan.
+
+Question: A viral infection causes damage to both hippocampi in a patient. This damage would cause the patient to exhibit functional deficits in
+A. Recalling an old declarative memory
+B. Recalling an old procedural memory
+C. Forming a new sho-term memory
+D. Forming a new long-term memory
+Correct Answer: D
+Explanation: The hippocampus is crucial for the formation of long-term (declarative) memory. Without the hippocampus, sho-term memory is intact but the conversion to long-term does not take place.The retrieval of stored declarative memory does not require the hippocampus. The hippocampus is not needed for the retrieval of procedural memory.Ref: Guyton; 13th edition
+
+Question: All of the followings are responsible for Right shifting of O2 saturation curve; except:
+A. Hypoxia
+B. Hypocapnia
+C. Increase temp
+D. Increased 2,3 DPG
+Correct Answer: B
+Explanation: Ans. b. HypocapniaThe factors shift the curve to the right:Increased CO2 (Bohr effect)Increased hydrogen ion (decrease pH)Increased temperatureIncreased 2,3-bisphosphoglycerate (2,3-BPG)Shifts in Hb-O2 dissociation curveStored blood loses 2, 3-bisphosphoglycerate, causing a left shift in the curve, while hypoxia stimulates the production of 2,3-bisphosphoglycerate, thereby causing a right shift.Extra MileRight shiftAcidCO2 Exercise2, 3-BPGAltitudeTemperatureMnemonics: ACE BATs right handed
+
+Question: Decreased basal metabolic rate is seen in
+A. Obesity
+B. Hypehyroidism
+C. Feeding
+D. Exercise
+Correct Answer: A
+Explanation: The remaining options utilise energy. Basal metabolic rate and obesity The basal metabolic rate accounts for about 60 to 75% of the daily calorie expenditure by individuals. It is influenced by several factors. BMR typically declines by 1-2% per decade after age 20, mostly due to loss of fat-free mass, although the variability between individuals is high. Ref guyton and hall textbook of medical physiology 12/e pg843
+
+Question: Which of the following statements about cutaneous shunt~vessels is true?
+A. Perform nutritive function
+B. Have role in thermoregulation
+C. Not under the control of autonomic nervous system
+D. These vessels are evenly distributed throughout the skin
+Correct Answer: B
+Explanation: These are low resistance connection between the aerioles and veins bypassing the capillariesAbundantly innervated by sympathetic nerve fibresEspecially found in skin of fingers, toes and earlobes where they are involved in the thermoregulationRef: Medical Physiology Indu Khurana 2015 edition page No: 237
+
+Question: Which of the following does not belong to dystrophin-glycoprotein complex
+A. Perlecan
+B. Dystrophin
+C. Dystroglycan
+D. Sarcoglycan
+Correct Answer: A
+Explanation: Perlecan is a large extracellular matrix proteoglycan that plays a crucial role in tissue development and organogenesis. Dystrophin-glycoprotein complex The dystrophin-glycoprotein complex provides a structural link between the cytoskeleton of the muscle cell and the extracellular matrix, which appears to stabilize the sarcolemma, adds strength to the muscle by providing a scaffolding for the fibrils and prevents contraction-induced injury(rupture). Organisation of DG complex Dystrophin connects F-actin to the transmembrane protein b-dystroglycan smaller proteins called syntrophins. This b-dystroglycan, in turn connects to the merosin subunit of laminin 211 in the extracellular matrix a-dystroglycan The dytroglycans are also associated with a complex of four transmembrane glycoproteins, a-,b-,g- and d- sarcoglycan and sarcospan. Ref: Ganong's Review of Medical physiology 25th edition Pgno: 103
+
+Question: The final sugars in intestinal chyme are
+A. Glucose and fructose
+B. Ribose and mannose
+C. Ribose and xylulose
+D. Xylulose and fructose
+Correct Answer: A
+
+Question: Lowest most level of integration of stretch reflex is at
+A. Cerebral cortex
+B. Lower Medulla
+C. Spinal cord
+D. All of the above
+Correct Answer: C
+
+Question: When VA/Q is infinity, it means
+A. Dead space
+B. The PO2 of alveolar air is 159 mmHg and PCO2 is 40 mmHg
+C. Paial pressure of O2 and CO are equal
+D. Atelectasis
+Correct Answer: A
+Explanation: -Ventilation / perfusion ratio - normal = 4l/min/5l/min=0.8 - AV/Q= INFINITY - Means Perfusion (Q) to lungs is zero that is blood supply to that area is hindered making it awasted ventilationin those alveoli. - This may be due to pulmonary embolism causing |ed Physiological DEAD space . DEAD SPACE- Some of the air a person breathes never reaches the gas exchange areas but simply fills respiratory passages where gas exchange does not occur, - called so as its not useful for gas exchange. Physiologial / total dead space = anatomical dead space +alveolar dead space (non perfused/ non functioning Alveoli) In Atelectasisventilation: perfusion ratio (VA/Q) iszero. it is is the most common cause of a physiologic shunt.
+
+Question: Osteoclast has specific receptor for:
+A. Parathyroid hormone
+B. Calcitonin
+C. Thyroxin
+D. Vit D3
+Correct Answer: B
+Explanation: Calcitonin receptor is expressed in osteoclasts. Calcitonin inhibits bone resorption by inhibiting osteoclasts; and promotes Ca2+ from blood to be deposited on the bone. This decreases blood Ca2+. PTH is a primary endocrine regulator of bone remodeling in adults. The PTH/PTHrP receptor is expressed on osteoblasts, but not on osteoclasts.
+
+Question: Initiation of nerve impulse occurs at the axon hillock because :
+A. It has a lower threshold than the rest of axon
+B. It is unmyelinated
+C. Neurotransmitter release occurs here
+D. None of the above
+Correct Answer: A
+Explanation: A i.e. It has lower threshold than rest of axonAxon hillock is the initial segment of neuron, nerve impulses begin in this initial segment of axon because it has lowest threshold potential.QAxon hillock:- This is a thickened area of cell body from which originates the long fibrous axon.AP is generated in this segment because the membrane at the axon hillock has grater concentration of voltage gated Na+ channels and therefore the threshold for excitation is lower than the rest of neuronsQ
+
+Question: The most important action of Secretin is to
+A. neutralize the acid from the stomach
+B. increase secretion of bicarbonates by pancreas
+C. decrease gastric secretion
+D. cause contraction of pyloric sphincter
+Correct Answer: B
+Explanation: Main Action of Secretin:
+Secretin increases the secretion of bicarbonate by the duct cells of the pancreas and biliary tract. It thus causes the secretion of a watery, alkaline pancreatic juice (with high content of bicarbonate). Its action on pancreatic duct cells is mediated via cAMP.
+Secretin causes alkaline pancreatic juice to flood into the duodenum, neutralizing the acid from the stomach and thus inhibiting further secretion of the hormone - feedback control.
+Other actions:
+
+Inhibits gastric juice secretion.
+Inhibits gastric motility.
+Causes contraction of pyloric sphincter.
+Augments the potency of action of cholecystokinin on pancreatic secretion.
+
+Question: Aldosterone acts at:
+A. Collecting duct
+B. Glomerulus
+C. Proximal convoluted tubule
+D. Loop of Henle
+Correct Answer: A
+Explanation: Ans. A Collecting ductRef: Ganong, 23rd ed. pg. 648* Aldosterone is secreted from adrenal cortex.* Action of aldosterone is localized to distal tubule are collecting duct.* Mechanism: Stimulates Na+K+ ATPase at basolateral end which generate gradient for movement of sodium ion from apical membrane causing an increase in sodium: reabsorption.
+
+Question: Glucose transpo occur with the help of following ion in absorption in gut region
+A. Na+
+B. K+
+C. Ca+
+D. CI-
+Correct Answer: A
+Explanation: Glucose is absorbed into the epithelial cells lining the mucous membrane of the small intestine from their brush border surface by an active transpo mechanism Sodium co-transpo mechanism. Binding of glucose & Na+ to carrier protein: The carrier protein in cell membrane has 2 binding sites, one for sodium & another for glucose.It is called sodium-dependent glucose transpoer-I. The conformational change in the carrier protein occurs only when the binding sites are occupied by the sodium & glucose present in the gut lumen forming the sodium- glucose - carrier complex. Ref: Medical Physiology, Indu Khurana
+
+Question: All of the following cause hyperventilation except
+A. Decreased pH in CSF
+B. Decreased plasma HCO3
+C. CO poisoning
+D. Increased adrenergic levels
+Correct Answer: C
+Explanation: Arterial hypoxemia is defined as an arterial P02 (partial pressure of oxygen) less than 80 mmHg, who is breathing room air at sea level. And because the partial pressure of a gas is determined by the soluble fraction of gas and not by the amount carried chemically bound to hemoglobin - the Hb does not determine P02 and hypoxemia does not depend on Hb level.
+In CO poisoning effective hemoglobin that can carry O2 decreases (because CO occupies Hb binding site) since P02 or arterial blood O2 remains normal, peripheral chemoreceptors are not stimulated and hyperventilation is not seen.
+ In hypoxia, with the reduction of PO2 cerebral blood flow increases (d/t vaso dilatation)to maintain O2 delivery in the brain.
+The cerebral cortex can tolerate acute hypoxia for 5-10 min at 28°C, 20 min at 20°C, and 50 min at 50°C.
+Hypoxic ischemia almost invariably involve hippocampus. The hippocampal CA1 neurons are vulnerable to even brief episodes of hypoxic ischemia.
+
+Question: "Inflation of lungs induces fuher inflation" this is explained by
+A. Hering-Breuer inflation reflex
+B. Hering-Breuer deflation reflex
+C. Head's paradoxical reflex
+D. J-reflex
+Correct Answer: C
+Explanation: Head's paradoxical reflex is paradoxical to Hering- Breuer inflation reflex This reflex might be the cause for inflation of the lungs in the newborn when the newborn takes the first breath
+
+Question: Pyrogens act on which site of brain ?
+A. Basal ganglia
+B. Limbic system
+C. Thalamus
+D. Hypothalamus
+Correct Answer: D
+Explanation: Ans. is 'd' i.e., Hypothalamus PyrogenesPyrogenes are substances that cause fever.Pyrogens may be exogenous or endogenousExogenous - Bacterial toxinsEndogenous - IL-1, TNF-a, IL-6, Interferons, Ciliory's neurotropic factorThese pyrogenes increase the level of PGE, in the hypothalamus that elevates the thermoregulatory set point and causes fever.
+
+Question: The type of estrogen found in highest concen- tration in adult female is-
+A. Estrone
+B. Estriol
+C. Estradiol
+D. None
+Correct Answer: C
+Explanation: Ans. is 'c' i.e.. Estradiol f Ref: Principles of medical physiology p. 216]o Estradial, estrone and estrial, all three are found in blood, but estradiol is the most potent estrogen.o Major estrogen in normal adult women - Estradiolo Major estrogen in postmenoapusal women - Estroneo Major estrogen in pregnant women - Estriol.o In post menopausal women estrogen is formed in peripheral tissues most commonly in adipose tissue, liver kidney and brain.
+
+Question: Depressor reflex, Bezold-Jarisch reflex, produced by the following stimulus:
+A. Atrial overload
+B. Myocardial infarction
+C. Ventricular distension
+D. Isotonic exercise
+Correct Answer: C
+Explanation: Ventricular distension can produce a powerful depressor reflex called the Bezold-Jarisch reflex; vagal afferents of this cardiopulmonary reflex are also activated by chemical stimulation (eg, prostanoids, cytokines, serotonin, and classically, Veratrum alkaloids). The central connections for this reflex are in the nucleus tractus solitarii, which has both sympathetic and parasympathetic synapses. Ref: Hoit B.D., Walsh R.A. (2011). Chapter 5. Normal Physiology of the Cardiovascular System. In V. Fuster, R.A. Walsh, R.A. Harrington (Eds), Hurst's The Hea, 13e.
+
+Question: Insulin stimulated glucose entry in seen in-
+A. Cardiac muscles
+B. Smooth muscles
+C. Brain
+D. Intestines
+Correct Answer: A
+Explanation: Insulin stimulated glucose entry in seen in Cardiac muscles. Name Location Features GLUT-1 & GLUT-3 Brain, RBC, placenta Concerned with basal uptake of glucose GLUT-2 Liver, kidney, b-cells of pancreas Allows both entry & release of glucose GLUT-4 Skeletal muscles, adipocytes, cardiac muscles Insulin dependent transpoer GLUT-5 Spermatozoa, testis, intestines Transpos fructose
+
+Question: Concerning contraction of the diaphragm:
+A. The nerves that are responsible emerge from the spinal cord at the level of the lower thorax
+B. It tends to flatten the diaphragm
+C. It reduces the lateral distance between the lower rib margins
+D. It causes the anterior abdominal wall to move in
+Correct Answer: B
+Explanation: When the diaphragm contracts, it becomes flatter The phrenic nerves that innervate the diaphragm come from high in the neck, that is, cervical segments 3, 4, and 5. Contraction of the diaphragm causes the lateral distance between the lower rib margins to increase and anterior abdominal wall to move out. The intrapleural pressure is reduced because the larger volume of the chest cage increases the recoil pressure of the lung.
+
+Question: Which one of the following phenomena is closely associated with slow wave sleep:
+A. Dreaming
+B. Atonia
+C. Sleep walking
+D. Irregular hea rate
+Correct Answer: C
+Explanation: C i.e. Sleep walking
+
+Question: Digestion of disaccharides occurs at ?
+A. Mouth
+B. Stomach
+C. Small intestine
+D. Large intestine
+Correct Answer: C
+Explanation: Ans. is 'c' i.e., Small intestine Digestion of disaccharides (maltose, sucrose and lactose) occurs by the enzymes present in brush border os small intestinal epithelial cells. Maltase (a-glucosidase) breaks 1: 4 linkages in maltose and maltotriose and releases glucose (two molecules of glucose from maltose and three molecules of glucose from maltotriose). Isomaltase (a-limit dextrinase) breaks 1 : 6 a linkages of alpha-limit dextrin and releases glucose. Isomaltase dextrinase) is the only enzyme that attacks 1 : 6a linkage. Sucrose is hydrolysed into fructose and glucose by sucrase (an enzyme present in brush border of intestinal epithelium). Lactose is hydrolysed into galactose and glucose by lactase ((3-glucosidase). Trehalase hydrolyzes trehelose (a 1:1 a - linked dimer of glucose) into two glucose molecules. Trehalose is found in mushrooms.
+
+Question: In humans, effective renal blood flow is ?
+A. 425
+B. 525
+C. 625
+D. 725
+Correct Answer: C
+Explanation: C i.e., 625 ml
+
+Question: Which body pa is represented superiorly and medially within the postcentral gyrus?
+A. Upper limb
+B. Lower limb
+C. Abdomen
+D. Genitalia
+Correct Answer: B
+Explanation: In the postcentral gyrus (somatosensory area) of each hemisphere, the sensory information from the opposite side of the body is received. The lower limb representation is found in the superior and medial poion of the postcentral gyrus (see the figure below). The lateral poion of the postcentral gyrus receives somatic sensory information from the facial and neck region.
+
+Question: A 62 year old man has a 25 year history of alcoholism and liver disease. He visits his physician complaining of pain and swelling of his legs. A decrease in which of the following is the most likely cause of the peripheral edema?
+A. Capillary hydrostatic pressure
+B. Interstitial colloid osmotic pressure
+C. Interstitial hydrostatic pressure
+D. Plasma colloid osmotic pressure
+Correct Answer: D
+Explanation: The plasma colloid osmotic pressure is often low in alcoholics with chronic liver disease (cirrhosis). The diseased liver cannot produce adequate amounts of albumin, which leads to a decrease in the concentration of albumin in the plasma, i.e., hypoalbuminemia. Because about 75% of the plasma colloid osmotic pressure can be attributed to the presence of albumin in the plasma, the decrease in plasma albumin concentration that occurs in the latter stages of cirrhosis often leads to peripheral edema. Cirrhosis also causes excess fluid to accumulate in the peritoneal cavity as ascites. In the case of ascites, the edema results not only from hypoalbuminemia, but also from poal vein obstruction (which increases capillary hydrostatic pressure) as well as the obstruction of lymphatic drainage of the liver. In fact, ascites is observed more often than peripheral edema in liver disease. A decrease in capillary hydrostatic pressure would tend to decrease fluid loss from the capillaries, and thereby oppose the development of edema. A decrease in the colloid osmotic pressure of the interstitial fluid would decrease fluid loss from the capillaries, thereby opposing the development of edema. A decrease in interstitial hydrostatic pressure would tend to increase fluid loss from the capillaries, but this cannot be considered a primary cause of edema because the interstitial hydrostatic pressure actually increases when a tissue becomes edematous. Ref: Barrett K.E., Barman S.M., Boitano S., Brooks H.L. (2012). Chapter 31. Blood as a Circulatory Fluid & the Dynamics of Blood & Lymph Flow. In K.E. Barrett, S.M. Barman, S. Boitano, H.L. Brooks (Eds), Ganong's Review of Medical Physiology, 24e.
+
+Question: Baroreceptor stimulation producesa) Decreased heart rate & BPb) Increased heart rate & BPc) Increased cardiac contractilityd) Decreased cardiac contractility
+A. b
+B. c
+C. ac
+D. ad
+Correct Answer: D
+Explanation: Baroreceptors are present in carotid sinus and aortic arch. Increase in BP activates them which results in decrease in the sympathetic discharge. This leads to decrease in cardiac contraction, heart rate and BP.
+
+Question: The principle that is the spinal cord dorsal roots are sensory and the ventral roots are motor is known as -
+A. Laplace's law
+B. Bell-Magendle's law
+C. Frank-Starling's law
+D. Weber-Fechner's law
+Correct Answer: B
+Explanation: (B) (Bell Magendie law's) (157 - Ganang 23rd)* Bell Magandie law - In the spinal cord dorsal roots are sensory and ventral roots are motors (DS - VM)* Weber Fachner law - Magnitude of sensation felt in proportionate to the log of intensity of the stimulus**.* Law of pro jection states than no matter where a particular sensory pathway is stimulated along its course to the cortex. The conscious sensation produced is referred to the location of the receptor (eg. Phantom limb).* Within physiological limits, the force of contraction of the ventricular muscle fibers is directly proportional to its initial length i.e. larger the initial length of the cardiac muscle fibers, greater will be the force of contraction of the ventricles. This is known as the Frank Starling Law of the heart.* All or none relationship between the stimulus and the response is called. All or none law, applies to the whole of the functional syncytium in the heart, the unit bring the entire atria or entire ventricle.Points to remember* Arterioles - Resistance vessel, capillaries - exchange vessels, veins - capacitance vessels, main arteries conduct (muscular) arteries.* Windkessel effect is seen in - large elastic vessels- Major reservoir of blood is veins- Highest compliance is seen in veinsa) Neurons of first order - Axon of bipolar cells (in Retina)b) Neurons of second order - Axons of ganglionic cell (Retina i.e. optic disc) optic nerve** (optic chiasma, optic tract).c) Neurons of third order : Axons from nerve cells in lateral geniculate body (optic radiation)* Dorsal root ganglia have - Pseudounipolar.* Neurons in sympathetic ganglia are - Multipolar
+
+Question: A person with eyes closed & mind wondering will have the following wave in
+A. a-waves
+B. b-waves
+C. d-waves
+D. t-waves
+Correct Answer: A
+Explanation: (A) a-waves # Alpha Rhythm> In adult humans who are awake but at rest with the mind wandering and the eyes closed, the most prominent component of Ihe EEG is fairly regular pattern of waves at a frequency of 8-12 Hz and an amplitude of 50-100 pV when recorded from the scalp> This pattern is the alpha rhythm.> It is most marked in the parieto-occipital area.
+
+Question: Vitamin K dependent coagulation factors include
+A. II and III
+B. IX and X
+C. III and V
+D. VIII and XII
+Correct Answer: B
+Explanation: Vitamin K is an essential factor to a liver carboxylase that adds a carboxyl group to glutamic acid residues on five of the impoant clotting factors: prothrombin, Factor VII, Factor IX, Factor X, and protein C.Ref: Guyton and Hall textbook of medical physiology 13th edition. Page: 490
+
+Question: During diastole, arterial pressure is maintained by
+A. Elastic recoil of aorta
+B. Musculature of arteries
+C. Constriction of capillaries
+D. Contraction of left ventricle
+Correct Answer: A
+
+Question: Ascorbic acid is a potent enhancer of iron absorption because it:
+A. Enhances the absorption of heme iron
+B. Enhances the activity of heme oxygenase
+C. Is a reducing agent, thereby helping to keep iron in the ferrous state
+D. Decreases the production of ferritin by enterocytes
+Correct Answer: C
+Explanation: Ans. C. Is a reducing agent, thereby helping to keep iron in the ferrous stateAscorbic acid enhances iron absorption mostly by its reducing capacity, keeping iron in the ferrous state. Ascorbic acid does not enhance heme iron absorption, nor does it affect heme oxygenase activity or the production of ferritin or transferrin.
+
+Question: Thyroxine is synthesized from which amino acid-
+A. Arginine
+B. Lysine
+C. Methionine
+D. Tyrosine
+Correct Answer: D
+Explanation: Ans. is 'd' i.e., TVrosine Thyroid hormones (Important facts)o Thyroid hormones are T4 (throxine) and T3 (Triiodothyroxine)o Thyroid hormones are synthesised from amino acid tyrosine.o Their synthesis is regulated by TSH, a hormone secreted by anterior pituitary.o T3 is the active form and T4 is converted to T, in liver and kidney. Thus T4 mainly serves as transport form,o Circulating thyroid hormones are bound to thyroxine binding globulin fmain binding protein), throxine binding albumin and throxine binding prealbumin.o Thyroid hormone has two main function.i) Morphogenesis: - Growth & differentiation.ii) Calorigensis : - It increases all metabolism producing energy.
+
+Question: Prostaglandin was discovered from
+A. Tear
+B. Saliva
+C. Seminal fluid
+D. Blood
+Correct Answer: C
+Explanation: Prostaglandins were believed to be pa of the prostatic secretions, and eventually were discovered to be produced by the seminal vesicles. ... The biochemists Sune K. Bergstrom, Bengt I. Samuelsson and John R. Vane jointly received the 1982 Nobel Prize in Physiology or Medicine for their research on prostaglandins. Ref: guyton and hall textbook of medical physiology 12 edition
+
+Question: Effort during normal respiration is done due to
+A. Lung elasticity
+B. Respiratory air passages
+C. Alveolar air spaces
+D. Creating negative pleural pressure
+Correct Answer: A
+
+Question: Adrenal insufficiency in not associated with -
+A. Hyponatremia
+B. Hyperkalemia
+C. Hypoglycemia
+D. Metabolic alkalosis
+Correct Answer: D
+Explanation: Ans. is 'd' i.e.. Metabolic alkalosis o Features of adrenal insufficiency (Addison's disease) are :-i) Hypoglycemiaii) Hyperpigmentationii) Hyperkalemiaiv) Hyponatremiav) Hypotensionvi) Metabolic acidosiso Associated features are nausea, vomiting, diarrhea and abdominal cramps.
+
+Question: Which of the following is an amino neurotransmitter
+A. Acetylcholine
+B. GABA
+C. Lignocaine
+D. Epinephrine
+Correct Answer: B
+
+Question: Lymphoid tissues reach their maximum size:
+A. In early childhood
+B. During adolescence
+C. At pubey
+D. At 20 years of age
+Correct Answer: C
+Explanation: The thymus matures at pubey, thus attaining the maximum size Ref: guyton and hall textbook of medical physiology 12 edition
+
+Question: Coical representation of body in the cerebrum is
+A. Horizontal
+B. Veical
+C. Tandem
+D. Oblique
+Correct Answer: B
+Explanation: The various pas of the body are represented in the precentral gyrus, with the feet at the top of the gyrus and the face at the bottom. The facial area is represented bilaterally, but the rest of the representation is generally unilateral, with the coical motor area controlling the musculature on the opposite side of the body. The coical representation of each body pa is propoionate in size to the skill with which the pa is used in fine, voluntary movement. The areas involved in speech and hand movements are especially large in the coex; use of the pharynx, lips, and tongue to form words and of the fingers and apposable thumbs to manipulate the environment are activities in which humans are especially skilled.Ref: Ganong's Review of Medical Physiology, Twenty-Third Edition
+
+Question: The major regulator of platelet production is the hormone thrombopoietin (THPO), which is produced by
+A. Kidneys
+B. Liver
+C. Liver and kidneys
+D. Spleen and lymph nodes
+Correct Answer: C
+Explanation: Thrombopoietin (THPO) also known as megakaryocyte growth and development factor (MGDF) is a protein that in humans is encoded by the THPO gene.Thrombopoietin is a glycoprotein hormone produced by the liver and kidney which regulates the production of platelets. It stimulates the production and differentiation of megakaryocytes, the bone marrow cells that bud off large numbers of platelets.Ref: Ganong&;s review of medical physiology;24th edition; page no-80
+
+Question: The structure that integrates impulses for eye-hand coordination is:
+A. Superior colliculus
+B. Frontal eye field
+C. Pretectal nucleus
+D. Area 17
+Correct Answer: A
+Explanation: Superior colliculus integrates impulses for eye-hand coordination to control rapid directional movements of the two eyes. VISUAL PATHWAY Other impoant areas of the brain involved in visual pathway: Suprachiasmatic nucleus of the hypothalamus, to control circadian rhythms; Pretectal nuclei in the midbrain, to elicit reflex movements of the eyes to focus on objects of impoance and to activate the pupillary light reflex; Superior colliculus, to control rapid directional movements of the two eyes; and Ventral lateral geniculate nucleus of the thalamus and surrounding basal regions of the brain, to help control some of the body's behavioral functions.
+
+Question: Erythropoietin is inhibited by
+A. Estrogen
+B. Progesterone
+C. Thyroxine
+D. Testosterone
+Correct Answer: A
+Explanation: Glycoprotein hormone that controls erythropoiesis, or red blood cell production. Estrogen inhibits the erythropoietin whereas testosterone stimuates production . Ref: Ganong's Review of Medical Physiology; 24th edition; page no: 709
+
+Question: Most permissible capillaries are seen in
+A. Kidney
+B. Liver
+C. Brain
+D. Skin
+Correct Answer: B
+Explanation: Capillaries are classified in toContinuous or non fenestrated capillaries - Endothelial cells are arranged without any gap in between them. Eg. Skin, BBB. Allows only very small molecules to pass through. Fenestrated capillaries - Gaps in between endothelial cells ranging from 70-100nm in diameter which are lined by basement membrane. Eg. Capillaries of intestinal villi, renal glomeruli, choroid plexus of the ventricles of the brain, ciliary process of eyes and endocrine glandsDiscontinuous type- Very wide cleft are present in between endothelial cells. The basement membrane is incomplete or absent. Almost all substance in plasma can cross this gap. Seen in liver sinusoids, sinusoids of spleen, anterior pituitary and parathyroid gland Ref: Textbook of medical physiology by N Geetha, 2nd edition, page no. 194
+
+Question: Lipids are transferred from intestine to liver by
+A. Chylomicrons
+B. VLDL
+C. HDL
+D. LDL
+Correct Answer: A
+Explanation: .
+
+Question: Which is not synthesized by the vascular epithelium?
+A. Prostacyclin
+B. Angiotensin 2
+C. Endothelin
+D. Heparin
+Correct Answer: B
+Explanation: Endothelial cells constitute a large and impoant tissue. They secrete many growth factors and vasoactive substances. The vasoactive substances include prostaglandins and thromboxanes, nitric oxide, and endothelins.Lungs activate angiotensin I to angiotensin II; this reaction is paicularly prominent in the lungsRef: Ganong's Review of Medical Physiology;23rd edition; Page No: 606
+
+Question: The Efferent fibers bundle of the substantia nigra transmits dopamine to one of the following areas
+A. Thalamus
+B. Corpus striatum
+C. Tegmentum of pons
+D. Tectum of midbrain
+Correct Answer: B
+Explanation: Ans. (b) Corpus striatum(Ref: Ganong, 25th ed/p.243)The Efferent fibers bundle of the substantia nigra transmits dopamine to corpus striatum
+
+Question: Which of the following is the best-known metabolic function of the lung
+A. Inactivation of serotonin
+B. Conversion of angiotensin–I to angiotensin–II
+C. Inactivation of bradykinin
+D. Metabolism of basic drugs by cytochrome P–450 system
+Correct Answer: B
+Explanation: Extracellular ACE on the surface endothelial cells in pulmonary circulation activates Angiotensin I to Angiotensin II.
+
+Question: The minimal current amplitude of indefinite durationrequired for the depolarization threshold of the cell membranes is:
+A. Threshold
+B. Rheobase
+C. Chronaxie
+D. Refractory period
+Correct Answer: B
+Explanation: Rheobase is the minimal current amplitude of indefinite duration that results in the depolarization threshold of the cell membranes being reached (i.e. an action potential or the contraction of a muscle). Chronaxie (or chronaxy) is the minimum time over which an electric current, double the strength of the rheobase, needs to be applied, in order to stimulate a muscle fiber or nerve cell. In the case of a nerve or single muscle cell, rheobase is half the current that needs to be applied for the duration of chronaxie to result in an action potential or muscle twitch. Refractory period is a sho period after a nerve or muscle cell fires during which thecell cannot respond to additional stimulation. The minimal stimulus that produces excitation of any structure, eliciting a motor response is known as threshold.
+
+Question: Testosterone production is mainly contributed by
+A. Leydig cells
+B. Seolie cells
+C. Seminiferous tubules
+D. Epididymis
+Correct Answer: A
+Explanation: Testosterone- the principal male sex hormone (androgen) that is produced by Leydig&;s cells of the testes in response to luteinizing hormone secreted by the pituitary gland. It is also produced by the adrenal coex in both males and females. Its chief function is to stimulate the development of the male reproductive organs, including the prostate, and the secondary sex characters, such as the beard. It encourages growth of bone and muscle and helps maintain muscle strength.Ref: Ganong&;s review of medical physiology; 24th edition; page no:-423
+
+Question: In thyroid gland, iodine is transpoed into the lumen of the follicles by
+A. Endocytosis
+B. Pendrin protein
+C. Antipo
+D. Primary active transpo
+Correct Answer: B
+Explanation: Pendrin protein is a chloride-iodide transpoer protein encoded by the gene responsible for Pendred syndrome, impoant in function of thyroid gland, kidney, and inner ear.Endocytosis is defined as the uptake by a cell of material from the environment by invagination of the plasma membrane; it includes both phagocytosis and pinocytosis.Antipo a cell membrane transpo mechanism that transpos two molecules at once through the membrane in opposite directions.Primary active transpo - Active transpo is the movement of all types of molecules across a cell membrane against its concentration gradient (from low to high concentration). In all cells, this is usually concerned with accumulating high concentrations of molecules that the cell needs, such as ions, glucose, and amino acids. If the process uses chemical energy, such as from adenosine triphosphate (ATP), it is termed primary active transpo.Ref: Ganong&;s review of medical physiology; 24th edition; page no-341
+
+Question: Excitatory Neurotransmitter in CNS-
+A. Acetyl choline
+B. Glycine
+C. GABA
+D. Glutamate
+Correct Answer: D
+Explanation: Glutamate is the chief excitatory neurotransmitter in CNS.
+
+Question: Resting membrane potential of nerve is equal to equilibrium potential of
+A. Na+
+B. Cl-
+C. K+
+D. HCO3-
+Correct Answer: B
+Explanation: B i.e. Chloride ion
+
+Question: Which of the following is not a second messenger
+A. c-AMP
+B. IP3
+C. Guanylyl cyclase
+D. Diacylglycerol (DAG
+Correct Answer: C
+Explanation: Ans. c. Guanylyl cyclase
+
+Question: Which of the following is produced in the lipoxygenase pathway?
+A. Thromboxane
+B. Leukotrienes
+C. Prostaglandin
+D. Prostacyclin
+Correct Answer: B
+Explanation: Thromboxane A2, prostacyclin, and prostaglandins are formed by the cyclooxygenase pathway whereas leukotrienes are formed by the lipooxygenase pathway.Ref: Textbook of medical physiology by N Geetha, 2nd edition, page no. 103
+
+Question: V/Q ratio at the base of lung-
+A. 1
+B. 3
+C. 0.6
+D. 1.8
+Correct Answer: C
+Explanation: Ans. is 'c' i.e., 0.6 o Overall V/Q ratio of lung-0.8o V/Q ratio at apex-3.0 (maximum)o V/Q ratio at base-0.6 (Least)
+
+Question: In anemia the concentration of 2,3 DPG is
+A. Decreased
+B. Increased
+C. A or B
+D. Not changed
+Correct Answer: B
+
+Question: More resistance in expiration is due to:
+A. Increased compression of airway
+B. Due to change from linear to turbulent flow
+C. Saturation with moisture
+D. Increased rate of flow during expiration
+Correct Answer: A
+Explanation: A i.e. Increased compression of airways
+
+Question: More resistance in respiration is due to which of the following?
+A. Saturation with moisture
+B. Increased rate of flow during expiration
+C. Increased compression of airway
+D. Due to change from linear to turbulent flow
+Correct Answer: C
+Explanation: More resistance in respiration is seen in bronchial construction Ref: guyton and hall textbook of medical physiology 12 edition page number:333,334,335
+
+Question: Plasma ceruloplasmin alpha 2 globulin is a
+A. alpha 1 globulin
+B. alpha 2 globulin
+C. beta 1 globulin
+D. beta 2 globulin
+Correct Answer: B
+
+Question: Major basic protein is an important constituent of which leucocyte:
+A. Neutrophil
+B. Eosinophil
+C. Basophil
+D. Lymphocyte
+Correct Answer: B
+
+Question: Total lung capacity depends on:
+A. Size of airway
+B. Closing tidal volume
+C. Lung compliance
+D. Residual volume
+Correct Answer: C
+Explanation: Ans. C. Lung compliancea. TLC is the maximum volume to which the lungs can be expanded with the greatest possible inspiratory effort.b. TLC=IRV+TV+ERV+RV=IC+RVc. Compliance (stretch ability) of lungs: D is increased in Emphysema (obstructive lungs dis) and decreased in Interstitial pulmonary fibrosis (Restrictive lung disease). Compliance of lung is change in lung volume per unit change in airways pressure.d. TLC is increased in obstructive lung disease (eg. emphysema, COPD) and decreased in the restrictive lung disease (Interstitial pulmonary fibrosis).
+
+Question: Which of the following coagulation factors causes cross-linking and stabilization of clot?
+A. Factor XIII
+B. Thrombin
+C. Factor VIII
+D. Factor IX
+Correct Answer: A
+Explanation: The loose aggregation of platelets in the temporary plug is bound together and conveed into definitive clot bg fibrin. Fibrin is initially a loose mesh of interlacing strands. It is conveed by the formation of covalent cross-linkages to a dense tight aggregate. The latter reaction is catalyzed by activated factor 13 and requires calcium. Ref: Ganong&;s Review of medical physiology, 24th edition.Pg no. 566
+
+Question: True about carotid body receptors ?
+A. Most potent stimulus is high PCO2
+B. Dopamine is neurotransmitter
+C. Low blood flow
+D. Afferent through vagus nerve
+Correct Answer: B
+Explanation: Ans. is 'b' i.e., Dopamine is neurotransmitter Peripheral chemoreceptors The peripheral chemoreceptors which regulate respiration are located in the carotid body and aoic bodies. These bodies are located in the connective tissue associated with the vessel wall, at the bifurcation of the common carotid, and on the arch of aoa, respectively. The characteristic cells of both these structures are called glomus cells. Type I glomus cells have a high dopamine content, which they possibly employ as a neurotransmetter. Peripheral chemoreceptors convey information to the DRG of neurons in medulla, for which purpose the afferent neurons from the carotid bodies pass through glossopharyngeal nerve and from the aoic bodies pass through vagus nerve. The most potent natural stimulus for peripheral chemoreceptors is low aerial P02 (hypoxic hypoxia). The other stimuli which activate peripheral chemoreceptors are high aerial PCO2, and an increase in aerial hydrogen ion concentration (acidosis or low pH). The response to activation of peripheral chemoreceptors is an increase in pulmonary ventilation through an increase in the rate and depth of breathing. The blood flow to peripheral chemoreceptors, on per unit mass basis, is the highest to any tissue in the body. With a blood flow of 2000 ml/min/100 gm tissue, the carotid and aoic bodies, inspite of their high metabolic rate, hardly remove any oxygen from the blood supplies to them. That is why the aeriovenous oxygen difference is negligible in these bodies. Thus these structures are idealy built to sense change in aerial P02. It is good to keep in mind that stimulation of peripheral chemoreceptors not only stimulates medullary respiratory centers but also medullary vasomotor center. Therefore, the response to their stimulation is tachycardia, vasoconstriction and increase BP along with hyperventilation.
+
+Question: Conduction velocity in AV node 8c SA node-
+A. 0.05 meter/sec
+B. 0.5 meter/sec
+C. 1 meter/sec
+D. 5 meter/sec
+Correct Answer: A
+Explanation: Ans. is 'a' i.e., 0.05 meter/sec Cardiac tissueConduction velocity (meter/second)SA node0 [?] 05Inteatrial pathways1Atrial muscle0 [?] 30AV node0 [?] 05 (minimum)Bundle of His1Purkinje system4 (maximum)Ventricular muscle1
+
+Question: The basic reason for "reperfusion injury" to the myocardium is:
+A. Generation of free radicals
+B. Extension of the ischemic zone
+C. Increased ICF
+D. Increased ECF
+Correct Answer: C
+Explanation: After MI, there is failure of Na+-K+ pump resulting in NCX failure Thus intracellular Ca+2 increases Now when perfusion is established (nutrients are available), because of increased ICF Ca+2, cardiac fibers contract very strongly Already muscle fibers are fragile due to M.I, now this contraction results in fuher damage. This is basic reason for "reperfusion injury".
+

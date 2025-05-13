@@ -1,0 +1,809 @@
+Question: Characteristics of Remifentanyl – a) Metabolised by plasma esteraseb) Short half lifec) More potent than Alfentanyld) Dose reduced in hepatic and renal diseasee) Duration of action more than Alfentanyl
+A. ab
+B. bc
+C. abc
+D. bcd
+Correct Answer: C
+Explanation: Remifentanil is the shortest acting opioid due to its metabolism by plasma esterase → dose adjustment is not needed in liver or kidney disease. It is more potent than alfentanil : Order of potency is Sufentanil > Fentanyl = Remifentanil > Alfentanil.
+
+Question: Risk factors associated with post-operative nausea and vomiting following strabismus surgery are all except -
+A. Age < 3years
+B. Duration of anesthesia > 30 mins
+C. Personal or family history of post - op nausea and vomiting
+D. Personal or family history of motion sickness
+Correct Answer: A
+Explanation: Ans. is 'a' i.e., Age < 3 years Post operative nausea and vomiting (PONY) following strabismus surgery It can cause post - op wound dehiscence, hematoma, orbital hemorrhage and aspiration. 30 % of all procedures are associated with PONV. Major risk factors are: Age > 3years Duration of anesthesia > 30 mins Personal or family history of post - op nausea and vomiting Personal or family history of motion sickness Medical management of PONV includes: dimenhydrinate, metoclopramide, droperidol, dexamethasone, ondansatron
+
+Question: Drug causing malignant hyperthermia:(Asked twice in the exam)
+A. Cisatracurium
+B. Suxamethonium
+C. Propofol
+D. Thiopentone
+Correct Answer: B
+Explanation: Ans. b. SuxamethoniumSuxamethonium is the drug most commonly responsible for causing malignant hyperthermia.'Drugs causing malignant hyperthermia are- succinylcholine (most common cause), halothane (MC inhalational agent), iso/des/sevo/methoxy- fluranes, lignocaine, TCA, MAO inhibitors and phenothiazines.''Thiopentone and pancuronium are protective drugs for malignant hyperthermia, as these raise the triggering threshold.''In malignant hyperthermia susceptible patients, safe anesthetics are N2O, Non-depolarizing muscle relaxants (atracurium), opiates, tranquilizers, etomidate, barbiturates (thiopentone) and propofol.'Malignant Hyperthermia* Autosomal dominant genetic disorder of skeletal muscle* Occurs in susceptible individuals due to exposure to some triggering agents, typically Suxamethonium or volatile agents, which cause an abnormal increase in intracellular calcium.* It is caused by dysregulation of excitation-contraction coupling in skeletal muscle.Triggering Agents:* Succinylcholine (most common cause)* Halothane (MC inhalational agent)* Halogenated Anesthesia:- Fluranes: Isoflurane, desflurane, sevoflurane. methoxy-flurane- Ether- Cyclopropane* Lignocaine* TCA* MAO inhibitors* PhenothiazinesClinical Features:* Rise in end tidal CO2 (1st sign)* Masseter muscle rigidity (MMR) and tachycardia are earliest sign* Hypermetabolic features, metabolic acidosis, fever, hyperthermia* Sympathetic over activity: Tachycardia, arrhythmia, unstable BP. initial hypertension* Muscle damage: Masseter muscle spasm, generalized rigidity, hyperkalemiaTretment:* Triggering agent must be stopped and hyperventilate with 100% oxygen* The mainstay of therapy is immediate administration of IV dantrolene.* Dantrolene is the only drug effective in reversing the symptoms and preventing the episode.
+
+Question: Role of egg lecithin in propofol formulation is?
+A. Acts as emulsifying agent
+B. Acts as preservative
+C. Acts as carrier vehicle
+D. Acts as antibacterial
+Correct Answer: A
+Explanation: Propofol is an insoluble drug that requires a lipid vehicle for emulsification. Current formulations of propofol use a soybean oil as the oil phase and egg lecithin as the emulsifying agent.
+
+Question: Which of the following statements about Total Infra–Venous Anaesthesia (TIVA) is true –
+A. Causes More Renal Toxicity
+B. Reduces Cerebral Metabolic Rate
+C. Risk of Malignant Hyperthermia is high
+D. Inhibits Hypoxic Pulmonary Vasconstriction
+Correct Answer: B
+Explanation: Total intravenous anaesthesia refers to a technique in general anaesthesia using a compination of agents given solely by IV route and in the absence of all inhalation agents.
+TIVA (Total intravenous anaesthesia) is produced by IV propoful. Propofol decreases the cerebral metabolic rate.
+Propofol does not impair renal function, does not trigger malignant hyperthermia and does not inhibit hypoxic pulmonary vasoconstriction.
+
+Question: Post operative muscle ache is caused by
+A. d-TC
+B. Suxamethonium
+C. Gallamine
+D. Pancuronium
+Correct Answer: B
+
+Question: Ketamine can be given by all of following routes except-
+A. IV
+B. IM
+C. SC
+D. Nasally
+Correct Answer: C
+Explanation: Ketamine has been administered intravenously, orally , rectally, intramuscularly and epidural route and very rare intranasal but not subcutaneous
+
+Question: Which anaesthetic agent increases intracranial tension among the following
+A. Thiopentone
+B. Propofol
+C. Lignocaine
+D. Sevoflurane
+Correct Answer: D
+Explanation: All inhalational anaesthetics directly act on cerebral blood vessels→vasodilatation→increase cerebral blood flow→ increase intracranial tension
+
+Question: Five days after an uneventful cholecystectomy, an asymptomatic middle-aged woman is found to have a serum sodium level of 125 mEq/L. Which of the following is the most appropriate management strategy for this patient?
+A. Administration of hypeonic saline solution
+B. Restriction of free water
+C. Plasma ultrafiltration
+D. Hemodialysis
+Correct Answer: B
+Explanation: The initial, and often definitive, management of hyponatremia is free-water restriction. Symptomatic hyponatremia, which occurs at serum sodium levels less than or equal to 120 mEq/L, can result in headache, seizures, coma, and signs of increased intracranial pressure and may require infusion of hypeonic saline. Rapid correction should be avoided so as not to cause central pontine myelinolysis, manifested by neurologic symptoms ranging from seizures to brain damage and death. Additionally, a search for the underlying etiology of the hyponatremia should be undeaken. Acute severe hyponatremia sometimes occurs following elective surgical procedures due to a combination of appropriate stimulation of antidiuretic hormone and injudicious administration of excess free water in the first few postoperative days. Other potential etiologies include hyperosmolarity with free-water shifts from the intra- to the extracellular compament (eg, hyperglycemia), sodium depletion (eg, gastrointestinal or renal losses, insufficient intake), dilution (eg, drug-induced), and the syndrome of inappropriate secretion of antidiuretic hormone (SIADH).
+
+Question: Which of the following nerves are affected after spinal anaesthetic block –
+A. Motor and sensory only
+B. Sensory and autonomic nerve only
+C. Sensory nerves only
+D. Sensory, autonomic and motor nerves
+Correct Answer: D
+Explanation: Local anesthetics block generation and conduction of nerve impulse at all part of neuron where they come in contact, without causing structural damage. Thus not only sensory but motor impulses and autonomic control is also interrupted.
+
+Question: A 68-year-old man is admitted to the coronary care unit with an acute myocardial infarction. His postinfarction course is marked by congestive hea failure and intermittent hypotension. On the fouh day in hospital, he develops severe midabdominal pain. On physical examination, blood pressure is 90/60 mm Hg and pulse is 110 beats per minute and regular; the abdomen is soft with mild generalized tenderness and distention. Bowel sounds are hypoactive; stool Hematest is positive. Which of the following is the most appropriate next step in this patient's management?
+A. Barium enema
+B. Upper gastrointestinal series
+C. Angiography
+D. Ultrasonography
+Correct Answer: C
+Explanation: In the absence of peritoneal signs, angiography is the diagnostic test of choice for acute mesenteric ischemia. Patients with peritoneal signs should undergo emergent laparotomy. Acute mesenteric ischemia may be difficult to diagnose. The condition should be suspected in patients with either systemic manifestations of aeriosclerotic vascular disease or low cardiac-output states associated with a sudden development of abdominal pain that is out of propoion to the physical findings. Because of the risk of progression to small-bowel infarction, acute mesenteric ischemia is an emergency and timely diagnosis is essential. Although patients may have lactic acidosis or leukocytosis, these are late findings. Abdominal films are generally unhelpful and may show a nonspecific ileus pattern. Since the pathology involves the small bowel, a barium enema is not indicated. Upper gastrointestinal series and ultrasonography are also of limited value. CT scanning is a good initial test, but should still be followed by angiography in a patient with clinically suspected acute mesenteric ischemia, even in the absence of findings on the CT scan. In addition to establishing the diagnosis in this stable patient, angiography may also assist with operative planning and elucidation of the etiology of the acute mesenteric ischemia. The cause may be embolic occlusion or thrombosis of the superior mesenteric aery, primary mesenteric venous occlusion, or nonocclusive mesenteric ischemia secondary to low-cardiac output states. A moality of 50% to 75% is repoed. The majority of affected patients are at high operative risk, but early diagnosis followed by revascularization or resectional surgery or both are the only hope for survival. Celiotomy must be performed once the diagnosis of aerial occlusion or bowel infarction has been made. Initial treatment of nonocclusive mesenteric ischemia includes measures to increase cardiac output and blood pressure. Laparotomy should be performed if peritoneal signs develop
+
+Question: Muscle relaxant used in renal failure -
+A. Ketamine
+B. Atracurium
+C. Pancuronium
+D. Fentanyl
+Correct Answer: B
+Explanation: As Atracurium and Cis-atracurium are inactivated by Hoffman's elimination, they are the muscle relaxants of choice for both liver and renal failure.
+
+Question: True about Rotameter –
+A. Rotameter reading may not get affected by dirt inside the tube
+B. Rotameter reading may not get affected by static electricity
+C. The height to which bobbin rises indicates the flow rate
+D. A rotameter is a variable pressure flowmeter
+Correct Answer: C
+Explanation: As the gas flows through the rotameter, bobbin rises and the upper end of bobbin determines the flow rate.
+Rotameter works on variable area (variable orifice) and constant pressure principle (not variable pressure).
+Causes of inaccurate reading in rotameter are :- Static electricity, Dirt inside the tube, Non-vertical tube, back pressure by ventilator, Defect in top sealing washer.
+
+Question: Muscle relaxant used in renal failure :
+A. Ketamine
+B. Atracurium
+C. Pancuronium
+D. Fentanyl
+Correct Answer: B
+Explanation: B i.e. Atracurium
+
+Question: Concentration of adrenaline used with lidocaine is?
+A. 0.180555556
+B. 1.430555556
+C. 1:20000
+D. 1:200000
+Correct Answer: D
+Explanation: (334) 1 in 200000 REF: Miller 6th ed p. 589 USES AND DOSES OF ADRENALINE: USE DOSE Anaphylaxis SC or IM injection is 0.3-0.5 mg 1:1,000 Croup Racemic adrenaline is a 1:1 mixture of the dextrototary (d) and levorotatory (1) isomers of adrenaline Local anesthetics 1 in 200000
+
+Question: All of the following statements about neuromuscular blockage produced by succinylcholine are true, except:
+A. No fade on Train of four stimulation
+B. Fade on tetanic stimulation
+C. No post tetanic facilitation
+D. Train of four ratio > 0.4
+Correct Answer: B
+Explanation: Succinylcholine is a depolarizing neuromuscular blocker. With succinylcholine no fading is observed after train of four or tetanic stimulation. All four stimulatory responses after TOF stimulation are suppressed to the same extent. REF : Smith and atkenhead 10th ed
+
+Question: Which of the following induction agent produce cardiac stability-
+A. Ketamine
+B. Etomidate
+C. Propofol
+D. Midazolam
+Correct Answer: B
+Explanation: Ans. is 'b' i.e., Etomidate Effects of Etomidate on cardiovascular systemEtomidate has minimal effects on the cardiovascular system.It causes mild reduction in peripheral vascular resistance which may cause a slight decline in arterial blood pressure.Myocardial contractility and cardiac output are usually unchanged. Etomidate does not release histamine. Cardiovascular effect of Propofol:The major cardiovascular effect of propofol is a decrease in arterial blood pressure due to a drop in systemic vascular resistance (inhibition of sympathetic vasoconstrictor activity, cardiac contractility and preload).Propofol markedly impairs the normal arterial baroreflex response to hypotension. Sometimes there may be a marked drop in preload.Cardiovascular effect of barbiturates (Thiopental)The cardiovascular effect of barbiturates vary markedly depending on the volume status, bas line autonomic tone and preexisting cardiovascular disease.Normally, intravenously administered barbiturates cause a fall in blood pressure.Cardiac output is maintained due to increase in heart rate and increased myocardial contractility from compensatory baroreceptor reflexes.However, in the absence of adequate baroreceptor response (e.g., hypovolemia, congestive heart failure, b adrenergic blockade) cardiac output and arterial blood pressure may fall dramatically due to uncompensated pooling and unmasked direct myocardial depression.Effect of ketamine on cardiovascular systemKetamine causes central stimulation of sympathetic system which causes increased arterial blood pressure, heart rate and cardiac output. There is also increase in pulmonary artery pressure and myocardial work.Because of these effects, ketamine should be avoided in patients with coronary artery disease, uncontrolled hypertension, congestive heart failure and arterial aneurysms.
+
+Question: Maximum FiO2 which can be given through a nasal oxygen catheter:-
+A. 1
+B. 0.6
+C. 0.2
+D. 0.44
+Correct Answer: D
+Explanation: A nasal cannula is generally used wherever small amounts of supplemental oxygen are required, without rigid control of respiration, such as in oxygen therapy. Most cannulae can only provide oxygen at low flow rates--up to 5 litres per minute (L/min)--delivering an oxygen concentration of 28-44%. Rates above 5 L/min can result in discomfo to the patient, drying of the nasal passages, and possibly nose bleeds (epistaxis). Also with flow rates above 6 L/min, the laminar flow becomes turbulent and the oxygen therapy being delivered is only as effective as delivering 5-6 L/min. The nasal cannula is often used in elderly patients or patients who can benefit from oxygen therapy but do not require it to self respirate. These patients do not need oxygen to the degree of wearing a non-rebreather mask. It is especially useful in those patients where vasoconstriction could negatively impact their condition, such as those suffering from strokes.
+
+Question: Rotameters
+A. Depend on laminar low for their accuracy
+B. Will only function when upright
+C. Are constant pressure drop-constant orifice devices
+D. Are not accurate below 1L/min
+Correct Answer: B
+Explanation: Rotameters are constant pressure drop-variable orifice devices. They are accurate at values as low as 200mL/min both laminar and turbulent flow determine their accuracy .
+
+Question: A 70 kg athlete is taken for surgery, due to unavailability of vecuronium, succinylcholine is given repeatedly (>640mg). He now is unable to take breath and his lower limbs are paralyzed. What will be cause?
+A. Phase II block
+B. Succinylcholine causes muscle paralysis due to fasciculation
+C. Hidden muscle dystrophy
+D. Pseudo cholinesterase deficiency
+Correct Answer: A
+Explanation: Prolonged apnea due to repeated dosing with succinylcholine is due to it entering phase 2 block. Phase I depolarizing block is preceded by muscle fasciculation. During paial neuromuscular block, phase I depolarizing block is characterised by: No fade during repetitive stimulation (tetanic or TOF) No post tetanic facilitation (potentiation) Rapid hydrolysis by butyrylcholinesterase (plasma cholinesterase) terminates phase I depolarizing blockade of succinylcholine. Phase II block resembles non depolarizing block, is characterised by: Fade during repetitive stimulation (tetanic or TOF) Post tetanic facilitation (potentiation) Phase II block can be antagonized by administering a cholinesterase inhibitor like neostigmine.
+
+Question: In volume cycled ventilation the inspiratory' flow rate is set at:
+A. 140-160 L/min
+B. 110-130L/min
+C. 60-100 L/min
+D. 30-50L/mm
+Correct Answer: C
+Explanation: In volume cycled ventilation the inspiratory flow rate is usually set at 60-100 U/min to allow greater expiration time for each breath. Use of high inspiratory flow rate can minimize end inspiratory lung volume and intrinsic PEEP, but it can cause higher peak airway pressures. Volume cycled assist control mode of ventilation is the most commonly used mode of ventilation. Volume targeted modes deliver a preset volume unless a specified circuit pressure limit is exceeded. Its major advantages are capacity to deliver unvarying tidal volumes, flexibility of flow and volume adjustments, and power to ventilate difficult patients. Disadvantages of this type of ventilation are: Unless the airway is well sealed volume cycled modes cannot ventilate effectively and consistently. After the flow rate and profile are set the inflation time of machine is set and remains unresponsive to patients native cycling rythm and flow demands. Ref: Respiratory Emergencies By Stephan Kamholtz, page 413. Critical Care Medicine: The Essentials By John J. Marini, page 134.
+
+Question: During intraoperative period following capnograph waveform is seen. What does it signify.
+A. Return of spontaneous ventilation
+B. Airway obstruction
+C. Hyperventilation
+D. Oesophageal intubation
+Correct Answer: A
+Explanation: Above ETCO2 curve depictsSpontaneous effos It signifies return of spontaneous ventilation and the patient is coming out of the anaesthesia The cleft is K/ACURARE CLEFT Repeat a dose of neuromuscular blocker if you want to maintain the muscle paralysis ??"Malignant hypehermia:Progressive rise in ETCO2 ??"Bronchospasm:Shark fin appearance ??"Esophageal intubation:
+
+Question: Day care anesthesia is best achieved with
+A. Enflurane
+B. Isoflurane
+C. Propofol
+D. Methoxyflurane
+Correct Answer: C
+Explanation: Propofol
+
+Question: EMLA constituent is –
+A. Lidocaine + Cocaine
+B. Lidocaine + Prilocaine
+C. Lidocaine + Bupivacaine
+D. Bupivacaine + Prilocaine
+Correct Answer: B
+Explanation: Eutectic mixture of local anaesthetics (EMLA) is a mixture of 2.5% lidocaine and 2.5 prilocaine.
+
+Question: True regarding the rubens valve is
+A. Is a non-rebreathing valve
+B. Will not allow spontaneous respiration
+C. Is a pressure reducing valve
+D. May jam in expiratory position
+Correct Answer: A
+Explanation: Rubens valve is a non – rebreathing valve used in self inflating resuscitation bags. It jams in inspiratory position occasionally. It allows spontaneous breathing .
+
+Question: All are true about halothane except -
+A. Tachycardia
+B. Hepatitis
+C. Bronchodilatation
+D. Uterine relaxation
+Correct Answer: A
+Explanation: Ans. is 'a' i.e., Tachycardia o Halothane causes bradycardia.Halothaneo It is a volatile liquid with sweet odour, nonirritating and noninflammable.o It is a potent anaesthetic with poor analgesic and muscle relaxant properties,o Halothane causes direct depression of myocardial contractility by reducing intracellular Ca+2.o It causes fall in BP and CO.o Heart rate decreases due to vagal stimulation.o It tends to sensitize the heart to arrhythmogenic action of adrenaline - contraindicated in pheochromocytoma.o It causes greater depression of respiration and ventilation perfusion mismatch.o It dilates the bronchi -inhalation agent of choice in asthmatics (intravaneous anaesthetic of choice in asthmatics is ketamine).o It is a hepatotoxic drug and can also cause malignant hyperthermia (Succinylcholine accentuate it),o Recovery is smooth and reasonably quick,o It causes postanaesthetic shivering and chills.o It inhibits intestinal and uterine contractions - agent of choice for assisting external or internal version during late pregnancy.o Because its uterine relaxant action it is contraindicated during labour.o It is particularly suitable for induction and maintenance in children and as maintenance anaesthetic in adults.
+
+Question: The patient with least risk of pulmonary aspiration of gastric contents during induction of anesthesia is:-
+A. Markedly obese and NPO for eight hours
+B. Fed coffee four hours before elective surgery
+C. Scheduled for elective cesarean delivery and NPO for 20 hours
+D. NPO for four hours after a full meal
+Correct Answer: A
+Explanation: NPO is same for obese and normal. NPO guidelines - 6hrs for liquid and semisolid, 2 hours NPO for clear fluids. Subset of patients who are at high risk for aspiration - pregnant women, morbidly obese (rapid sequence induction), full fatty meal - 8 hours NPO.
+
+Question: Treatment in post operative shivering?
+A. Pethidine
+B. Piritramide
+C. Methadone
+D. Pentazocine
+Correct Answer: A
+Explanation: Ans. is 'a' i.e., Pethidine Post-anaesthesia shivering (PAS) Post anaesthesia (post operative) shivering occurs in 40% of patients recovering from general anaesthesia. Some time it is preceded by central hypothermia and peripheral vasoconstriction, indicating that it is a thermoregulatory mechanism Pethidine is most effective drug for treatment of PAS. Other drugs used are --clonidine, doxapram, ketanserin, alfentonil, butorphanol, chlorpromazine.
+
+Question: Which is the anesthetic agent of choice in a case of status asthmaticus?
+A. Ketamine
+B. Thiopentone
+C. Ether
+D. Nitrous Oxide
+Correct Answer: A
+Explanation: Ketamine along with adjunctive therapy is the standard therapy in the treatment of children with status asthmaticus and impending respiratory failure. Ketamine cause bronchodilation through the inhibition of vagal tone, release of endogenous catecholamines and by direct muscle relaxation.
+
+Question: What is normal range of glycosylated haemoglobin (HbA1c) for adequate glycaemic control in diabetic patient-
+A. 6% to 8 %
+B. 8 % to 10 %
+C. 4 % to 6 %
+D. 10 % to 12 %
+Correct Answer: A
+Explanation: normal Range in glycosylated haemoglobin 7% to 9 % for < 5 yrs 6 % to 8 % for > 5 yrs
+
+Question: All are hepatotoxic except
+A. Halothane
+B. Chlorform
+C. Methoxyflurane
+D. Isoflurane
+Correct Answer: D
+Explanation: Isoflurane is metabolized to trifluoroacetic acid. Although serum fluoride fluid levels may rise, nephrotoxicity is extremely unlikely, even in the presence of enzyme inducers. Prolonged sedation (>24 h at 0.1-0.6% isoflurane) of critically ill patients has resulted in elevated plasma fluoride levels (15-50 mmol/L) without evidence of kidney impairment. Similarly, up to 20 MAC-hours of isoflurane may lead to fluoride levels exceeding 50 mmol/L without detectable postoperative kidney dysfunction. Its limited oxidative metabolism also minimizes any possible risk of significant hepatic dysfunction. Total hepatic blood flow (hepatic aery and poal vein flow) may be reduced during isoflurane anesthesia. Hepatic oxygen supply is better-maintained with isoflurane than with halothane, however, because hepatic aery perfusion is preserved. Liver function tests are usually not affected. The major effect of acute inhalation of chloroform is central nervous system depression. At concentrations from 1,500-30,000 ppm, chloroform exposure can induce anesthesia; at concentrations exceeding 40,000 ppm, it can be fatal. Chronic inhalation of chloroform in humans results in hepatotoxicity and central nervous symptoms such as depression and irritability. Meanwhile, chronic oral exposure to chloroform in humans results in effects on the blood, livers, and kidneys. Ref: Miller's anesthesia 8th edition Ref: Morgan & Mikhail's clinical anesthesiology 6e
+
+Question: High spinal anaesthesia is characterized by:
+A. Hypertension, tachycardia
+B. Hypertension, bradycardia
+C. Hypotension, tachycardia
+D. Hypotension, bradycardia
+Correct Answer: D
+Explanation: Ans. (d) Hypotension, bradycardiaRef : KDT 6th ed. / 360Systemic Effects (Physiological Alterations) of Central Neu- ralxial BlocksCARDIOVASCULAR SYSTEMThe most prominent effect is hypotension which is because of the following factors:* Venodilatation which is because of sympathetic block which maintains the venous tone.* Dilatation of post arteriolar capillaries which is again because of loss of sympathetic tone.* Decreased cardiac output which is because of:# Decreased venous return: Due to blood pooling in veins of lower limb and lower abdomen.# Bradycardia: Bradycardia can occur as a result of: Decreased atrial pressure because of decrease venous return (Bainbridge reflex) and Direct inhibition of cardioaccelerator fibres (T1 to T4).* Paralysis of nerve supply to adrenal glands with consequently decreased catecholamine release.* Direct absorption of drug into systemic circulation.* Compression of inferior vena cava and aorta by pregnant uterus, abdominal tumors (supine hypotension syndrome).NERVOUS SYSTEM* Autonomic fibres (mediated by C fibres) are most sensitive and they are blocked earliest followed by sensory and then motor fibres. So, sequence of block is Autonomic - Sensory - Motor. The recovery occurs in reverse order although number of studies have suggested return of autonomic activity before sensory.
+
+Question: Longest acting L.A
+A. Bupivacaine
+B. Tetracaine
+C. Xylocaine
+D. Procaine
+Correct Answer: B
+Explanation: B i.e. Tetracaine
+
+Question: Spinal anaesthesia in an adult is given at this level:
+A. T12-L1
+B. L1-L2
+C. L3-L4
+D. L5-S1
+Correct Answer: C
+Explanation: Spinal cord ends at lower border of L1 in adults .Hence spinal anesthesia can be given at levels below L1 . L2-L3 or L4-L5 are considered best in adults
+
+Question: An infant with respiratory distress was intubated. The fastest and accurate method to confirm intubation
+A. Capnography
+B. Clinically by auscultation
+C. Chest radiography
+D. Airway pressure measurement
+Correct Answer: A
+Explanation: Ans. a. Capnography Capnography is the surest confirmatory sign of correct intubationQ So, the fastest and accurate method to confirm intubation in the above mentioned infant is capnography Capnography Capnography is the continuous measurement of end tidal carbon dioxide (ETCO,) and its waveform. Normal: 32 to 42 mmHe (3 to 4 mmHg less than aerial pCO, which is 35 to 45 mmHg) Principle: Infrared light is absorbed by carbon dioxide Uses of Capnography It is the surest confirmatory sign of correct intubation (esophageal intubation will yield ETCO2=0) Intraoperative displacement of endotracheal tubedeg (ETCO2 will become zero) Diagnosis of malignant hypehermie (ETCO, may rise to more than 100 mm Hg) For detecting obstructions and disconnections of endotracheal tubes (ETCO, will fall) Capnography Uses of Capnography Diagnosing pulmonary embolism by air, fat or thrombus (sudden fall of ETCO2 occurs. It may become zero if embolus is large enough to block total pulmonary circulation) Exhausted sodalime or defective valves of closed circuit will show high ETCO2 values. To control level of hypocapnia during hyperventilation in neurosurgery Indicator of cardiac output. In cardiac arrest ETCO, is zero.
+
+Question: About lidocaine, all are true except :
+A. LA effect
+B. Cardiac arrhythmia
+C. Ester
+D. Acts on mucous membranes
+Correct Answer: C
+Explanation: C i.e. Ester
+
+Question: Drug used to prolong action of LA in Hypeensive pts?
+A. Clonidine
+B. Felypressin
+C. Dexmeditomidate
+D. Noradrenalin
+Correct Answer: B
+Explanation: Ans. is 'b'.e., Felypressin
+
+Question: Best anaesthetic agent for out patient anasthesia is
+A. Fentanyl
+B. Morphine
+C. Alfentanyl
+D. Penthidine
+Correct Answer: C
+Explanation: C i.e. Alfentanyl
+
+Question: Semiclosed circuit system
+A. Needs advanced monitoring
+B. Complex
+C. More environmental pollution
+D. More economical
+Correct Answer: C
+Explanation: Semiclose breathing circuit is less economical, causes more environmental pollution. It is simple portable and no need of advanced monitoring.
+
+Question: True about malignant hypehermia -
+A. It is genetic, hypometabolic muscle disease
+B. It is genetic, hypermetabolic muscle disease
+C. It is preoperative complication
+D. It is inherited in Autosomal recessive form
+Correct Answer: B
+Explanation: Malignant hypehermia (MH) is a rare genetic hyper metabolic muscle disease. The characteristic phenotypical signs & symptoms most commonly occur with exposure to inhaled anesthetic agents and Succinylcholine. Clinical Manifestations of Malignant Hypehermia: Early Signs: Elevated end-tidal carbon dioxide Tachypnea and/or tachycardia Masseter spasm, if succinylcholine has been used Generalized muscle rigidity Mixed metabolic and respiratory acidosis Profuse sweating Mottling of skin Cardiac arrhythmias Unstable blood pressure Late Signs Hyperkalemia Rapid increase of core body temperature- body temperature rises by 10C every 5 minutes Elevated creatine phosphokinase levels Gross myoglobinemia and myoglobinuria Cardiac arrest Disseminated intravascular coagulation
+
+Question: No effect on hea
+A. Chloroform
+B. Ether
+C. Methoxyflurane
+D. Halothane
+Correct Answer: B
+Explanation: B i.e. Ether
+
+Question: A 30 year old lady is to undergo surgery under intravenous regional anesthesia for her left 'trigger finger'. Which one of the following should not be used for patient?
+A. Lignocaine
+B. Bupivacaine
+C. Prilocaine
+D. Lignocaine + ketorolac.
+Correct Answer: B
+Explanation: B i.e. Bupivacaine
+
+Question: Ten days after an exploratory laparotomy and lysis of adhesions, a patient, who previously underwent a low anterior resection for rectal cancer followed by postoperative chemoradiation, is noted to have succus draining from the wound. She appears to have adequate source control--she is afebrile with a normal white blood count. The output from the fistula is approximately 150 cc per day. Which of the following factors is most likely to prevent closure of the enterocutaneous fistula?
+A. Previous radiation
+B. Previous chemotherapy
+C. Recent surgery
+D. History of malignancy
+Correct Answer: A
+Explanation: Factors that predispose to fistula formation and may prevent closure include foreign body, radiation, inflammation, epithelialization of the tract, neoplasm, distal obstruction, and steroids.Factors that result in unhealthy or abnormal tissue surrounding the enterocutaneous fistula decrease the likelihood of spontaneous resolution. For example, radiation therapy, such as used for treatment of pelvic gynecologic and rectal malignancies, can result in chronic injury to the small intestine characterized by fibrosis and poor wound healing. High-output fistulas, defined as those with more than 500 cc per day output, are usually proximal and unlikely to close. Treatment consists of source control, nutritional supplementation, wound care, and delayed surgical intervention if the fistula fails to close.
+
+Question: Hepatotoxic agent is -
+A. Halothane
+B. Ketamine
+C. N2O
+D. Ether
+Correct Answer: A
+Explanation: Ans. is 'a' i.e., Halothane o Halothane is the most hepatotoxic anesthetic.o Hepatotoxic anaesthetic agents are :1. Chloroform2. Halothane3. Carbon tetrachloride4. Trichloroethylene5. MethoxyfluraneRemembero Nitric oxide is least potent inhalation agent (MAC - 105%).o Halothane is most potent inhalation agent-MAC - 0.75 (Methoxyflurane was the most potent inhalation agent hut it is not used now due to its nephrotoxic action).o Desflurane is fastest acting inhalation agent.o Diethyl ether is slowest acting (Previously it was methoxyflurane).o Ether has highest muscle relaxant action.o N2O has least muscle relaxant action.o N2O is least lipid soluble.o Halothane is most lipid soluble.o Most of the Inhaled anaesthetics are eliminated from lung, though some metabolism in liver may occur - In terms of the extent of hepatic metabolism, the rank of order is methoxyflurane > Halothane > enflurane > sevoflurane > isoflurane > desflurane > nitrous oxide.
+
+Question: Pungent volatile anesthetic agents are:
+A. Halthane
+B. Isoflurane
+C. Sevoflurane
+D. Desflurane
+Correct Answer: B
+Explanation: B i.e. Isoflurane
+
+Question: Naturally occurring LA –
+A. Cocaine
+B. Lidocaine
+C. Bupivacaine
+D. Tetracaine
+Correct Answer: A
+Explanation: Cocaine is the only naturally occuring local anaesthetic, obtained from leaves of Erythroxylon coca.
+
+Question: Drugs used for anaesthesia in hypotensive is
+A. Propofol
+B. Ketamine
+C. Thiopentone
+D. None
+Correct Answer: B
+Explanation: Ketamine raises the BP, therefore is the induction agent of choice in hypotensive states and shock.(Refer: stoelting's pharmacology and physiology in anaesthetic practice, 5th edition, pg no.294)
+
+Question: In increased ICT, agent used for anesthesia
+A. N20
+B. Trilene
+C. Ether
+D. Isoflurane
+Correct Answer: D
+Explanation: D i.e. Isoflurane
+
+Question: Cis atracurium is better then atracurium because:-
+A. Less histamine release
+B. Less half life
+C. Low drug dose
+D. Low cost
+Correct Answer: A
+Explanation: Atracurium Cis-atracurium Mixture of cis-isomers Pure cis-isomer Histamine release No / minimal release CVS unstable CVS stable Less potent Dose - 0.5-0.6mh/kg More potent Dose - 0.1-0.2 mg/kg - Cis-atracurium and atracurium are dependent on Hoffman elimination - Cis-atracurium's duration of action is more predictable because of spontaneous breakdown. Although atracurium undergoes similar elimination, it is less potent than cis-atracurium, so its breakdown product, laudanosine, is found in higher concentrations
+
+Question: APRV stands for:
+A. Adult pressure release ventilation
+B. Airway pressure release ventilation
+C. Air pressure reverse ventilation
+D. Airway pressure reduction ventilation
+Correct Answer: B
+Explanation: APRV - Airway Pressure Release Ventilation Mode of mechanical ventilation that is less common than pressure control or volume control, APRV was described initially by Stock and Downs in 1987 as a continuous positive airway pressure (CPAP) with an intermittent release phase. APRV applies CPAP (P high) for a prolonged time (T high) to maintain adequate lung volume and alveolar recruitment, with a time-cycled release phase to a lower set of pressure (P low) for a sho period of time (T low) or (release time) where most of ventilation and CO2 removal occurs Using high-flow (demand valve) CPAP circuit, unrestricted spontaneous breathing can be integrated and can happen any time regardless of the ventilator cycle. If the patient has no spontaneous respiratory effo, APRV becomes typical to 'inverse ratio pressure'-limited, 'time cycle'-assisted mechanical ventilation (pressure-controlled ventilation).
+
+Question: False statement regarding xenon is_____
+A. Rapid induction and emergence
+B. Free from greenhouse effects
+C. Teratogenic
+D. Does not trigger malignant hypehermia
+Correct Answer: C
+Explanation: Xenon is Non- teratogenic.Option A: Xenon has a very low blood-gas solubility coefficient (0.115) and produces rapid induction of and emergence from anaesthesia.Option B: Xenon produces no green house effect or ozone depletion and is environmentally safe, unlike the other inhaled anaesthetics.Option D: Does not trigger malignant hypehermia Other advantages of xenon:IneMinimal cardiovascular effects- It produces minimal cardiovascular depression, and it is not arrhythmogenic.Non explosiveHas Analgesic activity - reduces intraoperative opioid requirements Disadvantages of Xenon High costLow potency (MAC = 70%)Xenon gas has a very high density (5.9 g/L) resulting in increased flow resistance and work of breathing. Thus, it may be a poor choice for patients wicompromised respiratory function
+
+Question: A 20 year old patient presented with early pregnancy for Medical termination of Pregnancy (MTP) in day care facility. What will be the anaesthetic induction agent of choice ?
+A. Thiopentone
+B. Ketamine
+C. Propofol
+D. Diazepam
+Correct Answer: C
+Explanation: Propofol is considered the anaesthesia of choice for day care surgery (out patient surgery) as induction is smooth & pleasant and recovery is rapid.
+
+Question: Shortest acting local anaesthetic agent is –
+A. Procaine
+B. Lidocaine
+C. Tetracaine
+D. Bupivacaine
+Correct Answer: A
+Explanation: Chlorprocaine is the shortest acting LA. Amongst the given options procaine is shortest acting.
+
+Question: For anesthesiology mild systemic disease included in ASA grade-
+A. 1
+B. 2
+C. 3
+D. 4
+Correct Answer: B
+Explanation: Ans. is 'b' i.e., 2 ASA GradePatient conditionASA 1Normal healthy patient (no physical or mental illness)ASA 2Mild systemic disease not limiting functional activity(mild heart disease, DM, Mild hypertension, Anemia, Old age, obesity, mild chronic bronchitis)ASA 3Severe systemic disease that limits activity but not incapaciating (Angina, Severe DM, cardiac failure)ASA 4Severe systemic disease that is life-threatening(Marked cardiac insufficiency; presistent angina; severe renal, respiratory or hepatic insufficiency)ASA 5Moribund patient who is not expected to survive without operationASA 6Brain dead patient (for organ donation).
+
+Question: Ether was first used by:
+A. Preistly
+B. Moon
+C. Wells
+D. Simpson
+Correct Answer: B
+Explanation: Moon
+
+Question: Sellick manouever is used to prevent:
+A. Alveolar collapse
+B. Hypeension
+C. Aspiration of Gastric content
+D. Bradycardia
+Correct Answer: C
+Explanation: C i.e. Aspiration of Gastric content
+
+Question: Which of the following anaesthetic modality is to be avoided in sickle cell disease?
+A. General anaesthesia
+B. Brachial plexus block
+C. IV. Regional Anaesthesia
+D. Spinal
+Correct Answer: C
+Explanation: The complications of IVRA is mainly attributable to the use of the tourniquet. On inflation of the touniquet there is physiological deoxygenation. In patients with sickle cell disease this might lead to sickling crisis. In these patients IVRA causes stasis, local acidosis and hypoxia. Hence IVRA is best avoided in sickle cell disease patients. Adequate oxygenation of the patient would be prudent. Ref: Complications of regional anesthesia By Brendan T. Finucane, Page 216; Essentials of Regional Anesthesia By Alan David Kaye, Richard D. Urman, Nalini Vadivelu; McGlamry's comprehensive textbook of foot and ankle surgery, 3rd ed, Vol 2 By Alan S. Banks, E. Dalton MacGlamry, Page 180; Surgery and anesthesia in sickle cell disease (By M Koshy, SJ Weiner, ST Miller, LA Sleeper, E Vichinsky, AK Brown,Y Khakoo, and TR Kinney).
+
+Question: All of the following agents can be given for induction of anaesthesia in children, EXCEPT:1
+A. Halothane
+B. Servoflurane
+C. Morphine
+D. Nitrous oxide
+Correct Answer: C
+Explanation: Morphine has pharmacokinetic differences in young individuals, that may predispose them to develop respiratory depression. So this drug should be used with caution in infants less than 6 months of age who are not ventilated. Drugs used in the induction of anesthesia in children are a mixture of oxygen and nitrous oxide. Other drugs which are useful are sevoflurane or halothane. Sevoflurane is considered to be the agent of choice for inhalational induction rather than halothane, because sevoflurane has a wider therapeutic safety window in terms of cardiovascular depression and has no unpleasant smell. Ref: Synopsis of Pediatric Emergency Medicine By Gary Robe Fleisher, 4th Edition, Page 34 ; Textbook of Anesthesia for Postgraduates By T. K. Agasti, Page 799
+
+Question: Train of four is characteristically used in concern with-
+A. Malignant hypehermia
+B. Non -depolarizing neuromuscular blockers
+C. Mechanical ventilation
+D. To check hemodynamic parameters
+Correct Answer: B
+Explanation: Train of four is used for monitoring neuromuscular block during anaesthesia. Fade on TO4 is the characteristic feature of non-depolarising neuromuscular blockage.
+
+Question: Prolonged apnea may occur in patients with a genetically determined abnormal variant of cholinesterase following intravenous administration of
+A. Pancuronium
+B. Tubocurarine
+C. Atracurium
+D. Succinylcholine
+Correct Answer: D
+Explanation: Both succinylcholine and mivacurium are completely and rapidly eliminated by plasma cholinesterase. Other nondepolarizing neuromuscular blockers, such as tubocurarine, pancuronium, and atracurium, are eliminated by renal or hepatic mechanisms or by spontaneous hydrolysis (atracurium). Patients with genetically determined atypical cholinesterase may be detected by measuring the inhibition of cholinesterase by dibucaine, a local anesthetic. Dibucaine inhibits the normal enzyme about 80%, but the abnormal variant is inhibited only 20%.
+
+Question: Brain dead individuals have all of the following features EXCEPT (* NIMHANS March-2017 Post-MBBS, NIMHANS - Feb. 2008)
+A. Dolls eye movement is absent
+B. Oculo-vestibular reflex is absent
+C. Only pain is preserved
+D. Corneal reflex is absent
+Correct Answer: C
+Explanation: (C) Only pain is preserved# BRAIN-DEAD> individual has no clinical evidence of brain function upon physical examination.> No response to pain and no cranial nerve reflexes.> Reflexes include pupillary response (fixed pupils), oculocephalic reflex, corneal reflex, no response to the caloric reflex test, and no spontaneous respirations.> In comatose patients, once it has been determined that the cervical spine is intact, a test of the vestibulo-ocular reflex (VOR), also known as the oculocephalic reflex or doll's eye reflex can be performed by turning the head to one side.> Positive response occurs when the eyes rotate to the opposite side to the direction of head rotation, thus indicating that the brain- stem (CN3,6,8) is intact.> Vertical oculo-vestibular eye responses can be assessed by irrigating both ears simultaneously.> If the brainstem is intact, cold water causes the eyes to deviate downwards and warm water causes the eyes to deviate upwards.
+
+Question: Which one of the following is not an amide –
+A. Lignocaine
+B. Procaine
+C. Bupivacaine
+D. Dibucaine
+Correct Answer: B
+Explanation: Esters (aminoesters) :- Procaine, chlorprocaine, tetracaine (amethocaine), Benzocaine, Cocaine.
+Amides (aminoamides) Lignocaine, Mepivacaine, Prilocaine, Bupivacaine, Etidocaine, Ropivacaine , Dibucaine.
+
+Question: During laryngoscopy and intubation procedure, all of these are true, except:
+A. A slight pressure may be applied at the cricoid cailage
+B. The laryngoscope is held in the right hand introduced from the right side of the patient
+C. The neck is flexed with extension at the atlanto!occipital joint
+D. After inseion of laryngoscope, it is levered on the upper incisor to pull up the tongue and visualize the vocal cords
+Correct Answer: D
+Explanation: Ans: D. After inseion of laryngoscope, it is levered on the upper incisor to pull up the tongue and visualize the vocal cords(Ref: Miller 81c, p I 666-7667. 71e p1587).The laryngoscope should never be hinged on the teeth to lift up the epiglottis.The patient is aligned in a "sniffing" position, i.e. neck (atlanto-axial joint) flexion and face extension (atlanto-occipital joint), at around 35deg and 15deg respectively
+
+Question: Which muscle is most resistant to neuromuscular blockage?
+A. Diaphragm
+B. Ocular
+C. Adductor pollicis
+D. Intercostal muscles
+Correct Answer: A
+Explanation: ANSWER: (A) DiaphragmREF: Lee synopsis of anesthesia 13th e p. 182, Morgan 4th e p. 206-15Diaphragm is the most resistant muscle to muscle relaxants.
+
+Question: Fasciculations are caused by
+A. Scoline
+B. Ketamine
+C. Halothane
+D. Atracurium
+Correct Answer: A
+Explanation: Ans. a (Scoline). (Ref. KD Tripathi, Pharamacology, 6th ed., 150)SUXAMETHONIUM CHLORIDE OR SUCCINYL CHOLINE (SCOLINE)Introduction- It is a short acting muscle relaxant.- It is a phase II blocker.- Depolarising muscle i.e. depolarising block at motor end-plate.- It is dichlor ester of succinic acid.- The action lasts for 3-5 minutes.- Action is prolonged in liver disease.- Metabolised by pseudocholinesterase.- It gives good intubating condition in shortest time (less than one minute).Uses- Endotracheal intubation in dose of 1 to 2 mg/kg body weight.- To modify electroconvulsive therapy.- For procedures requiring short duration relaxation.- Excellent for operative abet and caesaerian section.Side effects(Mnemonic=ABRHAM on FTV)- Apnoea (Prolonged),- Bradycardia,- Raised intraocular pressure- Hyperkalemia- Ache (Myalgia/ Post-operative muscle ache)- Malignant hyperpyrexia- Fasciculation,- Tachyphylaxis- Ventricular fibrillationIts S/E can be prevented by- Self-taming with 10 mg suxamethonium given a minute before induction of an anaesthesia.PrecurarizationAlso remember:# Malignant hyperpyrexia:- It is due to release of Ca++ from sarcoplasmic reticulum in sensitive person- It can be caused also bya) Halothane,b) Methoxyflurane andc) Isoflurane- Rx- dantrolene.- Dantrolene is muscle relaxant acting directly on muscle. {MH 2006)
+
+Question: All are true for normal saline except
+A. normal saline 0.9% is most suitable to treat acute severe hyponatremia
+B. fluid of choice for head injury patient
+C. fluid of choice for hypovolemic shock
+D. lead to hyperchloremic metabolic acidosis
+Correct Answer: A
+Explanation: NaCl Is preferred in conditions in which increased plasma sodium is beneficial e.g traumatic brain injury Not suitable for treatment of acute severe hyponatremia as it has little effect on plasma sodium levels When infused > 30ml/kg/hr may lead to hyperchloremic acidosis
+
+Question: Critical temperature of oxygen is?
+A. 20
+B. 118
+C. 36.5
+D. 400C
+Correct Answer: B
+Explanation: Ans. is 'b' i.e., -118
+
+Question: Anaesthetic agent not metabolized by body is?
+A. N20
+B. Gallamine
+C. Sevofluorane
+D. Halothane
+Correct Answer: A
+Explanation: Ans. (a) N20Ref: Miller's 7thedch: 24
+
+Question: Celiac plexus block all the following is true except ?
+A. Relieved pain from gastric malignancy
+B. Cause hypotention
+C. Can be used to provide anesthesia for intra abdominal surgery
+D. Can be given only by retrocrural (classic) approach
+Correct Answer: D
+Explanation: Ans. is 'd' i.e., Can be given only by retrocrural (classic) approach Celiac plexus block can be done by following three approaches : Retrocrural (classic) approach, anterocrural approach and splanchnic nerve block. See explanation- 4 of session- 8 of Anaesthesia of All India 2014-15 pattern of this book.
+
+Question: All of the following are the disadvantages of anesthetic ether, except
+A. Induction is slow
+B. Irritant nature of ether increases salivary and bronchial secretions
+C. Cautery cannot be used
+D. Affects blood pressure and is liable to produce arrhythmias
+Correct Answer: D
+Explanation: Ether has high blood solubility (high blood : gas partition coefficient) → induction is slow.
+It is irritant in nature and increases salivary & respiratory secretions.
+Blood pressure is maintained because of reflex stimulation and high sympathetic tone. It does not sensitizes the heart to arrhythmogenic action of adrenaline
+It is highly inflammable, cautery should not be used.
+
+Question: All local anesthetic produces vasodilation on local application except
+A. Cocaine
+B. Lignocaine
+C. Bupivacaine
+D. Ropivacaine
+Correct Answer: A
+Explanation: Cocaine is a vasoconstrictor as it is sympathomimetic. * Cocaine was the first local Anesthetic to be used clinically. IT is only natural local anesthetic. Koller introduced this in the field of ophthalmology. It is the only local anesthetic with vasoconstrictor action. It is sympathomimetic and inhibits metabolism of catecholamine. * Procaine - 1st synthetic local anesthetic. It is used primarily to reduce the pain of intramuscular injection of penicillin. * Chloroprocaine - It is shoest acting local anesthetic used for sho procedures * Benzocaine - Is a common ingredient in topical sprays, can also cause methemeglobinamia. (See complications) * Tetracaine - Also called amethocaine mostly used topically.
+
+Question: Which of the following is the skeletal muscle relaxant of choice in liver and renal disease ?
+A. Mivacurium
+B. Atracurium
+C. Gallium
+D. Vecuronium
+Correct Answer: B
+Explanation: Atracurium is degraded by both pH and temperature dependent Hofmann elimination (autolysis) and by ester hydrolysis; it therefore does not require a dosage adjustment in patients with renal or hepatic failure. However, acidosis and severe hypothermia decrease the rate of drug metabolism and should prompt dose reduction. Mivacurium is a sho-acting benzylisoquinoline with an onset of action comparable to atracurium but with one-third its duration of action, because of rapid hydrolysis by plasma pseudocholinesterase. However, patients with renal or hepatic insufficiency may have depressed pseudocholinesterase activity leading to delayed elimination. Vecuronium is an aminosteroid compound with an intermediate duration of action. It is hepatically metabolized to three active metabolites, all of which are eliminated by the kidney.
+
+Question: Following are hepatotoxic anesthetic agents except-
+A. Halothane
+B. Chloroform
+C. Ether
+D. Propofol
+Correct Answer: D
+Explanation: Ans. is 'd' i.e.. Propofol o Following are the groups of hepatotoxic anesthetic agents:i) Group I: Drugs with well known hepatotoxic potential and containing Chlorine or bromine. Eg: chloroform,ii) Group II: Drugs which contain fluorine Eg: halothane, methoxyflurane. o Desflurane, enflurane, sevoflurane, isoflurane, nitrous oxide and carbon tetrachloride are also linked with hepatotoxic ity.
+
+Question: Second gas effect is seen with -
+A. Ether
+B. Nitrous oxide
+C. Desflurane
+D. Sevoflurane
+Correct Answer: B
+Explanation: Ans. is 'b' i.e., Nitrous oxide Second gas effecto If another inhalation agent is (eg Halothane) is being given at the same time with N2O2 it also will be delivered to lung from the cylinder (due to negative intraalveolar pressure).Also Remembero Concentration effect and secondary gas effect - during inductiono Diffusion hypoxia - during recovering.o All these occur with N2O only (Xenon also causes these effects).
+
+Question: Which of the following muscle relaxants causes maximal pain on injection –
+A. Succinyl choline
+B. Vecuronium
+C. Rocuronium
+D. Cistracurium
+Correct Answer: C
+Explanation: Pain during injection is an important and common feature of Rocuronium Injection.
+
+Question: Who coined term anaesthesia
+A. Moon
+B. Holmes
+C. Morgan
+D. Priestly
+Correct Answer: B
+Explanation: Oliver Wendell Holmes coined the term anesthesia. In 1846, Holmes coined the word anesthesia. In a letter to dentist William T. G. Moon, the first practitioner to publicly demonstrate the use of ether during surgery, he wrote: "Everybody wants to have a hand in a great discovery. All I will do is to give a hint or two as to names--or the name--to be applied to the state produced and the agent. The state should, I think, be called "Anaesthesia." This signifies insensibility--more paicularly ... to objects of touch." Ether was used for frivolous purposes ("ether frolics"), but not as an anesthetic agent in humans until 1842, when Crawford W. Long and William E. Clark independently used it on patients for surgery and dental extraction, respectively. However, neither Long nor Clark publicized his discovery. Four years later, in Boston, on October 16, 1846, William T.G. Moon conducted the first publicized demonstration of general anesthesia for surgical operation using ether. The dramatic success of that exhibition led the operating surgeon to exclaim to a skeptical audience: "Gentlemen, this is no humbug!" Joseph Priestley produced nitrous oxide in 1772, and Humphry Davy first noted its analgesic propeies in 1800. Gardner Colton and Horace Wells are credited with having first used nitrous oxide as an anesthetic for dental extractions in humans in 1844. Ref: Miller's anesthesia 8th edition Ref: Morgan & Mikhail's clinical anesthesiology 6e
+
+Question: All except one is continued prior to elective caesarean section in an hypertensive diabetic term gestation, obese female who is a case of chronic aorto iliac obstruction.
+A. Labetalol
+B. Statins
+C. Magnesium sulphate
+D. Heparin
+Correct Answer: D
+Explanation: Heparin is stopped 6 hours priorly. Rest all drugs need to be continued till day of surgery.
+
+Question: Fasciculation are caused by
+A. Suxamethonium
+B. Pancuronium
+C. d-TC
+D. Vecuronium
+Correct Answer: A
+Explanation: Fasciculations are the characteristic feature of depolarising block. Succinylcholine is the depolarising muscle relaxant. d-tubocurare, vecuronium and pancuronium are the non-depolarising muscle relaxants.
+
+Question: An alcoholic patient with history diabetic nephropathy and liver failure is posted for open abdomen surgery. The most appropriate muscle relaxant in this patient is:
+A. Cisatracurium
+B. Rocuronium
+C. Vecuronium
+D. Rapacuronium
+Correct Answer: A
+Explanation: Cisatracurium is a stereoisomer of atracurium that is four times more potent. Like atracurium, it undergoes degradation in plasma at physiological pH and temperature by organ-independent Hofmann elimination. The resulting metabolites (a monoquaternary acrylate and laudanosine) have no neuromuscular blocking effects. Because of cisatracurium's greater potency, the amount of laudanosine produced for the same extent and duration of neuromuscular blockade is much less than with atracurium. Nonspecific esterases are not involved in the metabolism of cisatracurium. Metabolism and elimination are independent of renal or liver failure hence can be given in hepatic and renal failure. Ref: Butterwoh IV J.F., Butterwoh IV J.F., Mackey D.C., Wasnick J.D., Mackey D.C., Wasnick J.D. (2013). Chapter 11. Neuromuscular Blocking Agents. In J.F. Butterwoh IV, J.F. Butterwoh IV, D.C. Mackey, J.D. Wasnick, D.C. Mackey, J.D. Wasnick (Eds), Morgan & Mikhail's Clinical Anesthesiology, 5e.
+
+Question: In magil circuit airflow is -
+A. 1/2 of minute volume
+B. equal to M.V.
+C. 2 X M.V.
+D. 3 X M.V.
+Correct Answer: B
+Explanation: In Magills it fresh gas flow is equal to minute volume. In Bains co-axial system or type D ,fresh air flow required to prevent rebreathing is 1.6minute volume
+
+Question: MAC stands for
+A. Minimum alveolar concentration
+B. Minimal analgesic concentration
+C. Minimal anaesthetic concentration
+D. Maximum alveolar concentration
+Correct Answer: A
+Explanation: Minimum alveolar concentration is defined as the alveolar concentration of an inhaled anesthetic agent that prevents movement in 50% of patients in response to a standardized surgical stimulus. Low MAC - High potency MAC values of adult Halothane: 0.75 Sevoflurane: 2.0 Isoflurane: 1.2 Desflurane: 6.0 Enflurane: 1.7 Xenon: 70 N2O: 104 Ref: Miller's anesthesia 8th edition Ref: Morgan & Mikhail's clinical anesthesiology 6e
+
+Question: Which of the following statements about inhalation anesthetic agents is wrong?
+A. Sevoflurane is more potent than isoflurane
+B. Sevoflurane is less cardiodepressant than isoflurane
+C. Desflurane has lower blood-gas paition coefficient than sevoflurane
+D. Sevoflurane has a higher MAC than isoflurane
+Correct Answer: A
+Explanation: Sevoflurane is less potent than isoflurane as it lacks coronary vasodilating propeies. Ref: Handbook of Clinical Anesthesia By Barash, Cullen, Stoelting , 5th Edition, Page 216; Handbook of Clinical Anesthesia By Paul G. Barash, Bruce F. Cullen, Robe K. Stoelting, M. Christine Stock, 6th Edition, Page 231
+
+Question: Maximum dose of plain lignocaine (in mg) –
+A. 300
+B. 500
+C. 700
+D. 1000
+Correct Answer: A
+Explanation: Maximum safe dose of plain lidocaine → 300 mg (4.5 mg/kg).
+Maximum safe dose of lidocaine with epinephrine → 500 mg (7 mg/kg).
+
+Question: All agents can be given for induction of anaesthesia in children except ?
+A. Halothane
+B. Sevoflurane
+C. Morphine
+D. N2O
+Correct Answer: C
+Explanation: Morphine is not an inducing agent.
+Sevoflurane is the agent of choice and is used in N2O + O2 gas mixture. Halothane is the second choice inducing agent.
+
+Question: Muscle relaxant excreted exclusively by kidney is:
+A. Scoline
+B. Atracurium
+C. Vecuronium
+D. Gallamine
+Correct Answer: D
+Explanation: Ans. is 'd' i.e. Gallamine 'Urinary Excretion of Gallamine is>95%. Its biliary excretion is <1 %."-Lee, 12/eGallamineIt is nephrotoxic so C/I in Renal Failure *.It crosses placenta so C/I in Pregnancy *.Some important facts about Muscle Relaxants which are frequently asked:M.R. undergone Hoffman's elimination - Atracurium*M.R. of choice in Ranal failure & Hepatic failure - Atracurium*M.R. causing maximum Histamine release - d-TC*M.R. causing minimum Histamine release - Vecuronium*M.R. C/I in Hepatic failure - d-TC*Pancuronium*Scoline*M.R. used in Bronchial Asthma - Atracurium* &Vecuronium*
+
+Question: What is the strength of shock given to below victim of cardiac arrest with shockable rhythm:
+A. 200 J asynchronous Shock
+B. 300 AC shock
+C. 200 Syn. Shock
+D. 300 J Syn. Shock
+Correct Answer: A
+Explanation: It should be between 120-200 J asynchronized shock.
+
+Question: All of the following are advantages of LMA Except
+A. More reliable than face mask
+B. Prevent aspiration
+C. Alternative to endotracheal intubation
+D. Does not require laryngoscope & visualization
+Correct Answer: B
+Explanation: LMA is intermediate between the face mask and endotracheal intubation in terms of reliability, invasiveness, and facilitation of gas exchange (face mask has minimum and endotracheal intubation has maximum)LMA does not prevent aspiration - should not be used in full stomach patientsLMA can be used as an alternative to endotracheal intubation for minor surgeries, where anaesthetist wants to avoid intubationLMA is introduced blindly (without laryngoscopy)
+
+Question: A child is posted for operative repair of exostrophy of bladder with renal failure. Which anesthetic should be preferred?
+A. Pancuronium
+B. Vecuronium
+C. Ataracurium
+D. Rocuronium
+Correct Answer: B
+Explanation: C i.e. Ataracurium In pediatric patients the choice of non depolarizing muscle relaxant depends on side effects and duration of action. The method of excretion of atracurium and cisatracurium (Hofman elimination and ester hydrolysis) makes these relaxants paicularly useful in newborns and children with liver or renal diseaseQ. If tachycardia is desired (eg with fentanyl anesthesia), pancuronium would be an appropriate choice. Vecuronium, atracurium, rocuronium & cisatracurium are useful for shoer procedures. Rocuronium offers an advantage that it can be administered intramuscularly (like Sch) preferably in deltoid however, the duration of action is - 1 hour, which could be a distinct disadvantage for a brief procedure. Vecuronium is valuable because no histamine is released; however, its duration of action is prolonged in newborns, which makes it similar to pancuronium The potential for rhabdomyolysis & hyperkalemia (paicularly in boys < 8 yrs who may have unrecognized muscular dystrophy), as well as for masseter spasm (jaws of steel), malignant hypehermia, cardiac arrhythmias, and myoglobinemia after administration of succinyl choline suggests that Sch should not be used routinely in children. Unlike adult patients profound bradycardia & sinus node arrest can develop in pediatric patients following 1st dose of Sch without atropine pretreatment. If a child unexpectedly experiences cardiac arrest following Sch administration, immediate treatment for hyperkalemia should be instituted. Howeve, it is the only available ultrasho acting muscle relaxant that provides a dependable, rapid onset of action. IV use of Sch should be limited to children who have full stomach or to treat laryngospasm. Intramuscular, intralingual (Submental) use is indicated for children with difficult intravenous access when control of airway is deemed essential. Mivacurium is an alternative to Sch when profound neuromuscular block of sho duration is required but rapid onset of action is unnecessary. Antagonism of neuromuscular blockade in all neonates & small infants, is recommended, even if they have recovered clinically, because any increase in work of breathing may cause fatigue and respiratory failure. Sugammadex, a cyclodextrin whose endoskeleton forms a water soluble complex with exoskeleton of rocuronium, is designed to antagonize the effects of rocuronium. As it is made of sugars and antagonize by covalent bonding the side effects are minimal. Antagonism is more rapid than neostigmine/atropine. It also reverse the other steroidal relaxants vecuronium & pancuronium to a lesser extent. The mechanism of reversal is lowering of plasma conentation & thus reversing the concentration gradient and pulling the rocuronium off the myoneural junction.
+
+Question: 22-year-old lady, with a history of epilepsy is undergoing the pre-anaesthetic review. The use of which inhalational agent is contraindicated in this patient?
+A. Halothane
+B. Enflurane
+C. Sevoflurane
+D. Isoflurane
+Correct Answer: B
+Explanation: Enflurane can precipitate generalized tonic clonic seizure in epileptics. It is however safer than halothane, causes less myocardiac depression and less hypotension.
+
+Question: Drug of choice for reversal of is neuromuscular blockade by vacuronium-
+A. Edrophonium
+B. Neostigmine
+C. Sugamadex
+D. Pyridostigmine
+Correct Answer: C
+Explanation: Ans: C. Sugamadex(Ref: KDT 7h/e p. 355; Basic of Anasthesia e book - 157)Sugamadex provides faster reversal of vacuronium - induced neuromuscular blockade compared with neostigmine.A modified gamma-cyclodextrin with high affinity towards vacuronium & recuronium.
+
+Question: Which of the following characterizes mallampati class 3
+A. Only hard palate visible
+B. Both hard palate and soft palate visible
+C. Hard palate ,soft palate, uvula and faucial pillars visible
+D. None
+Correct Answer: B
+Explanation: Both hard and soft palate should be seen in grade 3.
+
+Question: During epidural analgesia the following points suggests that needle is in the extradural space
+A. Loss of resistance sign
+B. Negative pressure sign
+C. Mackintosh extradural space indicator
+D. All of the above
+Correct Answer: D
+Explanation: Loss of resistance technique, tactile feedback from the needle, and surface landmarks are traditionally used to guide the epidural needle tip into the epidural space (EDS). Number of newer techniques are now available like ultrasound - Ultrasound imaging with preacquired three-dimensional images of spine, Ultrasound through needle, Ultrasound imaging with preacquired three-dimensional images of spine Modifications of the loss of resistance techniqueMembrane in syringe technique, Epidural balloon, Epidrum, Episure Autodetect, Auditory and visual display of pressure wave
+
+Question: Which of the following local anaesthetic causes methemoglobinemia?
+A. Procaine
+B. Prilocaine
+C. Etidocaine
+D. Ropivacaine
+Correct Answer: B
+Explanation: Prilocaine similar to that of lidocaine. The primary differences are that it causes little vasodilation and thus can be used without a vasoconstrictor, and its increased volume of distribution reduces its CNS toxicity, making it suitable for intravenous regional blocks. The drug is unique among the local anesthetics in its propensity to cause methemoglobinemia. This effect is a consequence of the metabolism of the aromatic ring to o-toluidine. Development of methemoglobinemia is dependent on the total dose administered, usually appearing after a dose of 8 mg/kg. Ref: Catterall W.A., Mackie K. (2011). Chapter 20. Local Anesthetics. In L.L. Brunton, B.A. Chabner, B.C. Knollmann (Eds), Goodman & Gilman's The Pharmacological Basis of Therapeutics, 12e.
+
+Question: TRUE about infant airway compared to adult airway are all, EXCEPT:
+A. The relatively large size of the tongue
+B. Epiglottis is omega shaped
+C. Larynx is funnel shaped
+D. None of the above
+Correct Answer: D
+Explanation: Differences in airway anatomy make the potential for technical airway difficulties greater in infants than in teenagers or adults. The airway of infants differs in five ways: (1) the relatively large size of the infant's tongue in relation to the oropharynx increases the likelihood of airway obstruction and technical difficulties during laryngoscopy; (2) the larynx is located higher (more cephalic) in the neck, thus making straight blades more useful than curved blades; (3) the epiglottis is shaped differently, being sho, stubby, omega shaped, and angled over the laryngeal inlet; control with the laryngoscope blade is therefore more difficult; (4) the vocal cords are angled, so a "blindly" passed endotracheal tube may easily lodge in the anterior commissure rather than slide into the trachea; and (5) the infant larynx is funnel shaped. Ref: Miller's anesthesia-7th ed, Chapter 82.
+
+Question: Anesthetic agent/s which have tocolytic effect are?
+A. Halothane
+B. Enflurane
+C. Isoflurane
+D. All the above
+Correct Answer: D
+Explanation: Ans. is 'd' i.e., All the above Halothane, enflurane and isoflurane produce a dose dependent decrease in uterine tone (tocolysis). Studies of isoflurane demonstrate that halogenated compounds reduce both the frequency of uterinecontractions and the interval between them.
+
+Question: In status asthmaticus, anesthetic agent used as bronchodilator:-
+A. Morphine
+B. Thiopentone sodium
+C. Ketamine
+D. Halothane
+Correct Answer: C
+Explanation: Morphine - Morphine depresses respiratory center in a dose dependent manner Rate | Tidal | volume In healthy individuals - no cognizable respiratory depression MARKED DEPRESSION In patients with: Asthma COPD Corpulmonalae Lungs and kidney Disease THIOPENTONE SODIUM -decreases respiratory rate KETAMINE: Bronchodilation (best IV anesthetic against causing bronchodilation) Airway reflexes are maintained Respiratory center is not depressed. d/t sympathetic stimulation the following are observed: HR CO | BP Agent of choice in: Shock( duetoo the sympathetic stimulation) bronchial asthma(as it causes bronchodilation) HALOTHANE - causes bronchodilation. Best inhalational bronchodilator followed by sevoflurane
+
+Question: Anesthesia of choice in child with cyanotic hea disease?
+A. Propofol
+B. Ketamine
+C. Thiopentone
+D. Sevoflurane
+Correct Answer: B
+Explanation: Ketamine REF: Morgan 4'h ed p. 935 Anesthesia of choice for congenital hea disease Left to right shunt (Acynotic) Sevoflurane Right to left shunt (Cyanotic) Retamine
+
+Question: Drug of choice for sedation of a patient in ICU is: September 2009, March 2013 (a)
+A. Diazepam
+B. Lorazepam
+C. Propofol
+D. Alprazolam
+Correct Answer: C
+Explanation: Ans. C: Propofol Benzodiazepines, e.g. diazepam, lorazepam and midazolam, are widely used as sedative agents in the ICU. Diazepam use has become less common as newer shoer-acting benzodiazepines have become available. Lorazepam is more potent than midazolam and, because of its low lipid solubility, crosses the blood-brain barrier more slowly, delaying its onset of action and prolonging the sedative effect. Hence, it is recommended for longer-term sedation while midazolam is preferred for sho-term sedation Propofol, another frequently used sedative agent, resembles midazolam in terms of pharmacological profile. Midazolam and propofol have similar efficacy and safety in sedating various groups of critically ill patients. Midazolam is, however, cheaper than propofol Neveheless, propofol, when used as a sedative in mechanically ventilated patients, is associated with shoer weaning times and hence, while midazolam may be cheaper, the overall cost-benefit analysis taking into account duration of mechanical ventilation and ICU stay may in fact be better with propofol.
+
+Question: Which of the following is true regrading spinal cord and neuraxial blockade
+A. Spinal cord ends at S1 in adults
+B. Spinal anaesthesia is given below L3 level in children
+C. Dural sac extends upto S2 in children
+D. Spinal cord ends at lower border of L1 in children
+Correct Answer: B
+Explanation: Spinal cord ends at upper border of L3 in children , and at lower border of L1 in adults. The dural sac extends upto S3 in children and S2 in adults.
+
+Question: Local anesthetic that is not used topically is?
+A. Lignocaine
+B. Dibucaine
+C. Tetracaine
+D. Bupivacaine
+Correct Answer: D
+Explanation: Bupivacaine REF: Miller 6th e p. 590 Topical ( surface ) anesthetics Not used as surface (topical) ) anesthetics * Lignocaine * Procaine * Tetracaine * Bupivacaine * Dibucaine * Mepivacaine * Prilocaine * Cocaine
+

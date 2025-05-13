@@ -1,0 +1,822 @@
+Question: All of the following statements are true regarding hyperophy, except:
+A. Occurs due to synthesis and assembly of additional intracellular components.
+B. There is an increase in the size of the cells.
+C. Cells capable of division respond to stress by hyperophy and hyperplasia.
+D. There is an increase in the number of cells.
+Correct Answer: D
+Explanation: The increased size of the cells is due to the synthesis and assembly of additional intracellular structural components. Hyperophy refers to an increase in the size of cells, which results in an increase in the size of the affected organ. Cells capable of division may respond to stress by undergoing both hyperplasia and hyperophy. The hyperophied organ has no new cells, just larger cells.
+
+Question: Splenomegaly may be a feature of: March 2013
+A. Megaloblastic anemia
+B. Sickle cell anemia
+C. Thalassemia
+D. G6PD deficiency
+Correct Answer: B
+Explanation: Ans. B i.e. Sickle cell anemia Splenomegaly Splenomegaly refers strictly to spleen enlargement, and is distinct from hyperspineism , which connotes overactive function by a spleen of any size. Splenomegaly and hypersplenism should not be confused. Each may be found separately, or they may coexist. Clinically if a spleen is palpable, it means it is enlarged as it has to undergo enlargement by at least two folds to become palpable. However, the tip of the spleen may be palpable in a newborn baby up to 3 months of age Early sickle cell anemia may present with splenomegaly
+
+Question: Atherosclerosis initiation by fibroblast plaque is mediated by injury to ?
+A. Smooth muscle
+B. Media
+C. Adventitia
+D. Endothelium
+Correct Answer: D
+Explanation: Ans. is 'd' i.e., Endothelium The most acceptable hypothesis for the pathogenesis of atherosclerosis is "the response to injury hypothesis". According to this hypothesis, atherosclerosis is a chronic inflammatory response of the aerial wall initiated by injury to endothelium. Pathogenesis of atherosclerosis Following stages occurs in the pathogenesis of Atherosclerosis: Endothelial injury Earliest stages of the development of atherosclerosis are mediated by the inflammatory cascade. Inflammation mediated injury to endothelium is the cornestone in the development of atherosclerosis. After injury, endothelium is activated and there is increased expression of adhesion molecule-VCAM-1 and there is increased permeability to endothelium. TNF is the major cytokine to induce this expression. Migration of leukocytes When VCAM-1 is expressed on endothelium, leukocytes adhere to the endothelium. Leukocytes than cross the endothelial barrier and begin to accumulate in subendothelial intimal space. Macrophages engulf LDL cholesterol and form foam cells - formation of earliest lesion, i.e. fatty streak. Macrophages also form oxygen free radicals that cause oxidation of LDL to yield oxidized LDL (modified LDL). Smooth muscle cell migration and proliferation Inflammatory cells in subendothelial intimal space secrete cytokines, mainly PDGF, TGF-ct and FGF which cause migration of smooth muscle cells from media to subendothelial intimal space as well as their proliferation. Maturation of plaque Smooth muscle cells synthesize extracellular matrix (especially collegen) and conve a fatty streak into a mature fibrofatty atheroma, and contribute to the progressive growth of atherosclerotic lesions.
+
+Question: Hamartomatous lung tissue is?
+A. Hypoplasia of lung
+B. Congenital cyst
+C. Lobar sequestration
+D. Congenital cystic adenomatoid malformation
+Correct Answer: D
+Explanation: Ans. (d) Congenital cystic adenomatoid malformation(Ref: Robbins 9th/pg 670; 8th/pg 679)Congenital cystic adenomatoid malformation (CCAM): Hamartomatous Q or dysplastic lung tissue, usually confined to one lobe.
+
+Question: A 28 year old female teacher is found to have a prolonged bleeding time and normal platelet count. She had a bleeding of "easy bleeding" with frequent bleeding of the gums, epistaxis, cutaneous bleeding and menorrhagia, further testing revealed a deficiency of Von willebrand factor. Which of the following thrombogenic processes involving platelets is most directly impaired?
+A. Adhesion
+B. Aggregation
+C. Formation of fibrinogen bridges
+D. Conformational change with activation of phospholipid surface
+Correct Answer: A
+Explanation: Disruption of the endothelium exposes subendothelial Von willebrand factor (VWF) and collagen, which promotes platelet adherence and activation.
+Deficiency of Von willebrand factor (VWF) causes
+
+
+↓ Platelet adhesion (↑ BT)
+
+
+↓ Intrinsic pathway activity (↑ aPTT)
+
+Question: A 45-year-old woman complains of severe headaches and difficulty in swallowing. Over the past 6 months, she has noticed small, red lesions around her mouth as well as thickening of her skin. The patient has "stone facies" on physical examination. Which of the following antigens is the most common and most specific target of autoantibody in patients with this disease?
+A. C-ANCA (anti-proteinase-3)
+B. Double-stranded DNA
+C. P-ANCA (anti-myeloperoxidase)
+D. Scl-70 (anti-topoisomerase I)
+Correct Answer: D
+Explanation: Scleroderma (refer to the image below) Autoimmune disease of connective tissue. Antinuclear antibodies are common but are usually present in a lower titer than in patients with SLE. Antibodies viually specific for scleroderma include:- Nucleolar autoantibodies (primarily against RNA polymerase) Antibodies to Scl-70, a non-histone nuclear protein topoisomerase; Anticentromere antibodies (associated with the "CREST" variant of the disease). The Scl-70 autoantibody is most common and specific for the diffuse form of scleroderma and is seen in 70% of patients. -Autoantibodies to double-stranded DNA (choice B) are seen in patients with SLE. -Autoantibodies to SS-A/SS-B are seen in patients with Sjogren syndrome. (Fig: A fibroblastic focus is present at the arrows.) Diagnosis: Scleroderma
+
+Question: Earliest lesion seen in atherosclerosis is:
+A. Fatty streaks
+B. Intimal thickening
+C. Fibrinoid necrosis
+D. Plaque
+Correct Answer: A
+Explanation: Ans: A (Fatty streaks) Ref: Robbins Pathologic Basis of Disease, 8th edition.Explanation:Fatty streaks are the earliest lesions in atherosclerosis " Ref: RobbinsMorphology of AtherosclerosisFatty StreaksThese are the earliest lesions in atherosclerosis.They are composed of lipid-filled foamy macrophages.Beginning as multiple minute flat yellow spots, they eventually coalesce into elongated streaks 1 cm or more in length.These lesions are not significantly raised and do not cause any flow disturbanceAortas of infants less than 1 year old can exhibit fatty streaks, and such lesions are seen in virtually all children older than 10 years, regardless of geography, race, sex, or environment.The relationship of fatty streaks to atherosclerotic plaques is uncertainThey may evolve into precursors of plaques, not all fatty streaks are destined to become advanced lesions.Atherosclerotic PlaqueThe key processes in atherosclerosis are intimal thickening and lipid accumulationAtheromatous plaques impinge on the lumen of the artery and grossly appear white to yellow: superimposed thrombus over ulcerated plaques is red-brown.Plaques vary from 0.3 to 1.5 cm in diameter but can coalesce to form larger massesAtherosclerotic lesions are patchy, on cross- section, the lesions appear "eccentric"Local flow disturbances (e.g., turbulence at branch points) leads to increased susceptibility to plaque formation.In descending order, the most extensively involved vessels are theLower abdominal aorta (MC)The coronary arteries (Second MC)The popliteal arteriesThe internal carotid arteriesVessels of the circle of WillisVessels of the upper extremities are usually spared, as are the mesenteric and renal arteries, except at their ostia.Atherosclerotic plaques have three principal components:Cells, including smooth muscle cells, macrophages, and T cellsECM, including collagen, elastic fibers, and proteoglycansIntracellular and extracellular lipidSuperficial fibrous cap composed of smooth muscle cells and dense collagen.Beneath and to the side of the cap (the "shoulder") is a more cellular area containing macrophages, T cells, and smooth muscle cells.Deep to the fibrous cap is a necrotic core, containing lipid (primarily cholesterol and cholesterol esters), debris from dead cells, foam cells (lipid-laden macrophages and smooth muscle cells), fibrin, variably organized thrombus, and other plasma proteins and cholesterolThe periphery of the lesions show neovascularization (proliferating small blood vessels;Plaques generally continue to change and progressively enlarge due to cell death and degeneration, synthesis and degradation (remodeling) of ECM, and organization of thrombus.Atheromas often undergo calcificationAtherosclerotic plaques are susceptible to the following clinically important changes* Rupture, ulceration, or erosion of the intimal surface of atheromatous plaques exposes the blood to highly thrombogenic substances and induces thrombosis.* Such thrombosis can partially or completely occlude the lumen and lead to downstream ischemia.* If the patient survives the initial thrombotic occlusion, the clot may become organized and incorporated into the growing plaque.* Hemorrhage into a plaque. Rupture of the overlying fibrous cap, or of the thin-walled vessels in the areas of neovascularization, can cause intra-plaque hemorrhage; a contained hematoma may expand the plaque or induce plaque rupture.* Atheroembolism. Plaque rupture can discharge atherosclerotic debris into the bloodstream, producing microemboli* Alienism formation. Atherosclerosis-induced pressure or ischemic atrophy of the underlying media, with loss of elastic tissue, causes weakness resulting in aneurysmal dilation and potential rupture.
+
+Question: Test used for factor VIII deficiency identification is-
+A. PT
+B. APTT
+C. D dimer
+D. FDP
+Correct Answer: B
+Explanation: Ans. is 'b' i.e., APTT o Factor VIII is a part of the intrinsic pathway of coagulation. The test used to identity1 the defects in the intrinsic and common pathways of coagulation is PTT. Thus prolonged PTT is a feature of patient with factor VIII deficiency.o Patients with hemophilia have deficiency of factor VIII that results in prolonged PTT.o Tests used to evaluate different aspects of hemostasis.Bleeding timeo It is not a test for coagulation rathers it tests the ability of the vessels to vasoconstrict and the platelets to form a hemostatic plug.o It is the time taken for a standardized skin puncture to stop bleeding,o Normal reference value is between 2-9 minutes.o Prolongation generally indicates the defect in platelet number or function.Prothrombin time (PT)o This assay tests the extrinsic and common coagulation pathway.o So, a Prolonged PT can result from deficiency of factor V, VII. X, prothrombin or fibrinogen.Partial thromboplastin time (PTT)o This assay tests the intrinsic and common coagulation pathways.o So, a prolonged PTT. can results from the deficiency of factor V, VHI, IX, X, XI, XII, prothrombin or fibrinogen.Thrombin timeo It is the time taken for clotting to occur when thrombin is added to the plasma,o It tests the conversion of fibrinogen to fibrin and depends on adequate fibrinogen level,o Prolonged thrombin time results from decreased level of fibrinogen.Defective coagulation pathwayPTAPTTExtrinsicIntrinsicCommonIncreasedNormalIncreasedNormalIncreasedIncreased
+
+Question: Generalised thickening of cortical and cancellous bones is seen in
+A. Osteopetrosis
+B. Pagets disease
+C. Osteogenesis imperfecta
+D. Infantile hyperostosis
+Correct Answer: D
+
+Question: Most aggressive lung CA:
+A. Squamous cell CA
+B. Adenocarcinoma
+C. Small cell lung CA
+D. Large cell CA
+Correct Answer: C
+Explanation: Ans. (c) Small cell lung CARef: Robbings 9th ed./ 717* Small cell carcinoma is a highly malignant tumor with a strong relationship to cigarette smoking.* Around 1% occurs in nonsmokers.* They are the most aggressive of lung tumors, metastasizing widely and are always fatal.
+
+Question: Mediastinal lymph node calcification is seen in which one of the following-
+A. Metastatic neoplasm
+B. Lymphoma
+C. Sarcoidosis
+D. Bronchiectasis
+Correct Answer: C
+Explanation: Ref:Robbins Basic Pathology (9th Edition),page no.478,479 Sarcoidosis Although sarcoidosis is considered here as an example of a restrictive lung disease, it is impoant to note that sarcoidosis is a multisystem disease of unknown etiology characterized by noncaseating granulomas in many tissues and organs. MORPHOLOGY The diagnostic histopathologic feature of sarcoidosis is the noncaseating epithelioid granuloma, irrespective of the organ involved. This is a discrete, compact collection of epithelioid cells rimmed by an outer zone of largely CD4+ T cells. The epithelioid cells are derived from macrophages and are characterized by abundant eosinophilic cytoplasm and vesicular nuclei. It is not uncommon to see intermixed multinucleate giant cells formed by fusion of macrophages. A thin layer of laminated fibroblasts is present peripheral to the granuloma; over time, these proliferate and lay down collagen that replaces the entire granuloma with a hyalinized scar. Two other microscopic features are sometimes seen in the granulomas: (1) Schaumann bodies, laminated concretions composed of calcium and proteins; and (2) asteroid bodies, stellate inclusions enclosed within giant cells. Their presence is not required for diagnosis of sarcoidosis--they also may occur in granulomas of other origins. Rarely, foci of central necrosis may be present in sarcoid granulomas, suggesting an infectious process. Caseation necrosis typical of tuberculosis is absent The lungs are involved at some stage of the disease in 90% of patients. The granulomas predominantly involve the interstitium rather than air spaces, with some tendency to localize in the connective tissue around bronchioles and pulmonary venules and in the pleura ("lymphangitic" distribution). The bronchoalveolar lavage fluid contains abundant CD4+ T cells. In 5% to 15% of patients, the granulomas eventually are replaced by diffuse interstitial fibrosis, resulting in a so-called honeycomb lung. Intrathoracic hilar and paratracheal lymph nodes are enlarged and calcification in 75% to 90% of patients, while a third present with peripheral lymphadenopathy. The nodes are characteristically painless and have a firm, rubbery texture. Unlike in tuberculosis, lymph nodes in sarcoidosis are "nonmatted" (nonadherent) and do not ulcerate.
+
+Question: Magic syndrome is seen in:
+A. Behcet disease
+B. Aphthous major
+C. Herpetiform
+D. Bloom syndrome
+Correct Answer: A
+Explanation: “MAGIC syndrome” (Mouth and Genital ulcers with Inﬂamed Cartilage) has been proposed to describe patients with clinical features of both relapsing polychondritis and Behcet disease.
+
+Question: Gene involved in Cowden syndrome is
+A. P53
+B. PTEN
+C. RB
+D. Ras
+Correct Answer: B
+Explanation: (B) PTENo"Phosphatase and Tensin'' homolog (PTEN) - protein in humans encoded by the PTEN gene. Gene mutations promotes development of cancers.[?]Cowden's disease/Multiple Hamartoma Syndrome:-Part of PTEN hamartoma tumor syndrome-An autosomal dominant syndrome-Trichilemmomas - Numerous tumors of hair follicles in face-Multiple hamartomatous polyps in GI tract, Lipomas, Granulomas-Very high risk of breast, Follicular endometrail carcinoma & thyroid carcinomaoTreatment: Bilateral mastectomies recommended-Contraindicated are mammography & other radiation exposure of breast tissue.-Mean age at presentation <10 years-Very high risk of breast, follicular carcinoma of thyroid & Endometrial carcinomaoPTEN (phosphatase and tensin homologue) is a membrane-associated phosphatase encoded by a gene on chromosome 10q23 that is mutated in Cowden syndrome, an autosomal dominant disorder marked by frequent benign growths, such as skin appendage tumors, and an increased incidence of epithelial cancers, particularly of the breast, endometrium, and thyroid.oPTEN acts as a tumor suppressor by serving as a brake on the PI3K/AKT arm of the receptor tyrosine kinase pathway.oPTEN gene function is lost in many cancers through deletion, deleterious point mutations, or epigenetic silencing.SELECTED TUMOR SUPPRESSOR GENES & ASSOCIATED FAMILIAL SYNDROMES & CANCERS, SORTED BY CANCER HALLMARKS*Gene (Protein)Familial SyndromesAssociated CancersInhibitors of Mitogenic Signaling PathwaysAPC (Adenomatous polyposis coli protein)Familial colonic polyps and carcinomasCarcinomas of stomach, colon, pancreas; melanoma*. NF1 (Neurofibromin-1)Neurofibromatosis type 1 (neurofibromas and malignant peripheral nerve sheath tumors)Neuroblastoma, juvenile myeloid leukemia*. NF2 (Merlin)Neurofibromatosis type 2 (acoustic schwannoma and meningioma)Schwannoma, meningioma*. PTCH (Patched)Gorlin syndrome (basal cell carcinoma, medulloblastoma, several benign tumors)Basal cell carcinoma, medulloblastoma*. PTEN (Phosphatase and tension homologue)Cowden syndrome (variety of benign skin, GI, and CNS growths; breast, endometrial, and thyroid carcinoma)Diverse cancers, particularly carcinomas and lymphoid tumors*. SMAD2, SMAD4 (SMAD2, SMAD4)Juvenile polyposisFrequently mutated (along with other components of TGFb signaling pathway) in colonic & pancreatic CaInhibitors of Ceil Cycle Progression*. RB Retinoblastoma (RB) proteinFamilial retinoblastoma syndrome (retinoblastoma, osteosarcoma, other sarcomas)Retinoblastoma; osteosarcoma carcinomas of breast, colon, lung*. CDKN2A p16/INK4a & pU/ARFFamilial melanomaPancreatic, breast, and esophageal carcinoma, melanoma, certain leukemiasInhibitors of "Pro-growth" Programs of Metabolism and Angiogenesis*. VHL (Von Hippel Lindau (VHL) protein)Von Hippel Lindau syndrome (cerebellar hemangioblastoma, retinal angioma, renal cell carcinoma)Renal cell carcinoma*. STK11 (Liver kinase B1 (LKB1) or STK11)Peutz-Jeghers syndrome (GI polyps, GI cancers, pancreatic carcinoma and other carcinomas)Diverse carcinomas (5%-20% of cases, depending on type)*. SDHB, SDHD (Succinate dehydrogenase complex subunits B & D)Familial paraganglioma, familial pheochromocytomaParaganglioma
+
+Question: Autosomal recessive polycystic kidney disease features include:
+A. Can be diagnosed intrauterine
+B. Proceeds to renal failure till children reaches school going age
+C. Can be palpated abdominally
+D. Hypertension doesn't develop until late stages of the disease
+Correct Answer: A
+Explanation: Ans. A. Can be diagnosed intrauterineExplanationClinical features of ARPKD (Autosomal recessive polycystic kidney disease) are:Classic ARPKD is generally diagnosed in utero or within the neonatal period and characterized by greatly enlarged echogenic kidneys in diseased fetuses. (Option a)Reduced fetal urine production may contribute to oligohydramnios and pulmonary hypoplasia.About 30% of affected neonates die shortly after birth due to respiratory insufficiency. Close to 60% of mortality occurs within the first month of life.In the classic group, most patients are bom with renal insufficiency and ESRD (End stage renal disease). (Option b)However, infants often have a transient improvement in their GFR; death from renal insufficiency at this stage is rare.Some patients are diagnosed after the neonatal stage and form the older group. Morbidity and mortality in this group often involve systemic hypertension, progressive renal insufficiency, and liver manifestations.The hallmarks of ARPKD liver disease are biliary dysgenesis due to a primary ductal plate malformation with associated periportal fibrosis, namely congenital hepatic fibrosis (CHF) and dilatation of intrahepatic bile ducts (Caroli's disease). CHF and Caroli's disease can then lead to portal hypertension exhibiting hepatosplenomegaly, variceal bleeding, and cholangitis.Some patients with the diagnosis of ARPKD at 1 year of age with nephromegaly exhibit slowly declining renal function over 20 years with only minimally enlarged kidneys at ESRD (Option c and e) and markedly atrophic kidneys following renal transplantation.The slow progression of renal disease is likely due to increasing fibrosis rather than the development of cysts.Systemic hypertension is common in all ARPKD patients, even those with normal renal function. (option d)
+
+Question: Hereditary spherocytosis is characterized by: March 2004
+A. Anemia
+B. Splenomegaly
+C. Jaundice
+D. All of the above
+Correct Answer: D
+Explanation: Ans. D i.e. All of the above
+
+Question: Factor V Leiden is caused due to a mutation that results in a substitution at position 506 glutamine to which of the following:
+A. Alanine
+B. Arginine
+C. Glycine
+D. Glutamine
+Correct Answer: B
+Explanation: Mutation in factor V (called the Leiden mutation, after the city in the Netherlands where it was discovered) causes recurrent DVTs. The mutation results in a glutamine to arginine substitution at position 506 that renders factor V resistant to cleavage by protein C. As a result, an impoant antithrombotic counter-regulatory pathway is lost Ref: Robbins 8th edition Chapter 4.
+
+Question: A 49-year-old female taking ibuprofen for increasing joint pain in her hands presents with increasing pain in her midsternal area. Gastroscopy reveals multiple, scattered, punctate hemorrhagic areas in her gastric mucosa. Biopsies from one of these hemorrhagic lesions reveal mucosal erosions with edema and hemorrhage. No mucosal ulceration is seen.
+A. Active chronic gastritis
+B. Acute gastritis
+C. Autoimmune gastritis
+D. Chronic gastritis
+Correct Answer: B
+Explanation: Gastritis is a nonspecific term that describes any inflammation of the gastric mucosa. Acute gastritis refers to the clinical situation of gastric mucosal erosions (not mucosal ulcers). Acute gastritis is also known as hemorrhagic gastritis or acute erosive gastritis. Acute gastritis is associated with the use of nonsteroidal anti-inflammatory drugs, such as aspirin, ibuprofen, and coicosteroids, and also with alcohol, chemotherapy, ischemia, shock, and even severe stress. Two types of stress ulcers are Curling's ulcers, seen in patients with severe burns, and Cushing's ulcers, seen in patients with intracranial lesions. Grossly acute gastritis appears as multiple, scattered, punctate (less than 1 cm) hemorrhagic areas in the gastric mucosa. This is helpful in differentiating acute gastritis from peptic ulcers, which tend to be solitary and larger. Microscopically the gastric mucosa from a patient with acute gastritis is likely to reveal mucosal erosions, scattered neutrophils, edema, and possibly hemorrhage. Acute gastritis. Erosion and complete effacement of the epithelium is observed. The residual glands, on the left, display regenerative changes with basophilic epithelium. Reference: Robbins & Cotran Pathologic Basis of Disease, 9edition
+
+Question: A 40-year-old man presents with a 2-week history of recur- rent oral ulcers, genital ulcers, intermittent arthritic pain of the knees, and abdominal pain. Physical examination reveals shallow ulcerations of the mucosa of the glans penis, as well as oral aphthous ulcers and conjunctivitis. Which of the following is the most likely diagnosis?
+A. Behyet disease
+B. Genital herpes
+C. Gonorrhea
+D. Polyarteritis nodosa
+Correct Answer: A
+Explanation: Behget disease is a systemic vasculitis characterized by oral aphthous ulcers, genital ulceration, and ocular inflammation, with occasional involvement of the nervous, gastrointestinal, and cardiovascular systems. The mucocutaneous lesions show a non-specific vasculitis of arterioles, capillaries, and venules. The cause of the necrotizing inflammation of small blood vessels is not known, but an association with specific HLA subtypes suggests an immune basis. Herpes (choice B) does not present with arthritis.Diagnosis: Behqet disease
+
+Question: Chemotherapeutic drugs can cause?
+A. Only necrosis
+B. Only apoptosis
+C. Both necrosis and apoptosis
+D. Anoikis
+Correct Answer: C
+Explanation: Ans. is 'c' i.e., Both necrosis and apoptosis o Injurious stimuli, e.g., radiation, cytotoxic anticancer durgs, heat and hypoxia, can induce apoptosis if the insult is mild, but large doses of same stimuli result in necrotic cell death.
+
+Question: The Triat in which the parents are clinically normal and only siblings are affected but males and females are affected in equal propoions is:
+A. AD
+B. AR
+C. XLD
+D. XLR
+Correct Answer: B
+Explanation: AR
+
+Question: True about Caspases is?
+A. Involved in apoptosis
+B. Cause necrosis
+C. Involved in pain pathway
+D. Are cytokines inhibitor
+Correct Answer: A
+Explanation: ANSWER: (A) Involved in apoptosisREF: Robbins pathology 7th edition page 27-29Caspases are essential in cells for apoptosis, or programmed cell death, in development and most other stages of adult life, and have been termed "executioner" proteins for their roles in the cell Some Caspases are also required in the immune system for the maturation of lymphocytes
+
+Question: Not a B cell marker -
+A. CD 19
+B. CD 20
+C. CD 134
+D. CD 10
+Correct Answer: C
+Explanation: . CD 134
+
+Question: Vinyl chloride has been implicated in -
+A. Angiosarcoma of liver
+B. Angiofibroma of nose
+C. Hepatomas
+D. Bladder cancer
+Correct Answer: A
+
+Question: Congenital hepatic fibrosis is a characteristic feature of
+A. Multicystic renal dysplasia
+B. ARPKD
+C. Familial juvenile nephronophthisis
+D. Medullary sponge kidney
+Correct Answer: B
+Explanation: Infantile and Iuvenile forms are associated with congenital Hepatic fibrosis.
+
+Question: MHC restriction is a pa of all except aEUR'
+A. Antiviral cytotoxic T cell
+B. Antibacterial helper T cell/cytotoxic cells
+C. Allograft rejection
+D. Autoimmune disorder
+Correct Answer: D
+Explanation: Autoimmune disorder Major histocompatibility complex : Major histocompatibility complex, also called the human leucocyte antigen (HLA) complex is a 4 megahase region on chromosome 6. This region is densely packed with genes. These genes encodes two major proteins or antigens i.e., MHC I & MHC II. These proteins play an impoant role in the differentiation of foreign cells from host cell. Presence of these proteins is necessary for identification of host cells. Identification of the cells is impoant for immune responses. If the cell is recognised as self, the immune system will not mount an immune response against it. How does MHC helps in this ??? Cells continuously display small pieces of their own internal protein, carrying them, outsie the cell membrane where the immune system can see them. These peptides are just pieces of the normal proteins found inside the cell. These peptides are held together at the cell surface by major histocompatibility complex, which holds these peptides together for the immune system to examine them. Each persons immune system is customized early in life to ignore these peptides, so healthy cells are not able to trigger the immune system and they are left alone. But if any virus or other microorganism is multiplying inside the cell, the peptides synthesized by it also is displayed on the surface. The MHC displays these unusual (foreign) protein on the surface of the cell. The immune system is triggered because of these peptides, staing, a series of event that will eventually lead to killing of the cell containing foreign peptide. MHC is also the cause of tissue rejection during skin grafts and organ grafts. This is how the MHC protein got its name; the term histocompatibility refers to the difficulty of finding compatible grafts between a donor and a patient. Each person has their own collection of MHC molecules. If you graft a piece of skin that has a different collection of MHC types they will trigger the immune system to destroy the cell. So a compatible donor is needed such as a relative who has a similar collection of MHC molecules. MHC is also active against cancer Cancer cells, like normal cells, display pieces of their own protein on their surface. So if any of these proteins carries recognizable cancer mutations, this provides a signal to the immune system that something is wrong and the cell is killed. MHC plays role in activation of T helper cells (Th) MHC class II molecules are present on the membranes of dendritic cells, macrophages. These cell function as antigen presenting cell during immune response. They capture the antigen and present it to T helper cells. In response, the T helper cells secrete cytokines that stimulate B cell proliferation and antibody production. The impoant point about T helper cells is that they respond to only those antigens which have been presented to them by cells that have host matching MHC complex on the presenting cell. In general the antigen presenting cell .first phagocytoses the protein antigen and cleaves it to peptides in the lysosomes. These peptides are then extruded and attached to the presenting cell's surface MHC complex. T helper cells first, make sure, that these MHC class II molecules are host's own MHC and then responds appropriately. So, we can say that receptor on the T helper cell is thus responsive to the combination of antigen and host matching MHC complex on the presenting cell. Helper / inducer T cells (CD4)---) MHC class II restriction - Suppressor T cells (CD8) MHC class I restriction Cytolytic cytotoxic T cells (CD8) MHC class I restriction (Kills viral infected cells, tumor cells, facilitates graft rejection)
+
+Question: Reversible loss of polarity with abnormality in size and shape of cells is known as?
+A. Metaplasia
+B. Anaplasia
+C. Dysplasia
+D. Hyperplasia
+Correct Answer: C
+Explanation: Dysplasia is reversible
+Anaplasia is irreversible
+
+Question: Bence jones proteinuria is derived from?
+A. Alpha globulins
+B. Light chain globulins
+C. Gamma globulins
+D. Delta globulins
+Correct Answer: B
+Explanation: Ans. (b) Light chain globulins(Ref: R 9th/pg 598-602)Excretion of light chains in the urine has been referred to as Bence Jones proteinuria.Light chains includes k and l (kappa and lambda)
+
+Question: A 40-year-old man presents with 5 days of productive cough and fever. Pseudomonas aeruginosa is isolated from a pulmonary abscess. CBC shows an acute effect characterized by marked leukocytosis (50,000/mL) and the differential count reveals shift to left in granulocytes. Which of the following terms best describes these hematologic findings?
+A. Leukemoid reaction
+B. Leukopenia
+C. Myeloid metaplasia
+D. Neutrophilia
+Correct Answer: A
+Explanation: Circulating levels of leukocytes and their precursors may occasionally reach very high levels (>50,000 WBC/mL). These extreme elevations are sometimes called leukemoid reactions because they are similar to the white cell counts observed in leukemia, from which they must be distinguished. The leukocytosis occurs initially because of accelerated release of granulocytes from the bone marrow (caused by cytokines, including TNF and IL-1) There is a rise in the number of both mature and immature neutrophils in the blood, referred to as a shift to the left. In contrast to bacterial infections, viral infections (including infectious mononucleosis) are characterized by lymphocytosis Parasitic infestations and ceain allergic reactions cause eosinophilia, an increase in the number of circulating eosinophils. Leukopenia is defined as an absolute decrease in the circulating WBC count.
+
+Question: S100 is a marker used in the diagnosis of all Except
+A. Melanoma
+B. Schwannoma
+C. Histiocytoma
+D. Basal cell cancer
+Correct Answer: D
+Explanation: Acidic protein, 100% Soluble in ammonium sulfate at neutral pH (derivation of name) S100 protein family is multigenic group of nonubiquitous cytoplasmic EF-hand Ca2+-binding proteins, sharing significant structural similarities at both genomic and protein levels; S100 protein family has 24 known human members each coded by a separate gene; at least 19 on chromosome 1q21 Helps regulate cell contraction, motility, growth, differentiation, cell cycle progression, transcription and secretion Structurally similar to calmodulin
+
+Question: A 23-year-old woman presents with a rubbery, freely movable 2-cm mass in the upper outer quadrant of the left breast. A biopsy of this lesion would most likely histologically reveal
+A. Large numbers of neutrophils
+B. A mixture of fibrous tissue and ducts
+C. Large numbers of plasma cells
+D. Necrotic fat surrounded by lipid-laden macrophages
+Correct Answer: B
+Explanation: The most common benign neoplasm of the breast is fibroadenoma, which typically occurs in the upper outer quadrant of the breast in women between the ages of 20 and 35. These lesions originate from the terminal duct lobular unit and histologically reveal a mixture of fibrous connective tissue and ducts. Clinically, fibroadenomas are rubbery, freely movable, oval nodules that usually measure 2 to 4 cm in diameter. Numerous neutrophils are seen in acute bacterial infection of the breast (acute mastitis), which is usually seen in the postpaum lactating or involuting breast. Dilation of the breast ducts (ectasia) with inspissation of breast secretions is characteristic of mammary duct ectasia, which is common in elderly women. If large numbers of plasma cells are also present, the lesion is called plasma cell mastitis. Fat necrosis of the breast, associated with traumatic injury, is characterized by necrotic fat surrounded by lipid-laden macrophages and a neutrophilic infiltration. Fibroadenoma Reference: Robbins & Cotran Pathologic Basis of Disease, 9edition
+
+Question: Causes of restrictive cardiomyopathy are -
+A. Amyloid
+B. Sarcoidosis
+C. Storage disease
+D. All of the above
+Correct Answer: D
+Explanation: Restrictive cardiomyopathy is characterised by a primary decrease in ventricular compliance , resulting in impaired ventricular filling during diastole. Restrictive cardiomyopathy can be idiopathic or associated with systemic disease that also happen to affect the myocardium for example radiation fibrosis, amyloidosis, sarcoidosis, or products of inborn errors of metabolism Robbins 9 th edition page no. 401
+
+Question: A 2-week-old baby is irritable and feeding poorly. On physical examination, the infant is irritable, diaphoretic, tachypneic and tachycardic. There is circumoral cyanosis, which is not alleted by nasal oxygen. A systolic thrill and holosystolic murmur are heard along the left sternal border. An echocardiogram reveals a hea defect in which the aoa and pulmonary aery form a single vessel that overrides a ventricular septal defect. What is the appropriate diagnosis?
+A. Atrial septal defect
+B. Coarctation of aoa, preductal
+C. Patent ductus aeriosus
+D. Truncus aeriosus
+Correct Answer: D
+Explanation: Truncus aeriosus refers to a common trunk for the origin of the aoa, pulmonary aeries and coronary aeries. It results from absent or incomplete paitioning of the truncus aeriosus by the spiral septum during development. Most infants with persistent truncus aeriosus have torrential pulmonary blood flow, which leads to hea failure. None of the other choices are distinguished by a single vessel that carries blood from the hea.
+
+Question: More than 90% patients of CREST syndrome with the limited cutaneous form of this disorder make which of the following autoantibodies?
+A. Anti-centromere
+B. Anti-DNA topoisomerase l
+C. Anti-double-stranded DNA
+D. Anti-Golgi
+Correct Answer: A
+Explanation: All forms of scleroderma are thought to have a strong autoimmune component, and glucocoicoids and azathioprine are used to suppress the inflammatory complications of scleroderma. (Other drugs that can be used in therapy include penicillamine, which inhibits collagen cross-linking, NSAIDS for pain, and ACE inhibitors to protect the kidney if hypeension or renal damage occurs). The anti-centromere antibody is quite specific for CREST syndrome (96% of cases), and is only seen in a minority of patients with diffuse scleroderma (mainly those with Raynaud's phenomenon) and rarely in systemic lupus erythematosus and mixed connective tissue disease.Also know:Anti-DNA topoisomerase I , also called anti-Scl-70 occurs commonly (64-75%) in diffuse scleroderma, but only rarely in CREST syndrome.Anti-double-stranded DNA is fairly specific for systemic lupus erythematosus, although it only occurs in 50-60% of lupus cases.Anti-Golgi antibodies are seen most often in systemic lupus erythematosus and Sjogren syndrome. Ref: Hellmann D.B., Imboden Jr. J.B. (2013). Chapter 20. Musculoskeletal & Immunologic Disorders. In M.A. Papadakis, S.J. McPhee, M.W. Rabow (Eds),CURRENT Medical Diagnosis & Treatment 2013.
+
+Question: A 59-year-old male is found to have a 3.5-cm mass in the right upper lobe of his lung. A biopsy of this mass is diagnosed as a moderately differentiated squamous cell carcinoma. Workup reveals that no bone metastases are present, but laboratory examination reveals that the man's serum calcium levels are 11.5 mg/dL. This patient's paraneoplastic syndrome is most likely the result of ectopic production of
+A. Parathyroid hormone
+B. Calcitonin
+C. Parathyroid hormone-related peptide
+D. Calcitonin-related peptide
+Correct Answer: C
+Explanation: Symptoms not caused by either local or metastatic effects of tumors are called paraneoplastic syndromes. Bronchogenic carcinomas are associated with the development of many different types of paraneoplastic syndromes. These syndromes are usually associated with the secretion of ceain substances by the tumor cells. For example, ectopic secretion of ACTH may produce Cushing's syndrome, while ectopic secretion of antidiuretic hormone (syndrome of inappropriate ADH secretion) may produce hyponatremia. Hypocalcemia may result from the production of calcitonin, while hypercalcemia may result from the production of parathyroid hormone-related peptide (PTHrP), which is a normal substance produced locally by many different types of tissue. PTHrP is distinct from parathyroid hormone (PTH) patients with this type of paraneoplastic syndrome have increased calcium levels and decreased PTH levels. As a result of decreased PTH production, all of the parathyroid glands in these patients are atrophic. Other tumors associated with the production of PTHrP include clear cell carcinomas of the kidney, endometrial adenocarcinomas, and transitional carcinomas of the urinary bladder. Lung cancers are also associated with multiple, migratory venous thromboses. This migratory thrombophlebitis is called Trousseau's sign and is more classically associated with carcinoma of the pancreas. Hyperophic osteoahropathy is a syndrome consisting of periosteal new bone formation with or without digital clubbing and joint effusion. It is most commonly found in association with lung carcinoma, but it also occurs with other types of pulmonary disease. Erythrocytosis is associated with increased erythropoietin levels and some tumors, paicularly renal cell carcinomas, hepatocellular carcinomas, and cerebellar hemangioblastomas. It is not paicularly associated with bronchogenic carcinomas. Reference: Robbins & Cotran Pathologic Basis of Disease, 9edition.
+
+Question: Bloom Richardson grading -
+A. Carcinoma breast
+B. Carcinoma lung
+C. Carcinoma prostate
+D. Cercinoma ovary
+Correct Answer: A
+Explanation: Ans. is 'a' i.e., Carcinoma breasto Bloom Richardson Grading and its variants are used to grade breast cancers.
+
+Question: What is tuberculoma?
+A. Granuloma present in the lungs
+B. Tuberculous periapical granuloma
+C. Tuberculous lesion of the lymph nodes
+D. None of the above
+Correct Answer: B
+Explanation: Tuberculosis may also involve the bone of the maxilla or mandible. One common mode of entry for the microorganisms is into an area of periapical inflammation by way of the blood stream; an anachoretic effect.
+It is conceivable also that these microorganisms may enter the periapical tissues by direct immigration through the pulp chamber and root canal of a tooth with an open cavity. The lesion produced is essentially a tuberculous periapical granuloma or tuberculoma. These lesions were usually painful and sometimes involve a considerable amount of bone by relatively rapid extension.
+Ref: Shafer's textbook of oral pathology 7th edition page 321-322
+
+Question: According to WHO, membranous glomerulonephritis seen in SLE, is -
+A. Class II
+B. Class III
+C. Class IV
+D. Class V
+Correct Answer: D
+Explanation: Ans. is 'd' i.e., Class V
+
+Question: The alveoli are filled with exudate. The air is displaced, converting the lung into a solid organ. This description suggests-
+A. Chronic bronchitis
+B. Bronchial asthma
+C. Bronchiectasis
+D. Lobar pneumonia
+Correct Answer: D
+Explanation: • ‘Bacterial invasion of the lung parenchyma causes the alveoli to be filled with an inflammatory exudate, thus causing consolidation (“solidification”) of the pulmonary tissue’…..Robbins definition of pneumonia
+
+Question: Effective red cell diameter
+A. Different in males and females
+B. Diameter of 500 microns
+C. Thalassemia minor anemia may present with normal RBC diameter
+D. Mixed iron and folic deficiency anemia produce microcytic
+Correct Answer: C
+Explanation: Answer: (C) Thalassemia minor anemia may present with normal RBC diameter (265-68-Hrshmohon 7th) (630= Rabbins- basis disease)Red blood cell distribution width (RDW or RCDW) is a measure of the variation of red blood cell (RBC) volume that is reported as part of a standard complete blood count. Usually red blood cells are a standard size of about 6-8 pm in diameter. Certain disorders, however, cause a significant variation in cell size. Higher RDW values indicate greater variation in size. Normal reference range in human red blood cells is 11.5-14.5%. If anemia is observed, RDW test results are often used together with mean corpuscular volume (MCV) results to determine the possible causes of the anemia. It is mainly used to differentiate an anemia of mixed causes from an anemia of a single cause. Deficiencies of Vitamin Bl2 orfolate produce a macrocytic anemia (large cell anemia) in which the RDW is elevated in roughly two- thirds of all cases; however, a varied size distribution of red blood cells is a hallmark of iron deficiency anemia, and as such shows an increased RDW in virtually all cases. In the case of a mixed iron and B!2 deficiency, there will normally be a mix of both large cells and small cells, causing the RDW to be elevated. An elevated RDW (red blood cells of unequal sizes) is known as anisocytosis. An elevation in the RDW is not characteristic of all anemias; anemia of chronic disease,hereditary spherocytosis, acute blood loss, aplastic anemia (anemia resulting from an inability of the bone marrow to produce red blood cells), and certain hereditary hemoglobinopathies (including some cases of thalassemia minor) all may present with a normal RDW* The human erythrocyte is a biconcave disc, 7-2 pm in diameter, and has a thickness of 2-4 pm at the periphery and 1 mm in the centre* More than 90% of the weight of erythrocytes consists of haemoglobin. The life span of red cell is 120 +- 30 day.* Range of normal red cell count in health in 5.5 +- 1.0 x1012/L in men and 4.8 +- l.0x 1012/l in women* Packed cell volume (PCV) or haematocrit- 0.47 + 0.07L/L (40-54%) in men- 0.42 +- 0.05 L/L (37-47%) in women* Reticulocyte count (%)0.5-l .5* Red cell distribution width-11.5-14.51. Mean corpuscular volume (MCV) =PCV in L/LRBC Count/L Normal value is 85 +- 8fl (77-93 fl)2. Mean corpuscular haemoglobin (MCH) =Hb/LRBC Count/L Normal range is 29.5 +2.5pg (27-32 Pg)3. Mean corpuscular haemoglobin concentration (MCHC) =Hb /dlPCV in L/LNormal value is 32.5 +2.5 g/dl (30-35 g/dl)* The size of the RBC is measured by MCV. MCHC is independent of red cell count and size *** Monocyte is the largest mature leucocyte in peripheral blood* Flow cytometry is done on - Lymphocytes* The anticoagulant used in Wintrobe ESR- Double oxalate1. Alkaline phosphatase is specific to Neutrophils cells2. Acid phasphatase is found in all hematopoitic cells but the highest levels are found in macrophages and osteoclasts (Monocytes)* Anticoagalant of choice for coagulation test is 3.2% sodium citrate *** Potassium oxalate + sodium fluoride is anticoagulant used in collection of blood sugar.Increases Leucocyte Alkaline phosphateDecreased Leucocyte Alkaline phosphate* Infections* Leukamoid reactions* Polycythemia- vera* Paroxysmal nocturnal hemoglobinuria (PNH)* CMLBlood group A is associated with1. Carcinoma stomach, cervix salivary gland pancreas2. Pernicious anemia3. Thrombosis in OCP users
+
+Question: Factor Xa is necessary for conversion of prothrombin to thrombin
+A. Only in the extrinsic pathway
+B. Only in the intrinsic pathway
+C. As part of both extrinsic and intrinsic pathways
+D. Only if the normal blood clotting cascade is inhibited
+Correct Answer: C
+Explanation: Ans. (c) As part of both extrinsic and intrinsic pathways(Ref: Robbins 9th/pg 118-119; 8th/pg 119)Activated factor IX along with factor VIIIa (Intrinsic pathway) & factor VIIa (extrinsic pathway), converge to activate Factor X to Xa is necessary for conversion of prothrombin to thrombin (common pathway)
+
+Question: In a chronic alcoholic, all the following may be seen in the liver except -
+A. Fatty degeneration
+B. Chronic hepatitis
+C. Granuloma formation
+D. Cholestatic hepatitis
+Correct Answer: C
+Explanation: Alcoholic liver disease
+There are three distinct forms of liver disease -
+1. Hepatic steatosis (fatty liver)
+2. Alcoholic hepatitis
+(a) Acute alcoholic hepatitis
+     Focal necrosis
+     Cholestasis
+     Mallory hyaline bodies
+(b) Chronic hepatitis
+3. Alcoholic cirrhosis
+
+Question: Ring sideroblasts, with iron laden occurs in
+A. Endoplasmic reticulum
+B. Nucleus
+C. Mitochondria
+D. Nuclear membrane
+Correct Answer: C
+Explanation: i.e. (Mitochondria) : (301-Harsh Mohan 6th ) (625-Robbins & Cotran-Pathologic basis of disease 8th)Ringed sideroblasts is characteristic of sideroblastic anemia /Myelodysplastic SyndromeRinged sideroblast in which haem synthesis is disturbed as occurs in sideroblastic anaemiasRinged sideroblasts containing numerous large granules, often forming a complete or partial ring around the nucleus. These ringed arrangement of these granules is due to presence of iron laden mitochondria around the nucleus
+
+Question: Microvesicular fatty liver is caused by -
+A. DM
+B. Valproate
+C. Starvation
+D. IBD
+Correct Answer: B
+Explanation: Ans. is 'b' i.e., Valproate Steatosiso Accumulation of triglyceride fat droplets within the heaptocytes is known as steatosis or fatty liver. It may be of two types -1. Microvesicular steatosis - Multiple tiny droplets accumulate that do not displace the nucleus.2. Macrovasicular steatosis - A single large droplet accumulates that displaces the nucleus.Causes of steatosisMicrovesicularMacrovesicularo Reye's syndromeo Acute fatty liver of pregnancyo Jamaican vomiting sicknesso Drugs - valproic acid, tetracycline, nucleoside analogueo Wolman's diseaseo Lysosomal acid lipase deficiencyo Congenital defects of urea cycle enzymeso Early stage of alcoholic cirrhosiso Chronic viral hepatitiso Alcoholic liver diseaseo DM - insulin resistanceo Lipodystrophyo PEM, starvationo Dysbetalipoproteinemiao TPN, Jejunoileal bypasso Inflammatory bowel diseaseo Syndrome x (obesity, DM, hypertriglyceridemia)o Drugs - CCBs, synthetic estrogens, nucleoside analogues
+
+Question: Nephrotic syndrome is characterised by
+A. Proteinuria
+B. Hyperlipidemia
+C. Oedema
+D. All
+Correct Answer: D
+Explanation: Ans. is 'a' i.e., Proteinuria; 'b' i.e., Hyperlpidemia; 'c' i.e., Oedema Pathophvsiologv of nephrotic syndrome Proteinuria o The most impoant feature of nephrotic syndrome is massive proteinuria (>3.5 gm/day) o Proteinuria results from altered permeability of glomerular filtration barrier for protein. o The largest propoion of protein lost in the urine is albumin but globulins are also excreted in some diseases. The ratio of low to high molecular weight proteins in urine in various cases of syndrome is a manifestation of the selectivity of proteinuria. A highly selective proteinuria consists mostly of low molecular weight proteins, i.e. albumin & transferrin, where as apoorly selective proteinuria consists of higher molecular weight globulin in addition to albumin. Edema o Proteinuria leads to hypoalbuminemia that results in decreased colloid osmotic pressure edema. Hyperlipidemia o Increased synthesis of lipoproteins by liver. o Decreased catabolism of lipids. o There is increased cholesterol, triglycerides VLDL, and LDL. Lipiduria o Hyperlipidemia results in lipiduria due to excessive leakiness of glomerular filtration barrier.
+
+Question: Clinical features of infectious mononucleosis
+A. Glandular involvement
+B. Febrile
+C. Palatine petechiae
+D. All of the above
+Correct Answer: D
+
+Question: In amyloidosis of the tongue, the amyloid is deposited primarily in the:
+A. Stromal connective tissue
+B. Cells of the surface epithelium
+C. Nuclei of the striated muscle cells
+D. Cytoplasm of the striated muscle cells
+Correct Answer: A
+
+Question: 70 year old man has abdominal pain with mass inabdomen. Angiography reveals aneurysm of aoa. Mostlikely cause is:
+A. Trauma
+B. Atherosclerosis
+C. Syphilis
+D. Congenital
+Correct Answer: B
+Explanation: . Atherosclerosis
+
+Question: The most impoant prognostic factor of Wilms tumor-
+A. Histopathology
+B. Ploidy of cells
+C. Age < 1 y
+D. Mutation of c 1p gene
+Correct Answer: A
+Explanation: Robbins basic pathology 10th edition page no 290. Wilms tumor or nephroblastoma is the most common primary tumor of the kidney in children. On microscopic examination, Wilms tumors are characterized by recognizable attempts to recapitulate different stages of nephrogenesis. The pattern of anaplastic cells within the primary tumor has impoant implications for prognosis.
+
+Question: Which of  the following has strongest association with osteosarcoma?
+A. Wilms tumor
+B. Retinoblastoma
+C. Rhabdomyosarcoma
+D. Ewings tumor
+Correct Answer: B
+Explanation: Retinoblastoma and osteosarcoma both can occur due to mutation in common gene i.e RB gene. Hence both have strongest association.
+
+Question: Ferruginous bodies are seen in?
+A. Silicosis
+B. Bysinosis
+C. Asbestosis
+D. Baggassosis
+Correct Answer: C
+Explanation: Ans. is 'c' i.e., Asbestosis "Ferruginous bodies are most commonly seen in asbestosis". ------------Chandrasoma Taylor* Ferruginous bodies represent foreign inorganic or organic fibers coated by complexes of iron and glycoproteins.* While ferruginous bodies are most commonly seen in asbestosis they are not diagnostic because it may be seen in other type of pneunoconiosis.* When asbestos fiber is coated by iron and glycoprotein, this ferruginous body is called asbestos body-characteristic of asbestosis.* Ferruginous bodies are best seen in section that have stained for iron with prussion blue.* Microscopically ferruginous bodies give a Sheikh Kebab appearance.
+
+Question: A 40 year old female patient complains of excessive bleeding and drowsiness. Patient gives a history of road traffic accident 5 hours ago and had a lacerated wound on lower back region. General physical examination reveals-
+Blood pressure-80/60mmHg.
+Juglar venous pressure- low.
+Pulsus paradoxus- present.
+Cardiac output- Increased.
+The patient is in which type of shock?
+A. Neurogenic
+B. Obstructive
+C. Distributive
+D. Hypovolemic
+Correct Answer: C
+Explanation: Includes anaphylactic shock, septic shock and spinal cord injury (neurogenic shock).
+Inadequate organ perfusion is associated with vascular dilatation and hypotension, low systemic vascular resistance, inadequate afterload and a resulting abnormally high cardiac output.
+In anaphylaxis, vasodilatation is due to excess histamine release.
+Neurogenic shock is caused by traumatic or pharmacological blockage of the sympathetic nervous system, producing dilatation of resistance arterioles and capacitance veins, leading to relative hypovolemia and hypotension.
+
+In neurogenic shock, because of loss of vascular tone, JVP will fall.
+
+Question: Bone marrow finding in myelofibrosis-
+A. Dry tap (hypocellular)
+B. Megaloblastic cells
+C. Microcytic cells
+D. Thrombocytosis
+Correct Answer: A
+Explanation: Dry tap is usually defined as a "failure to obtain bone marrow on attempted marrow aspiration". The diagnosis and management of many haematological diseases depends on examination of the bone marrow, which involves two separate specimens i.e. a cytologic and a histologic preparation.Bone marrow examination refers to the pathologic analysis of samples of bone marrow obtained by bone marrow biopsy (often called a trephine biopsy) and bone marrow aspiration. Bone marrow examination is used in the diagnosis of a number of conditions, including leukemia, multiple myeloma, lymphoma, anemia, and pancytopenia. The bone marrow produces the cellular elements of the blood, including platelets, red blood cells and white blood cells. While much information can be gleaned by testing the blood itself (drawn from a vein by phlebotomy), it is sometimes necessary to examine the source of the blood cells in the bone marrow to obtain more information on hematopoiesis; this is the role of bone marrow aspiration and biopsy.
+
+Question: For diagnosis of carcinoma cervix, PAP smear screening is done to
+A. 100% Informative
+B. Detects to change into sarcoma
+C. Prevents progress of the disease
+D. Every six months cervical smear in all sexually active women.
+Correct Answer: C
+Explanation: C. i.e. (Prevents progress of the disease) (721- Basic pathology 8th)* PAP smear is highly effective screening tool in the detection of cervical dysplasia and carcinoma and has reduced the incidence of cervical carcinoma* Flow cytometry is used routinely in the classification of leukemias and lymphomas* Pap smear is 90- 95% accurate in detecting early lesions such as CIN but is less sensitive in detecting cancer when frankly invasive cancer or fungating masses are present. Inflammation, necrosis and hemorrhage may produce false- positive smears (608 - Harrisons 17th)* Annual cervical smear in all sexually active women (above the age of 18 years) having any risk factors
+
+Question: A 1-year-old boy presents with a delay in motor development. Progressive muscle weakness and blindness ensue, and the patient dies within a year. The brain at autopsy shows swollen neurons that contain numerous lysosomes filled with lipid. Which of the following is the most likely diagnosis?
+A. AL amyloidosis
+B. Hurler syndrome
+C. Phenylketonuria
+D. Tay-Sachs disease
+Correct Answer: D
+Explanation: Tay-Sachs disease is a lethal, autosomal recessive disorder caused by an inborn deficiency of hexosaminidase A, which permits the accumulation of ganglioside GM1 in CNS neurons. The disease is fatal in infancy and early childhood. Retinal involvement increases macular transparency and is responsible for a cherry-red spot in the macula. On histologic examination, lipid droplets are seen in the cytoplasm of distended nerve cells of the CNS and peripheral nervous system. Electron microscopy reveals the lipid within lysosomes in the form of whorled "myelin figures." Swollen neurons that exhibit marked vacuolization of the perikaryon and contain lysosomes filled with lipid can also occur in other lipid-storage diseases (e.g., Gaucher disease, Niemann-Pick disease). The other diseases do not produce such neuronal changes.Diagnosis: Tay-Sachs disease
+
+Question: Increased Ig A levels are seen in
+A. Alcoholic hepatitis
+B. Alcoholic cirrhosis
+C. Microvescicular fatty change
+D. Macrovesicular fatty change
+Correct Answer: B
+Explanation: Serum IgA increased in - Alcoholic cirrhosis Serum IgM increased in -Primary biliary cirrhosis (Ref: Clin Exp Immunol.2009 Oct; 158(1): 115-124, Liver.1984 Jun;4(3): 214-8)
+
+Question: Most common anterior mediastinal tumor?
+A. Thymoma
+B. Neurofibroma
+C. Pericardial cyst
+D. Bronchogenic cyst
+Correct Answer: A
+Explanation: Ref: Bailey and Love, 26th edition, P 868Most common anterior mediastinum tumor is thymoma. Choice B is seen in posterior mediastinum. Choice C and D are found in middle mediastinum.
+
+Question: Osteogenesis imperfecta
+A. Is a sex-linked disorder of bones that develop in cartilage
+B. manifests with blue sclera which are pathognomonic of this disease
+C. May be associated with deafness
+D. Has associations with amelogenesis imperfecta
+Correct Answer: B
+
+Question: All of the following features are seen in the viral pneumonia except:
+A. Presence of interstitial inflammation
+B. Predominance of alveolar exudate
+C. Bronchiolitis
+D. Multinucleate giant cells in the bronchiolar wall
+Correct Answer: B
+Explanation: Typical Pneumonia Atypical pneumonia -Bacterial etiology -Alveolar exudate + neutrophilic infilitration -C/F - High grade fever productive Cough Pleuritis Signs of consolidation -Non - bacterial etiology (e.g. Virus) -Interstitial tissue inflammation -C/F- Low grade fever Dry cough Malaise no signs of consolidation
+
+Question: The best laboratory test to use in the diagnosis of Lupus vulgaris in the oral cavity is:
+A. Bacterial smear
+B. Blood studies
+C. Biopsy
+D. Blood chemistry
+Correct Answer: C
+
+Question: Type I RPGN is seen in
+A. Cryoglobulinemia
+B. SLE
+C. Goodpasture's syndrome
+D. Wegner's granulomatosis
+Correct Answer: C
+Explanation: Type I RPGN is anti - GBM mediated and it is seen in Goodpasture's syndrome.
+
+Question: A 38 year old male has paroxysmal hypeension. He is subsequently found to have medullary carcinoma of the thyroid, pheochromocytoma, and mucosal neuromas. Parathyroid involvement is not noted. What is the most likely diagnosis?
+A. MEN type I
+B. MEN type II
+C. MEN type III
+D. Sipple's syndrome
+Correct Answer: C
+Explanation: MEN III, also known as MEN IIb, is characterized by medullary thyroid carcinoma, pheochromocytoma, and mucosal neuromas.Wermer's syndrome is also called MEN type I . It is characterized by pancreatic (insulinoma), pituitary, and parathyroid involvement.Sipple's syndrome, or MEN type II , is similar to MEN III, but it has parathyroid involvement (tumor or adenoma) as opposed to neuromas. Ref: Wyatt C., Butterwoh IV J.F., Moos P.J., Mackey D.C., Brown T.G. (2008). Chapter 18. Endocrine Pathology. In C. Wyatt, J.F. Butterwoh IV, P.J. Moos, D.C. Mackey, T.G. Brown (Eds), Pathology: The Big Picture.
+
+Question: Tumor suppressor gene p53 prevents carcinoma by?
+A. DNA repair
+B. Cell cycle arrest
+C. Apoptosis induction
+D. All of the above
+Correct Answer: D
+Explanation: Ans. is 'd' i.e., All of the above * p53 gene is located on chromosome 17 & acts as molecular policeman that prevents the propagation of genetically damage cell. p53 gene product, i.e. p53 protein is a DNA binding protein in the nucleus, when called into action, it controls the transcription of several other genes.* When there is DNA damage due to irradiation, UV light or mutagenic chemicals, there is rapid increase in p53 levels.* p53 causes :-a) Cell cycle arrest: p-53 induces transcription of p21, a CDK inhibitor. p21 inhibit cyclin DCDK- 4 complex and there is arrest of cell cycle late in G1 phase. This allow time for DNA repair.b) DNA repair: p-53 also helps in DNA repair directly by inducing transcription of GADD 45 (growth arrest and DNA damage). GADD 45 encodes a protein that is involved in DNA repair.* If DNA damage is repaired successfully, p53 activate MDM-3 and this MDM-3 induce degradation of p-53 - Relieve in cell cycle block. If DNA damage cannot be successfully repaired, p53 induces apoptosis by inducing the activation of apoptosis inducing gene BAX. So p-53 prevents replication of cell with defective DNA - p53 functions as a critical gatekeeper against formation of cancer. Mutation in p53 leads to carcinogenesis because of loss of above protective mechanism.
+
+Question: Inheritance of ABO blood group is:
+A. X-linked inheritance
+B. Recessive inheritance
+C. Mitochondria] inheritance
+D. Codominance
+Correct Answer: D
+Explanation: Ans. d. Codominance (Ref Robbins 9/e p140; Ganong 23/e p527)Inheritance of ABO blood group is Codominance."Although Mendelian traits are usually described as dominant or recessive, in some cases both of the alleles of a gene pair contribute to the phenotype--a condition called codominance. Histocompatibility and blood group antigens are good examples of codominant inheritance. "--Robbins 9/e p140Codominance is a relationship between two versions of a gene, individuals receive one version of a gene, called an allele, from each parent. If the alleles are different, the dominant allele usually will be expressed, while the effect of the other allele, called recessive, is masked. In Codominance, however, neither allele is recessive nor are the phenotypes of both alleles are expressed, e.g., ABO blood group, where in AB blood group both A and B are dominant."Codominance: When both alleles of a gene pair contribute to the phenotype. E.g., Blood group AB.ABO Blood Group SystemA and B antigens of the ABO blood group system are glycoproteins present on the RBC membrane.H substance is the immediate precursor on which A and B antigens are added.H substance is formed by the addition of fucose to the glycolipid or glycoprotein backbone.The subsequent N-acetyl glucosamine creates the A antigen, while the addition of galactose produces the B antigen.Bombay phenotypeIndividuals with the rare Bombay phenotype (hh) do not express the H antigen (also called the H substance), the antigen, which is present in blood group OQ.As a result of the absence of the H antigen they cannot make either the A antigen or the B antigenQ.These individuals have antibodies not only against A and B antigens but also against the H antigenQ.
+
+Question: Glossodynia is
+A. Pain in the tongue
+B. Burning of the tongue
+C. Swelling of the tongue
+D. White patch on tongue
+Correct Answer: A
+
+Question: All of the following are functions of CD 4 helper cells, except-
+A. Immunogenic memory
+B. Produce immnoglobulins
+C. Activate macrophages
+D. Activate cytotoxic cells
+Correct Answer: B
+Explanation: CD4 T cells are helper T cells. They stimulate B cells to produce antibodies, release of cytokines and are responsible for memory. They do not directly produce any antibody by their own. Basic Pathology, Robbins. Page no.:101
+
+Question: NOT a cause of granular contracted kidney ?
+A. Diabetes mellitus
+B. Chronic pyelonephritis
+C. Benign nephrosclerosis
+D. Chronic glomerulonephritis
+Correct Answer: A
+Explanation: Ans. is 'a' i.e., Diabetes mellitusCauses of Granular contracted kidney ?Chronic glomerulonephritis (symmetric)Chronic pyelonephritis (asymmetric) o Benign Nephrosclerosis (Symmetric) Sometimes, Diabetes too can cause granular contracted kidney
+
+Question: Hypercalcemia is most commonly associated in which of the following cancers?
+A. Renal cell cancer
+B. Carcinoma stomach
+C. Squamous cell carcinoma of lung
+D. Hepatocellular carcinoma
+Correct Answer: C
+Explanation: The most common neoplasm associated with hypercalcemia is squamous cell carcinoma. Other tumors often associated with paraneoplastic hypercalcemia are carcinomas of the lung, kidney, breast and ovary. Paraneoplastic hypercalcemia is caused by parathyroid hormone-related protein (PTHRP) secreted by these tumours. PTHRP increases bone resorp-tion and renal calcium uptake, while inhibiting renal phosphate transpo, effects that raise serum calcium levels.
+
+Question: The typical bone marrow finding in ITP is:March 2004
+A. Absent megakaryocytes
+B. Foam cells
+C. Increased megakaryocytes
+D. Fragmented megakaryocytes
+Correct Answer: C
+Explanation: Ans. C i.e. Increased megakaryocytesDiagnosis of ITPDespite the destruction of platelets by splenic macrophages, the spleen is normally not enlarged.In fact, an enlarged spleen should lead to a search for other possible causes for the thrombocytopenia.Bleeding time is usually prolonged in ITP patients.Normal bleeding time does not exclude a platelet disorder.Bone marrow examination may be performed on patients over the age of 60 and those who do not respond to treatment, or when the diagnosis is in doubt.On examination of the marrow, an increase in the production of megakaryocytes may be observed and may help in establishing a diagnosis of ITP.An analysis for anti-platelet antibodies is a matter of clinician's preference
+
+Question: The term that best describes the nuclear dissolution is
+A. Pyknosis
+B. Karyorrhexis
+C. Karyolysis
+D. None of the above
+Correct Answer: C
+Explanation: Pyknosis is condensation of nucleus.
+Karyorrhexis is fragmentation of nucleus.
+Karyolysis is dissolution of nucleus.
+
+Question: Which is the first organ to be affected in left ventricular failure?
+A. Lungs
+B. Liver
+C. Kidney
+D. Brain
+Correct Answer: A
+Explanation: Ans. (a) LungsRef: Robbin's pathology 9th ed. /529-30* In left ventricular failure, the pooling of blood in lungs will result and will lead to development of pulmonary edema which causes hypoxia and findings of dysnea, orthopnea, pink frothy sputum and death. Hence lungs are immediately affected following LVF.* Subsequently due to low BP the kidneys shall be affected and in severe LVF brain perfusion shall also be affected.
+
+Question: Puetz-Jegher syndrome is characterised by
+A. Deafness
+B. Multiple supernumerary teeth
+C. Multiple intestinal polyps
+D. Scleroderma
+Correct Answer: C
+
+Question: Which is the cause of hemolysis in G6-PD deficiency?
+A. Hemoglobin defect
+B. Oxidative stress
+C. Membrane defect
+D. Vitamin B12 deficiency
+Correct Answer: B
+Explanation: Ans. is 'b' i.e., Oxidative stress * Normally RBCs are protected from oxidant injury by reduced glutathione. Reduced glutathione is generated from oxidized glutathione and the reducing equivalent for this reaction is provided by NADPH. This NADPH is generated in HMP shunt by enzyme Glucose-6-phosphate dehydrogenase, while oxidizing glucose-6-phosphate.* If G6PD is deficient, NADPH production will be reduced that results in increased susceptibility of RBC to oxidative damage because of unavailability of reduced glutathione. So, whenever there is oxidant stress, e.g. by drugs, infection or foods, hemolysis occurs. G6PD deficiency causes episodic intravascular and extravascular hemolysis.
+
+Question: In Chronic Viral Hepatitis:
+A. Hepatitis A virus infection is a common cause inchildren
+B. Morphological classification into Chronic ActiveHepatitis and Chronic Persistent Hepatitis areimpoant
+C. Fatty change is pathognomic of Hepatitis C virusinfection
+D. Grading refers to the extent of necrosis andinflammations
+Correct Answer: D
+Explanation: . Grading refers to the extent of necrosis andinflammations
+
+Question: Reids index is increased in: March 2007
+A. Bronchial asthma
+B. Bronchiectasis
+C. Chronic bronchitis
+D. Pneumonia
+Correct Answer: C
+Explanation: Ans. C: Chronic bronchitisThe Reid Index is a mathematical relationship that exists in a human bronchus section observed under the microscope. It is defined as ratio between the thickness of the submucosal mucus secreting glands and the thickness between the epithelium and cailage that covers the bronchi.It isn't of diagnostic use in vivo since it requires a dissection of the airway tube, but it has value in post moem evaluations and for research.RI = gland/wallRI is the Reid IndexWall is the thickness of the airway wall between the epithelium and the cailage's perichondriumGland is the thickness of the mucous producing gland at the location of inspection.A normal Reid Index should be smaller than 0.4, the thickness of the wall always more than double the thickness of the glands it contains.Hyperplasia and hyperophy of mucous glands as in chronic bronchitis causes them to be present at deeper levels in the bronchial wall and thicker in size, thus increasing the Reid Index beyond the normal value.
+
+Question: "Antihistone" antibodies are detectable in:
+A. CREST
+B. PAN
+C. Drug induced Lupus
+D. Intestinal lymphoma
+Correct Answer: C
+Explanation: Drug induced Lupus
+
+Question: In the stage of Grey hepatization-
+A. WBC's fill the alveoli
+B. RBC's fill the alveoli
+C. Organisms fill the alveoli
+D. Accumulation of fibrin
+Correct Answer: D
+Explanation: Ref:Textbook of pathology (Harsh mohan)6th edition,page no. 469 GREY HEPATISATION: LATE CONSOLIDATION This phase lasts for 4 to 8 days Grossly, the affected lobe is firm and heavy. The cut surface is dry, granular and grey in appearance with liverlike consistency .The change in colour from red to grey begins at the hilum and spreads towards the periphery. Fibrinous pleurisy is prominent. Histologically, the following changes are present i)The fibrin strands are dense and more numerous. ii)The cellular exudate of neutrophils is reduced due to disintegration of many inflammatory cells as evidenced by their pyknotic nuclei. The red cells are also fewer. The macrophages begin to appear in the exudate. iii)The cellular exudate is often separated from the septal walls by a thin clear space. iv)The organisms are less numerous and appear as degenerated forms.
+
+Question: Hypertrophy means -
+A. Increased protein content of the cells
+B. Increase in size of cells
+C. Increase in number of cells
+D. None of the above
+Correct Answer: B
+Explanation: Ans. is 'b' i.e., Increase in size of cells Hypertrophy o Hypertrophy refers to an increase in the size of cells without increase in the number, resulting in an increase in the size of tissue. Hypertrophy involves cell enlargement without cell division. So, hypertrophied organ has just larger cells, but no new cells Hyperplasia o Hyperplasia refers to an increase in number of cells without increase in cell size. It occurs due to cell division and proliferation, in hyperplasia there is increase in number of new cells without increase in size.
+
+Question: Pro - inflammatory cytokine is?
+A. IL-1
+B. IL-3
+C. IL-6
+D. IL-10
+Correct Answer: A
+Explanation: Ans. is 'a' i.e., IL-1 Proinflammatory cytokinesi) Major:- IL-1, TNF- a, IL-6ii) Other:- IL-2, IL-4, IL-5, IL-6, IL-8, IL-11, IL-12, IL-15, IL-21, IL-23, IFN- g, GM-CSFAnti-inflammatory cytokines* IL-4, IL-10, IL-13, and transforming growth factor-b (TGF-b).
+
+Question: Shape of birbeck granules is -
+A. Tennis racket
+B. Hockey stick
+C. Bat
+D. Ball
+Correct Answer: A
+Explanation: Ans. is 'a' i.e., Tennis racket o Under the electron microscope, Birbeck granules have a pentalaminar, rodlike, tubular appearance and some- times a dilated terminal end resembling tennis-racket appearance.
+
+Question: Reed sternberg cells are found in-
+A. Hodkin's disease
+B. Sickle cell anaemia
+C. Thalassemia
+D. CML
+Correct Answer: A
+Explanation: Hodgkin&;s lymphoma is characterised by the presence of neoplastic giant cells called Reed Sternberg cells.These cells release factors that induce the accumulation of reactive lymphocytes, macrophages, and granulocytes, which typically make up greater than 90% of tumour cellularity. RS cells are derived from the germinal centre or post germinal centre B cells. Reference : Robbins and Cotran Pathologic basis of disease.South Asia Edition volume 1.page no. 607
+
+Question: Electron microscopy finding indicating irreversible cell injury is:
+A. Dilation of ER
+B. Dissociation of ribosomes from rough ER
+C. Flocculent densities in the mitochondria
+D. Intact cell membrane
+Correct Answer: C
+Explanation: Irreversible injury is associated morphologically with:- Mitochondrial swelling Plasma membrane damage which forms myelin figures Lysosomal swelling. Large, flocculent, amorphous densities develop in the mitochondrial matrix
+
+Question: All the following malignancies are associated with HIV, except-
+A. Kaposi's Ca.
+B. Non Hodgkin's lymphoma
+C. Astrocytoma
+D. Gastric adeno Ca.
+Correct Answer: C
+Explanation: Ans. is 'c' i.e., Astrocytoma Neoplastic disease in AIDS o Kaposi sarcoma (most common tumor) o Non Hodgkin lymphoma Immunoblastic lymphoma (most common lymphoma) Primary CNS lymphoma (associated with EBV) Burkitt's lymphoma Other less common neoplasm are Hodgkin's disease Leukemia Cervical Ca Brain tumor Testicular Ca Multiple myeloma Melanoma Lung Ca Anal Ca Oral Ca o Not sure about option
+
+Question: Congo red staining of abdominal fat has confirmed a diagnosis of Amyloidosis in a 28-year-old man. Which is the most common cause of death in primary AL Amylodosis?
+A. Respiratory failure
+B. Cardiac failure
+C. Renal failure
+D. Septicemia
+Correct Answer: B
+Explanation: Cardiac failure is the most common cause of death in primary or AL amyloidosis. Cardiac involvement is seen in 40% of patients with AL amyloidosis. Amyloid involvement of myocardium, intramural coronary aeries and conduction system may cause congestive hea failure, ischemic syndrome and rythm disturbances. Diagnosis of amyloidosis should be considered in patients with unexplained nephropathy, cardiomyopathy (diastolic dysfunction), neuropathy, enteropathy, or pathognomonic soft tissue findings of macroglossia or periorbital ecchymoses. Pathologic diagnosis of amyloid fibrils can be made by congo red staining of aspirated abdominal fat or of an involved organ biopsy specimen.
+
+Question: Which of the following is not a function of liver ?
+A. Production of albumin
+B. Detoxification of ammonia
+C. Production of vitamin K
+D. Metabolism of drugs
+Correct Answer: C
+Explanation: Ans. (c) Production of vitamin KRef: Robbin's pathology 9th ed. Z821* Vitamin K is produced by the bacteria of gut and is used by liver for gamma carboxylation of factor 2/7/9/10.# Liver produces albumin which falls in liver cirrhosis producing ascites/edema.# Ammonia is combined with carbon dioxide to produce urea which in turn is excreted by the liver.# The cytochrome P450 is responsible for metabolism of drugs.
+
+Question: Which of the following is not seen in Tuberous sclerosis ?
+A. Shagreen patch
+B. Adenoma sebacecum
+C. McCollon Plaques
+D. Depigmented nevi
+Correct Answer: C
+Explanation: Ans. is 'c' i.e., McCollon Plaques
+
+Question: A clinical study involves patients diagnosed with carcinoma whose tumor stage is T4N1M1. The patients' survival rate 5 years from the time of diagnosis is less than 50%, regardless of therapy. Which of the following clinical findings is most likely to be characteristic of this group of patients?
+A. Cachexia
+B. Cardiac murmur
+C. Icterus
+D. Loss of sensation
+Correct Answer: A
+Explanation: Cachexia is a common finding in advanced cancers, and weight loss without dieting in an adult is a "red flag" for malignancy. The exact cause for this is unknown, but increases in circulating factors such as tumor necrosis factor (TNF) may play a role. Cardiac murmurs may occur in the development of nonbacterial thrombotic endocarditis, a feature of a hypercoagulable state that may occur with advanced malignancies. Icterus is most likely to occur when there is obstruction of the biliary tract by a mass (e.g., as in pancreatic cancer), but metastases are unlikely to cause such an obstruction. Neurologic abnormalities may occur in local tumor growth impinging on nerves, but dull constant pain is the most likely abnormality in malignant neoplasms that invade nerves. Metastases to the spleen are uncommon. Tympany is uncommon in cancer because obstruction by a mass tends to be incomplete and to develop over a long time. (Hint: an empty beer keg is tympanitic when percussed.)
+
+Question: Most common cause of death in primary amyloidosis is?
+A. Respiratory failure
+B. Cardiac failure
+C. Renal failure
+D. Septicemia
+Correct Answer: B
+Explanation: ANSWER: (B) Cardiac failureREF: Harrison's Internal Medicine 17th edition chapter 324. AmyloidosisThe kidneys are the most frequently affected organ (80%), Renal amyloidosis is usually manifested by proteinuria, which is often in the nephrotic range and associated with significant hypoalbuminemia and edema or anasarca; rarely, tubular rather than glomerular deposition of amyloid can produce azotemia without significant proteinuria. Cardiac symptoms are the second most common presentation (40%), but cardiac dysfunction is associated with death in 75% of patients.
+
+Question: Ca 125 is used in diagnosis of -
+A. Ovarian cancer
+B. Gall bladder cancer
+C. Carcinoids
+D. Bronchogenic cancer
+Correct Answer: A
+
+Question: Most common cause of dissecting hematoma is
+A. Hypeension
+B. Marfan's syndrome
+C. Iatrogenic
+D. Kawasaki
+Correct Answer: A
+Explanation: Aoic dissection occurs when blood splays apa the laminar planes of the media to form a blood-filled channel within the aoic wall.Aoic dissection occurs mainly in two age groups: (1)men aged 40 to 60 with antecedent hypeension (more than 90% of cases); and (2) younger patients with connective tissue abnormalities that affect the aoa.Robbins Basic pathology, 9th edition, pg no.346
+
+Question: Apoptotic bodies are
+A. Clumped chromatin bodies
+B. Pyknotic nucleus without organelles
+C. Cell membrane bound with organelles
+D. No nucleus with organelles
+Correct Answer: C
+Explanation: In H&E-stained tissue sections, the nuclei of apoptotic cells show various stages of chromatin condensation and aggregation and, ultimately, karyorrhexis; at the molecular level, this is reflected in fragmentation of DNA into nucleosome-sized pieces. The cells rapidly shrink, form cytoplasmic buds, and fragment into apoptotic bodies composed of membrane-bound vesicles of cytosol and organelles.( Robbins Basic Pathology, 9th edition, page 18 )
+
+Question: Regarding Fanconi anemia, the wrong statement is:
+A. Autosomal dominant
+B. Bone marrow show pancytopenia
+C. Usually aplastic anemia
+D. It is due to defective DNA repair
+Correct Answer: A
+Explanation: Fanconi's anemia is an autosomal recessive disease Characterized:- Progressive pancytopenia Increased risk of malignancy (solid tumors and AML) Congenital developmental anomalies like sho stature, cafe au lait spots, abnormalities affecting thumb, radius and genitourinary tract. Fanconi's anemia is associated with BRCA gene.
+
+Question: According to WHO, what is given to prevent PPH by active management of third stage of labour?
+A. IV PGF2 alpha agonist
+B. IM oxytocin
+C. IV ergometrine
+D. Perrectal prostaglandins
+Correct Answer: B
+Explanation: WHO recommendations for prevention of PPH by active management of third stage of labour Components of Active Management of the Third Stage of Labour (WHO)Administration of uterotonic soon after bih of baby.Delayed cord clamping and cutting.Controlled cord traction for delivery of the placenta (Brandt Andrew&;sMethod).Uterine massage.Uterotonic Agents Used in AMTSLInjectable oxytocin is the first line agent as it is effective after 2-3 minutes and has minimal side effects. Recommended dose by WHO is 10 units IM.Injectable methylergometrine (methergine) 0.2 mg IM/IV delivery of anterior shoulder or immediately after DELIVERY OF BABY.Syntometrine or Oxymatrine (ERGOMETRINE 0.5 MG +OXYTOCIN 5 UNITS) IM after delivery of the baby.Misoprostol 600 microgram tablet orally or rectally (in home delivery). Oral administration of misoprostol should be reversed for situations when the safe administration and/or appropriate storageconditions for injectable oxytocin and ergot alkaloids are not possible.Cord ClampingEarly cord clamping which was included originally in AMTSL not recommended now.Delayed cord clamping is now recommended and not immediate cord clamping.Current evidence shows that delayed cord clamping is beneficial for the baby.Immediate cord clamping has been shown to increase the incidence of iron deficiency and anemia.For premature and low bih weight babies immediate cord clamping can also increase the risk of intraventricular hemorrhage and late-onset sepsis.Controlled Cord TractionRecommended intervention for delivery of the placenta and a well-documented intervention in the active management of third stage of labour.(Refer: Mudaliar and Menon&;s Clinical Obstetrics, 11th edition, pg no: 121)
+
+Question: Osmotic fragility is increased in ?
+A. Sickle cell anaemia
+B. Thalassemia
+C. Hereditary spherocytosis
+D. Chronic lead poisoning
+Correct Answer: C
+Explanation: Ans. is 'c' i.e., Hereditary spherocytosis Osmotic fragility of Red blood cells. Red blood cell osmotic fragility is the resistance of RBC hemolysis to osmotic changes. o Normally RBC maintains osmotic equilibrium with the surrounding medium i.e., with serum that has 0.9% NaCl. o As the surrounding medium becomes hypotonic fluid will enter into the cell along osmotic gradiant, eventually under very hypotonic conditions the cell will enlarge to capacity and rupture -4 Osmotic lysis. Osmotic fragility is determined by measuring the degree of hemolysis in hypotonic saline. o Normal red cell begins to lyse at 0.5% NaC1 and the hemolysis is complete at 0.3 NaCl. o Red blood cells osmotic fragility is considered to be increased if hemolysis occur in a NaC1 concentration > 0.5%. o Osmotic fragility is considered to be decreased if the hemolysis is not complete in a 0.3% of NaCl. Increased osmotic fragility o Hereditary spherocytosis o Hemolytic anemia (acquired immune) o Malaria o Severe pyruvate kinase dificiency o Hemolytic disease of newborn Decreased osmotic fragility o Iron deficiency anemia Thalassemia Liver disease Reticulocytosis o Hemoglobinopathies, MS, HbC.
+
+Question: Which is the most common lymphoma in adults?
+A. Adult T-cell leukemia/lymphoma (ATLL)
+B. Hodgkin lymphoma
+C. Diffuse large B-cell lymphoma (DLBCL)
+D. Follicular lymphoma
+Correct Answer: C
+Explanation: DLBCL - Most common lymphoma in adults Follicular lymphoma - Most common indolent lymphoma in adults Chronic lymphocytic leukemia - Most common leukemia in adults
+
+Question: Birbeck’s granules in the cytoplasm are seen in:
+A. Langerhans cells
+B. Mast cells
+C. Myelocytes
+D. Thrombocytes
+Correct Answer: A
+Explanation: Birbeck granules are rod Shaped/Tennis-racket shaped cytoplasmic organelles with a central linear density and a striated appearance.
+They are diagnostic microscopic feature in Langerhans cell histiocytosis (Histiocytosis X)
+
+Question: Increased osmotic fragility is characteristic of:September 2009
+A. Hereditary spherocytosis
+B. Sickle cell anemia
+C. Thalassemia
+D. Iron deficiency anemia
+Correct Answer: A
+Explanation: Ans. A: Hereditary spherocytosisThe normal red blood cell is a relatively impermeable biconcave disc which maintains osmotic equilibrium with the surrounding medium. As the surrounding medium becomes hypotonic, fluid will be taken into the cell to maintain stability. Eventually under very hypotonic conditions the cell will fill to capacity and rupture. Spherocytic red blood cells have a decreased capacity to expand, and will rupture in mildly hypotonic conditions that fail to lyse normal red cells. They thus exhibit increased osmotic fragility.Osmotic fragility is determined by measuring the degree of hemolysis in hypotonic saline solution. With the unincubated test, red cell osmotic fragility is considered to be increased if hemolysis occurs in a sodium chloride concentration > 0.5%. Although increased osmotic fragility is characteristically associated with hereditary spherocytosis, it may also be increased in other types of hemolytic anemia associated with the presence of spherocytes, paicularly auto-immune hemolytic anemia, and in hypernatermia (Na > 155 meq/L).Often the increased osmotic fragility in spherocytosis is limited to a small fraction of cells that are unusually susceptible to lysis. After incubation, the defect is magnified, and a striking increase in fragility will be seen in hereditary spherocytosis. Osmotic fragility is considered to be decreased if hemolysis is not complete in a 0.30% NaC1 solution. Decreased osmotic fragility is associated with chronic liver disease, iron deficiency anemia, thalassemia, hyponatremia (Na < 130 meq/ L), polycythemia vera, and sickle cell anemia after splenectomy.
+
+Question: All are hypercoagulable states, except ?
+A. Protein C resistance
+B. Protein S deficiency
+C. Antiphospholipid antibody
+D. None
+Correct Answer: D
+Explanation: Ans. is 'None' o All are hypercoagulable states.
+
+Question: The following drug has anxiolytic action with least sedation
+A. Buspirone
+B. Triazolam
+C. Alprazolam
+D. Chlordiazepoxide
+Correct Answer: A
+Explanation: Features of Buspirone Non-benzodiazepine anxiolytic agentDoes not produce significant sedation or cognitive/functional impairmentDoes not interact with BZD receptor or modify GABAergic transmissionDoes not produce tolerance or physical dependence Does not suppress BZD or barbiturate withdrawal syndrome Has no muscle relaxant or anticonvulsant activity (Refer: KD Tripathi's Essentials of Medical Pharmacology, 7th edition, pg no: 466-467)
+
+Question: Keratocyst has all of the following features except:
+A. It is more common in mandible
+B. May be filled with thin straw coloured fluid
+C. Low recurrence rate
+D. Expansion of bone clinically seen
+Correct Answer: C
+
+Question: A 60 yr old person presents with a mass located at central bronchus causing distal bronchiectasis and recurrent pneumonia. Which of the following findings is expected from biopsy of the mass?
+A. Abundant osteoid matrix formation
+B. Contains all three germ layers
+C. Spindle cells with abundant stromal matrix
+D. Small round cells and hyperchromatic nuclei with nuclear moulding
+Correct Answer: D
+Explanation: Ans. (d) Small round cells and hyperchromatic nuclei with nuclear moulding(Ref: Robbins 9th/pg 715-717)This typical presentation of 60 yr/M presenting with a mass located at central bronchus causing distal bronchiectasis and recurrent pneumonia is suggestive of small cell Carcinoma.In Small cell Ca lung, location in lungs are most commonly central and usually presents with mass within the bronchus.Light Microscopy feature of Small cell Ca is:Small cells with salt and pepper pattern, hyperchromatic nuclei, Q, nuclear molding Q is prominentBasophilic staining of vascular walls due to encrustation by DNA from necrotic tumor cells (Azzopardi effect) QAbout other options:A. Abundant osteoid matrix formation points towards metastatic Osteosarcoma;B. Contains all three germ layers: is consistent with a Teratoma;C. Spindle cells with abundant stromal matrix is suggestive of Sarcoma;
+

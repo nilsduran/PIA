@@ -1,0 +1,801 @@
+Question: Scrub typhus is transmitted by: September 2004
+A. Louse
+B. Tick
+C. Mite
+D. Milk
+Correct Answer: C
+Explanation: Ans. C i.e. Mite
+
+Question: For a positively skewed curve which measure of central tendency is largest
+A. Mean
+B. Mode
+C. Median
+D. All are equal
+Correct Answer: A
+Explanation: A distribution is negatively skewed, or skewed to the left, if the scores fall toward the higher side of the scale and there are very few low scores. In positively skewed distributions, the mean is usually greater than the median, which is always greater than the mode. Ref :
+
+Question: Normal waist hip ratio of a female is below
+A. 0.7
+B. 0.8
+C. 0.9
+D. 1
+Correct Answer: B
+Explanation: WHO CUT-OFF POINTS OF WHR Indicator CUT-OFF points Risk of metabolic complications Waist circumference >94 cm (M) >80 cm (W) Increased Hip cirrcumference >102 cm (M) >88 cm (W) Substantially increased Waist-Hip ratio >= 0.95(M) >= 0.80(W) Substantially increased Ref: Park 23rd edition Pgno : 400 WC & WHR, WHO Consultation 2008
+
+Question: What is the best method of informing the rural population about Oral rehydration technique: March 2013 (d, f)
+A. Chalk and talk/Lecture
+B. Demonstrations
+C. Role play
+D. Flash cards
+Correct Answer: B
+Explanation: Ans. B i.e. Demonstrations Demonstration involves showing by reason or proof explaining or making clear by use of examples or experiments. Put more simply, demonstration means to clearly show
+
+Question: Pearsonian measure of skewness -
+A. Mode - Mean/ SD
+B. Mean - Mode/ SD
+C. SD/Mode - mean
+D. Mean - Mode/ SD
+Correct Answer: B
+Explanation: Ans. is b' i.e., Mean-Mode Measures of Skewness o There are following measures of skewness 1. Karl pearson's measure The formula for measuring skewness is divided into a) absolute measure Skewness = Mean - Mode b) relative measure The relative measure is known as the Coefficient of Skewness and is more frequently used than the absolute measure of skewness. Fuher, when a comparison between two or more distributions is involved, it is the relative measure of Skewness which is used.
+
+Question: Minimum level of iodine iodized salt reaching the consumer level according to iodine programme should be:-
+A. 5 ppm
+B. 30 ppm
+C. 15 ppm
+D. 20 ppm
+Correct Answer: C
+Explanation: National Iodine deficiency disorder programme , 1992: - National goitre control programme, 1962 is conveed to NIDDCP, 1992 - Impact indicators: Major indicator - Urinary iodine excretion levels ( generally measured in pregnant women over 24hrs) Others - Neonatal hypothyroidism , Goitre - Level of salt iodinisation: 30 ppm at production level 15 ppm at consumer level - Two-in-one salt: 40mcg iodine + 1mg iron/gm of salt MBI kits- Field Test Kits that allow Iodised salt manufacturers, quality controllers, health inspectors, social workers, NGO activists and even school children to assess the amount of iodine in iodised salt.
+
+Question: True statement regarding specific death rates
+A. Specific for age and sex
+B. Identify particular group or groups "at risk" for preventive action
+C. Find out cause or disease specific
+D. All of the above
+Correct Answer: D
+Explanation: (A1I of the above) (54- Park 20th)Specific death rates - may be (a) cause or disease specific e.g. TB, cancer, accidents (b) Related to specific groups e.g. age specific, sex specific, age and sex specific etc.* Rates can also be made specific for many others variables such as income, religion, race, housing etc.* Specific death rates can help us to identify particular groups or groups "at risk" for preventive action. They permit comparisons between different causes within the same populations* Specific death rates are obtained mainly in countries in which a satisfactory civil registration system operates and in which a high proportion of death is certified medically.
+
+Question: Pre-exposure prophylaxis for rabies is given on days
+A. 0, 3, 7, 14, 28, 90
+B. 0, 3, 7, 28, 90
+C. 0, 3
+D. 0, 7, 28
+Correct Answer: D
+Explanation: New recommended regimen/Schedule (New guidelines( Type of prophylaxis Regimen Post exposure Intramuscular Essen Regimen (1-1-1-1-1) Day 0,3,7,14,28 Post exposure intradermal Updated Thai Red Cross Regimen (2-2-2-0-2) Day 0,3,7,28 Post exposure in vaccinated individuals Day 0,3 Pre-exposure prophylaxis Day 0,7,21/28 Minimum potency: 2.5 IU per IM dose Zagreb regimen of rabies Vaccine (Intramuscular Post-exposure) : 1. 4-dose abbreted multisite regimen 2-0-1-0-1 (2 doses on Day 0,1 dose on Day 7, 1 dose on day 21 Ref: Park 25th edition Pgno : 297-298
+
+Question: True of case control studies -
+A. It proceeds from cause to effect
+B. Odds ratio can be calculated
+C. Incidence can be calculated
+D. Needs many patients
+Correct Answer: B
+
+Question: Prevalence is a:
+A. Rate
+B. Ratio
+C. Propoion
+D. None of the above
+Correct Answer: C
+Explanation: Tools of measurement in epidemics: - Rate = x 1000/ 10000/ 100000 ; a is pa of b - Ratio = a/b ; a is not a pa of b - Propoion = x 100 = % ; a is pa of b Prevalence = No. of all current cases of a disease at a time /Estimated total population at that time X 100 Hence, Prevalence is a propoion (Prevalence is NOT a Ratio): Numerator is a pa of denominator & is always expressed in percentage. Incidence is rate.
+
+Question: Household insectiside used for malaria-
+A. Malathion
+B. Pyrethrum
+C. Paris green
+D. Permethrin
+Correct Answer: A
+Explanation: Ans. is 'a' i.e., Malathion* Insectisides used for control of malaria are-i) Residual sprapy-# In residual spray, spraying of houses with residual insectisides is done. Residual insectisides remains active over extended periods i.e., they have residual action even after the time of spray.# Commonly used residual insectisides are - Malathion, DDT, Lindane, propoxure (OMS-33).ToxicantDosage in g/m2Average duration of effectiveness (months)DDT1 to 26 to 12Lindane0-53Malathion23OMS-3323ii) Space spray# Space sprays are those where the insecticidal formation is sprayed into the atmosphere in the form of a mist or fog to kill insect. Action is short lived and temporary since there is no residual action.# The most commonly used space spray insecticide is Pyrethrum.# New equipment has been developed to use residual insectiside as space spray by ultra low volume (ULV) technique. Malathions and fenthion are most commonly used.
+
+Question: One standard detion in normal standard curev includes value-
+A. 50%
+B. 68%
+C. 95%
+D. 100%
+Correct Answer: B
+Explanation: Ref:Parks 23rd edition pg 849. 1SD : confidence limit = 68% 2SD : confidence limit = 95% 3SD : confidence limit = 99.7%
+
+Question: Which of the following is not false about annual risk of TB
+A. ARI of 1% = 75 new cases
+B. Current ARI in India is 1.7%
+C. It is represents new cases of TB
+D. It is assessed by tuberculin conversion in previously non-vaccinated children
+Correct Answer: D
+Explanation: Incidence of TB infection (Annual infection rate, Annual risk of Infection ARI) : Percentage of population under study who will be newly infected (not diseased or cases) with TB among Non-infected in 1 year. Expresses attacking force of TB in community In developing countries 1% ARI corresponds to: 50 SS +ve cases per 100,000 general population Tuberculin conversion index is the "best indicator for evaluation of TB problem and its trend" in the community. Current ARI in India : 1.5% Ref: Park 25th edition Pgno : 190-191
+
+Question: Which of the following disease with bird, ahropod and human chain
+A. Malaria
+B. Japanese encephalitis
+C. Paragonimus
+D. Plague
+Correct Answer: B
+Explanation: Agent factors :- * Caused by group B arbovirus (flavivirus) * The main reservoirs are Ardeid birds and pigs * Pigs are amplifiers of the virus and they do not manifest ove symptoms but circulates the virus Host factors :- * Most common in the age group of <15 years of age * Man - incidental dead end host * Affects other animals also and horse is the only animal which does not shows symptoms of encephalitis Vector:- * Transmitted by culex tritaeniorrhynchus - most impoant vector, others are C.Vishnuii and c. Gelidus * Incubation period is 5-15 days * Case fatality rate - 20-40% Ref:- K Park, 24th ed; pg num:- 302-303
+
+Question: Ifa Panchayat is dissolved, elections are to be held within?
+A. 1 month
+B. 3 months
+C. 6 months
+D. 1 year
+Correct Answer: C
+Explanation: Ans. is 'c' i.e., 6 months
+
+Question: Vaccine administered by following route is
+A. Typhoral live
+B. H1n1 killed
+C. H1n1 live
+D. Yellow fever live
+Correct Answer: C
+Explanation: Hlnl live (Intranasal route)
+
+Question: To feel comfoable and cool in a factory the conrrected effective temperature ( in degree Farenheit) should be -
+A. Less tha 69
+B. Between 69 and 76
+C. Between 77 and 80
+D. Between 81 and 82
+Correct Answer: B
+Explanation: Comfo zones: In deg C of corrected effective temperature Pleasant and cool 20 Comfoable and cool 20-25 (69-76F) Comfoable 25- 27 (77-80F) Hot and uncomfoable 27-28 Extremely hot 28+ Intolerably hot 30+. Park's Textbook of Preventive and Social Medicine, 25th Edition, Pg 792
+
+Question: High false positive cases in a community signify that disease has -
+A. High prevalence & Low incidence
+B. High incidence & Low prevalence
+C. Low prevalence & Low incidence
+D. High incidence & High prevalence
+Correct Answer: B
+
+Question: Best disinfectant of cholera stool is-
+A. Bleaching powder
+B. Cresol
+C. Phenol
+D. Lime
+Correct Answer: B
+Explanation: Cresol is an excellent coal-tar disinfectant. It is 3 to 10 times as powerful as phenol, yet no more toxic. Cresol is best used in 5 to 20 percent strength for disinfection of farces and urine. Cresol is an all-purpose general disinfectant. (refer pgno :128 park 23 rd edition)
+
+Question: Chemoprophylaxis is indicated for all except-
+A. Typhoid
+B. Meningococcal meningitis
+C. Cholera
+D. Plague
+Correct Answer: A
+Explanation: Chemoprophylaxis There is no role of Chemoprophylaxis in Typhoid. For chemoprophylaxis in meningococcal meningitis, Rifampicin, Ciprofloxacin & Ceftriaxone is used. Tetracycline is used in Cholera and Plague.
+
+Question: The number of doses recommended for oral Ty21a typhoid vaccine is:
+A. 14
+B. 5
+C. 3
+D. 1
+Correct Answer: C
+Explanation: The Ty21a vaccine is licensed for use in individuals > 5 years. A three dose regimen is recommended. Vaccine is administered on alternate days: 0n days 1, 3 and 5. Ref: Park 21st edition, page 215.
+
+Question: Primary health care was proposed in 1978 at:
+A. Alma ata
+B. New York
+C. Geneva
+D. Delhi
+Correct Answer: A
+Explanation: Answer: A. Alma ata. (Ref Park's Textbook of PSM 22nd/Pg.832)The new approach to health care came into existence in 1978 following an international conference at Alma Ata (USSR).The Alma-Ata conference defines the primary health care as follows: Primary health care is essential health care made universally accessible to individuals and acceptable to them, through their full participation and at a cost the community and the country can afford.Millennium Development Summit was held in New York in 2000 where MDG are formulated.World Health Assembly is held in Geneva, which is a head quarter of WHO.Note: The term "comprehensive health care" (womb to tomb) was first used by Bhore committee in 1946.
+
+Question: Silicosis caused by ?
+A. Gold
+B. Coal
+C. CO
+D. Silica
+Correct Answer: D
+Explanation: Ans. is 'd' i.e., Silica
+
+Question: Human development index includes -
+A. Crude death rate
+B. Life expectancy at one year
+C. Life expectancy at bih
+D. All
+Correct Answer: C
+Explanation: Ans. is 'c' i.e., Life expectancy at bih According to 22nd/e of Park, options 'd & e' are not the components of HDI. o Expected years of schooling (not adult literacy rate) and GNI per capita (not GDP) are the components of HDI.
+
+Question: You are the medical officer in charge of the immunisation programme at a sub-centre and you are informed by the local ASHA worker that one of the children who was immunised has has been dizzy. On fuher investigation it was confirmed that the symptoms were due to anxiety of pain of the injection and not as a result of the vaccine. You would consider the incidence as:
+A. Vaccine reaction
+B. Injection reaction
+C. Programme error
+D. Coincidental
+Correct Answer: B
+Explanation: The following are the adverse effect following immunisation: Vaccine reaction - Here the event is caused by the inherent propeies of the vaccine when given correctly. Programme error - In this case the event is as a result of error in preparation, handling or administration of the vaccine. Coincidental - The event after immunisation is not caused by the vaccine but by a chance association. Injection reaction - The anxiety of the pain an injection itself may cause hyperventilation, dizziness etc. This is not a result of the vaccine and is called injection reaction. Ref: Park, 21st Edition, Page 103, 107.
+
+Question: Most common widespread zoonotic disease in the world is -
+A. Rabies
+B. Leptospirosis
+C. Brucella
+D. Anthrax
+Correct Answer: B
+Explanation: <p> Leptospirosis is the most wide zoonotic disease in the world. Reference:Park&;s textbook of preventive and social medicine,K.Park,23rd edition,page no:291. <\p>
+
+Question: Proposed guideline value for Radioactivity in drinking water is:
+A. Gross a activity 0.1 Bq/L and Gross b activity 1.0 Bq/L
+B. Gross a activity 1.0 Bq/L adn Gross b activity 0.1 Bq/L
+C. Gross a activity 1.0 Bq/L and Gross b activity 10.0 Bq/L
+D. Gross a activity 10 Bq/L and Gross b activity 1.0 Bq/L
+Correct Answer: A
+Explanation: Key guidelines aspects of WHO recommended drinking water quality: Colour <15 true colour units (TCU) Turbidity <1 nephlometric turbidity units (NTU) pH: 6.5-8.5 Total dissolved solids (TDS) <500 mg/Litre Zero pathogenic microorganisms Zero infectious viruses Absence of pathogenic protozoa and infective stages of helminthes Fluoride <1.0 ppm (0.5-0.8 ppm: Optimum level) Nitrates <45 mg/Litre Nitrites <3 mg/Litre Gross alpha radiological activity <0.5 Bq/Litre (new guidelines -WHO) Gross Beta radiological activity <1.0 Bq/Litre (new guidelines-WHO) Ref: Park 25th edition Pgno: 762
+
+Question: National program for prevention and control of Cancer, Diabetes, Cardiovascular disease and stroke (NPCDCS), true is -
+A. Separate centre for stroke, DM, cancer
+B. Implementation in some 5 states over 10 districts
+C. District hospital has specialised facilities
+D. Subcentre has facility for diagnosis and treatment
+Correct Answer: C
+Explanation: Ans. is 'c' i.e., District hospital has specialised facilities Sational program for prevention and control of cancer, diabetes, cardiovascular diseases and stroke (NPCDCS1 Introduction Single centre fi- cancer, diabetes, cardiovascular disease, stroke. 100 districts in 21 states being covered in 1 1 th live year plan. 20,000 subcentres and 700 community health centres (CHCs) covered. o Activities as sub-centres Health promotion for behaviour and lifestyle change. Oppounistic screening of BP. blood glucose (strip method) in age > 30 years. Referral to CHC of cases of DM, HT. o Activities at CHCs : Diagnosis and management at NCD clinic. Home visits by nurse for bedridden cases. Referral to district hospital for complicated cases. o Activities as District hospital : Health promotion Screening of population > 30 years. Diagnosis and management of cardiovascular disease. Home-based palliative care for chronic, debilitating progressive patients. Specialized facilities. Urban health check-up shceme JOr diabetes and high BP : Screen urban slum population. Screen population > 30 years and pregnant females. Cancer control in NPCDCS : Regional cancer control scheme : Regional cancer centres to act as referral centres for complicated cases. Oncology wing development scheme. Decentralized NGO scheme : IEC activities and early cancer detection. lEC at central level. Research and mining.
+
+Question: Drug of choice for Falciparum Malaria is:-
+A. Chloroquine
+B. Mefloquine
+C. ACT
+D. Proguanil
+Correct Answer: C
+Explanation: DOC for Falciparum Malaria - ACT.( Aemisinin based Combination therapy ) In Noh Eastern states:- ACT-AL co-formulated tablet of Aemether-20 mg / Lumefantrine - 120 mg. Primaquine 0.75 mg/ kg Body weight on day 2. 2. In Other States:- ACT-SP -Aesunate 50 mg tablet for 3 days and Sulphadoxine (500mg) - Pyremethamine (25mg) tablets for 1 Day. Primaquine tablets should be given on Day 2.
+
+Question: Neuro lathyrism results due to
+A. Aflatoxin
+B. Pyruvic acid
+C. BOAA
+D. Sanguinarine
+Correct Answer: C
+
+Question: Chandler's index is associated with: September 2006
+A. Round worm
+B. Hook worm
+C. Pin worm
+D. Tape worm
+Correct Answer: B
+Explanation: Ans. B: Hook worm Morbidity and moality from hookworm infection depend much on the worm load. Chandler worked out an index on the basis of an average number of hookworm eggs per gram of feces for the entire community, Chandler's index is still used in epidemiological studies of hookworm disease. By this index, worm loads in different population groups can be compared and also the degree of reduction of egg output after mass treatment.
+
+Question: Iodine RDA is -
+A. 300 microgram
+B. 500 microgram
+C. 150 microgram
+D. 50microgram
+Correct Answer: C
+Explanation: Ans. is 'c' i.e., 150 microgram o The RDA of iodine for adults is 150 microgram.GroupRecommended daily intakePreschool children (0-59 months)School children (6 - 12 years)Adults (>12 years)Pregnancy and lactation90 meg120 meg150 meg250 meg
+
+Question: Measures involved in sentinel surveillance includes all of the following except.
+A. Identifying missing cases in notification of diseases
+B. Identifying new cases of infection
+C. Identifying old and new cases
+D. Identifying cases free of disability
+Correct Answer: D
+Explanation: Ans. (d) Identifying cases free of disability* Surveillance: Is the ongoing systematic collection and analysis of data and the provision of information which leads to action being taken to prevent and control a disease, usually one of an infectious nature* Surveillance is of many types:- Passive Surveillance: Data is itself reported to the health system; For e.g., A patient with fever coming on his own to the PHC, CHC, Dispensary, Private Practitioner, Hospital- Active Surveillance: Health system seeks out 'actively' the collection of data, i.e., goes out to community to collect data; For e.g., Stool sample collection from home in Polio Program.- Sentinel Surveillance: Monitoring of rate of occurrence of specific conditions to assess the stability or change in health levels of a population, It is also the study of disease rates in a specific cohort, geographic area, population subgroup, etc. to estimate trends in larger population; For e.g., Use of health practitioners to monitor trends of a health event in a population- 1. Sentinel Surveillance helps in 'identifying missing cases' and 'supplementing notified cases'ALSO REMEMBER* Most of the national health programs in India rely on Passive Surveillance for morbidity and mortality data collection.* Active Surveillance: Is seen in NVBDCP (Health worker goes house to house every fortnight to detect fever cases, collect blood slides and provide presumptive treatment under malaria component) and National Leprosy Elimination Program (Modified Leprosy Elimination Campaigns)* Sentinel Surveillance is done in National AIDS Control Program wherein STD Clinics, ANC Clinics have been identified as sentinel sites to monitor trends of HIV/AIDS in the country
+
+Question: If hemoglobin status of a population with mean value is 10.3 gm % with SD 2 gm%, then 5% population will be below what value of Hb?
+A. 6.67
+B. 7.35
+C. 9
+D. 8.6
+Correct Answer: B
+Explanation: .
+
+Question: All of the following are required more during lactation as compared to pregnancy, except ?
+A. Iron
+B. Vitamin A
+C. Niacin
+D. Energy
+Correct Answer: A
+Explanation: Ans. is 'a' i.e., Iron Required more during lactation as compared to pregnancy : Energy, Vitamin A, thiamin, riboflavin, Vitamin C, niacin, and Vitamin B12. Required more during pregnancy : Iron, protein, and folate. Same requirment in pregnancy and lactation : Fat, calcium, zinc, magnesium, and vitamin B6.
+
+Question: A group of expes discussing a topic in front of the audience without any specific order. This mode of communication is known as: September 2008
+A. Panel discussion
+B. Group discussion
+C. Team presentation
+D. Symposium
+Correct Answer: A
+Explanation: Ans. A: Panel discussion In panel discussion there is a chairman/moderator and 4-8 speakers. Each speaker prepares separately, the other speakers hear one another for the time at the session itself. Panel discussions, however, differ from team presentations. Their purpose is different. In a team presentation, the group presents agreed-upon views; in a panel discussion, the purpose is to present different views. Also in a team presentations, usually speakers stand as they speak; in panel discussions, usually speakers sit the whole time. Technically, a panel discussion consists of questions and answers only, and a symposium consists of a series of prepared speeches, followed by questions and answers. The chairman/ moderator must monitor time and manage questions. If each paicipant is making a speech for a set period of time, he should signal the speakers at the one minute to go mark and at the stop mark. If a speakers goes more than one or two minute he can stop them to gave the equal rights to each speakers. The chairman/ moderator must be a biased person; he is neither in our nor against the topic. At the end the compare should summarize the discussion and thank the panel members.
+
+Question: Pradhan mantra swasthya suraksha yojana was launched in:
+A. 2003
+B. 2006
+C. 2007
+D. 2008
+Correct Answer: B
+Explanation: Pradhan mantra swasthya suraksha yojana was approved in 2006 with the objective of correcting imbalances in availability of affordable teiary level healthcare in the country. Ref: National Health Programmes in India, J.Kishore, 10th edition pg: 84
+
+Question: Which of the following measures sensitivity: September 2011
+A. True negatives
+B. True positives
+C. False positives
+D. False negatives
+Correct Answer: B
+Explanation: Ans. B: True positives Sensitivity denotes true positives
+
+Question: Name of mumps vaccine is
+A. Jeryl Lynn
+B. Edmonshon Zagreb
+C. Schwatz
+D. Moraten
+Correct Answer: A
+Explanation: Widely used live attenuated mumps vaccine include the jeryl Lynn, RIT 4385, Leningrad-3, L-Zagreb and Urable strains. The current mumps strain (jeryl Lynn) has the lowest associated incidence of post-vaccine aseptic meningitis.
+
+Question: Recommended daily dietary requirment of folate (folic acid) in children ?
+A. 80-120 mg
+B. 200 mg
+C. 400 mg
+D. 600 mg
+Correct Answer: A
+Explanation: Ans. is 'a' i.e., 80-120 mg Recommended daily allowances of folic acid are:- Healthy adults - 200 micro gm.(mcg) Pregnancy - 500 mcg Lactation - 300 mcg Children - 80-120 mcg
+
+Question: Maternal moality rate is -
+A. Maternal deaths / 100000 live bihs
+B. Maternal death /100 live bihs
+C. Maternal death /1000 bihs
+D. Maternal death /1000 live bihs
+Correct Answer: A
+Explanation: Park&;s textbook of preventive and social medicine 23rd edition. * Maternal moality rate is the no of maternal deaths in a given period per 100,000 women of reproductive age during the same time period.
+
+Question: Child protection scheme is under which ministry -
+A. Ministry of health and family welfare
+B. Ministry' of Social welfare
+C. Ministry' of women and child development
+D. Ministry of education
+Correct Answer: C
+Explanation: Ans. is 'c' i.e., Ministry of women and child developmento In 2006 the Ministry' of Women and Child Development (MWCD) proposed adoption of Integrated Child Protection Scheme (ICPS).o In 2009 the central government take the scheme its approval and has begun the extensive task of providing children with a protective and safe environment to develop and florish.o The purpose of the scheme is to provide for children in difficult circumstances, as well as to reduce the risks and vulnerabilities children have in various situations and actions that lead to abuse, neglect, exploitation, abandonment and separation of children.
+
+Question: In case control study of buccal carcinoma-
+A. CA is commoner in zarda pan users than non users
+B. Zarda pan is a cause of buccal CA
+C. Zarda pan is associated with buccal CA
+D. If use of zarda pan is stopped, number of cases will reduce
+Correct Answer: C
+Explanation: Case control studies often retrospective studies are a common first approach to test causal hypothesis. In recent years case control study has emerged as a permanent method of epidemiological investigation. Both exposure and outcome has occurred before the study. Study proceeds backwards from effect to cause. It uses a control or comparison group to suppo or refute an inference (refer pgno:71 park 23 rd edition)
+
+Question: You are conducting a survey in your village and the person you are interviewing is a 32 year old post graduate working as a clerk. His total family income is 20,000 Rs per month. According to Kuppuswamy's socio economic status scale, he belongs to:
+A. Upper socioeconomic class
+B. Upper socioeconomic class
+C. Lower middle socioeconomic class
+D. Upper lower socioeconomic class
+Correct Answer: B
+Explanation: Kuppuswamy's socio economic status scale takes into account education, occupation and monthly family income. Since he is a post graduate he gets 6 points for education. His job as a clerk gives him 5 points and a monthly family income of 20000 Rs gives him 12 points which gives him a total of 23 points and so he belongs to upper middle socioeconomic class. Socio economic status Total score Upper socio economic status 26 - 29 Upper middle socioeconomic status 16 - 25 Lower middle socioeconomic status 11 - 15 Upper lower socioeconomic status 5 - 10 Lower socioeconomic status <5 Ref: Park, Edition 21, Page 639
+
+Question: The relationship of mean height of two group of children is best studied by-
+A. Student's test
+B. Linear regression
+C. Chi-square test
+D. Test of propoions
+Correct Answer: A
+Explanation: .
+
+Question: The current Global strategy for malaria control is called –
+A. Modified plan of operation
+B. Malaria Eradication Programme
+C. Malaria Control Programme
+D. Roll back Malaria
+Correct Answer: D
+
+Question: Contraception with increased risk of actinomycosis -
+A. OCPs
+B. Condom
+C. IUCD
+D. Vaginal
+Correct Answer: C
+Explanation: Ans. is 'c' i.e., IUCD o Actinomycosis may occur by use of IUCD.Side effects and complications of lUDs1. Bleeding - Most common2. Pain - Second major side effect3. Pelvic infection - PID4. Uterine perforation5. Pregnancy6. Ectopic pregnancy7. Expulsion8. Mortality' - extremely rare
+
+Question: Shakir's tape is an example of:
+A. Community paicipation
+B. Intersectoral coordination
+C. Equitable distribution
+D. Appropriate technology
+Correct Answer: D
+Explanation: Norms under Appropriate technology: Technology that is scientifically sound. adaptable to local needs. acceptable to those who apply it and those for whom it is used. can be maintained using the locally available resources. - Shakir's tape used to measure mid-arm circumference of child accept all the above norms.
+
+Question: Which of the following statement regarding Septic tank is true ?
+A. The minimum capacity of a septic tank should be at least 100 gallons
+B. A capacity of 20-30 gallons or 2 & half to 5 c.ft. per person is recommended for household septic tanks
+C. The length of septic tank is usually equal to its breadth.
+D. There should be a minimum air space of 3 cm between level of liquid in the tank & under-surface of the cover
+Correct Answer: B
+Explanation: SEPTIC TANK It is water-tight masonry tank into which household sewage is admitted for treatment. It is satisfactory means of disposing excreta & liquid wastes from individual dwellings, small groups of houses & institutions which have adequate water supplies but do not have access to a public sewerage system. Main design features of septic tank are: - Capacity : Depends on number of users. A capacity of 20-30 gallons or 2 and half to 5 c.ft. / person is recommended for household septic tanks. Minimum capacity of a septic tank= at least 500 gallons. - Length is usually twice the breadth. - Depth = 1.5 to 2 m (5-7 ft.). - Recommended liquid depth = 1.2 m (4 ft.). - There should be a minimum air space of 30 cm (12 in.) b/w level of liquid in tank & undersurface of cover. - There are submerged inlet & outlet pipes. - In some septic tanks, bottom is sloping towards inlet end, facilitating retention of solids as sludge. - Septic tank is covered by a concrete slab of suitable thickness & provided with manhole. - These are designed in this country to allow a retention period of 24 hours. Too long retention period will result in undue septicity of effluent. Too sho period gives insufficient treatment. - Sewage is purified by anaerobic digestion in tank f/b aerobic oxidation outside the tank. - De-sludging should be done atleast once/ year.
+
+Question: A patient with cervix cancer is missed by a screening test and later diagnosed with advanced disease. This time interval is called ?
+A. Lead time
+B. Screening time
+C. Serial interval
+D. Generation time
+Correct Answer: A
+Explanation: Ans. is 'a' i.e. Lead time
+
+Question: Best indicator for nutritional status for a child is -
+A. Mid arm circumference
+B. Head circumference
+C. Rate of increase of height and weight
+D. Chest circumference
+Correct Answer: C
+Explanation: Rate of increase of height and weight is the best measure for nutritional status of a child. REF. PARK'S TEXTBOOK OF PREVENTIVE AND SOCIAL MEDICAL 21ST EDITION. 500,501
+
+Question: What is the average number of fleas of each species per rodent called -
+A. General Flea index
+B. Specific Flea index
+C. Incidence of Fle species
+D. Flea infestation Rate
+Correct Answer: B
+Explanation: <p> It is the average number of each species per rat/rodent. Reference:Park&;s textbook of preventive and social medicine,K.Park,23rd edition,page no:294. <\p>
+
+Question: All of the following are killed vaccines, EXCEPT:
+A. Salk
+B. Hepatitis B vaccine
+C. 17-D Vaccine
+D. HDCV
+Correct Answer: C
+Explanation: 17-D vaccine is a live attenuated vaccine used to control yellow fever. Killed vaccines are used to control typhoid, cholera, peusis, plague, rabies, salk (polio), influenza, hepatitis A, B, japanese encephaltis and KFD. Ref: Park's Textbook Of Preventive and Social Medicine 20th edition page 98.
+
+Question: Prophylaxis for health personnel working in a plague ward is -a) Vaccineb) Tetracycline throughout the dutyc) A cource of tetracyclined) Vaccine and Erythromycine) Observation
+A. ac
+B. a
+C. ab
+D. bc
+Correct Answer: C
+
+Question: Which among the following is TRUE about confounding factor?
+A. It is found equally between study and the control groups
+B. It is itself a risk factor for the disease
+C. Confounding can be eliminated by selecting a small group
+D. It is associated with either the exposure or the disease
+Correct Answer: B
+Explanation: A confounding factor is defined as one which is associated both with exposure and disease, and is distributed unequally in study and control groups. More specifically a confounding factor is one that, although associated with exposure under investigation, is itself, independently of any such association, a risk factor for the disease. Ref: Park's Textbook of Preventive and Social Medicine, 19th edition, Page 67.
+
+Question: Biological value of a protein is related to
+A. Nitrogen content
+B. amino acid content
+C. Sulphur content
+D. Energy content
+Correct Answer: A
+Explanation: Ans) a (Nitrogen content) Ref paik 20th ed p 549Biological value of a protein is Retained N2 / Absorbed N2 x 100Protein efficiency ratio = Wt gain in gms / Gram of protein consumedNet protein utilization =Digestibility Coefficent x Biological value100 Aminoacid score =No of mg of one AA/gm of proteinNo of mg of same AA/gm of egg proteinx 100Quality of protein is assessed by comparison to the reference protein which is usually egg protein.
+
+Question: The study for correlation of genetic disease to consanguinity -
+A. Case Contral Study
+B. Cohort study
+C. Cross-sectional study
+D. Case report
+Correct Answer: A
+Explanation: Ans. is 'a' i.e., Case Control Study " The association of consanguinity with complex disorders can be studied using different approaches. For example, epidemialogial surveys could compare the frequency of a disorder in the progeny offirst cousin parents with that of unrelated parents, whereas case-control studies could compare the rates of first cousins among affected individuals and controls".
+
+Question: True about rash of chickenpox
+A. Centripetal
+B. Deep Seated
+C. Affectspalm
+D. Slow to evolute
+Correct Answer: A
+Explanation: Rash of chicken pox : Superficial, unilocular, centripetal, pleomorphic, symmetrical, affects flexor surfaces and axilla, spares palms and sales, has inflammation around, rapid evolution and dew-drop on rose petal appeamace.
+
+Question: Main aim for treatment of TB ?
+A. Prevention of complication
+B. Prevention of disease transmission
+C. Complete clinical cure
+D. Complete bacteriological cure
+Correct Answer: D
+Explanation: Ans. is 'd' i.e., Complete bacteriological cure Chemotherapy is indicated in every case of active tuberculosis. The objective of treatment is cure-that is, the elimination of both the fast and slowly multiplying bacilli from the patient's body. The effects of chemotherapy are judged not by the anatomic healing of lesions, but maily by the elimination of bacilli from the patient's sputum.
+
+Question: What is the dosage of retinol palmitate for early stages of xerophthalmia: September 2011
+A. 90 mg orally on two successive days
+B. 100 mg orally on two successive days
+C. 110 mg orally on two successive days
+D. 120 mg orally on two successive days
+Correct Answer: C
+Explanation: Ans. C: 110 mg orally on two successive days Nearly all of the early stages of xerophthalmia can be reversed by administration of a massive dose (2,00,000 IU or 110 mg of retinol palmitate) orally on 2 successive days Xerophthalmia/ Dry eyes Condition in which the eye fails to produce tears. Xerophthalmia caused by a severe vitamin A deficiency is described by pathologic dryness of the conjunctiva and * cornea. The conjunctiva becomes dry, thick and wrinkled. If untreated, it can lead to corneal ulceration and ultimately to blindness as a result of corneal damage. Xerophthalmia is a term that usually implies a destructive dryness of the conjunctival epithelium due to dietary vitamin A deficiency -- a rare condition in developed countries, but still causing much damage in developing countries. Other forms of dry eye are associated with aging, poor lid closure, scarring from previous injury, or autoimmune diseases such as rheumatoid ahritis and SjOgren's syndrome, and these can all cause chronic conjunctivitis. Radioiodine therapy can also induce xerophthalmia, often transiently Xerophthalmia from hypovitaminosis A is specifically due to lack of the hormone-like vitamin A metabolite retinoic acid Treatment can occur in two ways: treating symptoms and treating the deficiency. Treatment of symptoms usually includes use of aificial tears in the form of eye drops, increasing the humidity of the environment with humidifiers, and wearing wrap around glasses when outdoors. Treatment of the deficiency can be accomplished with a Vitamin A or multivitamin supplement or by eating foods rich in Vitamin A. Treatment with supplements and/or diet can be successful until the disease progresses as far as corneal ulceration, at which point only an extreme surgery can offer a chance of returning sight.
+
+Question: Which is NOT used in treatment of heroin dependence?
+A. Disulfiram
+B. Buprenorphine
+C. Clonidine
+D. Lofexidine
+Correct Answer: A
+Explanation: Ans. is 'a' i.e., Disulfiram o Heroin is diamorphine and is 3 times more potent than morphine.Treatment of morphine or heroin poisoningo Treatment can be divided into:-A. Treatment of toxicity (overdose)# Overdose is a medical emergency, and is treated with opioid antagonist to reverse the complications (respiratory depression) by antagonizing the action on opioid receptors. Intravenous naloxone is the antagonist of choince for morphine (heroin) poisoning. Oral naltrexone is used for maintenance therapy, once acute poisoning has been treated by iv naloxone. Intravenous nalmefene is another specific antagonist.B. Treatment of dependence# Treatment of dependence include medically supervised withdrawal and detoxification, followed by maintenance therapy.a) Detoxificationo Detoxification process include abrupt withdrawal of opioid followed by management of the emergent withdrawal symptoms, i.e., treatment of withdrawal syndrome. Detoxification can be done by any of the following.1. Substitution of long-acting opioid agonism:- Methadone is the treatment of choice. Because of its agonistic activity on opioid receptors it suppresses withdrawal symptoms. L-alpha-acetyl-methadol/ Levomethyl (LAAM) is the other opioid agonist which was used for this purpose. However it is no longer in use because some patients developed prolonged QT intervals (torsades de points).2. Substitution of partial agonist:- Buprenorphine can be used in place of methadone because of its partial agonistic activity on opioid receptor.3. Substitution by a2 agonists:- Clonidine acts as a sympatholytic agent due to its agonistic action on central presynaptic a2 receptors which reduce nor-adrenergic activity. Therefore, clonidine reduces the adrenergic withdrawal symptoms. Lofexidine another a2 agonist, is an alternative to clonidine.4. Clonidine plus naltrexone:- A more rapid detoxification can occur when clonidine is used along with naltrexone. Naltrexone, when given in opioid dependent patient, causes withdrawal symptoms because of its antagonistic action. These can be treated with clonidine. The addition of short acting Benzodiazepine (lorazepam or oxazepam) and NSAIDs, will help relieve withdrawl symptoms not covered by clonidine. It should be kept in mind that naltrexone should not be used alone for detoxification (to treat withdrawl syptoms) as it precipitates or worsens the withdrawl syndrome.5. Other drugs:- Dextropropoxyphene, diphenoxylateb) M aintenance therapyo Once detoxification phase is over (i.e., withdrawal symptoms have been managed), the patient is maintained on any of the following drugs to prevent relapse by reducing craving and preventing 'kick' or 'euphoria' produced by opioids (morphine or heroin). Drugs used are:-1. Methadone:- Reduces craving and 'kick/euphoria' from morphine or heroin because their opioid receptors are already occupied.2. LAAM and buprenorphine:- Similarly reduce craving.3. Opioid antagonists (naltrexone):- Naltrexone can be used orally to assist in the rehabilitation of exopioid abusers who are fully withdrawn (otherwise it induces an acute withdrawl syndrome). Naltrexone prevents relapse by discouraging substance seeking behavior - If a patient, who is on naltrexone maintenance therapy, takes an opioid, there is no 'kick' or 'euphoria' as opioid receptors are already blocked. Naltrexone can be used with clonidine as in detoxification.
+
+Question: Maternal mortality is maximum in which period –
+A. Antepartum
+B. Peripartum
+C. Postpartum
+D. None
+Correct Answer: B
+Explanation: Maternal death mostly occur from the third trimester to the first week after birth. Studies show that mortality risks for mothers are particularly elevated in the first two days after birth.
+
+Question: Which of the following is the national level system that provides annual national as well as state level reliable estimates of fertility and mortality?
+A. Sample registration system
+B. Census
+C. Ad-hoc survey
+D. Sample registration system
+Correct Answer: A
+Explanation: Sample Registration System (SRS) was initiated in 1964–65 (on a pilot basis; full scale from 1969–70) to provide national as well as state level reliable estimates of fertility and mortality
+• SRS is a dual record system:
+Field Investigation: continuous enumeration of births and deaths by an enumerator.
+Independent retrospective survey: every 6 months by an investigator-supervisor.
+
+Question: . When the confidence level of a testis increased which of the following will happen -
+A. No effect on significance
+B. Previously insignificant value becomes significant
+C. Previously significant value becomes insignificant
+D. No change in hypothesis
+Correct Answer: B
+
+Question: Mobile medical care constitutes all except
+A. Primary health care
+B. Secondary health care
+C. Teiary health care
+D. Near home based
+Correct Answer: C
+Explanation: Ref:Park's Textbook of Preventive and Social Medicine 25th Ed
+
+Question: Aziththromyan prophylaxis in trachoma is given when prevalence is above?
+A. 8%
+B. 6%
+C. 4%
+D. 10%
+Correct Answer: D
+Explanation: <p> Current WHO recommendations for antibiotic treatment of trachoma District level prevalence is >10% in 1-9 years old children: mass treatment with azythromycin Reference:WHO Trachoma control:A guide for programme managers,2006;page no:21-22. <\p>
+
+Question: Does not include in strand field's "seven I" principles of health education
+A. Identification
+B. Involvement
+C. Implementation
+D. Innovation
+Correct Answer: C
+Explanation: "SEVEN I" principle of strandfield :
+
+Identification.
+Indigenization.
+Involvement.
+Indoctrination.
+Integration.
+Influencess.
+Innovation.
+
+Question: About chi-square test, true is
+A. Less no. of samples are associated with less error
+B. <0.001 is statistically significant
+C. Categories of data used in test need not be mutually exclusive and discrete
+D. Tests correlation and regression
+Correct Answer: B
+
+Question: The best method of teaching an urban slum about ORS is -
+A. Lecture
+B. Role play
+C. Demonstration
+D. Flash card
+Correct Answer: C
+Explanation: A demonstration is a carefully prepared presentation to show how to perform a skill or procedure.Here a procedure is carried out step by step before an audience or the target group,the demonstrator asceaining that the audience understands how to perform it (refer pgno:864 park 23 rd edition)
+
+Question: Millenium development goals formulated in 2000 were to be achieved by -
+A. 2005
+B. 2015
+C. 2010
+D. 2020
+Correct Answer: B
+Explanation: - During September 2000, representatives of 189 countries met at Millennium Summit in New York to adopt United nations Millennium Declaration. - the goals in the area of development and povey eradication are now referred as Millennium Development Goals. - Governments have set date of 2015 by which they would meet the MDGs. Reference : Park's textbook of preventive and social medicine, 23rd edition, pg no:893 <\p>
+
+Question: Risk factor prevention at which level
+A. Primordial
+B. Primary
+C. Secondary
+D. Tertiary
+Correct Answer: A
+Explanation: (A) (Primordial) (39 - Park 22nd)PRIMORDIAL PREVENTION* Special attension is the prevention of chronic disease* Prevention of the emergence or development of risk factors in countries or population groups in which they have not yet appeared* For example, many adult health problems (eg obesity hypertension) have their early origins in childhood, because this is the time when life styles are formed (for example smoking, eating pattern, physical exercise)* Efforts are directed towards discouraging children from adopting harmful lifestyles* Main intervention in primordial prevention is through individual and mass educationTABLE Levels of preventionLevelPhase of diseaseAimActionsTargetPrimordialUnderlying economic, social, and environmental conditions leading to causationEstablish and maintain conditions hat minimize hazards to healthMeasures that inhibit the emergence of environmental, economic, social and behavioural conditionsTotal population or selected groups; achieved through public health policy and health promotion.PrimarySpecific causal factorsReduce the incidence of diseaseProtection of health by personal and community efforts, such as enhancing nutritional status, providingimmunizations, and eliminating environmental risks.Total population, selected groups and individuals at high risk; achieved through public health programmesSecondaryEarly stage of diseaseReduce the prevalence of disease by shortening its durationMeasures available to individuals and communities for early detection and prompt intervention to control disease and minimize disability (e,g. through screening programmes)Individuals with established disease; achieved through early diagnosis and treatmentTertiaryLate stage of disease (treatment, rehabilitation)Reduce the number and/or impact of complicationsMeasures aimed at softening the impact of long-term disease and disability; minimizing suffering; maximizing potential years of useful life.Patient achieved through rehabilitation* 'YOGA' is a practice that involves training of the mind, body and breathing to deliver various health benefits,Repular practice of yoga can be best defined as a form of "Preventive Medicine" that has shown beneficial effects on several ailments including Backache, Anxiety, Hypertension etc.Health promotionSpecific protection* Health education* Environmental modifications* Nutritional intervention* Lifestyle and behavioural changes* Immunization *** Use of specific nutrients eg vit A *** Chemoprophylaxis* Protection against accident carcinogen etc* Protection against occupational hazards* HIV sentinel surveillance is for Detecting trend of the disease* STEPS done for surveillance of risk factors of non communicable disease
+
+Question: Not a pa of kangaroo mother care -
+A. Skin to skin contact
+B. Early discharge
+C. Free nutritional supplements
+D. Exclusive breast feeding
+Correct Answer: C
+Explanation: The 4 components of kangaroo mother care are all essential for ensuring the best care option especially for low bih weight babies. This include: Skin to skin contact on mothers chest Adequate nutrition through breast feeding Ambulatory care as a result of earlier discharge Suppo for mother and family in caring baby. Parks textbook of preventive and social medicine.K Park. Edition 23.Pg no: 537
+
+Question: Direct standardization is used to compare the moality rates between two countries. This is done because of the difference in -
+A. Cause of death
+B. Numerators
+C. Age distributions
+D. Denominators
+Correct Answer: C
+Explanation: ref: Park&;s 23rd edition pg 58 A standard population is defined as the one for which the numbers in each age and sex group are known.
+
+Question: Which is true of typhoid -
+A. Female carriers are less common
+B. Male carriers though less are more dangerous
+C. Gall bladder usually not involved in carrier state
+D. Tetracycline is the DOC for carriers
+Correct Answer: B
+
+Question: Disease highly transmitted during incubation period is -
+A. Peussis
+B. Cholera
+C. Measles
+D. Brucellosis
+Correct Answer: A
+Explanation: Whooping cough is most infectious during the catarrhal stage. The infective period may be considered to extend from a weak after exposure to about 3 weeks after the onset of the paroxysmal stage although communicability diminishes rapidly after the catarrhal stage. (refer pgno:163 park 23 rd edition)
+
+Question: Integrated management of childhood illness (IMCI) intiative was taken to prevent morbidity and moality from all of the following except -
+A. Malaria
+B. Malnutrition
+C. Otitis Media
+D. Neonatal tetanus
+Correct Answer: D
+Explanation: Ans. is `d' i.e., Neonatal tetanus Integrated management of childhood iliness.tIMCD The extent of childhood morbidity and moality caused by following diseases is substantial. i) Diarrhea iii) Malaria v) Malnutrition ii) ARI (pneumonia, otitis media) iv) Measles o Most sick children present with signs and symptoms of more than one of these conditions. o This overlap means that a signle diagnosis may not be possible or appropriate, and treatment may be complicated by the need to combine for several conditions. o Therefore, an integrated approach to menage Sick children is necessary. IMCI is a strategy for an integrated approach to the management of childhood illness as it is impoant for child health programmes to look beyond the treatment of a single disease. o This is cost effective and emphasizes prevention of disease and promotion of child health and development besides provision of standard case management of childhood illness. The target of IMCI --) Children < 5 years of age (0-2 months, 2 months - 5 years). o Health promotive and preventive components include:- I) Breast feeding: ii) Nutritional counseling; iii) Vitamin A & iron supplementation: iv) immunization; v) Treatment of helminthic infestation.
+
+Question: In IMNCI, pneumonia is classified by-
+A. Fast breathing
+B. Wheezing
+C. Fever
+D. Chest indrawing
+Correct Answer: A
+
+Question: Cluster testing is used in the detection of-
+A. STD
+B. Diabetes
+C. Measles
+D. Cancer
+Correct Answer: A
+Explanation: .Cluster testing is used in the detection of of STD S.here the patients are asked to name other persons of either sex ho move in the same socio-sexual environment.these persons are then screened .this technique ha been shown almost to double the number of cases found ref:park&;s textbook,ed22,pg no 312
+
+Question: Which disease is associated with the Father of Public Health?
+A. Malaria
+B. Cholera
+C. Tuberculosis
+D. Plague
+Correct Answer: B
+Explanation: Dr. John Snow was the first to associate Cholera to a sewage-affected drinking water pump in London Ref: 25th edition Park&;s Textbook of Preventive and Social Medicine, Page no. 25
+
+Question: Which of the following statements regarding live vaccines is false?
+A. Two live vaccines cannot be administered simultaneously
+B. Booster doses are not required when live vaccines are administered
+C. Single dose gives life long immunity
+D. Live vaccine contains both major and minor antigens
+Correct Answer: A
+Explanation: When the administration of two live vaccines is mandatory, it can be given simultaneously but either: ? at different sites of injection or ? at an interval of at least 3 weeks Ref: Park's Textbook of Preventive and Social Medicine By K. Park, 19th Edition, Page 97; Immunology for The Health Sciences By Nicholas J. Vardaxis, Pages 101-4
+
+Question: Sputum positive patient who should be quarantined:
+A. Pregnant women
+B. Old people
+C. Children above 6 years
+D. Children below 6 years
+Correct Answer: D
+Explanation: Ans. (d) Children below 6 yearsRef: K. Park 23rd ed. /182-84* About national TB program, if a person is smear positive for TB:# All the family who is in close contact with the patient is given prophylaxis# Children under age 6 is given prophylaxisNote: India's Revised National Tuberculosis Control Programme (RNTCP) recommends screening of all household contacts of smear-positive pulmonary tuberculosis (PTB) cases for tuberculosis (TB) disease, and 6-month isoniazid preventive therapy (IPT) for asymptomatic children aged <6 years.
+
+Question: Which test is used to compare kapian-meier survival curve-
+A. T-test
+B. Chi-square test
+C. Log rank test
+D. Whitneys test
+Correct Answer: C
+Explanation: Ans. is 'C' i.e., Log rank test o The Kaplan-Meier estimator is an estimater for estimating the survival function from life time data. o A plot of the Kaplan-Meier estimate of the survival function is a series of horizontal steps of declining magnitude which, wrhen a large enough sample is taken, approaches the true survial function of that population. The value of the survival function between successive distinct sampled observations is assumed to be constant, o Different Kaplan-Meier curves can be compared by - The log rank test The cox proportional hazards test
+
+Question: All are seen in vitamin C deficiency except:
+A. Swollen bleeding gums
+B. Delayed wound healing
+C. Anemia
+D. Infeility
+Correct Answer: D
+Explanation: Vitamin C/Ascorbic acid deficiency leads toScurvy Clinical manifestation of scurvy: Swollen and bleeding gums Subcutaneous bleeding and brushing into skin/joints Delayed wound healing Anemia Weakness.
+
+Question: Primordial prevention is done to prevent development of ?
+A. Disease
+B. Risk factors
+C. Impairment
+D. Disability
+Correct Answer: B
+Explanation: Ans. is 'b' i.e., Risk factors LEVELS OF PREVENTION There are four levels of prevention :? Primordial prevention Primary prevention Secondary prevention Teiary prevention Primordial Level of Prevention: Is primary prevention (see below) in purest sense It is the prevention of the emergence or development of risk factors in countries or population groups in which they have not yet appeared Modes of Intervention: Individual Education Mass Education Primordial Level is Best level of prevention for Non-communicable diseases
+
+Question: All of the following are true about Roll back malaria except:(AIIMS November 2013, Nov 2012)
+A. Insecticide treated mosquito nets
+B. Strengthening health system
+C. Development of newer insecticide
+D. Training of health workers
+Correct Answer: C
+Explanation: Ans. c. Development of newer insecticide (Ref; Harrison 19/e p14,18/e p14 WHO Roll Back Malaria Document] HTM_ MAL 2005. 1101.pdf (Roll Back Malaria)Roll Back Malaria:Messages on malaria case management, intermittent preventive treatment during pregnancy and insecticide- treated netsQ (ITNs) were promoted using volunteers, social marketing of unit-dose, prepackaged antimalarial medicines and trainingQ of patent medicine dealers (BASICS II, 2004).The key to the success of this programme was the shift from supply to demand creation for health servicesQ, increased access to medicines, and community ownershipRoll Back Malaria* In Nigeria, a communication strategy for behavioural change was initiated using both the public and private sectors.* Messages on malaria case management, intermittent preventive treatment during pregnancy and insecticide-treated nets (ITNs) wrere promoted using volunteers, social marketing of unit-dose, prepackaged antimalarial medicines and training of patent medicinedealers (BASICS II. 2004).* The channels used included interpersonal communication, traditional communication channels such as 'town criers' and local festivals, and social marketing through medicine packaging, radio spots and distribution of booklets to patent medicine dealers.* The strategy resulted in an increased knowledge of the role and benefits of ITNs in malaria prevention and an increased awareness of the danger signs of malaria and of the importance of seeking early treatment for febrile children through antimalarial medicines.* The key to the success of this programme was the shift from supply to demand creation for health services, increased access to medicines, and community ownership* The experience gained from such training programmes has demonstrated the need for training to address the following gaps in skills and knowledge, depending on the specific roles undertaken:- Knowledge and skills to recognize uncomplicated malaria, danger signs and when to refer the patient Knowledge and skills to manage malaria appropriately (recommended medications/dosages)- Awareness of the need for prompt and early treatment, and completion of the dose- Communication skills to counsel and offer health education on other aspects (e.g. ITNs. intermittent preventive treatment during pregnancy)- Recording/reporting tasks- Drug storage* The highest level of political commitment by the national government is required to ensure that the cross-ministerial activities beyond the purview of the ministry of health required for the implementation of HMM are facilitated at the policy level.Central and regulatory factors:* Regulatory status of recommended antimaiarial medicines.* Quality assurance mechanisms for medicine manufacture and Distribution, and their application.* Regulatory status of potential provider groups.* Current curricula for pre-service and in-service training for* Health providers and other stakeholders in the HMM programme (e.g. teachers) and for schools.
+
+Question: Single most sensitive tool for evaluating the iron status is
+A. Haemoglobin concentration
+B. Serum ion concentration
+C. Serum ferritin
+D. Serum transferrin saturation
+Correct Answer: C
+Explanation: Serum ferritin is the single most sensitive tool for evaluating the iron status.It reflects the size of Iron stores in the body. Values below 10 mcg/L indicate an absence of stored iron.Park 23e pg: 623
+
+Question: Population covered by a PHC in hilly region is –
+A. 20000
+B. 30000
+C. 40000
+D. 25000
+Correct Answer: A
+Explanation: One PHC for every 30,000 rural population in the plains.
+One PHC for every 20,000 population in hilly, tribal and backward areas.
+
+Question: Dose of vitamin A prophytaxis given in age group 16 years -
+A. 2000 iu
+B. 20000 iu
+C. 200000 iu
+D. 100000 iu
+Correct Answer: C
+Explanation: Ans. is 'c' i.e., 200000 iu
+
+Question: Index measuring deprivation in basic dimensions of human development
+A. Human povey index
+B. Human development index
+C. Physical quality of life index
+D. Development deprivation index
+Correct Answer: A
+Explanation: The Human Povey Index (HPI) was considered to better reflect the extent of deprivation to the HDI. In 2010 it was supplanted by the UN&;s Multidimensional Povey Index.
+
+Question: All of the following activities of Junior Red cross except –
+A. Military hospital worker
+B. Village uplift
+C. Prevent epidemic work
+D. Any of the above
+Correct Answer: A
+
+Question: Most important in diagnosing Acute Hepatitis B is
+A. IgG Anti-HBc
+B. Anti HBs
+C. IgM Anti-HBc
+D. HBsAg
+Correct Answer: C
+
+Question: Provison of PHC was done by
+A. Bhore Committee
+B. Chadah Committee
+C. Shrivastava Committee
+D. Bajaj Committee
+Correct Answer: A
+Explanation: Ans. is 'a' i.e.,Bhore Committe Bhore CommitteIt is also known as 'Health Survey and Development Committee'. Its recommendations were :1) Integration of preventive and curative services at all administration levels2) Sho term and long term recommendationsSho term : PHC to cater to a population of 40,000Long term (3 million plan) : PHC units to be set up with 75 bedded hospital for each 10,000 to 20,000 population3) Major charger in medical education including 3 months training in social and preventive medicine to prepare 'social physicians'.
+
+Question: Which disease doesn't require chemoprophylaxis?
+A. Measles
+B. Conjunctivitis
+C. Cholera
+D. Malaria
+Correct Answer: A
+Explanation: Measles prevention is only by immunisation and vaccination. No chemoprophylaxis(Ref.PARK'S TEXTBOOK OF PREVENTIVE AND SOCIAL MEDICINE 21st Edition page no.136)
+
+Question: In the international death ceificate, one of the following is not true-
+A. Pa I of the ceificate deals with the immediate cause only
+B. Pa I of of the ceificate deals with the immediate cause and also the underlying cause
+C. Pa II records significantly associated diseases
+D. The ceificate has been recommended by the WHO for international use
+Correct Answer: A
+Explanation: ref: Park&;s 23rd edition pg 56 International Death Ceificate: Recommended by WHO for international use. 2 pas: PA 1: deals with immediate cause, and the underlying cause which staed the whole trend of events leading to death. The underlying cause of death is reccorded on line (c). PA 2: any significant associated diseases that contributed to the death but did not directly lead to it.
+
+Question: Which one of the following describes the flavouring substance asafoetida (Fling)?
+A. Dried leaf extract
+B. Exudate from chopped roots
+C. Pith of stem boiled and dried
+D. Dried and hardened paste of fruit
+Correct Answer: B
+Explanation: Ans. is 'b' i.e., Exudate from chopped roots
+
+Question: AIDS day is: September 2004
+A. 7 April
+B. 3-May
+C. 5-Jun
+D. 1-Dec
+Correct Answer: D
+Explanation: Ans. D i.e. 1 December
+
+Question: All of the following are anthropozoonosis except
+A. Rabies
+B. Plaque
+C. Anthrax
+D. Schistosomiasis
+Correct Answer: D
+Explanation: Ans. is 'd' i.e., Schistosomiasis Zoonoses Zoonoses are diseases and infections which are naturally transmitted between veebrate animal and man. The zoonoses may be classified according to the direction of transmission of disease : ? l. Anthropozoonoses Infection is transmitted to man from lower veebrate animals. Examples -4 Rabies, plague, hydatid disease, anthrax, trichinosis. 2. Zoonthroponoses Infection is transmitted from man to lower veebrate animals Examples - Human tuberculosis in cattle 3. Amphixenoses Infection is maintained in both man and lower veebrate animals that may be transmitted in either direction. Examples T cruzi, S. japonicum.
+
+Question: Which of the following means of contraception is the best method to achieve Net Reproductive Rate (NRR)=1?
+A. IUCD
+B. Condoms
+C. Vasectomy
+D. Oral pills
+Correct Answer: C
+Explanation: NRR is the most significant indicator of feility. Sterilization accounts for 80% of effective couple protection and hence is the best method among the above choices.
+
+Question: Exposure to noise above--causes permanent loss of hearing:
+A. 85 dB
+B. 90 dB
+C. 100 dB
+D. 160 dB
+Correct Answer: D
+Explanation: 160 dB
+
+Question: Other than cataract, which one among the following is the highest prevalent cause of blindness in the world -
+A. Corneal opacity
+B. Diabetic retinopathy
+C. Glaucoma
+D. Trachoma
+Correct Answer: C
+Explanation: Cataract 39% Glaucoma 10% tracoma3% diabeticretinopathy 4% Ref-Park&;s textbook of Preventive and social medicine 23rd edition. .
+

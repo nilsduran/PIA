@@ -1,0 +1,815 @@
+Question: Which vitamin is supplied from only animal source:
+A. Vitamin C
+B. Vitamin B7
+C. Vitamin B12
+D. Vitamin D
+Correct Answer: C
+Explanation: Ans. (c) Vitamin B12 Ref: Harrison's 19th ed. P 640* Vitamin B12 (Cobalamin) is synthesized solely by microorganisms.* In humans, the only source for humans is food of animal origin, e.g., meat, fish, and dairy products.* Vegetables, fruits, and other foods of nonanimal origin doesn't contain Vitamin B12 .* Daily requirements of vitamin Bp is about 1-3 pg. Body stores are of the order of 2-3 mg, sufficient for 3-4 years if supplies are completely cut off.
+
+Question: In chronic alcoholism the rate limiting component for alcohol metabolism excluding enzymes is/are : (PGI Dec 2008)
+A. NADP
+B. NAD+
+C. NADPH
+D. FADH
+Correct Answer: B
+Explanation: Ans : B (NAD+) & C (NADPH) In chronic alcoholism rate limiting component for alcohol metabolism is NAD* & NADPHOxidation of ethanol by alcohol dehydrogenaseQ & NADQ leads to excess production of NADHSome metabolism of ethanol takes place via a cytochrome P450 dependent microsomal ethanol oxidising systme (MEOS) Q involving NADPH & O2:, This system increase in activity in chronic alcoholism & may account for the increased metabolic clearnce in this condition.Ethanol + NADPH + H+ O2 MEOS Acetaldehyde
+
+Question: All of the following could include the mechanism or function of oxigenases, EXCEPT:
+A. Incorporate 2 atoms of oxygen
+B. Incorporate 1 atom of oxygen
+C. Required for hydroxylation of steroids
+D. Required for carboxylation of drugs
+Correct Answer: D
+Explanation: Carboxylation is a function of carboxylase enzymes which belong to the class of 'Ligases'. It is not a function of oxygenase enzymes. Monoxygenases incorporate one atom of oxygen and play an impoant role in hydroxylation of steroids. Dioxygenases incorporate 2 atoms of oxygen into the substrate. Ref: Harper's Illustrated Biochemistry 27th Edition, Page 96, 97; Enzyme Assays: High-Throughput Screening, Genetic Selection and Fingerprinting edited by Jean-Louis Reymond, 2006, Page 85.
+
+Question: Which of the following is the main enzyme responsible for activation of xenobiotics?
+A. Cytochrome P-450
+B. Glucuronyl transferase
+C. Glutathione S-transferase
+D. NADPH cytochrome P-450-reductase
+Correct Answer: A
+Explanation: Xenobiotics are compounds which may be accidently ingested or taken as drugs or compounds produced in the body by bacterial metabolism. The cytochrome P-450 enzyme family is involved in the biotransformation reaction of xenobiotics. They are heme containing membrane proteins localized in the smooth endoplasmic reticulum of liver. They are so named because they absorb light at wavelength of 450nm, when exposed to carbon monoxide. Ref: Vasudevan Biochemistry, 3rd Edition, Pages 310-2
+
+Question: In Familial hypercholesterolemia there is deficiency of
+A. LDL receptor
+B. Apoprotein A
+C. Apo protein C
+D. Lipoprotein lipase
+Correct Answer: A
+Explanation: LDL receptors 
+
+Familial hypercholesterolemia (type IIa) is due to deficiency of functional LDL receptors as a result of different types of mutations.
+
+Question: Which of the following vitamin reduces the risk of insulin resistance, obesity, and the metabolic syndrome?
+A. Vitamin A
+B. Vitamin C
+C. Vitamin D
+D. Vitamin B12
+Correct Answer: C
+Explanation: Higher Intakes of Vitamin D May Be Beneficial There is evidence that Vitamin D intake considerably higher than that required to maintain calcium homeostasis reduce the risk of insulin resistance, obesity, and the metabolic syndrome, as well as various cancers. There is growing evidence that higher vitamin D status is protective against various cancers, including prostate and colorectal cancer, and also against prediabetes and the metabolic syndrome. Desirable levels of intake may be considerably higher than current reference intakes, and ceainly could not be met from unfoified foods. While increased sunlight exposure would meet the need, it carries the risk of developing skin cancer. Reference: Harper; 30th edition; Page no: 552, 553
+
+Question: Rate limiting step in cholesterol synthesis is catalysed by which of the following enzyme?
+A. HMG CoA synthetase
+B. HMG CoA reductase
+C. Thiokinase
+D. Mevalonate kinase
+Correct Answer: B
+Explanation: Conversion of HMG CoA to mevalonate by HMG CoA reductase is the rate limiting step in the synthesis of cholesterol. Cholesterol is an allosteric inhibitor of HMG CoA reductase Statin drugs acts as competitive inhibitors with mevalonate for binding to HMG CoA reductase. Insulin ors the active form of HMG CoA reductase and increases cholesterol synthesis. Glucagon ours the inactive form and decreases cholesterol synthesis. Ref: Biochemistry By John W. Pelley, page 89.
+
+Question: Which of the following is not a component of transpo system?
+A. Receptor activation
+B. Selective gate
+C. Non-selective channel
+D. Energy coupling system
+Correct Answer: A
+Explanation: Functions: Transpo Systems An essential role of biomembranes is to allow movement of all compounds necessary for the normal function of a cell across the membrane barrier. These compounds include a vast array of substances like sugars, amino acids, fatty acids, steroids, cations and anions to mention a few. These compounds must enter or leave the cells in an orderly manner for normal functioning of the cell. A. 1. Ion Channels Ion channels are transmembrane channels, pore-like structures composed of proteins. Specific channels for Na+, K+, Ca++, and Cl- have been identified. Cation conductive channels are negatively charged within the channel and have an average diameter of about 5 to 8 nm. All ion channels are basically made up of transmembrane subunits that come together to form a central pore through which ions pass selectively. All channels have gates and are controlled by opening and closing. Types of Gates Two types of gated channels. They are a. Ligand-gated channels: In this, a specific molecule binds to a receptor and opens the channel. Example: Acetylcholine receptor is present in the postsynaptic membrane. It is a complex of five subunits, having a binding site for acetylcholine. Acetylcholine released from the presynaptic region binds with the binding site of the postsynaptic region, which triggers the opening of the channel and influx of Na+. b. Voltage-gated channels: These channels open or close in response to changes in membrane potential. Some propeies of ion channels * Composed of transmembrane protein subunits. * Highly selective. * Well regulated by the presence of "gates". * Two main types of gates: Ligand-gated and voltage-gated. * Activities are affected by ceain drugs. * Mutations of genes encoding transmembrane proteins can cause specific diseases. 2. Ionophores Ceain microorganisms can synthesize small organic molecules, called ionophores, which function as shuttles for the movement of ions across the membrane. Structure: These ionophores contain hydrophilic centres that bind specific ions and are surrounded by peripheral hydrophobic regions. Types: Two types: (a) Mobile ion carriers: Like valinomycin (Refer uncouplers of oxidative phosphorylation). (b) Channel formers: Like gramicidin. 3. Water Channels (Aquaporins) In ceain cells, e.g. in red blood cells, and cells of the collecting ductules of the kidney, the movement of water by simple diffusion is enhanced by movements of water through water channels, composed of tetrameric transmembrane proteins called aquaporins. About five distinct types of aquaporins have been recognised. CLINICAL ASPECT Recently mutations in the gene encoding AP-2 (Aquaporin 2) protein, have been shown to be the cause of one type of nephrogenic diabetes insipidus. 4. Gap Junction Ceain cells develop specialized regions on their membranes for intercellular communications which are in close proximity. Function: They mediate and regulate the passage of ions and small molecules upto 1000 to 2000 mol wt, through a narrow hydrophilic core connecting the cytosol of adjacent cells. Structure: They are primarily composed of protein, called connexon which contains four membrane-spanning a-helices. the mitochondrial membrane also has paicularly energy coupling mechanism.Ref: MN Chatterjea Textbook of Medical Biochemistry, 8th edition
+
+Question: Which of the following vitamin enhances intestinal absorption of calcium?
+A. Vitamin D
+B. Vitamin K
+C. Vitamin B1
+D. Vitamin B2
+Correct Answer: A
+Explanation: Vitamin Functions Deficiency Disease D Maintenance of calcium balance Enhances intestinal absorption of Ca2+ and mobilizes bone mineral Regulation of gene expression and cell differentiation Rickets = poor mineralization of bone Osteomalacia = bone demineralization Reference: Harper; 30th edition; Page no: 550
+
+Question: In a patient with a type of familial dyslipidemias he presented with palmar Xanthomas and he ias at increased risk of atherosclerosis and CAD.In Lipid profile there was elevation of triacylglycerols and cholesterol.And the IDL and chylomicrons were elevated.What is the pathophysiology of the condition?
+A. LDL deficiency
+B. VLDL overproduction
+C. Apo C-2 deficiency
+D. Apo E deficiency
+Correct Answer: D
+Explanation: Reference: Harpers illustrated biochemistry 30th edition page 275
+
+Question: Arrange the following 4 enzymes of gluconeogenesis in sequence: A. Pyruvate carboxylase B. Glucose - 6 - phosphatase C. Phosphoenol pyruvate carboxy kinase D. Fructose 1,6 Bisphosphatase
+A. D-C-A-B
+B. A-C-D-B
+C. B-A-D-C
+D. C-D-B-A
+Correct Answer: B
+
+Question: Specific poison for succinate dehydrogenase is ?
+A. Cyanide
+B. Malonate
+C. Arsenite
+D. Fluoride
+Correct Answer: B
+Explanation: B i.e. Malonate
+
+Question: Inherited hyperammonemia is a result of deficiency of which enzyme of Krebs-Henseleit urea cycle?
+A. Malate dehydrogenase
+B. Isocitrate dehydrogenase
+C. N-acetyl glutamate synthetase
+D. Succinate dehydrogenase
+Correct Answer: C
+Explanation: Inherited hyperammonemias are a group of six diseases caused by inborn deficiencies of the enzymes of the Krebs-Henseleit urea cycle. The enzymes involved are: 1. N-acetyl glutamate synthetase 2. Arbamyl phosphate synthetase (CPS) 3. Ornithine transcarbamylase (OTC) 4. Argininosuccinic acid synthetase (citrullinemia) 5. Argininosuccinase deficiency 6. Arginase deficiency Most Severe Cases: In the most severe forms of the hyperammonemic disorders, the infants are asymptomatic at bih and during the first day or two of life, after which they refuse their feedings, vomit, and rapidly become inactive and lethargic, soon lapsing into an irreversible coma. Profuse sweating, focal or generalized seizures, rigidity with opisthotonos, hypothermia, and hyperventilation have been observed in the course of the illness. These symptoms constitute a medical emergency, but even with measures to reduce serum ammonia, the disease is usually fatal. Ref: Ropper A.H., Samuels M.A. (2009). Chapter 37. Inherited Metabolic Diseases of the Nervous System. In A.H. Ropper, M.A. Samuels (Eds), Adams and Victor's Principles of Neurology, 9e.
+
+Question: In which phase of cell cycle, proof reading occurs?
+A. G1
+B. S
+C. G2
+D. M
+Correct Answer: B
+Explanation: EVENTS PHASE of cell cycle Proofreading S phase Most repairs G1 phase Mismatch repair G2 phase
+
+Question: The number of ATPs generated in krebs cycleare ?
+A. 12
+B. 24
+C. 15
+D. 30
+Correct Answer: B
+Explanation: Ans. is 'b' > b' i.e., 24 One turn of the TCA cycle, staing with acetyl CoA produces 10 ATPs. When the staing molecule is pyruvate, the oxidative decarboxylation of pyruvate, the oxidative decarboxylation of pyruvate yields 2.5 ATPs and therefore, 12.5 ATPs are produced when staing compound is pyruvate. Since, two molecules of pyruvate enter the TCA cycle when glucose is metabolized (glycolysis produces 2 molecules of pyruvate), the number of ATPs is doubled. Therefore, 25 ATP molecules, per glucose molecule, are produced when pyruvate enters the TCA cycle.Note : Previously calculations were made assuming that NADH produces 3 ATPs and FADH generates 2 ATPs. This will amount a net generation of 30 ATP molecules in TCA per molecule glucose and total 38 molecules from staing. Recent experiments show that these values are overestimates and NADH produces 2.5 ATPs and FADH produces 1.5 ATPs. Therefore, net generation during TCA is 25 ATPs and complete oxidation of glucose through glycolysis plus citric acid cycle yield a net 32 ATPs.Energy yield (number of ATP generated) per molecule of glucose when it is completely oxidized through glycolysis plus citric acid cycle, under aerobic conditions, is as follows :- Method ofNo of ATPsNo of ATPsPathwayStepEnzymeSource ATP formationgained perglucose(new calculation)As per oldcalculationGlycolysis1Hexokinase MinusMinus 1Do3Phosphofructokinase MinusMinus 1Do5Glyceraldehyde-3-p DHNADH Respiratory chain2.5 x 2 = 53 x 2 = 6Do61,3-BPGkinase ATPSubstrate level1 x 2 -- 21 x 2 = 2Do9Pyruvate kinaseATP Substrate level1 x 2 = 21 x 2 = 2Pyruvate to?PyruvateNADH Respiratory chain2.5x2= 53x2= 6Acetyl CoA Dehydrogenase TCA cycle3Isocitrate DHNADH Respiratory chain2.5x2= 53 x 2= 6Do4Alpha keto glutarate DHNADH Respiratory chain2.5x2= 53x2= 6Do5Succinate thiokinaseGTP Substrate level1 x 2 = 21 x 2 = 2Do6Succicinate DHFADH2Respiratory chain1.5x2= 32 x 2= 4Do8Malate DHNADH Respiratory chain2.5x2= 53 x 2= 6Net generation in glycolytic pathway 9 minus 2= 7 10 minus 2= 8Generation in pyruvate dehydrogenase reaction 5 * 6Generation in citric acid cycle 20 * 24Net generation of ATP from one glucose mole 32 * 38
+
+Question: All will predispose to atherosclerosis, except
+A. Homocystinemia
+B. Fibrinogen
+C. Calcium
+D. Lipoprotein A
+Correct Answer: C
+Explanation: Elevated plasma levels of  homocysteine are associated with increased risk of atherosclerosis, thrombosis and hypertension.
+Lipoprotein A inhibits fibrinolysis, therefore predisposes to atherosclerosis.
+Atherosclerosis (Greek  athere-mush)  is a complex disease characterized by thickening or hardening of arteries due to the accumulation of lipids (particularly cholesterol, free, and esterified), collagen, fibrous tissue, proteoglycans, calcium deposits, etc. in the inner arterial wall. 
+Satyanarayana, Ed 3, Pg No 152
+
+Question: Which component transfers four protons:
+A. NADH-Q Oxidoreductase
+B. Cytochrome -C oxidase
+C. Cytochrome C - Q oxidoredictase
+D. Isocitrate Dehydrogenase
+Correct Answer: A
+Explanation: A i.e. NADH-Q Oxidoreductase; C i.e. Cytochrome C-Q oxidoreductase
+
+Question: For RNA, which blotting technique is used -
+A. Western blot
+B. Northern blot
+C. Southernblod
+D. None
+Correct Answer: B
+Explanation: Ans. is 'b' i.e., Northern blot TechniqueSample analyzedGel usedProbeSouthern blotDNAQYesRadioactive DNAAllele specific oligonucleotide (ASO)DNANoAllele specific oligonucleotideMicroarravm-RNA or c-DNANoDNA probeNorthern blotRNAQYesDNA probeWestern (immuno) blotProtein QYesLabeled antibody QSouth Western blotProtein DNANoDNA probeELISAProtein or antibodiesNoAntibody Q (Specific for protein to be measured)ProteomicsProtein QYes-
+
+Question: Panthothenic acid is coenzyme of which of the following reaction (s):
+A. Dehydrogenation
+B. Oxidation
+C. Decarboxylation
+D. Acetylation
+Correct Answer: D
+Explanation: D i.e. Acetylation Pantothenic acid is necessary for synthesis of coenzyme A (CoA)Q, which functions as a coenzyme for acetylation reactionsQ
+
+Question: Main source of energy derived from
+A. Fat
+B. Glycogen
+C. Lactate
+D. Ketone
+Correct Answer: B
+Explanation: Glycogen is the reserve carbohydrate in animals. It is stored in liver and muscles.The phosphorylated enzyme is less sensitive to allosteric inhibitors. Thus even if cellular ATP and glucose-6-phosphate are high, Phosphorylase will be active. The glucose-1-phosphate produced from glycogen in the liver may be conveed to free glucose for release to the blood.
+
+Question: Vitamin K is ivolved in the posttranslational modification?
+A. Glutamate
+B. Aspartate
+C. Leucine
+D. Lysine
+Correct Answer: A
+
+Question: Urine osmolality in Diabetes insipidus is
+A. <150 mmol/L
+B. <300 mmol/L
+C. <600 mmol/L
+D. <900 mmol/L
+Correct Answer: A
+Explanation: Diabetes insipidus is condition characterised by excessive thirst excretion of large amounts of severely diluted urine Those with diabetes insipidus continue to uinate large amount of urine in spite of water deprivation.Ref: DM Vasudevan, 7th edition, page no: 373
+
+Question: Starvation and diabetes mellitus can lead on to ketoacidosis which of the following features is in our of ketoacidosis due to diabetes mellitus.
+A. Increase in glucagon/insulin ratio, increased CAMP and increased blood glucose
+B. Decreased insulin, increased free fatty acid which is equivalent to blood glucose
+C. Decreased insulin, increased free fatty acid which is not equivalent to blood glucose
+D. Elevated insulin and free fatty acid, equivalent to blood glucose
+Correct Answer: A
+Explanation: A i.e. Increase in glucagons/ insulin ratio, increased C- AMP & increased blood sugar.In diabetes little glucose is oxidized as fuel, except by the brain. The rest of tissues burn a large amount of fat, paicularly the liver where the amount of acetyl COA formed from fatty acids exceeds the capacity of the tricarboxylic acid cycle to oxidize it. The excess acetyl COA is conveed to ketone bodies l/t ketonemia, ketonuria & ketoacidosisDiabetics not only have a defect in the tissue utilization of glucose but also appears to be metabolically poised to produce maximum amount of glucose from amino acids (gluconeogenesis) and to prevent glucose from being utilized to to form fat. (fat synthesis)Insulin is decreased & glucagons is increased 1/t Dglucagon/ insulin ratioQ. Glucagon acts elevation in C- AMPQ
+
+Question: A 34-year-old female has a history of intermittent episodes of severe abdominal pain. She has had multiple abdominal surgeries and exploratory procedures with no abnormal findings. Her urine appears dark during an attack and gets even darker if exposed to sunlight. The attacks seem to peak after she takes erythromycin, because of her penicillin allergy. This patient most likely has difficulty in synthesizing which one of the following?
+A. Heme
+B. Creatine phosphate
+C. Cysteine
+D. Thymine
+Correct Answer: A
+Explanation: The patient has acute intermittent porphyria, which is a defect in one of the early steps leading to heme synthesis. The buildup of the intermediate that cannot continue along the pathway leads to the dark urine, and it turns darker when ultraviolet (UV) light interacts with the conjugated double bonds in the molecule. Erythromycin is metabolized through an induced P450 system, which requires increased heme synthesis. This leads to metabolite buildup to the level where the abdominal pain appears. The defect in heme synthesis does not affect creatine phosphate, cysteine, thymine, or methionine levels.
+
+Question: Which of the following is non-competitive inhibitor of intestinal alkaline phosphatase?
+A. L-Alanine
+B. L-Tyrosine
+C. L-Tryptophan
+D. L-Phenylalanine
+Correct Answer: D
+Explanation: Ans. d (L-Phenylalanine) (Ref. Biochemistry by Vasudevan, 4th ed., 57; 5th ed., 55-56)ALKALINE PHOSPHATASE# The pH optimum for the enzyme reaction is between 9 and 10.# It is activated by magnesium and manganese.# Zinc is a constituent ion of ALR# It is produced by osteoblasts of bone, and is associated with the calcification process.# It is localised in cell membranes (ecto-enzyme), and is associated with transport mechanisms in liver, kidney and intestinal mucosa.# For estimation, sodium phenyl phosphate is used as the substrate, pH is adjusted to 9.9, serum sample is added as the source of ALP and incubated.# Normal serum value of ALP is 40-125 U/L.# Raised Levels:Mild increasepregnancy.Moderate (2-3 times) increaseIn infective hepatitis, alcoholic hepatitis or hepatocellular carcinoma, Hodgkin's lymphoma, congestive cardiac failure or ulcerative colitis.Very high levels of ALP (10-12 times)In extrahepatic obstruction (obstructive jaundice) or cholestasis.Drastically high levels of ALP (10-25 times)Bone diseases where osteoblastic activity is enhanced such as Paget's disease, rickets, osteomalacia, osteoblastoma, metastatic carcinoma of bone, and hyperparathyroidism.Iso-enzymes of Alkaline Phosphatase# Alpha-1 ALP moves in alpha-1 position, it is synthesized by epithelial cells of biliary canaliculi. It is about 10% of total activity and is increased in obstructive jaundice and to some extent in metastatic carcinoma of liver.# Alpha-2 heat labile ALP is stable at 56degC; but loses its activity when kept at 65degC for 30 minutes. It is produced by hepatic cells. Therefore, exaggerated alpha-2 band suggests hepatitis. This liver iso-enzyme forms about 25% of total ALP.# Alpha-2 heat stable ALP will not be destroyed at 65degC, but is inhibited by phenylalanine. It is of placental origin, which is found in blood in normal pregnancy. An iso-enzyme closely resembling the placental form is characteristically seen in circulation in about 15% cases of carcinoma of lung, liver and gut and named as Regan iso-enzyme (after the first patient in whom it was detected) or carcinoplacental iso-enzyme. Chronic heavy smoking also increases Regan iso-enzyme level in blood. Normal level is only 1% of the total ALP.# Pre-beta ALP is of bone origin and elevated levels are seen in bone diseases. This is most heat labile (destroyed at 56degC, 10 min). Wheat germ lectin will precipitate bone isoenzyme. This constitutes about 50% of normal ALP activity.# Gamma-ALP is inhibited by phenylalanine and originates from intestinal cells. It is increased in ulcerative colitis. About 10% of plasma ALP are of intestinal variety.# Leucocyte alkaline phosphatase (LAP) is significantly decreased in chronic myeloid leukemia. It is increased in lymphomas and leukemoid reactions.ALANINE AMINO TRANSFERASE (ALT)# It is also called as serum glutamate pyruvate transaminase (SGPT).# The enzyme needs pyridoxal phosphate as co-enzyme.# Normal serum level of AL T for male is 13^4-0 U/L and for female is 10-28 U/L.# Very high values (100 to 1000 U/L) are seen in acute hepatitis, either toxic or viral in origin.# Both ALT and AST levels are increased in liver disease, but ALT > AST.# Moderate increase (25 to 100 U/L) may be seen in chronic liver diseases such as cirrhosis, Hepatoma.# A sudden fall in ALT level in cases of hepatitis is very bad prognostic sign.NUCLEOTIDE PHOSPHATASE# It is also known as 5' nucleotidase.# It is a marker enzyme for plasma membranes and is seen as an ecto-enzyme (enzyme present on the cell membrane).# Serum samples contain both ALP and NTP.# These are distinguished by Nickel ions which inhibit NTP but not ALP.- Normal NTP level in serum is 2-10 IU/L. It is moderately increased in hepatitis and highly elevated in biliary obstruction.# Unlike ALP, the level is unrelated with osteoblastic activity and therefore unaffected by bone disease.GAMMA GLUTAMYL TRANSFERASE (GGT)# The old name was gamma glutamyl transpeptidase.# It can transfer gamma glutamyl residues to substrate.# In the body it is used in the synthesis of glutathione.# It is seen in liver, kidney, pancreas, intestinal cells and prostate gland.
+
+Question: Marfans Syndrome affecting eyes, skeletal system, and the cardiovascular system is caued by the mutation in the gene
+A. Fibrillin 1
+B. Fibrillin 2
+C. Fibulin
+D. Elastin
+Correct Answer: A
+Explanation: Marfan Syndrome Is Caused by Mutations in the Gene for Fibrillin-1. It is inherited as an autosomal dominant trait. It affects the eyes (eg, causing dislocation of the lens, known as ectopia lentis), the skeletal system (most patients are tall and exhibit long digits and hyperextensibility of the joints), and the cardiovascular system (eg, causing weakness of the aoic media, leading to dilation of the ascending aoa). Abraham Lincoln may have had this condition. Most cases are caused by mutations in the gene (on chromosome 15) for fibrillin-1.Mutations in the fibrillin-1 gene have also been identified as the cause of acromicric dysplasia and geleophysic dysplasia, which are characterized by sho stature, skin thickening, and stiff joints. Congenital contractural arachnodactyly is associated with a mutation in the gene for fibrillin-2.Ref: Harper&;s Biochemistry; 30th edition; Chapter 50; The Extracellular Matrix
+
+Question: RNA primer is synthesized by -
+A. Topoisomerase
+B. Helicase
+C. DNA primase
+D. DNA ligase
+Correct Answer: C
+Explanation: Ans. is 'c' i.e., DNA primase ProteinFunctionDNA polymerasesDeoxynucleotide polymerizationHelicasesProcessive unwinding of DNATopoisomerasesRelieve torsional strain that results from helicase-induced unwindingDNA primaseInitiates synthesis of RNA primersSingle-strand binding proteinsPrevent premature reannealling of dsDNADNA ligaseSeals the single strand nick between the nascent chain and Okazaki fragments on lagging strand
+
+Question: Crossing over, true is;
+A. Occurs during diplotene stage
+B. Between non sister chromatids of homologous chromosomes
+C. Between sister chromatids of homologous chromosomes
+D. Between non homologous chromosomes sister chromatids
+Correct Answer: B
+Explanation: Crossing over is the exchange of genetic material between non sister chromatids of homologous chromosomes occuring during pachytene stage of prophase I of meiosis.Recombination of genes in the same chromosome is brought about by crossing over. Ref: PRINCIPLES OF GENETICS, By Eldon John Gardner, Michael J. Simmons, D. Peter Snustad, 8th Edition, Page 163
+
+Question: Essential amino acids are all except:
+A. Leucine
+B. Lysine
+C. Methionine
+D. Proline
+Correct Answer: D
+Explanation: 10 amino acid are essential - T - Threonine V -VALINE P- Phenylalanine A- Arginine T- Tryptophan M- Methionine I -Isoleucine L -Leucine L - Lysine 2 amino acid are semi essential -Arginine and histidine can be synthesized by adults and not by growing children
+
+Question: A mutation that results in a value replacement for glutamic acid at position 6 of the B chain of hemoglobin 5 hinders normal hemoglobin function and results in sickle-cell anemia when the patient is homozygous for this mutation. This is an example of which of the following types of mutation?
+A. Deletion
+B. Frameshift
+C. Inseion
+D. Missense
+Correct Answer: D
+Explanation: Missense mutations are those in which a single base change (point mutation) results in a codon that encodes for a different amino acid residue. The effects of these types of mutations can range from very minor or even undetectable to major, depending on the impoance of the altered residue to protein folding and function. Nonsense mutations are also point mutations in which the affected codon is altered to a stop (nonsense) codon, resulting hi a truncated protein. Frame shift mutations are due to one or two base "pair inseions or deletions such that the reading frame is altered. These mutations generally lead to truncated proteins as well, since in most protein coding regions the unused reading frames contain numerous stop codons.
+
+Question: Nyctalopia is due to deficiency of
+A. Vitamin A
+B. Vitamin B
+C. Vitamin C
+D. Vitamin E
+Correct Answer: A
+
+Question: Acyl carnitine functions in:
+A. Transport of long chain fatty acid
+B. Transport of short chain fatty acid
+C. Transport of NADH
+D. Transport of FADH
+Correct Answer: A
+Explanation: Ans: a (Transport of long....) Ref: Vasudevan, 4th ed, p. 129The long chain fatty acyl CoA cannot pass through the inner mitochondrial membrane. There fore a transporter, carnitine is involved in transfer of fatty acids.Beta oxidation:Beta oxidation is absent in brain and erythrocytes (because erythrocytes lack mitochondria and fatty acids do not cross BBB).Carnitine acyl transferase -1 is inhibited by Malonyl CoA.Clinical correlate:Carnitine acyl transferase(CAT) deficiency (myopathic form)Although all tissues contain CAT most common form of genetic deficiency is myopathic form and due to a defect in muscle specific CAT gene.Features:Muscle aches, red urineRhabdomyolysis, myoglobinuriaProvoked by exerciseIncreased by high fat; low carbohydrate dietMuscle biopsy: increased muscle triglyceride in cytoplasmTreatment: Cease muscle activity, give glucose.
+
+Question: Amplification of DNA uses the polymerase chain reaction (PCR) technique. Cation used in PCR is:
+A. Calcium
+B. Lithium
+C. Magnesium
+D. Sodium
+Correct Answer: C
+Explanation: PCR is an in vitro method for the polymerase-directed amplification of specific DNA sequences using two oligonucleotide primers that hybridize to opposite strands and flank the region of interest in the target DNA. The specificity and yield in amplifying a paicular DNA fragment by PCR reaction is affected by the proper setting of the reaction parameters (e.g., enzyme, primer, and Mg2+ concentration, as well as the temperature cycling profile). Ref: Feng X., Lin X., Brunicardi F.C. (2010). Chapter 15. Molecular and Genomic Surgery. In F.C. Brunicardi, D.K. Andersen, T.R. Billiar, D.L. Dunn, J.G. Hunter, J.B. Matthews, R.E. Pollock (Eds), Schwaz's Principles of Surgery, 9e.
+
+Question: Which arm of tRNA binds it to vibosomal surface
+A. DHU arm
+B. Pseudouridine arm
+C. Acceptor arm
+D. Anticodon arm
+Correct Answer: B
+Explanation: Pseudoridine arm of tRNA is involved in binding of aminoacyl tRNA to ribosomal surface.
+
+Question: Von Gierke&;s occurs due to deficiency of
+A. Glucose-6-phosphatase
+B. Liver Phosphorylase
+C. Muscle phosphorylase
+D. Debranching enzyme
+Correct Answer: A
+Explanation: Glycogen storage disease type I (GSD I) or von Gierke&;s disease, is the most common of the glycogen storage disease. This genetic disease results from deficiency of the enzyme glucose-6-phosphatase and has an incidence in the American population of approximately 1 in 100,000 bihs.Ref: DM Vasudevan, 7th edition, page no: 128
+
+Question: Type of collagen maximum in skin:-
+A. Type I
+B. Type II
+C. Type III
+D. Type IV
+Correct Answer: A
+Explanation: Collagen - the most abundant protein in mammals contains 4-hydroxyproline and 5-hydroxylysine. Vitamin C plays the role of a coenzyme in hydroxylation of proline and lysine while protocollagen is conveed to collagen The hydroxylation reaction is catalysed by lysyl hydroxylase (for lysine) and prolyl hydroxylase (for proline) This reaction is dependent on vitamin C, molecular oxygen and a-ketoglutarate Type Distribution I Noncailaginous connective tissues, including bone, tendon, skin II Cailage, vitreous humor III Extensible connective tissues, including skin, lung, vascular system IV Basement membranes
+
+Question: Which of the following is not a part of fatty acid synthase Complex?
+A. Ketoacyl reductase
+B. Enoyl reductase
+C. Acetyl-CoA carboxylase
+D. Ketoacyl synthase
+Correct Answer: C
+Explanation: Ans. C. Acetyl-CoA carboxylase(Ref: Harper 31/e page 217)Fatty Acid Synthase (FAS) Multienzyme ComplexThe complex is a homodimer of two identical polypeptide monomers in which six enzyme activities and the acyl carrier protein (ACP)ACP contains the vitamin pantothenic acid in the form of 4'-phosphopantetheineX-ray crystallography of the three-dimensional structure, shown that the complex is arranged in an X shapeAcetyl-CoA carboxylase is not a part FAS ComplexQ.
+
+Question: Which is not ketogenic
+A. Leucine
+B. Lysine
+C. Methionine
+D. Tryptophan
+Correct Answer: C
+Explanation: Ans. is 'c >d' i.e., Methionine > TryptophanLeucine and lysine are purely ketogenic.Trypotophan is not purely ketogenic, but it is ketogenic along with glucogenic. Methionine is purely glucogenic.
+
+Question: SACD (Subacute combined degeneration of cord) is feature of which vitamin deficiency?
+A. Vitamin A
+B. Vitamin B6
+C. Vitamin B9
+D. Vitamin B12
+Correct Answer: D
+Explanation: Ans. d (Vitamin B12) (Ref. H - 17th/pg. Table 71-1).Vitamins: Major FunctionsVITAMINFUNCTIONVitamin AA component of visual pigment; Maintenance of specialized epithelia; Maintenance of resistance to infectionVitamin DFacilitates intestinal absorption of calcium and phosphorus and mineralization of boneVitamin EMajor antioxidant; scavenges free radicalsVitamin KCofactor in hepatic carboxylation of procoagulants--factors II (prothrombin), VII, IX, and X; and protein C and protein S.Vitamin B1 (thiamine)As pyrophosphate, is coenzyme in decarboxylation reactions. Converted to coenzymes flavin mononucleotide and flavin adenine dinucleotide, cofactors for many enzymes in intermediary metabolismNiacinIncorporated into nicotinamide adenine dinucleotide (NAD) and NAD phosphate, involved in a variety of redox reactionsVitamin B6 (pyridoxine)Derivatives serve as coenzymes in many intermediary reactionsVitamin B12Required for normal folate metabolism and DNA synthesis; Maintenance of myelinization of spinal cord tractsVitamin CServes in many oxidation-reduction (redox) reactions and hydroxylation of collagenFolateEssential for transfer and use of 1-carbon units in DNA synthesisPantothenic acidIncorporated in coenzyme ABiotinCofactor in carboxylation reactionsVitamin B12.introductionStored primarily in the liver. Very large reserve pool (several years). Synthesized only by microorganisms. Found only in animal products.FunctionCofactor for homocysteine methyltransferase (transfers CH3 groups as methylcobalamin) and methyimalonyl-CoA mutase. Abnormal myelin is seen in B12 deficiency, possibly due to | methionine or | methylmalonic acid (from metabolism of accumulated methylmalonyl-CoA).Causes of deficiencyVitamin B12 deficiency is usually caused by malabsorption (sprue, enteritis, Diphyllobothrium latum), lack of intrinsic factor (pernicious anemia, gastric bypass surgery), or absence of terminal ileum (Crohn's disease). Use Schilling test to detect the etiology of the deficiency.Deficiency featuresMacrocytic, megaloblastic anemia; neurologic symptoms (optic neuropathy, subacute combined degeneration, paresthesia); glossitis.PRINCIPAL CLINICAL FINDINGS OF VITAMIN MALNUTRITIONNutrientClinical findingDietary level per day associated with overt deficiency in adultsContributing factors to deficiencyThiamineBeriberi:Neuropathy,Muscle weakness and wasting, Cardiomegaly,Edema,Ophthalmoplegia,Confabulation<0.3 mg/1000 kcalAlcoholism, chronic diuretic use, hyperemesisRiboflavinMagenta tongue,Angular stomatitis,Seborrhea,Cheilosis<0.6 mg-NiacinPellagra:Dermatitis: Pigmented rash with silvery/ varnish-like scales of sun-exposed areas.Bright red beefy tongue.DiarrheaDementiaApathyDisorientationDeath (if untreated)<9.0 niacin equivalentsAlcoholism, vitamin B6 deficiency, riboflavin deficiency, tryptophan deficiencyVitamin B6SeborrheaGlossitisConvulsions (especially in neonates),Neuropathy,Depression,Confusion,Microcytic anemia<0.2 mgAlcoholism, isoniazid (most common cause)FolateMegaloblastic anemia,Atrophic glossitis,Depression, -Homocysteine<100 mg/dAlcoholism, sulfasalazine, pyrimethamine, triamtereneVitamin B12Megaloblastic anemia,SACD:Loss of vibratory and position sense, Abnormal gait,Dementia, impotence,Loss of bladder and bowel control, -homocysteine, -methylmalonic acid.<1.0 mg/dGastric atrophy (pernicious anemia), terminal ileal disease, strict vegetarianism, acid reducing drugs (e.g., H2 blockers)Vitamin CScurvy:petechiae, ecchymosis, coiled hairs, inflamed and bleeding gums, joint effusion, poor wound healing, fatigue, perifollicular hemorrhages, subperiosteal hematoma (Woody leg).<10 mg/dSmoking, alcoholismVitamin AXerophthalmia, night blindness, Bitot's spots,Follicular hyperkeratosis,Impaired embryonic development, Immune dysfunction<300 mg/dFat malabsorption, infection, measles, alcoholism, protein-energy malnutritionVitamin DRickets: skeletal deformation, rachitic rosary, bowed legs; osteomalacia<2.0 mg/dAging, lack of sunlight exposure, fat malabsorption, deeply pigmented skinVitamin EPeripheral neuropathy,Spinocerebellar ataxia,Skeletal muscle atrophy, retinopathyNot described unless underlying contributing factor is presentOccurs only with fat malabsorption, or genetic abnormalities of vitamin E metabolism/transportVitamin KElevated prothrombin time, bleeding<10 mg/dFat malabsorption, liver disease, antibiotic use
+
+Question: True about isoenzymes is/are
+A. Different km value
+B. Consist of multimeric complex
+C. Have different physical properties
+D. All of these
+Correct Answer: D
+Explanation: Consist of multimeric complex & `e' i.e., Have different physical properties
+
+isozymes are the physically distinct forms of the same enzymes that catalyze the same reaction, and differ from each other structurally, electrophoretically and immunologically.
+They differ in their physical properties because of genetically determined difference in amino acid sequence.
+They are separated by electrophoresis as they have different electrophoretic mobility.
+They have different Kin value.
+Isoenzyme of an oligomeric enzyme process differ in combination of its peptide protomer.
+
+Question: DNA enzyme for aging:
+A. Telosomerase
+B. Topoisomerase
+C. Telomerase
+D. DNA polymerase
+Correct Answer: C
+Explanation: Ans. (c) TelomeraseRef: Harper's Biochemistry, 30th ed. pg. 374, 732, 26th ed. Pg- 318* The ends of each chromosome contain structures called telomeres.* Telomeres consist of short, repeat TG-rich sequences. Human telomeres have a variable number of repeats of the sequence 5'-TTAGGG-3', which can extend for several kilobases.* Telomerase, is related to viral RNA-dependent DNA polymerases (reverse transcriptases) and is the enzyme responsible for telomere synthesis and thus for maintaining the length of the telomere.* Telomere shortening has been associated with both aging and malignant transformation. Because of this reason, telomerase has become an attractive target for cancer chemotherapy and drug development.
+
+Question: Melanin is formed from which aminoacid?
+A. Phenylalanine
+B. Tyrosine
+C. Tryptophan
+D. Histidine
+Correct Answer: B
+Explanation: Ans. is 'b' i.e., TyrosineAmino acidsBiological important compoundTyrosineCatecholamines (epinephrine, norepinephrine, dopamine), thyroxine, triiodothryonine, melanin.(Note : - Phenylalanine is the precursor of tyrosine, thus it can also give rise to all these compounds through tyrosine (phenylalanine - Tyrosine - Catecholamines, thyroxine, T3' melanin).TryptophanVitamin niacin, melatonin, SerotoninGlycine, Arginine, methionineCreatineGlycine, cysteineBile saltsGlycineHemeAspartic acid and glutaminePyrimidine basesGlycine, aspartic acid, glutaminePurine basesb-alanineCoenzyme-AArginineNitric oxideHistidine, Arginine, lysineKeratinMethionine, lysineCarnitineGABAGlutamateGlutamate, cysteine, glycineGlutathione
+
+Question: Nucleic acids absorb UV light maximally at the wavelength of
+A. 260nm
+B. 280 nm
+C. 410 nm
+D. 320 nm
+Correct Answer: A
+Explanation: Nucleic acids absorb UV light maximally at the wavelength of 260 nm 260/280 ratio of pure DNA/RNA is in the range of 1.8 to 2. Amino acids absorb U.V light (not visible light)- colorless. Aromatic amino acids absorb U.V light at 250-290 nm (maximum absorption is at 280nm) because of conjugated double bonds.
+
+Question: Ehrlich's test is done to detect:
+A. Urinary amylase
+B. Urinary cystine
+C. Abnormal porphyrin
+D. Urobilinogen
+Correct Answer: D
+Explanation: D Harper, 26th ed, p. 283 & 25th ed, p. 370
+
+Question: A 10-year-old boy presents with increase bilirubin, increased bilirubin in urine and no urobilinogen Diagnosis is:
+A. Gilbert syndrome
+B. Hemolytic jaundice
+C. Viral hepatitis
+D. Obstructive jaundice
+Correct Answer: D
+Explanation: Ans. D. Obstructive jaundiceLaboratory tests in three different types of JaundiceConditionSerum BilirubinUrine UrobilinogenUrine BilirubinNormalDirect: 0.1-0.4mg/dL Indirect: 0.2-0.7mg/dL0-4mg/24hAbsentHemolytic anemiaIndirectIncreasedAbsentHepatitisDirect and indirectDecreased if micro-obstruction is presentPresent if micro-obstruction occursObstructive jaundiceDirectAbsentPresent
+
+Question: Negative nitrogen balance is the characteristic feature of which phase of convalescence after surgery?
+A. Catabolic phase
+B. Anabolic phase
+C. Fat gain phase
+D. Tuning point phase
+Correct Answer: A
+
+Question: Not true about post-transcriptional modification of RNA-
+A. 5' Capping
+B. Addition of poly A tail
+C. Removal of introns
+D. Glycosylation
+Correct Answer: D
+Explanation: Ans. is 'd' i.e., Glycosyiution.m-RNA processingo Prokaryotic mRNA is functional immediately upon synthesis, i.e. prokaryotic primary transcript of mRNA is functional. Thus it does not require post-transcriptional modification. In Eukaryotes the primary transcript of mRNA is the hn RNA (hetrogeneous nuclear RNA). After transcription hnRNA is extensively modified to form functional mRNA. These modifications are as follows.The 51-cappingThis is the first processing reaction. 5l-end of mRNA is capped with 7-methylguansosine. This cap helps in initiation of translation (protein synthesis) and stabilizes the structure of mRNA by protecting from 5'-exonuclease.Addition of poly 'A' tail As the name suggests, multiple4A' (adenylate) residues are added at 31 end.This poly-A tail is not transcribed from DNA. but rather added after transcription. These tails helps to stabilize the mRNA (by protecting from 31-exonuclease), facilitate exit from the nucleus, and aid in translation. After mRNA enters the cytosol, the poly-A tail is gradually shortened. Some mRNAs do not have poly-A tail, e.g. mRNAs of histones and some interferons.Removal of introns (splicing) Eukaryotic genes contain some coding sequences which code for protein and some intervening non-coding sequences which do not code for protein. The coding sequences are called 'exons'and intervening non-coding sequences are called 'introns'. The process by which introns are excised and exons are linked to form functional mRNA is called splicing. Thus mature mRNA does not contain introns.# Spitcesome :- Splicesome is an assembly made up of small nuclear RNA (snRNA), some proteins and hnRNA. snRNA combines with proteins to form small nuclear ribnonucleoprotein particles (snRNPs or snurps) that mediate splicing. It is snRNA component of snurps that catalyzes splicing. Snurps are U1, U2, U3, U4, U5 and U6-o Only about 1[?]5% of human DNA has coding sequence (exons). Remaining is non-coding (introns).Alternate splicing :- The hn-RNA molecules from some genes can be spliced in alternative way in different tissues. Thus two or more different mRNA (and therefore 2 or more proteins) can be synthesized from same hnRNA. For example, difference isoforms of tropomyosin in different tissues in due to alternate splicing.
+
+Question: All of the following are globular proteins except:
+A. Prolamines
+B. Albumin
+C. Globulin
+D. Myosin
+Correct Answer: D
+
+Question: Regarding glutathione which of the following is/are true:
+A. It helps in absorption of ceain amino acids
+B. It inactivates some enzymes
+C. It helps in membrane transpo
+D. All
+Correct Answer: C
+Explanation: Ans:C.)It helps in membrane transpo. GLUTATHIONE: Glutathione is a tripeptide made up of glutamate, cysteine and glycine (T-glutamyl-cysteinyl-glycine). Glutathione is present in all mammalian cells except neurons. The sulphydryl (-SH) group of cysteine residue is the reactive poion of glutathione which can undergo oxidation and reduction. Thus, glutathione may exist as the reduced (G-SH) or oxidized form (G-S-S-G) and can play a role in some oxidation-reduction reactions. In oxidized form two molecules of glutathione are linked by disulfide bond. Cysteine in glutathione act as reducing agent FUNCTIONS : - It helps in keeping some enzyme in active state by preventing the oxidation of sulphydryl (-SH) group of enzyme. It helps in detoxification of H2O2 by reducing it. Superoxide anion (O2) first conveed to H2O2 by superoxide dismutase. Glutathione helps in membrane transpo H2O2 is then reduced to H2O2 by glutathione perioxidase, a reaction requires reduced glutathione. Thus, glutathione scavenges free radicals and superoxide anion. It helps in detoxification of xenobiotics by their conjugation (conjugation reaction). Reduced form of glutathione (GSH) with a free sulphydryl (-SH) group serves as a redox buffer, regulating redox state of the cell. Reduced glutathione is essential for maintaining the normal structure of RBCs and for keeping hemoglobin iron in ferrous state (prevents formation of methemoglobin). It is involved in the transpo of amino acids across the cell membane of kidney and intestine.
+
+Question: In metabolic alkalosis, which Is true about excretion in urine
+A. More of NH3
+B. Less of aceto-acetic acid
+C. Betahydroxy butyric acid
+D. Less ammonia
+Correct Answer: D
+Explanation: The NH3 production is greatly increased in metabolic acidosis and negligible in alkalosis. It is also observed that activity of renal glutaminase is enhanced in acidosis. The NH3 mechanism is a valuable device for the conservation of fixed base. Under normal conditions, 30 to 50 mEq of H+ ions are eliminated per day, by combination with NH3 and about 10 to 30 mEq, as titratable acid, i.e. buffered with PO4. Ammonia Mechanism A third mechanism operates in the distal renal tubule cells, for the elimination of H+ ions and the conservation of Na+, by production of NH3 by the renal tubular epithelial cells. Source of NH3 in Distal Tubular Epithelial Cells 1. NH3 is produced by the hydrolysis of Glutamine by the enzyme Glutaminase which is present in these cells. 2. In addition to above, if the cells require NH3 more *NH3 can also be formed from other amino acids by oxidative deamination by L-amino acid oxidase. *NH3 can also be formed from glycine by glycineoxidase. The NH3 thus formed forms NH+4 ions by combining with H+ ions and NH+4 ions can exchange Na+ ion from NaCl. NH+4 ions formation *NH3 can diffuse into the tubular filtrate and there forms NH+4 ions in combination with H+ ions. *NH3 can combine with H+ ions inside the cells and then NH+4 ions come into tubular filtrate. This probably is not the principal mechanism as NH+4 ions are less SECTION FIVE readily permeable to tubular epithelial cells (Fig. 41.4).Ref: M.N. Chatterjea - Textbook of Biochemistry, 7th edition, page no: 716
+
+Question: Genetic material is transferred from one bacteria to another by all except
+A. Transduction
+B. Transformation
+C. Transfection
+D. Conjugation
+Correct Answer: C
+Explanation: Transfection is the method by which DNA is transferred into eukaryotic cell.
+
+Question: Thyroid hormone formation involves many steps. Which of the following amino acid is the precursor for thyroxine?
+A. Glycine
+B. Tyrosine
+C. Phenylalanine
+D. Iodine
+Correct Answer: B
+Explanation: Tyrosine: Tyrosine is the precursor of triiodothyronine and thyroxine. Neural cells conve tyrosine to epinephrine and norepinephrine. While dopa is also an intermediate in the formation of melanin, different enzymes hydroxylate tyrosine in melanocytes. Dopa decarboxylase, a pyridoxal phosphate-dependent enzyme, forms dopamine. Subsequent hydroxylation by dopamine -oxidase then forms norepinephrine. In the adrenal medulla, phenylethanolamine-N-methyltransferase utilizes S-adenosylmethionine to methylate the primary amine of norepinephrine, forming epinephrine. Ref: Rodwell V.W. (2011). Chapter 30. Conversion of Amino Acids to Specialized Products. In D.A. Bender, K.M. Botham, P.A. Weil, P.J. Kennelly, R.K. Murray, V.W. Rodwell (Eds), Harper's Illustrated Biochemistry, 29e.
+
+Question: Fatty acid synthase complex contain the following enzymes except:
+A. Enoyl reductase
+B. Ketoacyl reductase
+C. Acetyl: CoA carboxylase
+D. Dehydratase
+Correct Answer: C
+Explanation: Ans. C. Acetyl: CoA carboxylase(Ref: Harper 31/e page 217)Six enzyme activities of fatty acid synthase complex are:Ketoacyl SynthaseMalonyl-acetyl transacylaseHydrataseEnoyl reductaseKetoacyl reductaseThioesterase (Deacylase)
+
+Question: Aminoacyl t-RNA is not require for -
+A. Proline
+B. Lysine
+C. Hydroxy lysine
+D. Methionine
+Correct Answer: C
+Explanation: Ans. is 'c' i.e., Hydroxylysine o The initial step in protein synthesis is the activation of amino acid in which each of the 20 amino-acids is covalently attached to their respective t-RNA, forming specific amino acyl t-RNA.o The reaction is catalyzed by ami noacyl t-RNA synthase.o Hydroxyproline and hydroxylysine are not represented into genetic code, i.e. they to not have t-RNA capable of accepting them and inserting them into polypeptide chain. Therefore, they have to be synthesized post-translational ly from proline and lysine residues in the polypeptides.
+
+Question: Which of the following enzyme uses citrate in fatty acid synthesis?
+A. Aconitase
+B. Citrate synthase
+C. Malic enzyme
+D. ATP citrate lyase
+Correct Answer: B
+Explanation: Reference: Harpers illustrated biochemistry 30th edition
+
+Question: Phenylketonuria caused by deficiency of
+A. Tyrosine transaminase
+B. Tyrosine hydroxylase
+C. Phenylalanine hydroxylase
+D. Phenylketonuria hydroxylase
+Correct Answer: C
+Explanation: (C) Phenyalanine hydroxylase # Phenylketonuria is a genetic disorder inherited from a person's parents.> It is due to mutations in the PAH gene which results in low levels of the enzyme phenylalanine hydroxylase.> This results in the build up of dietary phenylalanine to potentially toxic levels. It is autosomal recessive meaning that both copies of the gene must be mutated for the condition to develop.> There are two main types, classic PKU and variant PKU, depending on if any enzyme function remains.> Those with one copy of a mutated gene typically do not have symptoms.
+
+Question: Complex polysaccharides are converted to glucose and absorbed by the help of:
+A. Na+k+ATPase
+B. Sucrase
+C. Enterokinase
+D. Carboxypeptidase
+Correct Answer: B
+Explanation: Ans: b (Sucrase) Ref: Vasudevan, 4th ed, p.Sucrase or invert sugar converts sucrose (which is a complex polysaccharide) into 1 molecule of glucose and 1 molecule of fructose.Na+k+ ATPase is a membrane protein.Enterokinase is a brush border enzyme in intestinal mucosa which will activate trypsinogen to trypsin.Proteolytic enzyme are secreted as zymogens which are converted into their active forms in the intestinal lumen. This will prevent the auto digestion of secretory acini. Once activated trypsin activates other molecules.Carboxypeptidase is a proteolytic enzyme present in pancreatic juice.
+
+Question: Melting temperature of DNA is directly proportional to
+A. GC Pairing
+B. AT Pairing
+C. Length of DNA
+D. None of the above
+Correct Answer: A
+Explanation: GC pairs have 3 hydrogen bonds and therefore melt at higher temperature compared to AT pairs which have 2 hydrogen bonds.
+
+Question: Oxidative deamination is catalyzed by ?
+A. Glutaminase
+B. Glutamine synthase
+C. Glutamate dehydrogenase
+D. None of the above
+Correct Answer: C
+Explanation: Ans. is 'c' i.e., Glutamate dehydrogenase
+
+Question: Niacin is synthesized from:
+A. Phenylalanine
+B. Tryptophan
+C. Tyrosine
+D. Methionine
+Correct Answer: B
+Explanation: The liver can synthesize niacin from the essential amino acid tryptophan, but the synthesis is extremely inefficient; 60 mg of tryptophan are required to make one milligram of niacin. The 5-membered aromatic heterocycle of the essential amino acid, tryptophan, is cleaved and rearranged with the alpha amino group of tryptophan into the 6-membered aromatic heterocycle of niacin.
+
+Question: Which amino acid migrates fastest on paper chromatography on methylcellulose medium?
+A. Aspartic acid
+B. Valine
+C. Lysine
+D. Glycine
+Correct Answer: B
+Explanation: Chromatography paper contains about 15-20% water, held to the paper fibers. This water acts as the stationary phase in paper chromatography. Amino acids are separated according to their solubility in the water and in an organic solvent (the mobile phase) moving up the paper. The most non-polar amino acids migrate the farthest, due to their greater solubility in the organic solvent.
+Paper also acts as an adsorbent, having an affinity for polar groups.
+Among the given options, Glycine and Valine are non-polar amino acids (hydrophobic). Aspartic acid and Lysine are polar amino acids. Valine is more non-polar than glycine.
+
+Question: A key gluconeogenic amino acid is:
+A. Alanine
+B. Serine
+C. Valine
+D. Tyrosine
+Correct Answer: A
+Explanation: Alanine is a key gluconeogenic amino acid. The rate of hepatic gluconeogenesis from alanine is far higher than from all other amino acids. The capacity of the liver for gluconeogenesis from alanine does not reach saturation until the alanine concentration reaches 20 to 30 times its normal physiologic level.
+Ref: Harper’s illustrated biochemistry. 30th edition page no: 289
+
+Question: True about glycolysis are all except ?
+A. Provide nutrition to cancer cells
+B. Substrate level phosphorylation at pyruvate kinase
+C. Two carbon end product is formed
+D. NADPH is formed by glyceraldhyde-3-phosphate dehydrogenase
+Correct Answer: C
+Explanation: Ans. is 'c' i.e., Two carbon end product is formed Impoant facts about glycolysis An impoant biochemical significance is the ability of glycolysis to provide ATP in the absence of oxygen (anerobic glycolysis) and allows tissues to survive anoxic episodes. It occurs in cytosol 3 Carbon atoms end product (pyruvate or lactate) is produced. Irreversible steps are catalyzed by : - Glucokinase/Hexokinase, phosphofructohnase-I, and pyruvate kinase. Reversible steps are catalyzed by : - Phosphohexose isomerase, aldolase, phosphotriose isomerase, glyceraldehyde 3-phosphate dehydrogenase, Phosphoglycerate kinase, Phosphoglycerate mutase, Enolase. Energy (ATP) using steps are catalyzee by : - Hexokinase/glucokinase, phosphofurctokinase. Energy (ATP) production at substrate level are catalyzed by : Phosphoglycerate kinase, Pyruvate kinase. Reducing equivalent (NADH) production is catalyzed by : Glyceraldehyde 3-phosphate dehydrogenase. Cancer cells derive nutrition from glycolysis as they have lack of 02 supply because of lack of capillary network. Glycolysis (anaerobic glycolysis) is the only metabolic pathway in the body which can provide energy by glucose metabolism in anerobic conditions.
+
+Question: Iron absorption is inhibited by all except:
+A. Vitamin C
+B. Phytates
+C. Caffeine
+D. Milk
+Correct Answer: A
+Explanation: Ans. A. Vitamin C(Ref: Harper 31/e page 533-540)Iron absorption is enhanced by:Vitamin C, Fructose, Alcohol iron absorption is inhibited byPhytates, Oxalates, Caffeine, Calcium
+
+Question: Spatial relationship of every atom in a molecule is known as:
+A. Conformation
+B. Configuration
+C. Both of the above
+D. None of the above
+Correct Answer: A
+Explanation: The terms configuration and conformation are often confused:
+
+Configuration refers to the geometric relationship between a given set of atoms, for example, those that distinguish l- from d-amino acids. Interconversion of configurational alternatives requires breaking (and reforming) covalent bonds.
+Conformation refers to the spatial relationship of every atom in a molecule.
+
+Ref: Harper’s illustrated biochemistry. 30th edition page no: 36
+
+Question: Same amino acid is coded by multiple codons d/t following :
+A. Degeneracy
+B. Frame-shift mutation
+C. Transcription
+D. Mutation
+Correct Answer: A
+Explanation: Ans. is 'a' i.e. Degeneracy There are 20 amino acids, to be coded by 61 codons, so every amino acid except methionine and tryptophan are represented by more than one codon. This is k/a degeneracy or redundancy.The genetic code is made up of codons. Codons consist of a sequence of three nucleotides i.e. it is a triplet code. Since there are 4 different nucleotides, their various combination leads to 64 codons (43). Three of these codons do not code for any specific amino acid (known as nonsense codons) and are used as termination signals (hence also known as termination or stop codons. When one of these termination codons appear in an mRNA sequence, it signals that polymerization of amino acids into a protein molecule is complete.Characteristics of the Genetic CodeSpecific or UnambiguousA given codon designates only one single specific amino acid.Degenerate or RedundantAlthough each codon corresponds to a single amino acid, a given amino acid may have more than one triplet coding for it.Exceptions are Methionine & Tryptophan, which have a single codon.Codons that represent same amino acids are called as synonymsIn general, the third nucleotide in a codon is less important than the first two in determining the specific amino acid. This is k/a third base degeneracy or wobbling phenomenon.UniversalIn all living organisms the genetic code is the same, this is k/a universality of the codeException is found in mitochondrial genome where AUA codes for methionine and UGA for tryptophan instead of isoleucine and termination respectively.Non-overlappingThere is no overlapping i.e. no base functions as a common member of two consecutive codons.CommalessThere is no punctuation between the codons. The codons are arranged as a continuous structure. The last nucleotide of the preceding codon is immediately followed by the first nucleotide of succeeding codon.
+
+Question: The content of base pair A in the DNA is 15%, what could be the amount of G in DNA according to Chargaff's base pair rule?
+A. 15%
+B. 85%
+C. 35%
+D. 70%
+Correct Answer: C
+Explanation: Chargaff's rules state that DNA from any cell of all organisms should have a 1:1 ratio (base Pair Rule) of pyrimidine and purine bases and, more specifically, that the amount of guanine is equal to cytosine and the amount of adenine is equal to thymine. This pattern is found in both strands of the DNA. %A = %T and %G = %C and A + T + G + C = 100% In the question, A is 15%. According to Chargaff's rule, T will also be 15%. A+T=30 Therefore G+C=100-30=70 According to Chargaff's rule C=G, Therefore, C=70/2=35, Hence G=35%
+
+Question: HHH syndrome is due to defect in ?
+A. Tryptophan metabolism
+B. Histidine transpoer
+C. Branched chain AA metabolism
+D. Ornithine transpoer
+Correct Answer: D
+Explanation: Ans. is 'd' i.e., Ornithine transpoer Hyperornithinaemia, hyperammonaemia, homocitrullinuria (HHH) syndrome is an autosomal recessive disorder of ornithine transpo caused by mutations in gene SLC 25A15 encoding the ornithine transoer protein (ORNT1).There is defective activity of the ornithine transpoer across the mitochondrial membrane, which causes a functional deficiency of two mitochondrial enzymes:Ornithine transcarbomylase : Which catalyses the condensation of ornithine and carbamoylphosphate to citrulline.Ornithine-8-aminotransferase (OAT) : Which metabolizes the ornithine to .'-pyrroline-5-carboxylate and ultimately glutamate and proline.Ornithine accumulates in the cytoplasm and its deficiency in mitochondria causes a secondary urea cycle disorder and hyperammonemia.Carbamoylphosphate accumulates and undergoes allternate metabolism to form :Homocitrulline - Excreted in urineOrotic acidPlasma
+
+Question: Highest cholesterol content is seen in -
+A. LDL
+B. VLDL
+C. Chylomicrons
+D. IDL
+Correct Answer: A
+Explanation: Ans. is 'a' i.e., LDL o Maximum triglyceride contento Maximum exogenous triglyceride o Maximum endogenous triglycerideo Maximum cholesterol content----ChylomicronsChylomicronsVLDLLDL
+
+Question: Nucleosomes are
+A. DNA+RNA
+B. DNA+Histones
+C. RNA+Histones
+D. DNA+RNA+Histones
+Correct Answer: B
+Explanation: Nucleosomes : The double stranded DNA wraps twice around a histone octamer formed by H2A, H2B, H3 and H4. This super - twisted helix forms a spherical paicle of 10nm diameter ; called Nucleosome. The function of the Nucleosomes is to condense DNA ; this arrangement also stabilises the DNA. REF : DM.VASUDEVAN.TEXTBOOK; SEVENTH EDITION ; PAGE NO :577
+
+Question: Which is not Glucogenic ?
+A. Arginine
+B. Histidine
+C. Glycine
+D. Lysine
+Correct Answer: D
+Explanation: Ans. is 'd' i.e., Lysine
+
+Question: The normal range of total serum bilirubin is:
+A. 0.2-1.2 mg/100 ml
+B. 1.5-1.8 mg/100 ml
+C. 2.0-4.0 mg/100 ml
+D. Above 7.0 mg/100 ml
+Correct Answer: A
+Explanation: Ans. A.0.2-1.2mg/100mlIncrease in serum bilirubin (2.4mg/dl) leads to jaundice. Bilirubin in serum exists in two forms: Free/unconjugated/indirect bilirubin which is water insoluble. Conjugate/direct bilirubin which is water soluble. Can be estimated by Van den Berg's diazo reaction.
+
+Question: Accumulation of homogentisic acid causes?
+A. Ochronosis
+B. Tyrosinemia
+C. Albinism
+D. Tyrosinosis
+Correct Answer: A
+Explanation: ANSWER: (A) OchronosisREF: Clinical Paediatric Dermatology by Thappa - Page 156, Differential diagnosis in internal medicine: from symptom to diagnosis - Page 347, http:.//en.wikipedia,org/wiki/Ochronosis,http: // en. wikipedia .org/wiki/AlkaptonuriaRepeat from December 2009, June 2009Ochronosis is the syndrome caused by the accumulation of homogentisic add in connective tissues. The condition was named after the yellowish (ocher-like) discoloration of the tissue seen on microscopic examination. However, macroscopically the affected tissues appear bluish grey because of a light scattering phenomenon known as the Tyndall effect. The condition is most often associated with alkaptonuria but can occur from exogenous administration of phenol complexes like hydroquinone.Alkaptonuria (black urine disease or alcaptonuria) is a rare inherited genetic disorder of phenylalanine and tyrosine metabolism. This is an autosomal recessive condition that is due to a defect in the enzyme homogentisate 1,2-dioxygenase, which participates in the degradation of tyrosine. As a result, a toxic tyrosine byproduct called homogentisic acid (or alkapton) accumulates in the blood and is excreted in urine in large amounts (hence -uria)
+
+Question: Active moiety of CoA is
+A. Acetyl group
+B. Pantothenic acid
+C. Thiol of beta alanine
+D. Thiol of pantothenic acid
+Correct Answer: D
+Explanation: - Synthesis of coenzyme A from pantothenate occurs in a series of  reactions. Pantothenate is  first phosphorylated to  which  cysteine is  added. Decarboxylation, followed by addition of AMP moiety and a phosphate (each from ATP) results in  coenzyme A.
+-Coenzyme A serves as a carrier of activated acetyl or acyl groups (as thiol esters).
+
+Question: All of the following are synonymous codon pair EXCEPT
+A. CAU & CAC
+B. AUU & AUC
+C. AUG & AUA
+D. AAU & AAC
+Correct Answer: C
+Explanation: Synonymous codons Codons that specify the same amino acids. E.g- GGA, GGG, GGU, and GGC codes for glycine Methionine is coded by AUG only. So, there is no synonymous codon for methionine.
+
+Question: Which enzyme converts Testosterone to dihydroxytestosterone?
+A. Aromatase
+B. 5 a reductase
+C. 5 a hydroxylase
+D. 7 a hydroxylase
+Correct Answer: B
+Explanation: Ans. is 'b' i.e., 5 a reductase* 5 a reductase is the enzyme which converts testosterone to dihydroxytestosterone (DHT).* Testosterone is sufficient to support male secondary sexual characteristics* Dihydroxytestosterone (DHT) is however, essential for male type external genitalia to get established. DHT is found to have higher affinity for the receptors, which are responsible for male external genital development, than testosterone. In addition DHT is found to cause prostrate hyperplasia.* Hence 5 a reductase is necessary for male type external genitalia to get established
+
+Question: Oxaloacetate + Acetyl CoA ---> Citrate + CoASH. This reaction is:
+A. Reversible
+B. Exothermic
+C. Can be reversed by catalase
+D. Competitive
+Correct Answer: B
+Explanation: In citric acid cycle, the initial reaction between acetyl-CoA and oxaloacetate to form citrate is catalyzed by citrate synthase, which forms a carbon-carbon bond between the methyl carbon of acetyl-CoA and the carbonyl carbon of oxaloacetate. The thioester bond of the resultant citryl-CoA is hydrolyzed, releasing citrate and CoASH--an exothermic reaction. In the subsequent reactions, two molecules of CO2 are released and oxaloacetate is regenerated; hence oxaloacetate can be considered as playing a catalytic role. Ref: Bender D.A., Mayes P.A. (2011). Chapter 17. The Citric Acid Cycle: The Catabolism of Acetyl-CoA. In D.A. Bender, K.M. Botham, P.A. Weil, P.J. Kennelly, R.K. Murray, V.W. Rodwell (Eds), Harper's Illustrated Biochemistry, 29e.
+
+Question: After overnight fasting, levels of glucose transpoers reduced in
+A. Brain cells
+B. RBCs
+C. Adipocytes
+D. Hepatocytes
+Correct Answer: C
+Explanation: GluT4 is the major glucose transpoer in skeletal muscle and adipose tissue.GluT4 is under the control of insulin.In Type 2 diabetes mellitus, membrane GluT4 is reduced, leading to insulin resistance in muscles and fat cells.Ref: DM Vasudevan, 7th edition, page no: 107
+
+Question: Which of the following is not a pyrimidine base?
+A. Cytosine
+B. Uracil
+C. Guanine
+D. Thymine
+Correct Answer: C
+Explanation: Guanine is a purine base Ref-Harpers illustrated biochemistry 30/e p329
+
+Question: Which of the following is the source of energy for a cardiac muscle at normal conditions?
+A. Fatty acids
+B. Ketone bodies
+C. Glucose
+D. Any of the above
+Correct Answer: A
+Explanation: Hea consumes more energy than any other organ. It utilizes about 6 kg of ATP per day, 20-30 times of its own weight. Cardiac muscle derives its energy by oxidative metabolism of fatty acids (60-90%) and glucose 10-40%. Ketone bodies are also normally metabolized. In addition, energy transfer to hea's myofibrils occurs by creatine kinase catalyzed energy shuttle. The metabolism of hyperophied hea switches from fatty acid to glucose. Ref: Textbook of Biochemistry for Medical Students By D. M. Vasudevan, Sreekumari S, Kannan Vaidyanathan, 2013, Page 102.
+
+Question: Menke's Kinky hair syndrome is due to defect in
+A. Ca transporter
+B. Cu transporter
+C. Zn transporter
+D. Se transporter
+Correct Answer: B
+Explanation: Menke's kinky hair syndrome is due to mutation in ATP7A gene, leading defective copper transporter.
+
+Question: A four-year-old child is diagnosed with Duchenne muscular dystrophy, an X-linked recessive disorder. Genetic anylysis shows that the patient&;s gene for the muscle protein dystrophin contains a mutation in its promoter region. What would be the most likely effect of this mutation?
+A. Tailing of dystrophin mRNA will be defective
+B. Capping of dystropin mRNA will be defective
+C. Termination of dystrophin transcription will be deficient.
+D. Initiation of dystrophin transcription will be deficient
+Correct Answer: D
+Explanation: Because the mutation creates an additional splice acceptor site (the 3'-end) upstream of the normal acceptor site of intron 1, the 19 nucleotides that are usually found at the 3'-end of the excised intron 1 lariat can remain behind as pa of exon 2. Exon 2 can, therefore, have these extra 19 nucleotides at its 5'-end. The presence of these extra nucleotides in the coding region of the mutant mRNA molecule will prevent the ribosome from translating the message into a normal b-globin protein molecule. Those mRNA for which the normal splice site is used to remove the first intron will be normal, and their translation will produce normal b-globin protein.Ref: Lippincott illustrated review, Sixth edition
+
+Question: Insulin causes lipogenesis by all except:
+A. Increasing acetyl-CoA carboxylase activity
+B. Increases the transpo of glucose into the cells
+C. Inhibits pyruvate dehydrogenase
+D. Decreases intracellular cAMP level
+Correct Answer: C
+Explanation: Inhibits pyruvate dehydrogenase Role of insulin in lipogenesis: Insulin promotes lipogenesis by increasing activity of acetyl-CoA carboxylase activity, the principal enzyme of lipogenesis Insulin promotes the entry of glucose in some tissues such as skeletal muscle and adipocytes and thus increases the availability of pyruvate for fatty acid synthesis and glycerol 3-phosphate for esterification of the newly formed fatty acids. [Note that glucose transpo in some cells of body are insulin-independent - hepatocytes, RBCs, cells of nerveous system, corneal Insulin also activates pyruvate dehydrogenase (only in adipose tissue, not in liver) which catalyzes pyruvate into Acetyl-CoA the building blocks of fatty acids. Insulin decreases intracellular cAMP and thus inhibits lipolysis in adipose tissue. This reduces the concentration of plasma free fatty acids and long chain acyl-CoA (an inhibitor of lipogenesis).
+
+Question: Excess of avidin causes deficiency of:
+A. Folate
+B. Choline
+C. Vitamin B12
+D. Biotin
+Correct Answer: D
+Explanation: Excess consumption of raw eggs, which contains a protein 'avidin' - a biotin binding protein leads to biotin deficiency When cooked, avidin is paially denatured and its binding to biotin is reduced. So cooked egg whites are safe to consume.
+
+Question: To be defined as a ganglioside,a lipid substance isolated from nervous tissue must contain
+A. NANA,hexose,fatty acid,glycerol
+B. NANA,hexose,fatty acid,phosphorycholine
+C. NANA,sphingosine,ethanolamine
+D. NANA,hexose,sphingosine,long chain fatty acid,
+Correct Answer: D
+Explanation: Gangliosides are the complex glycosphingolipids derived from glucosylceramide that contain in addition one or more molecules of sialic acid. Neuraminic acid is the principal sialic acid found in human tissues. Gangliosides are present in nervous tissue in high concentration.They help in cell-cell recognition and communication and as receptors for hormones and bacterial toxins. Reference: Harpers illustrated biochemistry 30 th edition
+
+Question: All are true about ketone bodies except
+A. Acetoacetate is primary ketone body
+B. Synthesized in mitochondria
+C. Synthesized in liver
+D. HMG CoA reductase is the rate-limiting enzyme
+Correct Answer: D
+Explanation: KETOSIS Under ceain metabolic conditions associated with a high rate of fatty acid oxidation, liver produces considerable quantities of compounds like acetoacetate and bbb-OH butyric acid, which pass by diffusion into the blood. Acetoacetate continually undergoes spontaneous decarboxylation to produce acetone. These three substances are collectively known as "ketone bodies" (or "acetone bodies"). Sometimes also called as "ketones", which is rather a misnomer. KETONE BODY FORMATION IN LIVER (KETOGENESIS) Enzymes are mitochondrial: Steps 1. Aceto-acetyl-CoA: Aceto-acetyl-CoA is the staing material for ketogenesis. This can arise in two ways: (a)Directly during the course of b-oxidation of fatty acids, or (b)As a result of condensation of two C-2 units, i.e. 'active acetate' (acetyl-CoA) by reversal of thiolase reaction. 2. Formation of Acetoacetate: Acetoacetate is the first ketone body to be formed. This can occur in two ways: a) By deacylation: Acetoacetate can be formed from aceto-acetyl-CoA by simple deacylation catalysed by the enzyme aceto-acetyl-CoA deacylase. SECTION FOUR when excessive amount of ketone bodies are formed, the The above does not seem to be the major pathway deacylation reaction is not enough to cope up. (b) Second pathway: Formation of acetoacetate intermediate production of "bbb-OH-bbb-methyl glutaryl CoA" (HMG-CoA). Present opinion ours the HMG-CoA pathway as the major route of ketone body formation. Steps Involves two steps: * Condensation of aceto-acetyl-CoA with another molecule of acetyl-CoA to form b-OH-b methyl glutaryl-CoA (HMG-CoA) catalysed by the enzyme HMG-CoA synthase (mitochondrial enzyme). *HMG-CoA is then acted upon by an another enzyme, HMG-CoA Lyase, which is also mitochondrial enzyme, to produce one molecule "acetoacetate" and one molecule of acetyl-CoA (Fig. 25.10). Note *Both the enzymes HMG-CoA synthase and HMG-CoA Lyase are mitochondrial and must be available in mitocondrion for ketogenesis to occur. *Both the enzymes are present in liver cells mitochon- dria only. *A marked increase in activity of HMG-CoA Lyase has been noted in fasting. *HMG-CoA is a committed step. Cholesterol also can be formed by "HMG-CoA reductase". 3. Formation of Acetone: As stated earlier, acetone is formed from acetoacetate by spontaneous decarboxy- lation (Non-enzymatic). 4.Formation of b-OH Butyrate: Acetoacetate once formed is conveed to b-OH-butyric acid; the reaction is catalysed by the enzyme b-OH-butyrate dehydro- genase, which is present in liver and also found in many other tissues. b-OH-butyrate is quantitatively the predominant ketone body present in blood and urine in KetosisRef: Textbook of Medical Biochemistry Dr (Brig) MN Chatterjea Rana Shinde, page no: 425,426
+
+Question: The major vitamin deficiency in Wernicke's encephalopathy is :
+A. B1
+B. B2
+C. B6
+D. B12
+Correct Answer: A
+Explanation: Wernicke's disease is a common and preventable disorder due to a deficiency of thiamine. Alcoholics account for most cases, but patients with malnutrition due to hyperemesis, starvation, renal dialysis, cancer, AIDS, or rarely gastric surgery are also at risk. The characteristic clinical triad is that of ophthalmoplegia, ataxia, and global confusion. However, only one-third of patients with acute Wernicke's disease present with the classic clinical triad. Most patients are profoundly disoriented, indifferent, and inattentive, although rarely they have an agitated delirium related to ethanol withdrawal. Ref: Hemphill, III J.C., Gress D.R. (2012). Chapter 275. Neurologic Critical Care, Including Hypoxic-Ischemic Encephalopathy, and Subarachnoid Hemorrhage. In D.L. Longo, A.S. Fauci, D.L. Kasper, S.L. Hauser, J.L. Jameson, J. Loscalzo (Eds), Harrison's Principles of Internal Medicine, 18e.
+
+Question: Unwinding Enzyme in DNA synthesis:
+A. Helicase
+B. Primase
+C. DNA Polymerase
+D. Transcriptase
+Correct Answer: A
+Explanation: Ans. A. Helicase(Ref: Harper 31/e page 364)Classes of proteins involved in DNA replicationProteinFunctionDNA polymerasesDeoxynucleotide polymerizationHelicasesProcessive unwinding of DNATopoisomerasesRelieve torsional strain that results from helicase-induced unwindingProteinFunctionDNA primaseInitiates synthesis of RNA primersSingle-strand binding proteinsPrevent premature reannealing of dsDNADNA ligaseSeals the single strand nick between the Nascent chain and Okazaki fragments on lagging strand
+
+Question: Polysaccharides are
+A. Polymers
+B. Acids
+C. Proteins
+D. Oils
+Correct Answer: A
+Explanation: Polysaccharides are polymers of monosaccharides. They are of two types- homopolysaccharides that contain a single type of monosaccharide (e.g., starch, insulin, cellulose) and heteropolysaccharides with two or more different types of monosaccharides (e.g., heparin, chondroitin sulfate).. Ref: Biochemistry by U. Satyanarayana 3rd edition Pgno : 10
+
+Question: Cyanide affects respiratory chain by
+A. Non-competitive reversible inhibition
+B. Competitive reversible inhibition
+C. Suicide irreversible inhibition
+D. Non-competitive irreversible inhibition
+Correct Answer: D
+Explanation: The toxicity of cyanide is due to its inhibitory effect on the terminal cytochrome which brings cellular respiration to a standstill. The inhibitor usually binds to a different domain on the enzyme, other than the substrate binding site. Since these inhibitors have no structural resemblance to the substrate, an increase in the substrate concentration generally does not relieve this inhibition.Ref: DM Vasudevan, Page no: 234
+
+Question: True about nucleosome
+A. Use only one type of histone protein
+B. Each complex is separated from each other by non histone proteins
+C. Regular repeating structure of DNA & histone proteins
+D. Reflect small nucleus
+Correct Answer: C
+Explanation: In biology, histones are highly alkaline proteins found in eukaryotic cell nuclei that package and order the DNA into structural units called nucleosomes. They are the chief protein components of chromatin, acting as spools around which DNA winds, and playing a role in gene regulation. Without histones, the unwound DNA in chromosomes would be very long (a length to width ratio of more than 10 million to 1 in human DNA). For example, each human diploid cell (containing 23 pairs of chromosomes) has about 1.8 meters of DNA, but wound on the histones it has about 90 micrometers (0.09 mm) of chromatin, which, when duplicated and condensed during mitosis, resulting in about 120 micrometers of chromosomes
+
+Question: Which is not a common enzyme for glycolysis and gluconeogenesis?
+A. Aldolase
+B. Glucose-6-phosphatase
+C. Phosphoglycerate mutase
+D. Phosphoglycerate kinase
+Correct Answer: B
+Explanation: Seven of the reactions of glycolysis are reversible and are used in the synthesis of glucose by gluconeogenesis. Thus, seven enzymes are common to both glycolysis and gluconeogenesis : (i) Phosphohexose isomerase; (ii) Aldolase; (iii) Phosphotriose isomerase, (iv) Glyceraldehyde 3-phosphate dehydrogenase; (v) Phosphoglycerate kinase; (vi) Phosphoglycerate mutase; (vii) Enolase. Three reactions of glycolysis are irreversible which are circumvented in gluconeogenesis by four reactions. So, enzymes at these steps are different in glycolysis and gluconeogenesis.
+
+Question: In ETC cmplex-4 is inhibited by all except -
+A. CO
+B. CN-
+C. H2S
+D. BAL
+Correct Answer: D
+Explanation: Ans. is 'd' i.e., BAL o Rotenone inhibits complex I (NADH-CoQ reductase).Inhibitors of electron transport chain-o Inhibitors of respiratory chain may be divided into three groups : -Inhibitors of electron transport chain properThese inhibitors inhibit the flow of electrons through the respiratory chain. This occurs at following sites.Complex I (NADH to CoQ) is inhibited by: - Barbiturates (amobarbital), Piericidin A (an antibiotic), rotenone (an insectiside), chlorpromazine (a tranquilizer), and guanethidine (an antihypertensive). These inhibitors block the transfer of reducing equivalents from FeS protein to CoQ.Complex II is inhibited by : - Carboxin and TTFA inhibit transfer of electon from FADH2 to CoQ, whereas malanate competitively inhibit from succinate to complex II.Complex III (Cytochrome b to cytochrome Cl) is inhibited by : - Dimercaprol, antimycin A, BAL (British anti lewisite), Naphthyloquinone. These inhibitors block the transfer of electrons from cytochrome b to cytochrome C i.Complex IV (cytochrome C oxidase) is inhibited by : - Carbon monoxide, CN-, ITS and azide (N3). These inhibitors block the transfer of electrons from cytochrome aa3 to molecular oxygen and therefore can totally arrest cellular respiration.Inhibitors of oxidative phosphorylationThese compounds directly inhibit phosphorylation of ADP to .ATP. Oligomycin inhibits Fo component of F0F1 ATPase. Atractiloside inhibits translocase, a transport protein that transports ADP into mitochondria for phosphorylation into ATP.UncouplesAs the name suggests, these componds block the coupeling of oxidation with phosphorylation. These compounds allow the transfer of reducing equivalents in respiratory chain but prevent the phosphorylation of ADP to ATP by uncoupling the linkage between ETC and phosphorylation. Thus the energy instead of being trapped by phosphory lation is dissipated as heat. Uncouplers may be :- Natural :-Thermogenin, thyroxineSynthetic :- 2, 4-dinitrophenol (2, 4-DNP), 2, 4-dinitrocresol (2, 4-DNC), and CCCP (chlorocarbonylcyanidephenyl hydrazone).
+
+Question: In human body, methionine is synthesized from ?
+A. Cysteine
+B. Proline
+C. Threonine
+D. None
+Correct Answer: D
+Explanation: Ans. is 'd' i.e., None Methionine is an essential amino acid, cannot be synthesized in body.
+
+Question: Type IV complex of ETC is inhibited by
+A. Oligomycin
+B. Antimycin
+C. Cyanide
+D. CO2
+Correct Answer: C
+Explanation: Cyanide is probably the most potent inhibitor of ETC (Complex IV). It binds to Fe3+ of cytochrome oxidase blocking mitochondrial respiration leading to cell death. Cyanide poisoning causes death due to tissue asphyxia (mostly of the central nervous system) In Acute cyanide poisoning Amyl nitrite is given followed by sodium thiosulphate. This is an example of Chemical antagonism i.e. one drug binding to other making it unavailable in body.
+
+Question: Role of carnitine in lipid metabolism -
+A. Catalyzation of the cyclization sequence
+B. Essential for extracellular transfer of fatty acids
+C. Essential for biosynthesis of fatty acids
+D. Transfer of activated long chain FFA into mitochondria
+Correct Answer: D
+Explanation: Ans. is 'd' i.e.. Transfer of activated long chain FFA into mitochondria o Activated long chain fatty acid (acyl CoA) cannot penetrate inner mitochondrial membrane.o Acyl group of acyl CoA is transferred to carnitine, resulting in formation of acylcarnitine.o Acylcarnitine is then transported across the inner mitochondrial membrane into the mitochondrial matrix by translocase.o Once inside the mitochondrion, acyl group of acylcarnitine is transferred back to CoA, resulting in formation of acvl-CoA which undergoes b-oxidation.
+
+Question: A person switches from high fat diet to low fat diet with compensatory increase in carbohydrates to maintain the same calories. Which of the following fat component will be increased ?
+A. Chylomicron
+B. VLDL
+C. IDL
+D. HDL
+Correct Answer: B
+Explanation: As excess of carbohydrates are conveed to fat in the body (liver) which eventually gets packed into VLDL so, VLDL represents the amount of fat production in the body, or in other words, it also represent excess dietary carbohydrate intake. While Chylomicrons represents the externally taken fats. Function Lipoproteins Lipoprotein rich in triglyceride Lipoprotein with least electrophoretic mobility Transpoer of dietary (exogenous) triglycerides & Cholesterol Chylomicrons Transpoer of endogenous triglycerides VLDL Transpos endogenous Cholesterol from Liver to Peripheral tissue. LDL Lipoprotein rich in apolipoproteins Transpos excess Cholesterol from Peripheral tissue to Liver called as reverse cholesterol transpo HDL has the highest electrophoretic mobility and least lipid content. HDL paicles are the densest. On electrophoresis, HDL moves fahest on electrophoretic plate towards the anode. HDL Lipoprotein resembling plasminogen Lp(a)
+
+Question: Cellular oxidation is inhibited by :
+A. Cyanide
+B. Carbon dioxide
+C. Chocolate
+D. Carbonated beverages
+Correct Answer: A
+Explanation: A i.e. Cyanide
+
+Question: Which of the following amino acids is most responsible for the buffering capacity of hemoglobin and other proteins?
+A. Arginine
+B. Aspaic acid
+C. Glutamic acid
+D. Histidine
+Correct Answer: D
+Explanation: Remember that a buffer is most effective when its pKa is within the pH range of the surrounding medium. Histidine is the only amino acid with good buffering capacity at physiologic pH. The imidazole side chain of histidine has a pKa around 6.0 and can reversibly donate and accept protons at physiologic pH. Arginine and lysine are basic amino acids with pKa's of 12.5 and 10.5, respectively; at physiologic pH both will behave as bases and accept protons. Aspaic acid and glutamic acid are acidic amino acids with pKa's of approximately 4; at physiologic pH they will behave as acids and donate protons. Ref: Rodwell V.W. (2011). Chapter 30. Conversion of Amino Acids to Specialized Products. In D.A. Bender, K.M. Botham, P.A. Weil, P.J. Kennelly, R.K. Murray, V.W. Rodwell (Eds), Harper's Illustrated Biochemistry, 29e.
+
+Question: Marble bone disease, characterized by increase in bone density is due to mutation in the gene encoding:
+A. Carbonic Anhydrase I
+B. Carbonic Anhydrase II
+C. Carbonic Anhydrase III
+D. Carbonic Anhydrase IV
+Correct Answer: B
+Explanation: Ans. B. Carbonic Anhydrase IIIn osteoporosis, also called as marble bone disease there is increased bone density. It is due to mutation in gene encodingcarbonic anhydrase II enzyme. The deficiency of this enzyme in osteoclasts leads to inability of bone resorption.
+
