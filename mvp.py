@@ -1,4 +1,5 @@
 import random
+import json
 from datasets import load_dataset
 import google.generativeai as genai
 from google.api_core.exceptions import ResourceExhausted
@@ -114,7 +115,7 @@ def ask_gemini(full_prompt: str) -> str:
     # Extract text
     text = getattr(response, "text", None)
     print(text)
-    return text.strip() if text else ["A", "B", "C", "D"][random.randint(0, 3)]
+    return text.strip()
 
 
 # --- Dataset ---
@@ -163,12 +164,14 @@ for sample in samples_to_process:
 
         # Parse letter
         llm_letter = None
-        if raw not in ["ERR_API", "ERR_FORMAT"] and "Final Answer: " in raw:
+        if "Final Answer: " in raw:
             parts = raw.rsplit("Final Answer: ", 1)
             if len(parts) == 2:
                 candidate = parts[1].strip()
                 if candidate in ["A", "B", "C", "D"]:
                     llm_letter = candidate
+        else:
+            llm_letter = random.choice(["A", "B", "C", "D"])
 
         # Record
         agent_results[name]["total"] += 1
