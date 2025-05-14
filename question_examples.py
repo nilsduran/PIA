@@ -7,12 +7,13 @@ train_ds.shuffle(seed=42)
 
 # 2. Extreu tots els subjectes únics
 subjects = sorted(set(ex["subject_name"] for ex in train_ds if ex["subject_name"] != "Unknown"))
+print(subjects)
 
 # 3. Assegura't que la carpeta existeix
 out_dir = "exemples_MedMCQA"
 os.makedirs(out_dir, exist_ok=True)
 
-# 4. Escriu un fitxer per subject amb límit de 1000 preguntes
+# 4. Escriu un fitxer per subject amb límit de 100 preguntes
 MAX_PER_SUBJECT = 100
 for subj in subjects:
     fname = subj.replace(" & ", "_").replace(" ", "_") + ".txt"
@@ -32,8 +33,8 @@ for subj in subjects:
                     f.write(f"Explanation: {ex['exp']}\n")
                 f.write("\n")
                 count += 1
-                if count >= MAX_PER_SUBJECT:
-                    break
+                # if count >= MAX_PER_SUBJECT:
+                #     break
     print(f"Saved {count} examples for {subj} → {path}")
 
 
