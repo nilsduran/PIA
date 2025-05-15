@@ -13,7 +13,7 @@ agents = {
         "textbooks": ["First_Aid_Step1.txt", "First_Aid_Step2.txt", "InternalMed_Harrison.txt"],
         "subjects": ["Medicine", "Social & Preventive Medicine", "Forensic Medicine"],
     },
-    "Ciences_Basiques": {
+    "Ciències_Bàsiques": {
         "textbooks": [
             "Anatomy_Gray.txt",
             "Physiology_Levy.txt",
