@@ -1,5 +1,6 @@
 datasets
 google-generativeai
+google-genai
 matplotlib
 seaborn
 numpy
