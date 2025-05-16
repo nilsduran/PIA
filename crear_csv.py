@@ -28,6 +28,9 @@ if not os.path.isdir(INPUT_DIR):
     exit(1)
 
 
+# Defineix les columnes que tindran els CSV
+CSV_FIELDNAMES = ["question", "option_A", "option_B", "option_C", "option_D", "explanation", "answer"]
+
 # Carrega les dades de cada fitxer JSON
 for filename in os.listdir(INPUT_DIR):
     if filename.endswith(".json"):
@@ -38,6 +41,11 @@ for filename in os.listdir(INPUT_DIR):
             with open(file_path, "r", encoding="utf-8") as f:
                 questions = json.load(f)
 
+                # Verifica que questions és una llista
+                if not isinstance(questions, list):
+                    print(f"Error: {file_path} no conté una llista. Format no esperat.")
+                    continue
+
                 # Assigna les preguntes als agents corresponents
                 for agent, topics in AGENT_TOPICS.items():
                     if topic_key in topics:
@@ -46,44 +54,77 @@ for filename in os.listdir(INPUT_DIR):
         except Exception as e:
             print(f"Error llegint {file_path}: {e}")
 
+# Estadístiques per al seguiment
+stats = {agent: {"total": 0, "valid": 0, "skipped": 0} for agent in AGENT_TOPICS}
+
 # Escriu els fitxers CSV
 for agent, topic_dict in agents_data.items():
     rows = []
+    all_questions = []
+
+    # Primer, agrupem totes les preguntes d'aquest agent
     for topic, questions in topic_dict.items():
-        shuffle(questions)  # barreja per si hi ha més de 2000
-        for q in questions:
-            if len(rows) >= NUM_PREGUNTES_PER_AGENT:
-                break
-            # Assegura't que totes les claus necessàries estan presents
-            if all(key in q for key in ["question", "options", "label"]):
-                # Salta si la quarta opció està buida o és NaN
-                if (
-                    q["options"][3] == ""
-                    or q["options"][3] is None
-                    or q.get("explanation") is None
-                    or len(q.get("explanation", "")) < 10
-                    or len(q.get("explanation", "")) > 4990
-                ):
-                    continue
+        all_questions.extend([(q, topic) for q in questions])
 
-                rows.append(
-                    {
-                        "question": q["question"],
-                        "option_A": q["options"][0],
-                        "option_B": q["options"][1],
-                        "option_C": q["options"][2],
-                        "option_D": q["options"][3],
-                        "explanation": q.get("explanation"),
-                        "answer": q["label"],
-                    }
-                )
+    # Barregem totes les preguntes
+    shuffle(all_questions)
 
+    stats[agent]["total"] = len(all_questions)
+
+    # Processa les preguntes
+    for q, topic in all_questions:
+        if len(rows) >= NUM_PREGUNTES_PER_AGENT:
+            break
+
+        stats[agent]["processed"] = stats[agent].get("processed", 0) + 1
+
+        # Verifiquem que té els camps mínims
+        if not all(key in q for key in ["question", "options", "label"]):
+            stats[agent]["missing_fields"] = stats[agent].get("missing_fields", 0) + 1
+            continue
+
+        # Verifiquem que options és una llista amb 4 elements
+        if not isinstance(q["options"], list) or len(q["options"]) != 4:
+            stats[agent]["invalid_options"] = stats[agent].get("invalid_options", 0) + 1
+            continue
+
+        # Verifiquem que l'etiqueta és vàlida
+        if not isinstance(q["label"], str) or q["label"] not in ["A", "B", "C", "D"]:
+            stats[agent]["invalid_label"] = stats[agent].get("invalid_label", 0) + 1
+            continue
+
+        # Verifiquem les opcions buides i la qualitat de l'explicació
+        if (
+            q["options"][3] == ""
+            or q["options"][3] is None
+            or q.get("explanation") is None
+            or len(q.get("explanation", "")) < 10
+            or len(q.get("explanation", "")) > 4980
+        ):
+            stats[agent]["invalid_content"] = stats[agent].get("invalid_content", 0) + 1
+            continue
+
+        # Si arribem aquí, la pregunta és vàlida
+        rows.append(
+            {
+                "question": q["question"].strip(),
+                "option_A": q["options"][0].strip(),
+                "option_B": q["options"][1].strip(),
+                "option_C": q["options"][2].strip(),
+                "option_D": q["options"][3].strip(),
+                "explanation": q.get("explanation", "").strip(),
+                "answer": q["label"],
+            }
+        )
+        stats[agent]["valid"] += 1
+
+    # Escriu el CSV si tenim files
     if rows:
         out_path = os.path.join(OUTPUT_DIR, f"{agent}.csv")
         with open(out_path, "w", newline="", encoding="utf-8") as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames=rows[0].keys())
+            writer = csv.DictWriter(csvfile, fieldnames=CSV_FIELDNAMES)
             writer.writeheader()
             writer.writerows(rows)
-        print(f"Creat: {out_path} ({len(rows)} exemples)")
+        print(f"✅ Creat: {out_path} ({len(rows)} preguntes)")
     else:
-        print(f"Cap pregunta trobada per a {agent}")
+        print(f"❌ Cap pregunta vàlida trobada per a {agent}")

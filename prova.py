@@ -16,7 +16,7 @@ import gradio as gr
 # .\.venv-stable\Scripts\activate
 # $env:GOOGLE_API_KEY = "YOUR_ACTUAL_API_KEY_HERE"
 # "AIzaSyA8KwZ5wYVoaiLlRMOI_ZsS2PYXH0qq4ms"
-# "AIzaSyDxk7cxcrDx3mcofYIosCggfkVbyHedO4w"
+# Medicina general: "AIzaSyDxk7cxcrDx3mcofYIosCggfkVbyHedO4w"
 
 API_KEY = os.getenv("GOOGLE_API_KEY")
 if not API_KEY:
