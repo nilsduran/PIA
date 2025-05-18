@@ -5,13 +5,14 @@ import matplotlib.pyplot as plt
 import time
 from tqdm import tqdm
 from google.api_core.exceptions import ResourceExhausted, TooManyRequests
-import collections, random
+import collections
+import random
 
 
-def generate_content(api_key, tuned_model_id, prompt, temperature=0.7, max_output_tokens=2048):
+def generate_content(tuned_model_id, prompt, temperature=0.7, max_output_tokens=2048):
     """Generate content using the fine-tuned model API."""
     # Construct the endpoint URL
-    url = f"https://generativelanguage.googleapis.com/v1/{tuned_model_id}:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1/{tuned_model_id}:generateContent?key=AIzaSyDxk7cxcrDx3mcofYIosCggfkVbyHedO4w"
 
     # Set the request headers
     headers = {"Content-Type": "application/json"}
@@ -42,13 +43,14 @@ def extract_answer(text):
     return m.group(1).upper() if m else None
 
 
-def benchmark_model(model_id, model_name, num_questions=10, temperature=0.2):
+def benchmark_model(model_id, model_name, num_questions=10, temperature=0.6, k_shot=5):
     """Benchmark a single model on multiple-choice medical questions."""
     print(f"\nBenchmarking model: {model_name}")
 
     # Load MedQA dataset
     medqa = load_dataset("GBaker/MedQA-USMLE-4-options", split="test")
-    medqa_train = load_dataset("GBaker/MedQA-USMLE-4-options", split="train").shuffle(seed=42).select(range(5))
+    medqa_train = []
+    medqa_train = load_dataset("GBaker/MedQA-USMLE-4-options", split="train").shuffle(seed=42).select(range(k_shot))
 
     # Get examples for few-shot learning
     examples = medqa_train
@@ -58,7 +60,7 @@ def benchmark_model(model_id, model_name, num_questions=10, temperature=0.2):
         "You are a medical expert answering multiple-choice questions. "
         "Always output EXACTLY in this format, nothing more:\n"
         "Explanation: [Your brief but precise medical reasoning, no code or additional text]\n"
-        "Answer: [A or B or C or D]"
+        "Answer: [A or B or C or D]\n"
     )
 
     # Example explanations (previously provided)
@@ -101,12 +103,12 @@ def benchmark_model(model_id, model_name, num_questions=10, temperature=0.2):
             f"Explanation:"
         )
 
-        response = generate_content(API_KEY, model_id, prompt, temperature=temperature, max_output_tokens=300)
+        response = generate_content(model_id, prompt, temperature=temperature, max_output_tokens=300)
         model_ans = extract_answer(response)
 
         # If no answer, try once more with lower temperature
         if model_ans is None:
-            response = generate_content(API_KEY, model_id, prompt, temperature=0.1, max_output_tokens=1000)
+            response = generate_content(model_id, prompt, temperature=temperature, max_output_tokens=500)
             model_ans = extract_answer(response)
             if model_ans is None:
                 no_answer += 1
@@ -147,7 +149,7 @@ def benchmark_model(model_id, model_name, num_questions=10, temperature=0.2):
             )
 
     # Calculate results
-    accuracy = correct / len(test_examples) * 100
+    accuracy = correct / (len(test_examples) - no_answer) * 100
     print(f"No answer provided by model: {no_answer} out of {len(test_examples)}")
     print(f"Accuracy: {correct}/{len(test_examples)} = {accuracy:.1f}%")
 
@@ -185,7 +187,6 @@ def plot_results(results):
 
     # Save the figure
     plt.savefig("model_benchmarks.png")
-    plt.show()
 
 
 if __name__ == "__main__":
@@ -212,29 +213,28 @@ if __name__ == "__main__":
 
     # Available models
     MODELS = {
-        # "Gemini 1.5 Flash Tuning": "models/gemini-1.5-flash-001-tuning",
+        "Gemini 1.5 Flash Tuning": "models/gemini-1.5-flash-001-tuning",
         "Medicina General": "tunedModels/medicinageneralcsv-q4i0ydc9l1uvxbzsxmii8",
-        "Ciències Bàsiques": "tunedModels/cincies-bsiques-5x23mkxv2ftipprirc4i4714",
-        "Patologia i Farmacologia": "tunedModels/patologia-i-farmacologia-3ipo0rdy5dkze8q",
-        "Cirurgia": "tunedModels/cirurgia-6rm1gub7hny7bzm3hjgghwcf3tws7ar",
-        "Pediatria i Ginecologia": "tunedModels/pediatria-i-ginecologia-q4n2dg2t5sweqdt9",
+        # "Ciències Bàsiques": "tunedModels/cincies-bsiques-5x23mkxv2ftipprirc4i4714",
+        # "Patologia i Farmacologia": "tunedModels/patologia-i-farmacologia-3ipo0rdy5dkze8q",
+        # "Cirurgia": "tunedModels/cirurgia-6rm1gub7hny7bzm3hjgghwcf3tws7ar",
+        # "Pediatria i Ginecologia": "tunedModels/pediatria-i-ginecologia-q4n2dg2t5sweqdt9",
         # "Medicina General 2": "tunedModels/medicinageneral2-htffsvts97ttozkz18abl80",
-        # "Ciències Bàsiques 2": "tunedModels/ciencies-basiques-2-pfg4bpafqcay88df2kr8",
-        # "Patologia i Farmacologia 2": "tunedModels/patologia-farmacologia-2-8iy2ixmy5bluqzw",
-        # "Cirurgia 2": "tunedModels/cirurgia-2-2c1cy8nkr5ca5mui15tu4wtlpapp8",
-        # "Pediatria i Ginecologia 2": "tunedModels/pediatria-ginecologia-2-ss7f3iy509x7x43h",
+        "Ciències Bàsiques": "tunedModels/ciencies-basiques-2-pfg4bpafqcay88df2kr8",
+        "Patologia i Farmacologia": "tunedModels/patologia-farmacologia-2-8iy2ixmy5bluqzw",
+        "Cirurgia": "tunedModels/cirurgia-2-2c1cy8nkr5ca5mui15tu4wtlpapp8",
+        "Pediatria i Ginecologia": "tunedModels/pediatria-ginecologia-2-ss7f3iy509x7x43h",
     }
 
     # API key
-    API_KEY = "AIzaSyDxk7cxcrDx3mcofYIosCggfkVbyHedO4w"
     num_questions = 1273
-    num_questions = 50
+    num_questions = 100
     all_results = []
 
     # Benchmark each model
     for model_name, model_id in MODELS.items():
         try:
-            result = benchmark_model(model_id, model_name, num_questions, temperature=0.4)
+            result = benchmark_model(model_id, model_name, num_questions)
             all_results.append(result)
         except (ResourceExhausted, TooManyRequests) as e:
             print(f"API rate limit reached for {model_name}: {e}. Sleeping before retry.")
@@ -248,7 +248,6 @@ if __name__ == "__main__":
             print(f"Error benchmarking {model_name}: {e}")
 
     # Add a "Majority Vote" model that picks the most common answer per question
-
     # collect correct answers from the first model's responses
     correct_map = {resp["question_idx"]: resp["correct_answer"] for resp in all_results[0]["responses"]}
     # build vote lists
@@ -286,7 +285,7 @@ if __name__ == "__main__":
             }
         )
 
-    agg_accuracy = agg_correct / num_questions * 100
+    agg_accuracy = agg_correct / (num_questions - agg_no_answer) * 100
     all_results.append(
         {
             "model_name": "Majority Vote",
