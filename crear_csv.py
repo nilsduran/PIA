@@ -78,6 +78,10 @@ for agent, topic_dict in agents_data.items():
         if q.get("explanation") is None or len(q.get("explanation", "")) < 50 or len(q.get("explanation", "")) > 4980:
             continue
 
+        q["question"] = q["question"].replace('"', "'")  # Substitueix cometes dobles per simples
+        q["options"] = [opt.replace('"', "'") for opt in q["options"]]  # Substitueix cometes dobles per simples
+        q["explanation"] = q["explanation"].replace('"', "'")  # Substitueix cometes dobles per simples
+
         # Si arribem aquí, la pregunta és vàlida
         rows.append(
             {
