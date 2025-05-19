@@ -396,7 +396,7 @@ def plot_benchmark_results(benchmark_outputs):
 
     # Create vertical bar chart
     fig, ax = plt.subplots(figsize=(10, 6))
-    bars = ax.bar(names, accs, color="c")
+    bars = ax.bar(names, accs, color="skyblue", edgecolor="black")
     ax.set_ylabel("Accuracy (%)")
     ax.set_title("Agentic Workflow Benchmark")
     ax.set_ylim(0, 100)
@@ -418,7 +418,7 @@ def plot_benchmark_results(benchmark_outputs):
 # --- EXECUCIÓ PRINCIPAL ---
 if __name__ == "__main__":
     # Paràmetres de configuració per al benchmark
-    NUM_QUESTIONS = 100  # Nombre de preguntes per provar (baix per rapidesa)
+    NUM_QUESTIONS = 1273  # Nombre de preguntes per provar (baix per rapidesa)
     NUM_AGENTS = 5  # Nombre d'experts a seleccionar per cada pregunta
 
     # ID del model LLM que actuarà com a supervisor

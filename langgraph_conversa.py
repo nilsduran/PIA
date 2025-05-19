@@ -579,7 +579,4 @@ with gr.Blocks(
 
 
 if __name__ == "__main__":
-    print(f"UI Ready. Available experts for routing: {list(MASTER_EXPERT_DEFINITIONS_UI.keys())}")
-    print(f"Supervisor choices for dropdown: {EXPERT_DISPLAY_NAMES}")
-
     demo_ui_med.launch(share=False)
