@@ -43,6 +43,20 @@ def extract_answer(text):
     return m.group(1).upper() if m else None
 
 
+def extract_explanation_and_answer(text):
+    if not isinstance(text, str):
+        return None, None
+    explanation = None
+    answer = None
+    exp_match = re.search(r"Explanation:\s*(.*?)(?=\nAnswer:|$)", text, re.DOTALL | re.IGNORECASE)
+    if exp_match:
+        explanation = exp_match.group(1).strip()
+    ans_match = re.search(r"Answer:\s*([ABCD])\b", text, re.IGNORECASE)
+    if ans_match:
+        answer = ans_match.group(1).upper()
+    return explanation, answer
+
+
 def benchmark_model(model_id, model_name, num_questions=10, temperature=0.6, k_shot=5):
     """Benchmark a single model on multiple-choice medical questions."""
     print(f"\nBenchmarking model: {model_name}")
@@ -190,36 +204,8 @@ def plot_results(results):
 
 
 if __name__ == "__main__":
-    # Llista de models de Google disponibles:
-    # models/gemini-1.5-pro
-    # models/gemini-1.5-flash
-    # models/gemini-1.5-flash-001-tuning
-    # models/gemini-1.5-flash-8b
-    # models/gemini-2.5-pro-exp-03-25
-    # models/gemini-2.5-pro-preview-03-25
-    # models/gemini-2.5-flash-preview-04-17
-    # models/gemini-2.5-flash-preview-04-17-thinking
-    # models/gemini-2.5-pro-preview-05-06
-    # models/gemini-2.0-flash
-    # models/gemini-2.0-flash-lite
-    # models/gemini-2.0-pro-exp
-    # models/gemini-exp-1206
-    # models/gemini-2.0-flash-thinking-exp
-    # models/learnlm-2.0-flash-experimental
-    # models/gemma-3-1b-it
-    # models/gemma-3-4b-it
-    # models/gemma-3-12b-it
-    # models/gemma-3-27b-it
-
-    # Available models
     MODELS = {
-        "Gemini 1.5 Flash Tuning": "models/gemini-1.5-flash-001-tuning",
         "Medicina General": "tunedModels/medicinageneralcsv-q4i0ydc9l1uvxbzsxmii8",
-        # "Ciències Bàsiques": "tunedModels/cincies-bsiques-5x23mkxv2ftipprirc4i4714",
-        # "Patologia i Farmacologia": "tunedModels/patologia-i-farmacologia-3ipo0rdy5dkze8q",
-        # "Cirurgia": "tunedModels/cirurgia-6rm1gub7hny7bzm3hjgghwcf3tws7ar",
-        # "Pediatria i Ginecologia": "tunedModels/pediatria-i-ginecologia-q4n2dg2t5sweqdt9",
-        # "Medicina General 2": "tunedModels/medicinageneral2-htffsvts97ttozkz18abl80",
         "Ciències Bàsiques": "tunedModels/ciencies-basiques-2-pfg4bpafqcay88df2kr8",
         "Patologia i Farmacologia": "tunedModels/patologia-farmacologia-2-8iy2ixmy5bluqzw",
         "Cirurgia": "tunedModels/cirurgia-2-2c1cy8nkr5ca5mui15tu4wtlpapp8",
