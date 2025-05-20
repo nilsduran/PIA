@@ -531,7 +531,7 @@ with gr.Blocks(
                 maximum=len(MASTER_EXPERT_DEFINITIONS_UI) if MASTER_EXPERT_DEFINITIONS_UI else 1,
                 value=min(3, len(MASTER_EXPERT_DEFINITIONS_UI) if MASTER_EXPERT_DEFINITIONS_UI else 1),
                 step=1,
-                label="Expert Diversity (Number to Select)",
+                label="Diversity (Number of Experts)",
             )
             supervisor_dropdown_ui = gr.Dropdown(
                 label="Select Supervising Consultant Model",
