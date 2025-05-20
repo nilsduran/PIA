@@ -233,7 +233,6 @@ def dynamic_expert_router_node(state: AgenticWorkflowState) -> Dict[str, any]:
         remaining = [n for n in state["available_experts"] if n not in selected]
         needed = num_to_select - len(selected)
         selected += remaining[:needed]
-        print(f"Sadge: {selected}")
 
     # 5) Rationale amb puntuacions
     top_info = ", ".join(f"{n}({s:.2f})" for s, n in scores[:num_to_select])
