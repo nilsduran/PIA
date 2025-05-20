@@ -1,14 +1,46 @@
 import gradio as gr
+import os
+import re
+import time
+from langgraph.graph import StateGraph, END
+from sklearn.metrics.pairwise import cosine_similarity
 from langgraph.graph import StateGraph, END
 from typing import TypedDict, List, Dict, Optional, Any
 from functools import partial
-import time
-import os
-import re
-import random  # For fallback in router
 import numpy as np
-from sentence_transformers import SentenceTransformer, util
+from sentence_transformers import SentenceTransformer
 from benchmarking import generate_content
+
+
+"""import time
+
+def temps(t0, library):
+    print(f"Temps {library}: {time.time() - t0:.2f} s")
+    return time.time()
+
+t1 = time.time()
+t0 = time.time()
+import gradio as gr
+t0 = temps(t0, "gradio")
+from langgraph.graph import StateGraph, END
+t0 = temps(t0, "langgraph")
+from typing import TypedDict, List, Dict, Optional, Any
+t0 = temps(t0, "typing")
+from functools import partial
+t0 = temps(t0, "functools")
+import os
+t0 = temps(t0, "os")
+import re
+t0 = temps(t0, "re")
+from sklearn.metrics.pairwise import cosine_similarity
+t0 = temps(t0, "cosine_similarity")
+import numpy as np
+t0 = temps(t0, "numpy")
+from sentence_transformers import SentenceTransformer
+t0 = temps(t0, "sentence_transformers")
+from benchmarking import generate_content
+t0 = temps(t0, "benchmarking")
+temps(t1, "Total")"""
 
 # --- CONFIGURATION ---
 # Path to the directory containing individual .npy embedding files
@@ -162,101 +194,52 @@ def load_expert_embeddings_from_npy_files(
     return expert_definitions_with_embeddings
 
 
-try:
-    query_embedding_model_ui = SentenceTransformer("all-MiniLM-L6-v2")
-except Exception as e:
-    print(f"Error UI: Loading SentenceTransformer for queries: {e}. Semantic routing may fail.")
-    query_embedding_model_ui = None
-
 # Load master definitions using the new function
 MASTER_EXPERT_DEFINITIONS_UI = load_expert_embeddings_from_npy_files(
     AGENTS_EMBEDDINGS_DIR_PATH, ORIGINAL_EXPERT_MODEL_DATA, AGENT_EMBEDDING_FILENAME_MAP
 )
 
-# --- LANGGRAPH NODES (dynamic_expert_router_node, expert_consultation_node, synthesizing_supervisor_node) ---
-# The nodes themselves don't need to change if MASTER_EXPERT_DEFINITIONS_UI is prepared correctly.
-# dynamic_expert_router_node will receive `state["available_experts"]` which is MASTER_EXPERT_DEFINITIONS_UI.
-# It will look for the "embedding" key there.
 
-
-def dynamic_expert_router_node(state: AgenticWorkflowState):
+def dynamic_expert_router_node(state: AgenticWorkflowState) -> Dict[str, any]:
+    """
+    Router basat en embeddings de textbooks per cada agent.
+    - Embedding de la pregunta amb el mateix SBERT.
+    - Cosine similarity amb l'embedding precomputat de cada agent.
+    - Retorna els top-k experts.
+    """
     state["node_trace"].append("dynamic_expert_router_node")
-    if not query_embedding_model_ui:
-        state["error_messages"].append("RouterNode: Query embedding model not available.")
-        available_names = list(state["available_experts"].keys())
-        sel_names = random.sample(available_names, min(len(available_names), state["num_experts_to_select"]))
-        return {
-            "selected_expert_names": sel_names,
-            "routing_rationale": "Fallback: Query embedding model failed, selected experts randomly.",
-        }
 
-    question_text = state["question_text"]
-    # available_experts is MASTER_EXPERT_DEFINITIONS_UI passed through state
-    available_experts = state["available_experts"]
+    question = state["question_text"]
     num_to_select = state["num_experts_to_select"]
-    try:
-        question_embedding = query_embedding_model_ui.encode(question_text, convert_to_tensor=False)
-    except Exception as e:
-        state["error_messages"].append(f"RouterNode: Error encoding question: {e}")
-        available_names = list(state["available_experts"].keys())
-        sel_names = random.sample(available_names, min(len(available_names), state["num_experts_to_select"]))
-        return {
-            "selected_expert_names": sel_names,
-            "routing_rationale": "Fallback: Question encoding failed, selected experts randomly.",
-        }
 
+    # 1) Embedding de la pregunta
+    q_emb = _embedding_model.encode([question], convert_to_numpy=True)
+
+    # 2) Calcula similitud per cada agent disponible
     scores = []
-    for name, info in available_experts.items():
-        textbook_emb = info.get("embedding")  # This should be the pre-loaded textbook embedding
-        similarity = -2.0  # Default to very low similarity
+    for agent_name in state["available_experts"].keys():
+        # Map English display names to embedding filenames using the existing mapping
+        emb_key = AGENT_EMBEDDING_FILENAME_MAP.get(agent_name)
+        emb = _agents_embeddings.get(emb_key)
+        sim = float(cosine_similarity(q_emb, emb)[0][0])
+        scores.append((sim, agent_name))
 
-        if textbook_emb is not None and isinstance(textbook_emb, np.ndarray):
-            try:
-                # Ensure question_embedding is also 2D for cos_sim if textbook_emb is [1, dim]
-                q_emb_2d = question_embedding.reshape(1, -1) if question_embedding.ndim == 1 else question_embedding
-                similarity = util.cos_sim(q_emb_2d, textbook_emb).item()
-            except Exception as e_sim:
-                print(f"  Router: Error calculating similarity for {name} with textbook_emb: {e_sim}")
-                similarity = -1.0
-        else:
-            # Fallback to short_description if no textbook embedding
-            if query_embedding_model_ui and info.get("short_description"):
-                try:
-                    desc_emb = query_embedding_model_ui.encode(info["short_description"], convert_to_tensor=False)
-                    desc_emb_2d = desc_emb.reshape(1, -1) if desc_emb.ndim == 1 else desc_emb
-                    q_emb_2d = question_embedding.reshape(1, -1) if question_embedding.ndim == 1 else question_embedding
-                    similarity = util.cos_sim(q_emb_2d, desc_emb_2d).item() * 0.6  # Penalize description match
-                    # print(f"  Router: Used short_description for {name}, sim: {similarity:.3f} (after penalty)")
-                except Exception as e_desc_sim:
-                    print(f"  Router: Error with short_description embedding for {name}: {e_desc_sim}")
-                    similarity = -1.5
-        scores.append({"name": name, "similarity": similarity})
+    # 3) Ordena descendent i selecciona top-k
+    scores.sort(reverse=True, key=lambda x: x[0])
+    selected = [name for _, name in scores[:num_to_select]]
 
-    scores.sort(key=lambda x: x["similarity"], reverse=True)
-    selected_names = [expert["name"] for expert in scores[:num_to_select]]
+    # 4) Fallback si no hi ha prou seleccionats
+    if len(selected) < num_to_select:
+        remaining = [n for n in state["available_experts"] if n not in selected]
+        needed = num_to_select - len(selected)
+        selected += remaining[:needed]
+        print(f"Sadge: {selected}")
 
-    # Fallback logic (same as before)
-    if not selected_names and available_experts:
-        selected_names = random.sample(list(available_experts.keys()), min(len(available_experts), num_to_select))
-        rationale = (
-            f"Selected {len(selected_names)} experts by fallback (random sampling - no strong similarities found)."
-        )
-    elif len(selected_names) < num_to_select and available_experts:
-        additional_needed = num_to_select - len(selected_names)
-        remaining_experts_sorted = [
-            ex["name"] for ex in scores[len(selected_names) :] if ex["name"] not in selected_names
-        ]
-        selected_names.extend(remaining_experts_sorted[:additional_needed])
-        rationale = (
-            f"Selected {len(selected_names)} experts. Top by semantic similarity, filled with next available if needed."
-        )
-    else:
-        top_scores_str = ", ".join(
-            [f"{s['name']}: {s['similarity']:.3f}" for s in scores[:num_to_select] if s["similarity"] > -2.0]
-        )
-        rationale = f"Selected {len(selected_names)} experts based on semantic similarity. Top scores: [{top_scores_str if top_scores_str else 'None above threshold'}]"
+    # 5) Rationale amb puntuacions
+    top_info = ", ".join(f"{n}({s:.2f})" for s, n in scores[:num_to_select])
+    rationale = f"Semantic routing via textbook embeddings; top-{num_to_select}: {top_info}"
 
-    return {"selected_expert_names": selected_names, "routing_rationale": rationale}
+    return {"selected_expert_names": selected, "routing_rationale": rationale}
 
 
 def expert_consultation_node(state: AgenticWorkflowState, expert_temperature: float):
@@ -417,8 +400,15 @@ compiled_agent_ui = workflow_builder_ui.compile()
 def format_report_for_display(final_state: AgenticWorkflowState, case_text: str) -> str:
     report_parts = [f"# Multi-Agent Medical Analysis Report\n\n## Case Presentation:\n{case_text}\n"]
     report_parts.append("## 1. Expert Routing Phase:")
-    report_parts.append(f"- **Routing Rationale:** {final_state.get('routing_rationale', 'N/A')}")
+    selected_experts_similarities = final_state.get("routing_rationale", "")
     selected_experts = final_state.get("selected_expert_names", [])
+
+    # sort selected_experts by their similarity scores
+    selected_experts = sorted(
+        selected_experts,
+        key=lambda x: float(re.search(rf"{x}\((\d+\.\d+)\)", selected_experts_similarities).group(1)),
+        reverse=True,
+    )
     report_parts.append(
         f"- **Selected Experts ({len(selected_experts)}):** {', '.join(selected_experts) if selected_experts else 'None'}\n"
     )
@@ -466,9 +456,6 @@ def run_agentic_simulation_for_gradio(case_text_input: str, diversity_level: int
             f"Available in UI: {list(MASTER_EXPERT_DEFINITIONS_UI.keys())}"
         )
 
-    if not query_embedding_model_ui:
-        return "System Error: The query embedding model (SentenceTransformer) is not loaded. Semantic routing cannot proceed."
-
     yield "Processing your request... Routing to specialists..."
     initial_state_ui: AgenticWorkflowState = {
         "question_text": case_text_input,
@@ -486,7 +473,7 @@ def run_agentic_simulation_for_gradio(case_text_input: str, diversity_level: int
         "node_trace": [],
     }
 
-    final_report_md = "### Interim Update: Consulting Experts...\nThis may take a moment."
+    final_report_md = "### Consulting Experts...\nThis may take a moment."
     yield final_report_md
     time.sleep(0.1)
 
@@ -521,16 +508,24 @@ with gr.Blocks(
 ) as demo_ui_med:
     gr.Markdown("# 🩺 Multi-Agent Medical AI Simulator")
     gr.Markdown(
-        "Enter a clinical case or medical question. The system will use semantic routing to select relevant AI specialists, "
-        "gather their analyses, and a supervising AI will synthesize a final report, including a self-correction step."
+        "Enter a clinical case or medical question. The system will use semantic routing to select relevant AI "
+        "specialists, gather their analyses, and a supervising AI will synthesize a final report, including a "
+        "self-correction step."
     )
     with gr.Row():
         with gr.Column(scale=3):
             case_text_area_ui = gr.Textbox(
                 label="Clinical Case / Medical Question",
                 lines=8,
-                placeholder="Enter the detailed case or your question here...",
             )
+
+            # Example case buttons
+            gr.Markdown("### Example Cases")
+            with gr.Row():
+                case1_btn = gr.Button("Delirium, not Dementia")
+                case2_btn = gr.Button("Abortion Case with Parental Conflict")
+                case3_btn = gr.Button("End of Life Decision")
+
         with gr.Column(scale=1):
             diversity_slider_ui = gr.Slider(
                 minimum=1,
@@ -542,11 +537,7 @@ with gr.Blocks(
             supervisor_dropdown_ui = gr.Dropdown(
                 label="Select Supervising Consultant Model",
                 choices=EXPERT_DISPLAY_NAMES,
-                value=(
-                    "General Medicine"
-                    if "General Medicine" in EXPERT_DISPLAY_NAMES
-                    else (EXPERT_DISPLAY_NAMES[0] if EXPERT_DISPLAY_NAMES else None)
-                ),
+                value="General Medicine",
                 interactive=True,
             )
             submit_button_gradio = gr.Button(
@@ -562,16 +553,31 @@ with gr.Blocks(
         inputs=[case_text_area_ui, diversity_slider_ui, supervisor_dropdown_ui],
         outputs=output_report_md,
     )
+
     # Ensure lambda for clear button correctly targets the output
     clear_button_gradio.click(
         lambda: (
             "",
             min(3, len(MASTER_EXPERT_DEFINITIONS_UI) if MASTER_EXPERT_DEFINITIONS_UI else 1),  # Reset slider
-            (
-                "General Medicine"
-                if "General Medicine" in EXPERT_DISPLAY_NAMES
-                else (EXPERT_DISPLAY_NAMES[0] if EXPERT_DISPLAY_NAMES else None)
-            ),  # Reset dropdown
+            "General Medicine",
+            "",
+        ),
+        outputs=[case_text_area_ui, diversity_slider_ui, supervisor_dropdown_ui, output_report_md],
+    )
+
+    # Example case button handlers
+    deliri_o_demència = """Una dona de 82 anys va ser ingressada a l'UCI després d'una caiguda. Està marejada i desorientada, i té canvis d'humor i està presa del pànic. Què podria ser i per què es podria confondre?"""
+    abortion_case = """A minor seeks a medication abortion accompanied by what she claims is her mother. Ultrasound measurements suggest she may be past the legal gestational limit, and there is suspicion that a staff member may have falsified data to help her qualify. As the team prepares to administer the medication, her real mother arrives and forbids the procedure, leading to a confrontation between patient autonomy, parental authority, and legal requirements."""
+    end_of_life = """An 89 year old male patient with dementia and respiratory distress arrives at the ER. The medical team must decide whether to intubate him, which would violate his advance directive stating he does not want to be placed on a ventilator. The patient's son insists on honoring the directive, while the daughter cannot accept a decision that results in her father's death. Ultimately, the son defers to the daughter, and the doctor intubates the patient-knowing it goes against the patient's stated wishes."""
+
+    case1_btn.click(lambda: deliri_o_demència, outputs=case_text_area_ui)
+    case2_btn.click(lambda: abortion_case, outputs=case_text_area_ui)
+    case3_btn.click(lambda: end_of_life, outputs=case_text_area_ui)
+    clear_button_gradio.click(
+        lambda: (
+            "",
+            min(3, len(MASTER_EXPERT_DEFINITIONS_UI) if MASTER_EXPERT_DEFINITIONS_UI else 1),  # Reset slider
+            "General Medicine",
             "",
         ),
         outputs=[case_text_area_ui, diversity_slider_ui, supervisor_dropdown_ui, output_report_md],
@@ -579,4 +585,15 @@ with gr.Blocks(
 
 
 if __name__ == "__main__":
+    # Carregar embeddings de cada agent
+    AGENTS_EMBEDDING_DIR = "agents_embeddings"
+    _embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
+
+    _agents_embeddings = {}
+    for fn in os.listdir(AGENTS_EMBEDDING_DIR):
+        if fn.endswith(".npy"):
+            agent_name = fn[:-4]  # retalla ".npy"
+            emb = np.load(os.path.join(AGENTS_EMBEDDING_DIR, fn))
+            _agents_embeddings[agent_name] = emb.reshape(1, -1)
+
     demo_ui_med.launch(share=False)

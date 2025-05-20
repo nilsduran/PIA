@@ -212,8 +212,7 @@ if __name__ == "__main__":
         "Pediatria i Ginecologia": "tunedModels/pediatria-ginecologia-2-ss7f3iy509x7x43h",
     }
 
-    # API key
-    num_questions = 1273
+    num_questions = 1273  # MedQA-USMLE-4-options test complet
     num_questions = 100
     all_results = []
 

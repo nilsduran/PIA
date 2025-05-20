@@ -93,8 +93,6 @@ def dynamic_expert_router_node(state: AgenticWorkflowState) -> Dict[str, any]:
 
     existing_scores.append({"question": question, "scores": scores})
 
-    with open("expert_scores.json", "w", encoding="utf-8") as f:
-        json.dump(existing_scores, f, ensure_ascii=False, indent=2)
     selected = [name for _, name in scores[:num_to_select]]
 
     # 4) Fallback si no hi ha prou seleccionats
