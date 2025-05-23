@@ -12,3 +12,5 @@ requests
 langgraph
 networkx
 sentence-transformers
+scipy
+google-cloud-aiplatform

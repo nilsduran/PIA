@@ -55,3 +55,10 @@ Per a l'avaluació de rendiment dels models de llenguatge ajustats LoRA, utilitz
 ```bash
 python benchmarking.py
 ```
+
+
+
+## Idees
+- Avaluar qualitativament el sistema de conversa divers amb el no-divers, tipu lmarena i l'usuari tria el millor.
+- Elo rating dels models més o menys diversos.
+- Calcular quantes votacions calen per a comparar un nombre X de models si és head-to-head.

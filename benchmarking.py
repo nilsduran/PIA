@@ -1,60 +1,11 @@
 from datasets import load_dataset
-import re
-import requests
 import matplotlib.pyplot as plt
 import time
 from tqdm import tqdm
 from google.api_core.exceptions import ResourceExhausted, TooManyRequests
 import collections
 import random
-
-
-def generate_content(tuned_model_id, prompt, temperature=0.7, max_output_tokens=2048):
-    """Generate content using the fine-tuned model API."""
-    # Construct the endpoint URL
-    url = f"https://generativelanguage.googleapis.com/v1/{tuned_model_id}:generateContent?key=AIzaSyDxk7cxcrDx3mcofYIosCggfkVbyHedO4w"
-
-    # Set the request headers
-    headers = {"Content-Type": "application/json"}
-
-    # Prepare the payload
-    payload = {
-        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": temperature, "maxOutputTokens": max_output_tokens},
-    }
-
-    # Make the POST request to the API endpoint
-    response = requests.post(url, headers=headers, json=payload)
-
-    # Check for a successful response
-    if response.status_code == 200:
-        response_json = response.json()
-        try:
-            # Extract the text from the response
-            return response_json["candidates"][0]["content"]["parts"][0]["text"]
-        except (KeyError, IndexError):
-            return "Error: Could not extract response text from API response."
-    else:
-        return f"Error {response.status_code}: {response.text}"
-
-
-def extract_answer(text):
-    m = re.search(r"Answer:\s*([ABCD])\b", text, re.IGNORECASE)
-    return m.group(1).upper() if m else None
-
-
-def extract_explanation_and_answer(text):
-    if not isinstance(text, str):
-        return None, None
-    explanation = None
-    answer = None
-    exp_match = re.search(r"Explanation:\s*(.*?)(?=\nAnswer:|$)", text, re.DOTALL | re.IGNORECASE)
-    if exp_match:
-        explanation = exp_match.group(1).strip()
-    ans_match = re.search(r"Answer:\s*([ABCD])\b", text, re.IGNORECASE)
-    if ans_match:
-        answer = ans_match.group(1).upper()
-    return explanation, answer
+from funcions_auxiliars import generate_content, extract_answer, extract_explanation_and_answer
 
 
 def benchmark_model(model_id, model_name, num_questions=10, temperature=0.6, k_shot=5):
@@ -63,7 +14,6 @@ def benchmark_model(model_id, model_name, num_questions=10, temperature=0.6, k_s
 
     # Load MedQA dataset
     medqa = load_dataset("GBaker/MedQA-USMLE-4-options", split="test")
-    medqa_train = []
     medqa_train = load_dataset("GBaker/MedQA-USMLE-4-options", split="train").shuffle(seed=42).select(range(k_shot))
 
     # Get examples for few-shot learning
@@ -84,7 +34,7 @@ def benchmark_model(model_id, model_name, num_questions=10, temperature=0.6, k_s
         "The patient's presentation, including fever, headache, seizures, and altered behavior, along with the MRI findings of edema and hemorrhage in the left temporal lobe, strongly suggests herpes simplex encephalitis (HSE). HSE is a viral infection that primarily affects the temporal lobes and can cause significant brain edema.\nThe primary mechanism of edema in herpes simplex encephalitis is the breakdown of endothelial tight junctions. This disruption of the blood-brain barrier allows fluid to leak into the brain parenchyma, leading to vasogenic edema. This process is driven by the inflammatory response to the viral infection, which damages the endothelial cells and compromises the integrity of the blood-brain barrier.",
         "The patient's presentation includes shortness of breath, cough, severe lower limb edema, signs of right heart failure (jugular engorgement, hepatomegaly, hepatojugular reflux), and findings suggestive of pulmonary fibrosis. The physical examination and diagnostic tests (CT and echocardiogram) reveal right heart failure and severe pulmonary fibrosis. Cor pulmonale is a condition where right heart failure is caused by a primary lung disorder, typically chronic pulmonary hypertension. In this case, the severe pulmonary fibrosis is likely the underlying cause of the pulmonary hypertension, leading to cor pulmonale.",
         "Based on the information provided, the child's recurrent abdominal pain that occurs only at school, with no symptoms at home, and no abnormalities on physical examination or laboratory tests, suggests a functional cause. The child's symptoms are consistent with a functional abdominal pain disorder, possibly related to school avoidance or a behavioral component. Given that the child denies functional pain and there are no alarm symptoms (such as blood in the stool, weight loss, or nighttime symptoms), the next step in management should focus on addressing the potential psychological or behavioral factors contributing to the abdominal pain.",
-    ]
+    ][:k_shot]
 
     # Generate few-shot prompt
     shot_prompt = ""
@@ -120,7 +70,7 @@ def benchmark_model(model_id, model_name, num_questions=10, temperature=0.6, k_s
         response = generate_content(model_id, prompt, temperature=temperature, max_output_tokens=300)
         model_ans = extract_answer(response)
 
-        # If no answer, try once more with lower temperature
+        # If no answer, try once more with more tokens
         if model_ans is None:
             response = generate_content(model_id, prompt, temperature=temperature, max_output_tokens=500)
             model_ans = extract_answer(response)
