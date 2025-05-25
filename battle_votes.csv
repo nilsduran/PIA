@@ -1,3 +1,4 @@
 model_A_config,model_B_config,score_A_vs_B,timestamp
 experts_5_diversity_Alta,experts_5_diversity_Baixa,1.0,2025-05-25 19:00:42.115334
 experts_5_diversity_Mitjana,experts_5_diversity_Alta,0.5,2025-05-25 19:02:42.112981
+experts_3_diversity_Alta,experts_1_diversity_Mitjana,0.0,2025-05-25 19:06:14.491245
