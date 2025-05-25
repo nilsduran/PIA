@@ -5,7 +5,7 @@ from tqdm import tqdm
 from google.api_core.exceptions import ResourceExhausted, TooManyRequests
 import collections
 import random
-from funcions_auxiliars import generate_content, extract_answer, extract_explanation_and_answer
+from funcions_auxiliars import generate_content, extract_answer
 
 
 def benchmark_model(model_id, model_name, num_questions=10, temperature=0.6, k_shot=5):

@@ -1,11 +1,11 @@
 import os
-from functools import partial
 from typing import TypedDict, List, Dict, Optional, Any
 import numpy as np
+import pandas as pd
 from langgraph.graph import StateGraph, END
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
-from funcions_auxiliars import generate_content, extract_explanation_and_answer
+from funcions_auxiliars import generate_content, _call_single_expert_llm
 
 # --- CONFIGURATION ---
 AGENTS_EMBEDDINGS_DIR_PATH = "agents_embeddings"
@@ -19,15 +19,18 @@ class AgenticWorkflowState(TypedDict):
     correct_answer_idx: Optional[str]
     available_experts: Dict[str, str]
     num_experts_to_select: int
+    diversity_option: str
+    is_benchmark_mode: bool
     selected_expert_names: List[str]
-    expert_responses: List[Dict[str, Any]]
-    provisional_supervisor_explanation: Optional[str]
-    provisional_supervisor_answer: Optional[str]
-    final_supervisor_explanation: Optional[str]
-    final_supervisor_answer: Optional[str]
+    initial_expert_responses: List[Dict[str, Any]]
+    supervisor_critique: Optional[str]
+    revised_expert_outputs: List[Dict[str, Any]]
+    final_synthesis: Optional[str]
+    expert_temperature: float
+    system_prompt: Optional[str]
+    benchmark_shot_prompt: Optional[str]
 
 
-# --- EXPERT DEFINITIONS (Specialists) ---
 EXPERT_DEFINITIONS = {
     "Medicina General": "tunedModels/medicinageneralcsv-q4i0ydc9l1uvxbzsxmii8",
     "Ciències Bàsiques": "tunedModels/ciencies-basiques-2-pfg4bpafqcay88df2kr8",
@@ -35,8 +38,6 @@ EXPERT_DEFINITIONS = {
     "Cirurgia": "tunedModels/cirurgia-2-2c1cy8nkr5ca5mui15tu4wtlpapp8",
     "Pediatria i Ginecologia": "tunedModels/pediatria-ginecologia-2-ss7f3iy509x7x43h",
 }
-EXPERT_DISPLAY_NAMES = list(EXPERT_DEFINITIONS.keys())  # For UI or other logic
-
 AGENT_EMBEDDING_FILENAME_MAP = {
     "Ciències Bàsiques": "Ciències_Bàsiques",
     "Medicina General": "Medicina_General",
@@ -59,212 +60,264 @@ else:
         f"Textbook embeddings directory '{AGENTS_EMBEDDINGS_DIR_PATH}' not found or SBERT model not loaded."
     )
 
+_agent_similarity_matrix = pd.read_csv("dissimilarity_matrix.csv", index_col=0, header=0).to_dict(orient="index")
+
 
 # --- LANGGRAPH NODES ---
 def dynamic_expert_router_node(state: AgenticWorkflowState) -> Dict[str, any]:
-    q_emb = _embedding_model_sbert.encode([state["question_text"]], convert_to_numpy=True)
-    scores = []
-    for agent_name, textbook_emb in _agents_textbook_embeddings.items():
+    """
+    Dynamic routing node to select experts based on question relevance and diversity.
+    If diversity is set to "Baixa", it selects the most relevant expert multiple times.
+    If "Mitjana", it selects the top N experts.
+    If "Alta", it selects the most relevant AND diverse experts.
+    """
+    question_text = state["question_text"]
+    num_to_select = state["num_experts_to_select"]
+    diversity_option = state["diversity_option"]
+
+    available_routable_agents = list(_agents_textbook_embeddings.keys())
+    q_emb = _embedding_model_sbert.encode([question_text], convert_to_numpy=True)
+
+    scores_to_question = []
+    for agent_name in available_routable_agents:
+        textbook_emb = _agents_textbook_embeddings[agent_name]
         sim = float(cosine_similarity(q_emb, textbook_emb)[0][0])
-        scores.append((sim, agent_name))
+        scores_to_question.append({"name": agent_name, "score": sim})
 
-    scores.sort(reverse=True, key=lambda x: x[0])
-    selected = [name for _, name in scores[: state["num_experts_to_select"]]]
+    scores_to_question.sort(reverse=True, key=lambda x: x["score"])
 
-    return {"selected_expert_names": selected}
+    num_to_select = max(1, min(num_to_select, len(scores_to_question)))
+    selected_experts = []
+
+    if diversity_option == "Baixa":
+        most_relevant_agent_name = scores_to_question[0]["name"]
+        selected_experts = [most_relevant_agent_name] * num_to_select
+
+    elif diversity_option == "Mitjana":
+        selected_experts = [item["name"] for item in scores_to_question[:num_to_select]]
+
+    elif diversity_option == "Alta":
+        # Pool of agents sorted by relevance to the question
+        relevant_pool = [item["name"] for item in scores_to_question]
+
+        # 1. Select the most relevant agent
+        if relevant_pool:
+            agent1 = relevant_pool.pop(0)
+            selected_experts.append(agent1)
+
+        # 2. Select the most different agent from the first one (if needed and available)
+        if num_to_select >= 2 and relevant_pool:
+            best_agent2 = None
+            min_similarity_to_agent1 = float("inf")
+
+            for candidate_agent in relevant_pool:
+                # Make sure agent1 and candidate_agent are in the similarity matrix
+                if agent1 in _agent_similarity_matrix and candidate_agent in _agent_similarity_matrix[agent1]:
+                    sim = _agent_similarity_matrix[agent1][candidate_agent]
+                    if sim < min_similarity_to_agent1:
+                        min_similarity_to_agent1 = sim
+                        best_agent2 = candidate_agent
+
+            if best_agent2:
+                selected_experts.append(best_agent2)
+                relevant_pool.remove(best_agent2)  # Remove from pool for next step
+
+        # 3. Fill remaining slots with the next most relevant from the (updated) relevant_pool
+        num_still_needed = num_to_select - len(selected_experts)
+        if num_still_needed > 0 and relevant_pool:
+            selected_experts.extend(relevant_pool[:num_still_needed])
+
+    # print(f"Selected experts: {selected_experts} based on diversity option '{diversity_option}'")
+    return {"selected_expert_names": selected_experts}
 
 
-def core_expert_consultation_node(
-    state: AgenticWorkflowState,
-    # Prompts and temperature will be passed via partial from the calling script (benchmark or UI)
-    system_prompt: str,
-    shot_prompt: Optional[str],  # Only for benchmark
-    temperature: float,
-    is_benchmark_mode: bool,
-):
-    expert_responses = []
-    for expert_name in state.get("selected_expert_names", []):
+def initial_expert_consultation_node(state: AgenticWorkflowState) -> Dict[str, Any]:
+    # print("Starting initial expert consultation...")
+    outputs = []
+    selected_names = state.get("selected_expert_names", [])
+
+    for i, expert_name in enumerate(selected_names):
         expert_model_id = state["available_experts"].get(expert_name)
-        if not expert_model_id:
-            continue
+        response_dict = _call_single_expert_llm(
+            expert_model_id=expert_model_id,
+            question_text=state["question_text"],
+            temperature=state["expert_temperature"],
+            is_benchmark_mode=state["is_benchmark_mode"],
+            options=state.get("options"),
+            system_prompt=state.get("system_prompt"),
+            benchmark_shot_prompt=state.get("benchmark_shot_prompt"),
+            critique_to_include=None,  # No critique for initial pass
+        )
 
-        if is_benchmark_mode:
-            prompt = (
-                system_prompt + "\n" + (shot_prompt or "") + f"Question: {state['question_text']}\n"
-                f"A: {state['options'].get('A', 'N/A')}\nB: {state['options'].get('B', 'N/A')}\n"
-                f"C: {state['options'].get('C', 'N/A')}\nD: {state['options'].get('D', 'N/A')}\n"
-                f"Explanation:"
-            )
-            max_tok, retry_max_tok = 300, 500
-        else:  # UI/Conversational mode
-            prompt = (
-                f"{system_prompt}\n\nYou are an AI expert in {expert_name}.\n"
-                f"Analyze the following case/question from your specialty perspective:\n\n"
-                f"Case/Question: {state['question_text']}\n\n"
-                f"Provide a concise analysis (around 80-120 words), including key insights and potential considerations. Format:\n"
-                f"Explanation: [Your analysis]\nConclusion: [Your main conclusion/summary]"
-            )
-            max_tok, retry_max_tok = 250, 350
-
-        raw_response = generate_content(expert_model_id, prompt, temperature=temperature, max_output_tokens=max_tok)
-        explanation, answer_or_conclusion = extract_explanation_and_answer(raw_response)
-
-        if answer_or_conclusion is None and is_benchmark_mode:
-            raw_response = generate_content(
-                expert_model_id, prompt, temperature=max(0.1, temperature - 0.2), max_output_tokens=retry_max_tok
-            )
-            explanation, answer_or_conclusion = extract_explanation_and_answer(raw_response)
-
-        response_key = "answer" if is_benchmark_mode else "conclusion"
-        expert_responses.append(
+        outputs.append(
             {
-                "model_name": expert_name,
-                response_key: answer_or_conclusion or ("No answer." if is_benchmark_mode else "No conclusion."),
-                "explanation": explanation or "No explanation.",
+                "expert_display_id": f"Expert {i+1}",  # Anonymized for supervisor
+                "conclusion": response_dict.get("conclusion", response_dict.get("answer", "N/A")),
+                "explanation": response_dict.get("explanation", "N/A"),
+                "original_model_name_for_revised_pass": expert_name,  # Needed for revised pass
             }
         )
 
-    return {"expert_responses": expert_responses}
+    # print(f"Initial expert responses collected: {outputs}")
+    return {"initial_expert_responses": outputs}
 
 
-def core_synthesizing_supervisor_node(state: AgenticWorkflowState, is_benchmark_mode: bool):
-    expert_responses = state.get("expert_responses", [])
+def critique_supervisor_node(state: AgenticWorkflowState) -> Dict[str, str]:
+    # print("Starting supervisor critique of initial expert outputs...")
+    initial_outputs = state.get("initial_expert_responses", [])
     question_text = state["question_text"]
 
-    if not expert_responses:
-        no_resp = "No specialist input for supervision."
-        return {
-            "provisional_supervisor_explanation": no_resp,
-            "provisional_supervisor_answer": None,
-            "final_supervisor_explanation": no_resp,
-            "final_supervisor_answer": None,
-        }
+    if not initial_outputs:
+        print("No initial expert outputs to critique.")
+        return {"supervisor_critique": "No initial expert outputs to critique."}
 
-    temp_initial = 0.4 if is_benchmark_mode else 1
-    temp_final = 0.2 if is_benchmark_mode else 0.7
-    max_tok_initial = 1500 if is_benchmark_mode else 2000
-    max_tok_final = 4000 if is_benchmark_mode else 8000
+    prompt_parts = [
+        "You are a Chief Medical Consultant AI. Your task is to critically review a set of anonymized analyses from various medical experts regarding a clinical case.",
+        "Focus on identifying potential inconsistencies, areas needing more depth, missed perspectives, or assumptions that should be challenged.",
+        "Provide a single, consolidated, constructive critique that can be given back to these experts to help them refine their analyses. Do not try to answer the question yourself in this step.",
+        f"\n**Clinical Case/Question:**\n{question_text}",
+        "\n\n--- Initial Anonymized Expert Analyses ---",
+    ]
+    for i, resp in enumerate(initial_outputs):
+        # Use expert_display_id for anonymity
+        prompt_parts.append(
+            f"\n**{resp['expert_display_id']}**:\n"
+            f"  Conclusion/Answer: {resp.get('conclusion', 'N/A')}\n"
+            f"  Explanation: {resp.get('explanation', 'N/A').strip()}"
+        )
+    prompt_parts.append(
+        "\n\n--- YOUR CONSOLIDATED CRITIQUE ---"
+        "\nProvide a constructive critique (around 100-150 words) for the experts:"
+    )
 
-    answer_key_for_experts = "Answer" if is_benchmark_mode else "Conclusion"
-    expected_answer_format_supervisor = "[A or B or C or D]" if is_benchmark_mode else "[Your primary conclusion]"
-    options_text_supervisor = ""
-    if is_benchmark_mode and state.get("options"):
+    # Temperature for critique can be higher to encourage more diverse thought
+    critique_temp = 0.7 if not state["is_benchmark_mode"] else 0.5
+    critique_text = generate_content(
+        SUPERVISOR_MODEL_ID,  # Use the same supervisor model
+        "\n".join(prompt_parts),
+        temperature=critique_temp,
+        max_output_tokens=250,
+    )
+
+    # print(f"Supervisor critique generated: {critique_text.strip()}")
+    return {"supervisor_critique": critique_text.strip() or "No specific critique generated."}
+
+
+def revised_expert_consultation_node(state: AgenticWorkflowState) -> Dict[str, Any]:
+    # print("Starting revised expert consultation based on supervisor critique...")
+    revised_outputs = []
+    critique = state.get("supervisor_critique")
+
+    # Iterate based on the original_model_name stored in initial_expert_responses
+    # This ensures we re-consult the same experts that were initially selected.
+    initial_expert_details = state.get("initial_expert_responses", [])
+
+    if (
+        not critique
+        or "No initial expert outputs to critique." in critique
+        or "No specific critique generated." in critique
+    ):
+        print("No actionable critique provided, revised outputs will mirror initial outputs if not empty.")
+        return {"revised_expert_outputs": state.get("initial_expert_responses", [])}
+
+    for i, expert_detail in enumerate(initial_expert_details):
+        expert_name = expert_detail["original_model_name_for_revised_pass"]
+        expert_model_id = state["available_experts"].get(expert_name)
+
+        response_dict = _call_single_expert_llm(
+            expert_model_id=expert_model_id,
+            question_text=state["question_text"],
+            temperature=state["expert_temperature"],  # Can use same or slightly different temp
+            is_benchmark_mode=state["is_benchmark_mode"],
+            options=state.get("options"),
+            system_prompt=state.get("system_prompt"),
+            benchmark_shot_prompt=state.get("benchmark_shot_prompt"),
+            critique_to_include=critique,
+        )
+
+        revised_outputs.append(
+            {
+                "expert_display_id": expert_detail["expert_display_id"],
+                "conclusion": response_dict.get("conclusion", response_dict.get("answer", "N/A")),
+                "explanation": response_dict.get("explanation", "N/A"),
+                "original_model_name_for_revised_pass": expert_name,
+            }
+        )
+    # print(f"Revised expert responses collected: {revised_outputs}")
+    return {"revised_expert_outputs": revised_outputs}
+
+
+def synthesis_supervisor_node(state: AgenticWorkflowState) -> Dict[str, str]:
+    # print("Starting final synthesis of expert outputs...")
+    # Prioritize revised outputs, fall back to initial if revision didn't happen or was skipped
+    expert_outputs_to_synthesize = state.get("revised_expert_outputs", [])
+    if not expert_outputs_to_synthesize:  # Check if list is empty
+        expert_outputs_to_synthesize = state.get("initial_expert_responses", [])
+
+    question_text = state["question_text"]
+
+    if not expert_outputs_to_synthesize:
+        print("No expert outputs available for final synthesis.")
+        return {"final_synthesis": "No expert outputs available for final synthesis."}
+
+    prompt_parts = [
+        "You are a Chief Medical Consultant AI. Your task is to synthesize a final, comprehensive, and standardized report based on refined (or initial, if no refinement occurred) analyses from several anonymized medical experts.",
+        "Focus on creating a coherent narrative that integrates the key insights, addresses the main question, and provides a clear conclusion. If there are differing opinions, acknowledge them if significant but aim for a dominant supported viewpoint.",
+        f"\n**Clinical Case/Question:**\n{question_text}",
+    ]
+    if state.get("is_benchmark_mode") and state.get("options"):
         options = state["options"]
-        options_text_supervisor = (
+        prompt_parts.append(
             f"\n**Options:**\nA: {options.get('A', 'N/A')}\nB: {options.get('B', 'N/A')}"
             f"\nC: {options.get('C', 'N/A')}\nD: {options.get('D', 'N/A')}"
         )
+    prompt_parts.append("\n\n--- Anonymized Expert Analyses for Synthesis ---")
 
-    # --- Initial Synthesis Pass ---
-    initial_prompt_parts = [
-        "You are a Chief Medical Consultant AI. Synthesize specialist AI inputs for the given "
-        "clinical case/question.",
-        f"Review all inputs. Provide a consolidated analysis and a primary "
-        f"{'answer (A,B,C,D)' if is_benchmark_mode else 'conclusion'}.",
-        f"\n**Clinical Case/Question:**\n{question_text}",
-        options_text_supervisor,
-        "\n\n--- Specialist AI Consultations ---",
-    ]
-    for resp in expert_responses:
-        initial_prompt_parts.append(
-            f"\n**{resp['model_name']}** (Proposed {answer_key_for_experts}: "
-            f"{resp.get(answer_key_for_experts, 'N/A')}):"
+    for resp in expert_outputs_to_synthesize:
+        prompt_parts.append(
+            f"\n**{resp['expert_display_id']}**:\n"
+            f"  Conclusion/Answer: {resp.get('conclusion', 'N/A')}\n"
+            f"  Explanation: {resp.get('explanation', 'N/A').strip()}"
         )
-        initial_prompt_parts.append(f"  Explanation: {resp.get('explanation', 'N/A').strip()}")
-    initial_prompt_parts.append(
-        f"\n\n--- YOUR INITIAL SYNTHESIS ({'MedQA Format' if is_benchmark_mode else 'Report Format'}) ---"
+
+    expected_format_description = (
+        "Provide your synthesis as a single, well-structured text. "
+        "If in benchmark mode and options are provided, ensure your final answer explicitly states the chosen option (e.g., 'Final Answer: A')."
+        if state.get("is_benchmark_mode")
+        else "Provide your synthesis as a single, well-structured text. Start with a summary of findings and end with a clear overall conclusion."
     )
-    initial_prompt_parts.append("STRICT Format: Explanation: [Your reasoning] Answer: [Your choice/conclusion]")
-    initial_prompt_parts.append("Explanation: [Synthesized reasoning, 150-250 words]")
-    initial_prompt_parts.append(f"Answer: {expected_answer_format_supervisor}")
-
-    raw_initial = generate_content(SUPERVISOR_MODEL_ID, "\n".join(initial_prompt_parts), temp_initial, max_tok_initial)
-    prov_expl, prov_ans = extract_explanation_and_answer(raw_initial)
-
-    if is_benchmark_mode and (prov_ans is None or prov_ans not in ["A", "B", "C", "D"]):
-        prov_expl = prov_expl or "Initial explanation parse error (benchmark)."
-
-    # --- Self-Correction Pass ---
-    reflection_prompt_parts = [
-        "You are a Chief Medical Consultant AI performing self-correction.",
-        "Previously, you synthesized specialist inputs. Review your work.",
-        f"\n**Clinical Case/Question:**\n{question_text}",
-        options_text_supervisor,
-        "\n\n--- Original Specialist Inputs ---",
-    ]
-
-    for resp in expert_responses:
-        reflection_prompt_parts.append(
-            f"\n**{resp['model_name']}** (Proposed {answer_key_for_experts}: "
-            f"{resp.get(answer_key_for_experts, 'N/A')}):"
-        )
-        reflection_prompt_parts.append(f"  Explanation: {resp.get('explanation', 'N/A').strip()}")
-    reflection_prompt_parts.append("\n\n--- Your Previous Decision ---")
-    reflection_prompt_parts.append(f"Initial Explanation:\n{prov_expl or 'Not generated.'}")
-    reflection_prompt_parts.append(f"Initial Answer/Conclusion: {prov_ans or 'Not generated.'}")
-    reflection_prompt_parts.append(
-        f"\n\n--- SELF-CORRECTION TASK ({'MedQA Format' if is_benchmark_mode else 'Report Format'}) ---"
+    prompt_parts.append(
+        f"\n\n--- YOUR FINAL SYNTHESIZED REPORT ---" f"\n{expected_format_description}" "\nSynthesized Report:"
     )
-    reflection_prompt_parts.append(
-        "Critically re-evaluate. Ensure your FINAL decision is most accurate and well-supported."
+
+    synthesis_temp = 0.5 if not state["is_benchmark_mode"] else 0.2
+    synthesized_text = generate_content(
+        SUPERVISOR_MODEL_ID,
+        "\n".join(prompt_parts),
+        temperature=synthesis_temp,
+        max_output_tokens=700 if not state["is_benchmark_mode"] else 500,
     )
-    reflection_prompt_parts.append("STRICT Format: Explanation: [Your reasoning] Answer: [Your choice/conclusion]")
-    reflection_prompt_parts.append("Explanation: [FINAL refined reasoning, 200-300 words]")
-    reflection_prompt_parts.append(f"Answer: {expected_answer_format_supervisor}")
 
-    raw_final = generate_content(SUPERVISOR_MODEL_ID, "\n".join(reflection_prompt_parts), temp_final, max_tok_final)
-    final_expl, final_ans = extract_explanation_and_answer(raw_final)
-
-    if is_benchmark_mode and (final_ans is None or final_ans not in ["A", "B", "C", "D"]):
-        if prov_ans and prov_ans in ["A", "B", "C", "D"]:
-            final_ans, final_expl = prov_ans, (final_expl or prov_expl)
-
-    return {
-        "provisional_supervisor_explanation": prov_expl or "Provisional explanation error.",
-        "provisional_supervisor_answer": prov_ans,
-        "final_supervisor_explanation": final_expl or "Final explanation error.",
-        "final_supervisor_answer": final_ans,
-    }
+    # For benchmark mode, you might want to re-parse Explanation and Answer here if needed
+    # For UI mode, the full text is likely the desired synthesis.
+    # print(f"Final synthesis generated: {synthesized_text.strip()}")
+    return {"final_synthesis": synthesized_text.strip() or "Synthesis could not be generated."}
 
 
-# --- Function to create and compile the graph ---
-def create_compiled_agent(
-    is_benchmark_mode: bool,
-    # Benchmark specific params
-    benchmark_expert_system_prompt: Optional[str] = None,
-    benchmark_expert_shot_prompt: Optional[str] = None,
-    benchmark_expert_temp: float = 0.4,  # Default benchmark expert temp
-    # UI specific params
-    ui_expert_system_prompt: Optional[str] = None,  # More general prompt for UI experts
-    ui_expert_temp: float = 1,  # Default UI expert temp
-):
+def create_compiled_agent():
     workflow = StateGraph(AgenticWorkflowState)
+
     workflow.add_node("router", dynamic_expert_router_node)
-
-    if is_benchmark_mode:
-        expert_consult_with_args = partial(
-            core_expert_consultation_node,
-            system_prompt=benchmark_expert_system_prompt,
-            shot_prompt=benchmark_expert_shot_prompt,
-            temperature=benchmark_expert_temp,
-            is_benchmark_mode=True,
-        )
-    else:  # UI Mode
-        expert_consult_with_args = partial(
-            core_expert_consultation_node,
-            system_prompt=ui_expert_system_prompt,
-            shot_prompt=None,  # No k-shot for general UI queries
-            temperature=ui_expert_temp,
-            is_benchmark_mode=False,
-        )
-    workflow.add_node("expert_consultation", expert_consult_with_args)
-
-    supervisor_with_args = partial(core_synthesizing_supervisor_node, is_benchmark_mode=is_benchmark_mode)
-    workflow.add_node("supervisor_synthesis", supervisor_with_args)
+    workflow.add_node("initial_expert_consultation", initial_expert_consultation_node)
+    workflow.add_node("critique_supervisor", critique_supervisor_node)
+    workflow.add_node("revised_expert_consultation", revised_expert_consultation_node)
+    workflow.add_node("synthesis_supervisor", synthesis_supervisor_node)
 
     workflow.set_entry_point("router")
-    workflow.add_edge("router", "expert_consultation")
-    workflow.add_edge("expert_consultation", "supervisor_synthesis")
-    workflow.add_edge("supervisor_synthesis", END)
+    workflow.add_edge("router", "initial_expert_consultation")
+    workflow.add_edge("initial_expert_consultation", "critique_supervisor")
+    workflow.add_edge("critique_supervisor", "revised_expert_consultation")
+    workflow.add_edge("revised_expert_consultation", "synthesis_supervisor")
+    workflow.add_edge("synthesis_supervisor", END)
 
     return workflow.compile()

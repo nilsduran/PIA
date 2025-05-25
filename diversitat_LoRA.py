@@ -1,17 +1,12 @@
 from matplotlib import pyplot as plt
 from scipy.stats import pearsonr
-import time
 from sklearn.metrics.pairwise import cosine_similarity
 import pandas as pd
 import seaborn as sns
 import numpy as np
 import collections
 from tqdm import tqdm
-from funcions_auxiliars import (
-    benchmark_model,
-    get_embedding,
-)
-from googleapiclient.errors import HttpError
+from funcions_auxiliars import benchmark_model, get_embedding
 
 
 def calculate_model_diversity_scores(all_results):
@@ -83,11 +78,7 @@ def calculate_model_diversity_scores(all_results):
     # Calcula la mitjana de les distàncies per a cada model
     final_model_diversities = {}
     for model_name, scores in model_diversity_scores.items():
-        if scores:
-            final_model_diversities[model_name] = np.mean(scores)
-        else:
-            final_model_diversities[model_name] = 0  # O np.nan si prefereixes
-            print(f"Warning: No valid diversity scores for model {model_name} to average.")
+        final_model_diversities[model_name] = np.mean(scores)
 
     return final_model_diversities
 
@@ -252,10 +243,6 @@ def calculate_model_explanation_analysis(all_results):
 
 def plot_dissimilarity_matrix(matrix_df, filename="dissimilarity_matrix_heatmap.png"):
     """Plota la matriu de dissimilaritat com un heatmap."""
-    if matrix_df is None or matrix_df.empty:
-        print("Dissimilarity matrix is empty, skipping heatmap plot.")
-        return
-
     plt.figure(figsize=(10, 8))
     sns.heatmap(matrix_df, annot=True, fmt=".3f", cmap="viridis_r", cbar_kws={"label": "Avg. Cosine Distance"})
     plt.title("Pairwise Model Dissimilarity (Based on Explanations)")
@@ -275,27 +262,23 @@ if __name__ == "__main__":
     }
 
     # num_questions = 1273  # MedQA-USMLE-4-options test complet
-    num_questions = 5
+    num_questions = 50
     all_benchmark_results = []
 
     for model_name, model_id in MODELS.items():
         try:
             result = benchmark_model(model_id, model_name, num_questions, temperature=0.4, k_shot=5)
             all_benchmark_results.append(result)
-        except HttpError as e:
-            # Check if the error is related to resource exhaustion or rate limits
-            if e.resp.status in [429, 403]:  # 429: Too Many Requests, 403: Quota exceeded
-                print(f"API rate limit reached for {model_name}: {e}. Sleeping before retry.")
-                time.sleep(5)
-                try:
-                    print(f"Retrying for {model_name}...")
-                    result = benchmark_model(model_id, model_name, num_questions, temperature=0.4, k_shot=5)
-                    all_benchmark_results.append(result)
-                except Exception as e2:
-                    print(f"Retry failed for {model_name}: {e2}")
         except Exception as e:
-            print(f"Error benchmarking {model_name}: {e}")
+            print(f"\n\nError while benchmarking {model_name}: {e}")
+            try:
+                print(f"Retrying for {model_name}...")
+                result = benchmark_model(model_id, model_name, num_questions, temperature=0.4, k_shot=5)
+                all_benchmark_results.append(result)
+            except Exception as e2:
+                print(f"Retry failed for {model_name}: {e2}")
 
+    print(all_benchmark_results)
     individual_diversities, dissimilarity_matrix_df = calculate_model_explanation_analysis(all_benchmark_results)
 
     print("\nModel Individual Diversity Scores (Avg. Cosine Distance to others' explanations):")
@@ -308,6 +291,8 @@ if __name__ == "__main__":
     print("\nPairwise Model Dissimilarity Matrix (Avg. Cosine Distance):")
     if dissimilarity_matrix_df is not None and not dissimilarity_matrix_df.empty:
         print(dissimilarity_matrix_df.to_string(float_format="%.3f"))
+        # Guarda la matriu com a CSV
+        dissimilarity_matrix_df.to_csv("dissimilarity_matrix.csv", index=True)
         plot_dissimilarity_matrix(dissimilarity_matrix_df)
     else:
         print("Could not calculate dissimilarity matrix.")

@@ -3,6 +3,7 @@
 ## Estructura del Projecte
 
 ### Fitxers Principals
+- `app.py` - Applicació d'usuari per a la interacció amb el sistema
 - `langgraph_conversa.py` - MVP: Implementa la funcionalitat de conversa utilitzant LangGraph
 - `langgraph_benchmark.py` - Avaluació del benchmark MedQA del sistema multi-agent de LangGraph
 - `benchmarking.py` - Avaluació de rendiment dels models de llenguatge ajustats LoRA
@@ -32,8 +33,8 @@
 
 ### Notebooks i Configuració
 
+- `plots_extres.ipynb` - Notebook per a la visualització de resultats misc.
 - `LoRA_kaggle.ipynb` - Notebook de Jupyter per a l'entrenament amb LoRA (deprecated per falta de recursos)
-- `expert_triat.ipynb` - Notebook per a la visualització de la selecció d'experts
 
 ## Instal·lació
 Es recomana executar el projecte en un entorn virtual. 
@@ -45,7 +46,7 @@ pip install -r requirements.txt
 ## Execució
 Per executar el sistema de conversa, utilitzeu el següent comandament:
 ```bash
-python langgraph_conversa.py
+streamlit run app.py
 ```
 Per a l'avaluació del benchmark MedQA, utilitzeu:
 ```bash
