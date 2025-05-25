@@ -7,12 +7,13 @@ from langgraph_workflow import AgenticWorkflowState, EXPERT_DEFINITIONS, create_
 
 def benchmark_agentic_workflow(
     strategy_name: str,
-    num_experts_to_select_param: int,
+    num_experts_to_select: int,
     num_questions_to_run: int = 10,
+    diversity_option: str = "Mitjana",  # Default diversity option for benchmark
     k_shot: int = 5,
     expert_temperature: float = 0.4,  # Default expert temp for benchmark
 ):
-    print(f"\n--- Benchmarking: {strategy_name} (Selecting {num_experts_to_select_param} experts) ---")
+    print(f"\n--- Benchmarking: {strategy_name} (Selecting {num_experts_to_select} experts) ---")
 
     medqa_test = (
         load_dataset("GBaker/MedQA-USMLE-4-options", split="test").shuffle(seed=42).select(range(num_questions_to_run))
@@ -20,7 +21,7 @@ def benchmark_agentic_workflow(
     medqa_train_data = (
         load_dataset("GBaker/MedQA-USMLE-4-options", split="train").shuffle(seed=42).select(range(k_shot))
     )
-    system_prompt_text_benchmark = (
+    system_prompt_benchmark = (
         "You are a medical expert answering multiple-choice questions. "
         "Always output EXACTLY in this format, nothing more:\n"
         "Explanation: [Your brief but precise medical reasoning, no code or additional text]\n"
@@ -34,26 +35,19 @@ def benchmark_agentic_workflow(
         "Based on the information provided, the child's recurrent abdominal pain that occurs only at school, with no symptoms at home, and no abnormalities on physical examination or laboratory tests, suggests a functional cause. The child's symptoms are consistent with a functional abdominal pain disorder, possibly related to school avoidance or a behavioral component. Given that the child denies functional pain and there are no alarm symptoms (such as blood in the stool, weight loss, or nighttime symptoms), the next step in management should focus on addressing the potential psychological or behavioral factors contributing to the abdominal pain.",
     ][:k_shot]
 
-    shot_prompt_text_benchmark_parts = []
+    shot_prompt_benchmark_parts = []
     for i, train_ex in enumerate(medqa_train_data):
         expl = explanations[i]
-        shot_prompt_text_benchmark_parts.append(
+        shot_prompt_benchmark_parts.append(
             f"Question: {train_ex['question']}\n"
             f"A: {train_ex['options']['A']}\nB: {train_ex['options']['B']}\nC: {train_ex['options']['C']}\nD: {train_ex['options']['D']}\n"
             f"Explanation: {expl}\nAnswer: {train_ex['answer_idx']}\n\n"
         )
-    shot_prompt_text_benchmark = "".join(shot_prompt_text_benchmark_parts)
+    shot_prompt_benchmark = "".join(shot_prompt_benchmark_parts)
 
     results_accumulator = []
     num_correct = 0
     num_no_answer = 0
-
-    compiled_agent = create_compiled_agent(
-        is_benchmark_mode=True,
-        benchmark_expert_system_prompt=system_prompt_text_benchmark,
-        benchmark_expert_shot_prompt=shot_prompt_text_benchmark,
-        benchmark_expert_temp=expert_temperature,
-    )
 
     for test_idx, test_item in tqdm(enumerate(medqa_test), total=len(medqa_test), desc=f"Processing {strategy_name}"):
         initial_state_for_run: AgenticWorkflowState = {
@@ -61,23 +55,28 @@ def benchmark_agentic_workflow(
             "options": test_item["options"],
             "correct_answer_idx": test_item["answer_idx"],
             "available_experts": EXPERT_DEFINITIONS,
-            "num_experts_to_select": num_experts_to_select_param,
+            "num_experts_to_select": num_experts_to_select,
+            "diversity_option": diversity_option,
+            "is_benchmark_mode": True,
             "selected_experts_names": [],
-            "expert_responses": [],
-            "provisional_supervisor_explanation": None,
-            "provisional_supervisor_answer": None,
-            "final_supervisor_explanation": None,
-            "final_supervisor_answer": None,
+            "initial_expert_responses": [],
+            "supervisor_critique": None,
+            "revised_expert_outputs": None,
+            "final_synthesis": None,
+            "expert_temperature": expert_temperature,
+            "system_prompt": system_prompt_benchmark,
+            "benchmark_shot_prompt": shot_prompt_benchmark,
         }
+
+        compiled_agent = create_compiled_agent()
 
         try:
             final_run_state = compiled_agent.invoke(initial_state_for_run)
-            agent_answer = final_run_state.get("final_supervisor_answer")
+            agent_answer = final_run_state.get("final_synthesis", {}).get("answer", None)
 
             if agent_answer is None or agent_answer not in ["A", "B", "C", "D"]:
                 num_no_answer += 1
             else:
-
                 is_item_correct = agent_answer == test_item["answer_idx"]
                 if is_item_correct:
                     num_correct += 1
@@ -161,7 +160,7 @@ def plot_benchmark_results(benchmark_outputs):
 # --- EXECUCIÓ PRINCIPAL ---
 if __name__ == "__main__":
     # Paràmetres de configuració per al benchmark
-    NUM_QUESTIONS = 100
+    NUM_QUESTIONS = 10
     MAX_EXPERTS_TO_TEST = 5
     K_SHOT = 5  # Nombre d'exemples few-shot per als experts
     EXPERT_TEMP = 0.4  # Temperatura per als models experts
@@ -175,7 +174,7 @@ if __name__ == "__main__":
 
         current_result = benchmark_agentic_workflow(
             strategy_name=strategy_run_name,
-            num_experts_to_select_param=num_experts_routed,
+            num_experts_to_select=num_experts_routed,
             num_questions_to_run=NUM_QUESTIONS,
             k_shot=K_SHOT,
             expert_temperature=EXPERT_TEMP,
