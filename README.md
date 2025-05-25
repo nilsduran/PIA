@@ -4,27 +4,33 @@
 
 ### Fitxers Principals
 - `app.py` - Applicació d'usuari per a la interacció amb el sistema
-- `langgraph_conversa.py` - MVP: Implementa la funcionalitat de conversa utilitzant LangGraph
+- `xat_models_finetuned.py` - MVP: Implementa la funcionalitat de conversa amb models de llenguatge ajustats LoRA
 - `langgraph_benchmark.py` - Avaluació del benchmark MedQA del sistema multi-agent de LangGraph
 - `benchmarking.py` - Avaluació de rendiment dels models de llenguatge ajustats LoRA
 
 ### Fitxers Addicionals
 - `temperature_finder.py` - Eina per avaluar l'efecte de la temperatura en els models de llenguatge
-- `Versió1_vs_Versió2.py` - Comparació head-to-head entre dues versions de LoRA
-- `xat_models_finetuned.py` - Conversa pre-MVP amb models de llenguatge ajustats LoRA i temperatura com a paràmetre de diversitat
+- `Versió1_vs_Versió2.py` - Comparació head-to-head entre dues versions de LoRA per triar la millor
+- `xat_models_finetuned.py` - Conversa MVP amb models de llenguatge ajustats LoRA i temperatura com a paràmetre de diversitat
 - `crear_csv.py` - Script per crear fitxers CSV, probablement a partir de dades processades
 - `crear_embeddings.py` - Crea embeddings amb el contingut dels llibres de text
 - `dades_agents.py` - Script per crear i gestionar dades dels agents amb què s'ajusten els models i s'entrenenen els embeddings
 
 ### Dades i Recursos
 
-- `textbooks/` - Directori que conté llibres de text mèdics i científics
 - `agents_data/` - Directori que conté dades especialitzades dels agents
+- `agents_embeddings/` - Directori que conté els embeddings dels agents experts
+- `csv_output/` - Directori que conté els fitxers CSV amb les dades d'entrenament del LoRA
+- `textbooks/` - Directori que conté llibres de text mèdics i científics
+- `medmcqa_json/` - Directori que conté les dades del benchmark MedMCQA en format JSON
+
+
 
 ### Resultats i Visualització
 
 - `accuracy_comparison_all_models.png` - Visualització comparant la precisió de tots els models
 - `model_benchmark_results.png` - Visualització dels resultats de les proves
+- `dissimilarity_matrix_heatmap.png` - Visualització de les puntuacions de dissimilaritat de diversitat entre models
 - `model_benchmarks.png`/`model_benchmarks_0.png` - Visualitzacions addicionals de proves
 - `agentic_workflow_benchmark.png` - Proves de rendiment dels fluxos de treball dels agents
 - `distribution_per_temperature.png` - Anàlisi de distribució segons configuracions de temperatura
@@ -35,6 +41,8 @@
 
 - `plots_extres.ipynb` - Notebook per a la visualització de resultats misc.
 - `LoRA_kaggle.ipynb` - Notebook de Jupyter per a l'entrenament amb LoRA (deprecated per falta de recursos)
+- `PIA_RAG.ipynb` - Notebook per a la implementació de Retrieval-Augmented Generation (RAG) amb LangGraph (deprecated per falta de recursos)
+
 
 ## Instal·lació
 Es recomana executar el projecte en un entorn virtual. 
@@ -56,10 +64,3 @@ Per a l'avaluació de rendiment dels models de llenguatge ajustats LoRA, utilitz
 ```bash
 python benchmarking.py
 ```
-
-
-
-## Idees
-- Avaluar qualitativament el sistema de conversa divers amb el no-divers, tipu lmarena i l'usuari tria el millor.
-- Elo rating dels models més o menys diversos.
-- Calcular quantes votacions calen per a comparar un nombre X de models si és head-to-head.
