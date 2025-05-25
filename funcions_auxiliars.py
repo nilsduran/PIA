@@ -90,7 +90,7 @@ def _call_single_expert_llm(
             f"{critique_prompt_addition}"  # Add critique here
             f"Explanation:"
         )
-        max_tok, retry_max_tok = 300, 500
+        max_tok, retry_max_tok = 400, 700
     else:  # UI/Conversational mode
         prompt = (
             f"{base_system_prompt}\nYou are an AI expert in medicine and healthcare.\n"
@@ -100,7 +100,7 @@ def _call_single_expert_llm(
             f"Provide a concise analysis (around 100-200 words), including key insights and potential considerations. Format:\n"
             f"Explanation: [Your analysis]\nConclusion: [Your main conclusion/summary]"
         )
-        max_tok, retry_max_tok = 400, 700
+        max_tok, retry_max_tok = 1000, 2000
 
     raw_response = generate_content(expert_model_id, prompt, temperature=temperature, max_output_tokens=max_tok)
     explanation, answer_or_conclusion = extract_explanation_and_answer_or_conclusion(raw_response)

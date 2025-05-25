@@ -295,7 +295,7 @@ def synthesis_supervisor_node(state: AgenticWorkflowState) -> Dict[str, str]:
         SUPERVISOR_MODEL_ID,
         "\n".join(prompt_parts),
         temperature=synthesis_temp,
-        max_output_tokens=700 if not state["is_benchmark_mode"] else 500,
+        max_output_tokens=1500 if not state["is_benchmark_mode"] else 900,
     )
 
     # For benchmark mode, you might want to re-parse Explanation and Answer here if needed
