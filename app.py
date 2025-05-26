@@ -81,6 +81,17 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+EXAMPLE_CASES = {
+    "Anèmia de cèl·lules falciformes": "A 29-year-old Black female with known sickle cell disease presents to the ED in acute vaso-occlusive crisis, reporting 10/10 pain. Security and two orderlies bring her in, suspecting drug-seeking behavior due to her repeated visits and agitation. Initial triage staff delay opioid administration, questioning the legitimacy of her pain.",
+    "Donació d'òrgans": "A 19-year-old male is found unresponsive by his parents and is declared brain-dead following a fentanyl overdose. The medical team approaches the family to discuss organ donation. The parents are divided: one wishes to proceed, believing it will give meaning to their loss, while the other cannot accept the idea. The team must navigate the ethical complexities of consent, grief, and the urgency of organ procurement.",
+    "Intubació o fi de vida": "An 89-year-old male patient with dementia and respiratory distress arrives at the ER. The medical team must decide whether to intubate him, which would violate his advance directive stating he does not want to be placed on a ventilator. The patient's son insists on honoring the directive, while the daughter cannot accept a decision that results in her father's death. Ultimately, the son defers to the daughter, and the doctor intubates the patient—knowing it goes against the patient's stated wishes.",
+    "Error de medicació": "A 45-year-old patient is admitted for pneumonia and is prescribed an antibiotic. The nurse administers the wrong dose due to a miscalculation, leading to kidney damage. The case explores medical error reporting, accountability, and communication with the patient and family about the adverse event.",
+    "Consentiment informat": "A 60-year-old woman with early-stage breast cancer is offered a choice between a lumpectomy with radiation or a mastectomy. She feels overwhelmed by the information and pressured by her family to choose the more aggressive option (mastectomy). The ethical challenge for the physician is to ensure true informed consent, respecting the patient's autonomy against external pressures.",
+    "Salut mental adolescent": "A 16-year-old is brought to a clinic by their parents for signs of depression and self-harm. The teenager requests confidentiality from their parents regarding the details of their therapy. The case navigates the complex balance between patient confidentiality for a minor and parental rights/responsibilities, especially when there's a risk of harm.",
+    "Assignació de recursos": "During a flu pandemic, a hospital has a limited number of ventilators. Two patients need one urgently: a 78-year-old with multiple comorbidities and a 35-year-old with no prior health issues. The medical team must use an ethical framework to decide who receives the life-saving resource.",
+    "Conflicte religiós": "A patient, a devout Jehovah's Witness, has life-threatening internal bleeding after an accident but refuses a blood transfusion due to religious beliefs. The medical team must respect the patient's deeply held beliefs while also confronting their professional duty to preserve life, exploring all alternative treatments available.",
+}
+
 
 def record_vote(model_a_config_str: str, model_b_config_str: str, vote_score: float):
     """Appends a vote record to the CSV file."""
@@ -232,7 +243,9 @@ if "battle_question" not in st.session_state:
     st.session_state.battle_question = ""
 if "vote_casted" not in st.session_state:
     st.session_state.vote_casted = False
-
+if "random_cases" not in st.session_state:
+    case_titles = list(EXAMPLE_CASES.keys())
+    st.session_state.random_cases = random.sample(case_titles, 3)
 
 # --- BARRA LATERAL PER A LA CONFIGURACIÓ ---
 st.sidebar.title("⚕️ MedAgent UI")
@@ -302,19 +315,11 @@ if app_mode == "Consulta":
 
     # Default queries for Consulta mode
     st.subheader("Consultes d'exemple per a consulta de The Pitt (2025):")
-    col1, col2, col3 = st.columns(3)
-
-    with col1:
-        if st.button("Anèmia de cèl·lules falciformes", key="default_query1"):
-            st.session_state.consulta_question = "A 29-year-old Black female with known sickle cell disease presents to the ED in acute vaso-occlusive crisis, reporting 10/10 pain. Security and two orderlies bring her in, suspecting drug-seeking behavior due to her repeated visits and agitation. Initial triage staff delay opioid administration, questioning the legitimacy of her pain."
-
-    with col2:
-        if st.button("Donació d'òrgans", key="default_query2"):
-            st.session_state.consulta_question = "A 19-year-old male is found unresponsive by his parents and is declared brain-dead following a fentanyl overdose. The medical team approaches the family to discuss organ donation. The parents are divided: one wishes to proceed, believing it will give meaning to their loss, while the other cannot accept the idea. The team must navigate the ethical complexities of consent, grief, and the urgency of organ procurement."
-
-    with col3:
-        if st.button("Intubació o fi de vida", key="default_query3"):
-            st.session_state.consulta_question = "An 89-year-old male patient with dementia and respiratory distress arrives at the ER. The medical team must decide whether to intubate him, which would violate his advance directive stating he does not want to be placed on a ventilator. The patient's son insists on honoring the directive, while the daughter cannot accept a decision that results in her father's death. Ultimately, the son defers to the daughter, and the doctor intubates the patient—knowing it goes against the patient's stated wishes."
+    cols = st.columns(3)
+    for i, title in enumerate(st.session_state.random_cases):
+        with cols[i]:
+            if st.button(title, key=f"consulta_case_{i+1}"):
+                st.session_state.consulta_question = EXAMPLE_CASES[title]
 
     # Initialize consulta_question if not exists
     if "consulta_question" not in st.session_state:
@@ -350,19 +355,12 @@ elif app_mode == "Batalla":
 
     # Default queries for Batalla mode
     st.subheader("Consultes d'exemple per a batalla de The Pitt (2025):")
-    col1, col2, col3 = st.columns(3)
+    cols = st.columns(3)
 
-    with col1:
-        if st.button("Anèmia de cèl·lules falciformes", key="default_battle1"):
-            st.session_state.battle_q = "A 29-year-old Black female with known sickle cell disease presents to the ED in acute vaso-occlusive crisis, reporting 10/10 pain. Security and two orderlies bring her in, suspecting drug-seeking behavior due to her repeated visits and agitation. Initial triage staff delay opioid administration, questioning the legitimacy of her pain."
-
-    with col2:
-        if st.button("Donació d'òrgans", key="default_battle2"):
-            st.session_state.battle_q = "A 19-year-old male is found unresponsive by his parents and is declared brain-dead following a fentanyl overdose. The medical team approaches the family to discuss organ donation. The parents are divided: one wishes to proceed, believing it will give meaning to their loss, while the other cannot accept the idea. The team must navigate the ethical complexities of consent, grief, and the urgency of organ procurement."
-
-    with col3:
-        if st.button("Intubació o fi de vida", key="default_battle3"):
-            st.session_state.battle_q = "An 89-year-old male patient with dementia and respiratory distress arrives at the ER. The medical team must decide whether to intubate him, which would violate his advance directive stating he does not want to be placed on a ventilator. The patient's son insists on honoring the directive, while the daughter cannot accept a decision that results in her father's death. Ultimately, the son defers to the daughter, and the doctor intubates the patient—knowing it goes against the patient's stated wishes."
+    for i, title in enumerate(st.session_state.random_cases):
+        with cols[i]:
+            if st.button(title, key=f"battle_case_{i+1}"):
+                st.session_state.battle_q = EXAMPLE_CASES[title]
 
     # Initialize battle_q if not exists
     if "battle_q" not in st.session_state:
