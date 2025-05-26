@@ -103,21 +103,17 @@ def _call_single_expert_llm(
         max_tok, retry_max_tok = 1000, 2000
 
     raw_response = generate_content(expert_model_id, prompt, temperature=temperature, max_output_tokens=max_tok)
-    explanation, answer_or_conclusion = extract_explanation_and_answer(raw_response)
+    explanation, answer = extract_explanation_and_answer(raw_response)
 
     if (
-        answer_or_conclusion is None and is_benchmark_mode and not critique_to_include
+        answer is None and is_benchmark_mode and not critique_to_include
     ):  # Only retry if no answer in benchmark mode on first pass
         raw_response = generate_content(
             expert_model_id, prompt, temperature=max(0.1, temperature - 0.2), max_output_tokens=retry_max_tok
         )
-        explanation, answer_or_conclusion = extract_explanation_and_answer(raw_response)
+        explanation, answer = extract_explanation_and_answer(raw_response)
 
-    response_key = "answer" if is_benchmark_mode else "conclusion"
-    return {
-        response_key: answer_or_conclusion or ("No answer." if is_benchmark_mode else "No conclusion."),
-        "explanation": explanation or "No explanation.",
-    }
+    return {"explanation": explanation or "No explanation.", "answer": answer or "No answer."}
 
 
 def extract_answer(text: str) -> Optional[str]:

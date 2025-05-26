@@ -151,8 +151,8 @@ def initial_expert_consultation_node(state: AgenticWorkflowState) -> Dict[str, A
         outputs.append(
             {
                 "expert_display_id": f"Expert {i+1}",  # Anonymized for supervisor
-                "conclusion": response_dict.get("conclusion", response_dict.get("answer", "N/A")),
                 "explanation": response_dict.get("explanation", "N/A"),
+                "answer": response_dict.get("answer", "N/A"),
                 "original_model_name_for_revised_pass": expert_name,  # Needed for revised pass
             }
         )
@@ -181,7 +181,7 @@ def critique_supervisor_node(state: AgenticWorkflowState) -> Dict[str, str]:
         prompt_parts.append(
             f"\n**{resp['expert_display_id']}**:\n"
             f"  Explanation: {resp.get('explanation', 'N/A').strip()}"
-            f"  Answer: {resp.get('conclusion', 'N/A')}\n"
+            f"  Answer: {resp.get('answer', 'N/A')}\n"
         )
     prompt_parts.append(
         "\n\n--- YOUR CONSOLIDATED CRITIQUE ---"
@@ -233,8 +233,8 @@ def revised_expert_consultation_node(state: AgenticWorkflowState) -> Dict[str, A
         revised_outputs.append(
             {
                 "expert_display_id": expert_detail["expert_display_id"],
-                "conclusion": response_dict.get("conclusion", response_dict.get("answer", "N/A")),
                 "explanation": response_dict.get("explanation", "N/A"),
+                "answer": response_dict.get("answer", "N/A"),
                 "original_model_name_for_revised_pass": expert_name,
             }
         )
@@ -271,7 +271,7 @@ def synthesis_supervisor_node(state: AgenticWorkflowState) -> Dict[str, Any]:  #
         prompt_parts.append(
             f"\n**{resp['expert_display_id']}**:\n"
             f"  Explanation: {resp.get('explanation', 'N/A').strip()}"
-            f"  Answer: {resp.get('conclusion', 'N/A')}\n"
+            f"  Answer: {resp.get('answer', 'N/A')}\n"
         )
 
     # Prompt explícit per al format de sortida del supervisor en benchmark

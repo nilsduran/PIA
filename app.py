@@ -2,7 +2,8 @@ import streamlit as st
 import random
 import pandas as pd
 import os
-from langgraph_conversa import conversation_agentic_workflow
+from langgraph_conversa import conversation_agentic_workflow, EXPERT_DEFINITIONS
+from funcions_auxiliars import _call_single_expert_llm
 
 csv_file = "battle_votes.csv"
 
@@ -235,7 +236,9 @@ if "vote_casted" not in st.session_state:
 
 # --- BARRA LATERAL PER A LA CONFIGURACIÓ ---
 st.sidebar.title("⚕️ MedAgent UI")
-app_mode = st.sidebar.radio("Selecciona el Mode:", ("Consulta", "Batalla de Respostes"), key="app_mode_selector")
+app_mode = st.sidebar.radio(
+    "Selecciona el Mode:", ("Consulta", "Batalla de Respostes", "Resultats"), key="app_mode_selector"
+)
 
 if app_mode == "Consulta":
     # Show sliders only in Consulta mode
@@ -254,7 +257,7 @@ if app_mode == "Consulta":
         index=1,  # Default to Mitjana
         help="Controla la diversitat del flux d'agents.",
     )
-else:
+elif app_mode == "Batalla de Respostes":
     # Show description for Batalla mode
     st.sidebar.markdown("### Mode Batalla")
     st.sidebar.info(
@@ -264,6 +267,29 @@ else:
         - Pots comparar i triar la resposta que prefereixis
         """
     )
+elif app_mode == "Classificació elo":
+    # Show description for Elo mode
+    st.sidebar.markdown("### Classificació Elo")
+    st.sidebar.info(
+        """
+        - Aquesta secció mostra la classificació Elo dels agents basat en les votacions de les batalles.
+        - Les puntuacions es calculen a partir de les votacions registrades en el fitxer CSV.
+        """
+    )
+    # Load and display the Elo ratings
+    if os.path.exists(csv_file):
+        try:
+            matches_df = pd.read_csv(csv_file)
+            if not matches_df.empty:
+                st.sidebar.markdown("### Classificació Elo Actual:")
+                elo_ratings = pd.read_csv("elo_ratings_with_ci.csv")
+                st.sidebar.dataframe(elo_ratings, use_container_width=True)
+            else:
+                st.sidebar.warning("No hi ha dades de batalles registrades.")
+        except Exception as e:
+            st.sidebar.error(f"Error carregant les dades de classificació: {e}")
+    else:
+        st.sidebar.warning("No s'ha trobat el fitxer de votacions.")
 
 
 # --- LÒGICA PRINCIPAL DE LA UI ---
@@ -371,39 +397,67 @@ elif app_mode == "Batalla de Respostes":
                         "experts": num_experts_A,
                         "diversity": diversity_option_A,
                     }
-                    st.session_state.battle_configs["A"] = f"experts_{num_experts_A}_diversity_{diversity_option_A}"
-
-                    response_A_obj = conversation_agentic_workflow(
-                        question_text=st.session_state.battle_question,
-                        num_experts_to_select=num_experts_A,
-                        diversity_option=diversity_option_A,
-                    )
-                    st.session_state.battle_responses["A"] = response_A_obj.get(
-                        "final_synthesis", "Error en generar resposta A."
-                    )
+                    st.session_state.battle_configs["A"] = f"experts_{num_experts_A}_diversitat_{diversity_option_A}"
+                    if random.random() < 0.5:
+                        expert_model_id_A = random.choice(list(EXPERT_DEFINITIONS.values()))
+                        response_A_obj = _call_single_expert_llm(
+                            expert_model_id=expert_model_id_A,
+                            question_text=st.session_state.battle_question,
+                            temperature=0.7,
+                            is_benchmark_mode=False,
+                        )
+                        st.session_state.battle_responses["A"] = {
+                            "explanation": response_A_obj.get("explanation", "No disponible."),
+                            "answer": response_A_obj.get("answer", "No disponible."),
+                        }
+                    else:
+                        response_A_obj = conversation_agentic_workflow(
+                            question_text=st.session_state.battle_question,
+                            num_experts_to_select=num_experts_A,
+                            diversity_option=diversity_option_A,
+                        )
+                        st.session_state.battle_responses["A"] = response_A_obj.get(
+                            "final_synthesis", "Error en generar resposta A."
+                        )
 
                     # Generació de Resposta B
                     num_experts_B = random.randint(1, 5)
                     diversity_option_B = random.choice(["Baixa", "Mitjana", "Alta"])
-                    while (
-                        num_experts_A == num_experts_B and diversity_option_A == diversity_option_B
-                    ):  # Ensure different configs
-                        num_experts_B = random.randint(1, 5)
-                        diversity_option_B = random.choice(["Baixa", "Mitjana", "Alta"])
-                    st.session_state.battle_configs_parsed["B"] = {
-                        "experts": num_experts_B,
-                        "diversity": diversity_option_B,
-                    }
-                    st.session_state.battle_configs["B"] = f"experts_{num_experts_B}_diversity_{diversity_option_B}"
+                    if random.random() < 0.05:
+                        expert_model_id_B = random.choice(list(EXPERT_DEFINITIONS.values()))
+                        while expert_model_id_A == expert_model_id_B:  # Ensure different expert for B
+                            expert_model_id_B = random.choice(list(EXPERT_DEFINITIONS.values()))
 
-                    response_B_obj = conversation_agentic_workflow(
-                        question_text=st.session_state.battle_question,
-                        num_experts_to_select=num_experts_B,
-                        diversity_option=diversity_option_B,
-                    )
-                    st.session_state.battle_responses["B"] = response_B_obj.get(
-                        "final_synthesis", "Error en generar resposta B."
-                    )
+                        response_B_obj = _call_single_expert_llm(
+                            expert_model_id=expert_model_id_B,
+                            question_text=st.session_state.battle_question,
+                            temperature=0.7,
+                            is_benchmark_mode=False,
+                        )
+                        st.session_state.battle_responses["B"] = {
+                            "explanation": response_B_obj.get("explanation", "No disponible."),
+                            "answer": response_B_obj.get("answer", "No disponible."),
+                        }
+                    else:
+                        # Ensure different configurations for B
+                        while num_experts_A == num_experts_B and diversity_option_A == diversity_option_B:
+                            num_experts_B = random.randint(1, 5)
+                            diversity_option_B = random.choice(["Baixa", "Mitjana", "Alta"])
+                        st.session_state.battle_configs_parsed["B"] = {
+                            "experts": num_experts_B,
+                            "diversity": diversity_option_B,
+                        }
+                        st.session_state.battle_configs["B"] = (
+                            f"experts_{num_experts_B}_diversitat_{diversity_option_B}"
+                        )
+                        response_B_obj = conversation_agentic_workflow(
+                            question_text=st.session_state.battle_question,
+                            num_experts_to_select=num_experts_B,
+                            diversity_option=diversity_option_B,
+                        )
+                        st.session_state.battle_responses["B"] = response_B_obj.get(
+                            "final_synthesis", "Error en generar resposta B."
+                        )
 
                 except Exception as e:
                     st.error(f"Error generant respostes per a la batalla: {e}")
@@ -508,6 +562,68 @@ elif app_mode == "Batalla de Respostes":
                 unsafe_allow_html=True,
             )
             st.info("Per a una nova batalla, introdueix una nova pregunta i prem 'Iniciar Batalla / Nova Pregunta'.")
+
+elif app_mode == "Resultats":
+    st.title("Resultats")
+    st.markdown("Aquesta secció mostra la classificació Elo dels agents basat en les votacions de les batalles. ")
+    st.markdown("I també mostra gràfics de resultats i anàlisis de les batalles realitzades.")
+    if os.path.exists(csv_file):
+        # Load and display the elo ratings as a table
+        try:
+            matches_df = pd.read_csv(csv_file)
+            if not matches_df.empty:
+                st.markdown("### Classificació Elo:")
+                elo_ratings = pd.read_csv("elo_ratings_with_ci.csv")
+                elo_ratings_display = pd.DataFrame(
+                    {
+                        "Rank": range(1, len(elo_ratings) + 1),
+                        "Model": elo_ratings["player"],
+                        "Rating": elo_ratings["rating"].round(0).astype(int),
+                        "95% CI": [
+                            f"+{upper:.1f}/-{lower:.1f}"
+                            for upper, lower in zip(elo_ratings["ci_upper"], elo_ratings["ci_lower"])
+                        ],
+                    }
+                )
+                st.dataframe(
+                    elo_ratings_display,
+                    use_container_width=True,
+                    hide_index=True,
+                    column_config={
+                        "Rank": st.column_config.NumberColumn("Rank", format="%d"),
+                        "Model": st.column_config.TextColumn("Model"),
+                        "Rating": st.column_config.NumberColumn("Rating", format="%d"),
+                        "95% CI": st.column_config.TextColumn("95% CI"),
+                    },
+                )
+            else:
+                st.warning("No hi ha dades de batalles registrades.")
+        except Exception as e:
+            st.error(f"Error carregant les dades de classificació: {e}")
+    else:
+        st.warning("No s'ha trobat el fitxer de votacions.")
+    st.markdown("---")
+    st.markdown("## Gràfics de Resultats")
+    # Add image from file
+    st.image("agentic_workflow_benchmark.png", caption="Flux d'Agents Mèdics", use_container_width=True)
+    st.image("model_benchmarks.png", caption="Comparació de Models", use_container_width=True)
+    st.image(
+        "dissimilarity_matrix_heatmap.png",
+        caption="Matriu de Dissimilaritat de Diversitat de Respostes",
+        use_container_width=True,
+    )
+    st.image(
+        "diversity_accuracy_correlation.png",
+        caption="Correlació entre Diversitat i Precisions",
+        use_container_width=True,
+    )
+    st.image("expert_ranks.png", caption="Experts triats a cada fase", use_container_width=True)
+    st.image(
+        "temperature_optimization_Patologia_i_Farmacologia.png",
+        caption="Precisió i taxa de refutació per a Patologia i Farmacologia",
+        use_container_width=True,
+    )
+
 
 st.markdown("---")
 st.sidebar.info(

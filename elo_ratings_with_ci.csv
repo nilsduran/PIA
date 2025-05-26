@@ -1,0 +1,10 @@
+player,rating,ci_upper,ci_lower
+experts_5_diversity_Alta,1029,29.4,29.0
+experts_1_diversity_Mitjana,1016,28.5,16.0
+experts_1_diversity_Alta,1016,27.7,16.0
+experts_3_diversity_Alta,1002,41.7,43.7
+experts_5_diversity_Mitjana,1001,1.7,1.0
+experts_2_diversity_Mitjana,985,15.0,28.8
+experts_5_diversity_Baixa,984,16.0,27.7
+experts_3_diversity_Baixa,984,16.0,27.7
+experts_2_diversity_Baixa,983,17.0,27.6
