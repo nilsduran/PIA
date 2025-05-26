@@ -71,7 +71,10 @@ def elo_with_confidence_intervals(matches, initial_rating=1000, k=32, n_bootstra
     return pd.DataFrame(rows, columns=["player", "rating", "ci_upper", "ci_lower"])
 
 
-if __name__ == "__main__":
+def update_elo_ratings():
+    """
+    Update Elo ratings from the battle votes CSV file.
+    """
     matches_df = pd.read_csv("battle_votes.csv")
     ratings_ci_df = elo_with_confidence_intervals(matches_df, initial_rating=1000, k=32, n_bootstrap=1000, alpha=0.05)
     ratings_ci_df = ratings_ci_df.sort_values("rating", ascending=False)
@@ -80,3 +83,7 @@ if __name__ == "__main__":
         print(f"{row['player']}: {row['rating']:.1f} " f"(+{row['ci_upper']:.1f}/-{row['ci_lower']:.1f})")
 
     ratings_ci_df.to_csv("elo_ratings_with_ci.csv", index=False)
+
+
+if __name__ == "__main__":
+    update_elo_ratings()

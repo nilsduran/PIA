@@ -38,6 +38,7 @@ EXPERT_DEFINITIONS = {
     "Cirurgia": "tunedModels/cirurgia-2-2c1cy8nkr5ca5mui15tu4wtlpapp8",
     "Pediatria i Ginecologia": "tunedModels/pediatria-ginecologia-2-ss7f3iy509x7x43h",
 }
+EXPERT_DEFINITIONS_REVERSED = {v: k for k, v in EXPERT_DEFINITIONS.items()}
 AGENT_EMBEDDING_FILENAME_MAP = {
     "Ciències Bàsiques": "Ciències_Bàsiques",
     "Medicina General": "Medicina_General",
@@ -313,8 +314,6 @@ def synthesis_supervisor_node(state: AgenticWorkflowState) -> Dict[str, Any]:  #
         temperature=state["expert_temperature"],
         max_output_tokens=max_tokens_synthesis,
     )
-
-    print(f"Raw synthesis from supervisor: {raw_synthesized_text}...")
 
     explanation, answer = extract_explanation_and_answer(raw_synthesized_text)
 

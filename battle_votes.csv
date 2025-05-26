@@ -1,9 +1,20 @@
-model_A_config,model_B_config,score_A_vs_B,timestamp
-experts_5_diversity_Alta,experts_5_diversity_Baixa,1.0,2025-05-25 19:00:42.115334
-experts_5_diversity_Mitjana,experts_5_diversity_Alta,0.5,2025-05-25 19:02:42.112981
-experts_3_diversity_Alta,experts_1_diversity_Mitjana,0.0,2025-05-25 19:06:14.491245
-experts_3_diversity_Alta,experts_5_diversity_Alta,0.5,2025-05-26 02:48:01.096638
-experts_1_diversity_Alta,experts_3_diversity_Baixa,1.0,2025-05-26 02:58:44.165955
-experts_2_diversity_Mitjana,experts_5_diversity_Alta,0.0,2025-05-26 03:30:05.529765
-experts_3_diversity_Alta,experts_2_diversity_Baixa,1.0,2025-05-26 03:44:47.377793
-experts_3_diversitat_Baixa,experts_1_diversitat_Alta,0.0,2025-05-26 12:59:18.990003
+model_A_config,model_B_config,score_A_vs_B
+experts_5_diversitat_Alta,experts_5_diversitat_Baixa,1.0
+experts_5_diversitat_Mitjana,experts_5_diversitat_Alta,0.5
+experts_3_diversitat_Alta,experts_1_diversitat_Mitjana,0.0
+experts_3_diversitat_Alta,experts_5_diversitat_Alta,0.5
+experts_1_diversitat_Alta,experts_3_diversitat_Baixa,1.0
+experts_2_diversitat_Mitjana,experts_5_diversitat_Alta,0.0
+experts_3_diversitat_Alta,experts_2_diversitat_Baixa,1.0
+experts_3_diversitat_Baixa,experts_1_diversitat_Alta,0.0
+experts_2_diversitat_Alta,experts_3_diversitat_Alta,0.0
+experts_5_diversitat_Mitjana,experts_4_diversitat_Baixa,0.0
+experts_1_diversitat_Alta,experts_3_diversitat_Alta,0.0
+experts_1_diversitat_Mitjana,experts_1_diversitat_Baixa,0.0
+experts_2_diversitat_Alta,experts_1_diversitat_Mitjana,1.0
+Pediatria i Ginecologia,Patologia i Farmacologia,1.0
+experts_4_diversitat_Mitjana,Patologia i Farmacologia,1.0
+Cirurgia,experts_5_diversitat_Baixa,0.0
+Patologia i Farmacologia,experts_5_diversitat_Mitjana,0.0
+experts_3_diversitat_Mitjana,Patologia i Farmacologia,1.0
+experts_1_diversitat_Mitjana,experts_3_diversitat_Mitjana,0.5

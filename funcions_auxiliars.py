@@ -62,9 +62,9 @@ def _call_single_expert_llm(
     question_text: str,
     temperature: float,
     is_benchmark_mode: bool,
-    options: Optional[Dict[str, str]],  # For benchmark
-    system_prompt: Optional[str],
-    benchmark_shot_prompt: Optional[str],
+    options: Optional[Dict[str, str]] = None,  # For benchmark
+    system_prompt: Optional[str] = None,
+    benchmark_shot_prompt: Optional[str] = None,
     critique_to_include: Optional[str] = None,
 ) -> Dict[str, str]:
     """Calls a single expert LLM and extracts explanation and conclusion/answer."""
@@ -120,7 +120,7 @@ def extract_answer(text: str) -> Optional[str]:
     m = re.search(r"Answer:\s*([ABCD])\b", text, re.IGNORECASE)
     if not m:
         m = re.search(r"Answer:(.*)", text, re.DOTALL | re.IGNORECASE | re.UNICODE)
-    return m.group(1).upper() if m else None
+    return m.group(1).strip() if m else None
 
 
 def extract_explanation(text: str) -> Optional[str]:

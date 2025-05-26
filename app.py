@@ -2,8 +2,10 @@ import streamlit as st
 import random
 import pandas as pd
 import os
-from langgraph_conversa import conversation_agentic_workflow, EXPERT_DEFINITIONS
+from langgraph_conversa import conversation_agentic_workflow
+from langgraph_workflow import EXPERT_DEFINITIONS, EXPERT_DEFINITIONS_REVERSED
 from funcions_auxiliars import _call_single_expert_llm
+from elo import update_elo_ratings
 
 csv_file = "battle_votes.csv"
 
@@ -88,7 +90,6 @@ def record_vote(model_a_config_str: str, model_b_config_str: str, vote_score: fl
                 "model_A_config": model_a_config_str,
                 "model_B_config": model_b_config_str,
                 "score_A_vs_B": vote_score,  # 1 for A, 0.5 for Tie, 0 for B
-                "timestamp": pd.Timestamp.now(),
             }
         ]
     )
@@ -220,7 +221,6 @@ def display_battle_response(final_synthesis):
                 """,
             unsafe_allow_html=True,
         )
-        print("Supervisor conclusion was empty")
 
 
 # --- ESTAT DE LA SESSIÓ DE STREAMLIT ---
@@ -236,9 +236,7 @@ if "vote_casted" not in st.session_state:
 
 # --- BARRA LATERAL PER A LA CONFIGURACIÓ ---
 st.sidebar.title("⚕️ MedAgent UI")
-app_mode = st.sidebar.radio(
-    "Selecciona el Mode:", ("Consulta", "Batalla de Respostes", "Resultats"), key="app_mode_selector"
-)
+app_mode = st.sidebar.radio("Selecciona el Mode:", ("Consulta", "Batalla", "Resultats"), key="app_mode_selector")
 
 if app_mode == "Consulta":
     # Show sliders only in Consulta mode
@@ -257,7 +255,7 @@ if app_mode == "Consulta":
         index=1,  # Default to Mitjana
         help="Controla la diversitat del flux d'agents.",
     )
-elif app_mode == "Batalla de Respostes":
+elif app_mode == "Batalla":
     # Show description for Batalla mode
     st.sidebar.markdown("### Mode Batalla")
     st.sidebar.info(
@@ -344,7 +342,7 @@ if app_mode == "Consulta":
         else:
             st.warning("Si us plau, introdueix una pregunta.")
 
-elif app_mode == "Batalla de Respostes":
+elif app_mode == "Batalla":
     st.title("Mode Batalla: Quina Resposta Prefereixes?")
     st.markdown(
         "Introdueix una pregunta. Es generaran dues explicacions utilitzant diferents configuracions (nombre d'experts i llur diversitat). Tria la que consideris millor."
@@ -391,17 +389,14 @@ elif app_mode == "Batalla de Respostes":
             with st.spinner("Generant respostes per a la batalla..."):
                 try:
                     # Generació de Resposta A
-                    num_experts_A = random.randint(1, 5)
-                    diversity_option_A = random.choice(["Baixa", "Mitjana", "Alta"])
-                    st.session_state.battle_configs_parsed["A"] = {
-                        "experts": num_experts_A,
-                        "diversity": diversity_option_A,
-                    }
-                    st.session_state.battle_configs["A"] = f"experts_{num_experts_A}_diversitat_{diversity_option_A}"
-                    if random.random() < 0.5:
-                        expert_model_id_A = random.choice(list(EXPERT_DEFINITIONS.values()))
+                    if random.random() < 0.2:
+                        st.session_state.battle_configs_parsed["A"] = {
+                            "experts": None,
+                            "diversity": None,
+                            "fine_tuned_model": random.choice(list(EXPERT_DEFINITIONS.values())),
+                        }
                         response_A_obj = _call_single_expert_llm(
-                            expert_model_id=expert_model_id_A,
+                            expert_model_id=st.session_state.battle_configs_parsed["A"]["fine_tuned_model"],
                             question_text=st.session_state.battle_question,
                             temperature=0.7,
                             is_benchmark_mode=False,
@@ -410,7 +405,20 @@ elif app_mode == "Batalla de Respostes":
                             "explanation": response_A_obj.get("explanation", "No disponible."),
                             "answer": response_A_obj.get("answer", "No disponible."),
                         }
+                        st.session_state.battle_configs["A"] = EXPERT_DEFINITIONS_REVERSED.get(
+                            st.session_state.battle_configs_parsed["A"]["fine_tuned_model"], "N/A"
+                        )
                     else:
+                        num_experts_A = random.randint(1, 5)
+                        diversity_option_A = random.choice(["Baixa", "Mitjana", "Alta"])
+                        st.session_state.battle_configs_parsed["A"] = {
+                            "experts": num_experts_A,
+                            "diversity": diversity_option_A,
+                            "fine_tuned_model": None,
+                        }
+                        st.session_state.battle_configs["A"] = (
+                            f"experts_{num_experts_A}_diversitat_{diversity_option_A}"
+                        )
                         response_A_obj = conversation_agentic_workflow(
                             question_text=st.session_state.battle_question,
                             num_experts_to_select=num_experts_A,
@@ -421,15 +429,22 @@ elif app_mode == "Batalla de Respostes":
                         )
 
                     # Generació de Resposta B
-                    num_experts_B = random.randint(1, 5)
-                    diversity_option_B = random.choice(["Baixa", "Mitjana", "Alta"])
-                    if random.random() < 0.05:
-                        expert_model_id_B = random.choice(list(EXPERT_DEFINITIONS.values()))
-                        while expert_model_id_A == expert_model_id_B:  # Ensure different expert for B
-                            expert_model_id_B = random.choice(list(EXPERT_DEFINITIONS.values()))
+                    if random.random() < 0.2:
+                        st.session_state.battle_configs_parsed["B"] = {
+                            "experts": None,
+                            "diversity": None,
+                            "fine_tuned_model": random.choice(list(EXPERT_DEFINITIONS.values())),
+                        }
+                        while (
+                            st.session_state.battle_configs_parsed["A"]["fine_tuned_model"]
+                            == st.session_state.battle_configs_parsed["B"]["fine_tuned_model"]
+                        ):  # Ensure different expert for B
+                            st.session_state.battle_configs_parsed["B"]["fine_tuned_models"] = random.choice(
+                                list(EXPERT_DEFINITIONS.values())
+                            )
 
                         response_B_obj = _call_single_expert_llm(
-                            expert_model_id=expert_model_id_B,
+                            expert_model_id=st.session_state.battle_configs_parsed["B"]["fine_tuned_model"],
                             question_text=st.session_state.battle_question,
                             temperature=0.7,
                             is_benchmark_mode=False,
@@ -438,14 +453,23 @@ elif app_mode == "Batalla de Respostes":
                             "explanation": response_B_obj.get("explanation", "No disponible."),
                             "answer": response_B_obj.get("answer", "No disponible."),
                         }
+                        st.session_state.battle_configs["B"] = EXPERT_DEFINITIONS_REVERSED.get(
+                            st.session_state.battle_configs_parsed["B"]["fine_tuned_model"], "N/A"
+                        )
                     else:
+                        num_experts_B = random.randint(1, 5)
+                        diversity_option_B = random.choice(["Baixa", "Mitjana", "Alta"])
                         # Ensure different configurations for B
-                        while num_experts_A == num_experts_B and diversity_option_A == diversity_option_B:
+                        while (
+                            st.session_state.battle_configs_parsed["A"]["experts"] == num_experts_B
+                            and st.session_state.battle_configs_parsed["A"]["diversity"] == diversity_option_B
+                        ):
                             num_experts_B = random.randint(1, 5)
                             diversity_option_B = random.choice(["Baixa", "Mitjana", "Alta"])
                         st.session_state.battle_configs_parsed["B"] = {
                             "experts": num_experts_B,
                             "diversity": diversity_option_B,
+                            "fine_tuned_model": None,
                         }
                         st.session_state.battle_configs["B"] = (
                             f"experts_{num_experts_B}_diversitat_{diversity_option_B}"
@@ -516,8 +540,14 @@ elif app_mode == "Batalla de Respostes":
         label_Tie = "Empat"
 
         if vote_casted:
-            label_A = f"Opció A (# Experts: {config_a_details.get('experts', 'N')}, Diversitat: {config_a_details.get('diversity', 'N')})"
-            label_B = f"Opció B (# Experts: {config_b_details.get('experts', 'N')}, Diversitat: {config_b_details.get('diversity', 'N')})"
+            if st.session_state.battle_configs_parsed["A"].get("fine_tuned_model") is not None:
+                label_A = f"Opció A (Model fine-tuned: {st.session_state.battle_configs['A']})"
+            else:
+                label_A = f"Opció A (# Experts: {config_a_details.get('experts', 'N')}, Diversitat: {config_a_details.get('diversity', 'N')})"
+            if st.session_state.battle_configs_parsed["B"].get("fine_tuned_model") is not None:
+                label_B = f"Opció B (Model fine-tuned: {st.session_state.battle_configs['B']})"
+            else:
+                label_B = f"Opció B (# Experts: {config_b_details.get('experts', 'N')}, Diversitat: {config_b_details.get('diversity', 'N')})"
             label_Tie = "Empat"
 
         vote_col1_btn, vote_col2_btn, vote_col3_btn = st.columns(3)
@@ -565,24 +595,50 @@ elif app_mode == "Batalla de Respostes":
 
 elif app_mode == "Resultats":
     st.title("Resultats")
-    st.markdown("Aquesta secció mostra la classificació Elo dels agents basat en les votacions de les batalles. ")
-    st.markdown("I també mostra gràfics de resultats i anàlisis de les batalles realitzades.")
+    st.markdown(
+        "Aquesta secció mostra la classificació Elo dels agents basat en les votacions de les batalles. I també mostra gràfics de resultats i anàlisis de les batalles realitzades."
+    )
     if os.path.exists(csv_file):
         # Load and display the elo ratings as a table
         try:
             matches_df = pd.read_csv(csv_file)
             if not matches_df.empty:
                 st.markdown("### Classificació Elo:")
+                update_elo_ratings()
                 elo_ratings = pd.read_csv("elo_ratings_with_ci.csv")
+                # Add MedQA results column to elo_ratings
+                MedQA_results = {
+                    "Medicina General": 65.4,
+                    "Ciències Bàsiques": 68.5,
+                    "Patologia i Farmacologia": 71.5,
+                    "Cirurgia": 65.5,
+                    "Pediatria i Ginecologia": 69.7,
+                    "experts_1_diversitat_Baixa": 70.0,
+                    "experts_2_diversitat_Baixa": 72.0,
+                    "experts_3_diversitat_Baixa": 74.0,
+                    "experts_4_diversitat_Baixa": 76.0,
+                    "experts_5_diversitat_Baixa": 78.0,
+                    "experts_1_diversitat_Mitjana": 71.0,
+                    "experts_2_diversitat_Mitjana": 73.0,
+                    "experts_3_diversitat_Mitjana": 75.0,
+                    "experts_4_diversitat_Mitjana": 77.0,
+                    "experts_5_diversitat_Mitjana": 79.0,
+                    "experts_1_diversitat_Alta": 72.0,
+                    "experts_2_diversitat_Alta": 74.0,
+                    "experts_3_diversitat_Alta": 76.0,
+                    "experts_4_diversitat_Alta": 78.0,
+                    "experts_5_diversitat_Alta": 80.0,
+                }
                 elo_ratings_display = pd.DataFrame(
                     {
                         "Rank": range(1, len(elo_ratings) + 1),
                         "Model": elo_ratings["player"],
-                        "Rating": elo_ratings["rating"].round(0).astype(int),
+                        "Elo Rating": elo_ratings["rating"].round(0).astype(int),
                         "95% CI": [
                             f"+{upper:.1f}/-{lower:.1f}"
                             for upper, lower in zip(elo_ratings["ci_upper"], elo_ratings["ci_lower"])
                         ],
+                        "MedQA": [MedQA_results.get(model, "N/A") for model in elo_ratings["player"]],
                     }
                 )
                 st.dataframe(
@@ -592,8 +648,9 @@ elif app_mode == "Resultats":
                     column_config={
                         "Rank": st.column_config.NumberColumn("Rank", format="%d"),
                         "Model": st.column_config.TextColumn("Model"),
-                        "Rating": st.column_config.NumberColumn("Rating", format="%d"),
+                        "Elo Rating": st.column_config.NumberColumn("Elo Rating", format="%d"),
                         "95% CI": st.column_config.TextColumn("95% CI"),
+                        "MedQA": st.column_config.NumberColumn(label="MedQA"),
                     },
                 )
             else:
