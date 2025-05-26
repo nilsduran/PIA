@@ -30,3 +30,7 @@ experts_2_diversitat_Baixa,experts_5_diversitat_Baixa,0.5
 Cirurgia,experts_5_diversitat_Baixa,0.0
 experts_4_diversitat_Baixa,experts_4_diversitat_Mitjana,0.5
 experts_3_diversitat_Mitjana,experts_3_diversitat_Alta,0.5
+experts_4_diversitat_Baixa,experts_3_diversitat_Alta,0.5
+experts_3_diversitat_Baixa,experts_1_diversitat_Baixa,0.5
+experts_4_diversitat_Mitjana,experts_2_diversitat_Alta,1.0
+experts_4_diversitat_Mitjana,experts_1_diversitat_Alta,1.0
