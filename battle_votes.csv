@@ -23,3 +23,5 @@ experts_3_diversitat_Alta,Cirurgia,1.0
 experts_3_diversitat_Baixa,Cirurgia,1.0
 Ciències Bàsiques,experts_2_diversitat_Baixa,0.0
 experts_2_diversitat_Baixa,Pediatria i Ginecologia,1.0
+experts_3_diversitat_Baixa,experts_2_diversitat_Alta,0.0
+experts_3_diversitat_Alta,experts_2_diversitat_Alta,0.5

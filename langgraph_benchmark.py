@@ -16,7 +16,7 @@ def benchmark_agentic_workflow(
     print(f"\n--- Benchmarking: {strategy_name} (Selecting {num_experts_to_select} experts) ---")
 
     medqa_test = (
-        load_dataset("GBaker/MedQA-USMLE-4-options", split="test").shuffle(seed=42).select(range(num_questions_to_run))
+        load_dataset("GBaker/MedQA-USMLE-4-options", split="test").shuffle().select(range(num_questions_to_run))
     )
     medqa_train_data = (
         load_dataset("GBaker/MedQA-USMLE-4-options", split="train").shuffle(seed=42).select(range(k_shot))
@@ -111,56 +111,10 @@ def benchmark_agentic_workflow(
     }
 
 
-# --- PLOT RESULTS ---
-def plot_benchmark_results(benchmark_outputs):
-    if not benchmark_outputs:
-        return
-
-    names = []
-    for r in benchmark_outputs:
-        match = re.search(r"Top (\d+) Experts", r["model_name"])
-        if match:
-            names.append(f"Top {match.group(1)}")
-        else:
-            names.append(r["model_name"][:30])
-
-    accs = [r["accuracy"] for r in benchmark_outputs]
-
-    fig, ax = plt.subplots(figsize=(max(10, len(names) * 1.2), 7))  # Adjusted fig size
-    bars = ax.bar(names, accs, color="lightblue", edgecolor="black", width=0.6)
-    ax.set_ylabel("Accuracy (%)", fontsize=12)
-    ax.set_xlabel("Number of Top Experts Selected by Router", fontsize=12)
-    ax.set_title("Agentic Workflow Benchmark", fontsize=14)
-    ax.set_ylim(0, 105)
-    plt.xticks(rotation=30, ha="right", fontsize=10)
-    plt.yticks(fontsize=10)
-    ax.grid(axis="y", linestyle="--", alpha=0.7)
-
-    for i, bar_item in enumerate(bars):
-        height = bar_item.get_height()
-        label_text = (
-            f"{accs[i]:.1f}%\n({benchmark_outputs[i]['correct']}/"
-            f"{benchmark_outputs[i]['total'] - benchmark_outputs[i]['no_answer']})"
-        )
-        ax.text(
-            bar_item.get_x() + bar_item.get_width() / 2.0,
-            height + 1,
-            label_text,
-            ha="center",
-            va="bottom",
-            fontsize=9,
-            color="black",
-        )
-
-    plt.tight_layout()
-    plt.savefig("agentic_workflow_benchmark.png")
-    print("\nPlot saved to agentic_workflow_benchmark.png")
-
-
 # --- EXECUCIÓ PRINCIPAL ---
 if __name__ == "__main__":
     # Paràmetres de configuració per al benchmark
-    NUM_QUESTIONS = 100
+    NUM_QUESTIONS = 300
     MAX_EXPERTS_TO_TEST = 5
     K_SHOT = 5  # Nombre d'exemples few-shot per als experts
     EXPERT_TEMP = 0.4  # Temperatura per als models experts
@@ -171,7 +125,7 @@ if __name__ == "__main__":
     # Provar amb diferents opcions de diversitat i nombres d'experts
     for diversity_option in DIVERSITY_OPTIONS:
         for num_experts_routed in range(1, MAX_EXPERTS_TO_TEST + 1):
-            strategy_run_name = f"Bench - {diversity_option} Diversity - Top {num_experts_routed} Experts"
+            strategy_run_name = f"Bench - Diversitat {diversity_option} - Top {num_experts_routed} Experts"
             print(f"\nStarting benchmark run: {strategy_run_name}")
 
             current_result = benchmark_agentic_workflow(
@@ -188,7 +142,6 @@ if __name__ == "__main__":
 
     # Mostrar resultats finals i gràfic
     if all_strategy_results:
-        plot_benchmark_results(all_strategy_results)
         print("\n\n===== FINAL SUMMARY OF AGENTIC WORKFLOWS =====")
         header = f"{'Strategy':<30} | {'Accuracy':<10} | {'Correct':<10} | {'No Answer':<10} | {'Valid Total':<12}"
         print(header)

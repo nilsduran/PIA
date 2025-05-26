@@ -306,7 +306,7 @@ def synthesis_supervisor_node(state: AgenticWorkflowState) -> Dict[str, Any]:  #
             "\nAnswer: [Your overall textual conclusion or primary answer, as a concise and clear statement. This should be the main takeaway.]"
         )
 
-    max_tokens_synthesis = 900 if state.get("is_benchmark_mode") else 1500
+    max_tokens_synthesis = 1200 if state.get("is_benchmark_mode") else 1500
 
     raw_synthesized_text = generate_content(
         SUPERVISOR_MODEL_ID,

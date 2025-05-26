@@ -19,6 +19,66 @@
                 "Top 4 Experts": 92.5,
                 "Top 5 Experts": 90.0
             }
+        },
+        {
+            "title": "Benchmarking Langgraph Top k Experts 100 preguntes",
+            "accuracies": {
+                "Baixa Diversitat - Top 1 Experts": "82.5, 80/97",
+                "Baixa Diversitat - Top 2 Experts": "83.1, 69/83",
+                "Baixa Diversitat - Top 3 Experts": "86.2, 81/94",
+                "Baixa Diversitat - Top 4 Experts": "86.7, 78/90",
+                "Baixa Diversitat - Top 5 Experts": "85.9, 79/92",
+                "Mitjana Diversitat - Top 1 Experts": "88.5, 85/96",
+                "Mitjana Diversitat - Top 2 Experts": "85.3, 81/95",
+                "Mitjana Diversitat - Top 3 Experts": "87.8, 79/90",
+                "Mitjana Diversitat - Top 4 Experts": "88.7, 86/97",
+                "Mitjana Diversitat - Top 5 Experts": "88.3, 83/94",
+                "Alta Diversitat - Top 1 Experts": "84.2, 80/95",
+                "Alta Diversitat - Top 2 Experts": "86.3, 82/95",
+                "Alta Diversitat - Top 3 Experts": "92.6, 88/95",
+                "Alta Diversitat - Top 4 Experts": "88.3, 83/94",
+                "Alta Diversitat - Top 5 Experts": "87.4, 83/95"
+            }
+        },
+        {
+            "title": "Benchmarking Langgraph Top k Experts 300 preguntes",
+            "accuracies": {
+                "Baixa Diversitat - Top 1 Experts": "84.8, 246/290",
+                "Baixa Diversitat - Top 2 Experts": "85.5, 235/275",
+                "Baixa Diversitat - Top 3 Experts": "88.9, 185/208",
+                "Baixa Diversitat - Top 4 Experts": "86.9, 146/168",
+                "Baixa Diversitat - Top 5 Experts": "92.1, 128/139",
+                "Mitjana Diversitat - Top 1 Experts": "85.7, 102/119",
+                "Mitjana Diversitat - Top 2 Experts": "90.1, 82/91",
+                "Mitjana Diversitat - Top 3 Experts": "87.8, 219/250",
+                "Mitjana Diversitat - Top 4 Experts": "88.7, 86/97",
+                "Mitjana Diversitat - Top 5 Experts": "88.3, 83/94",
+                "Alta Diversitat - Top 1 Experts": "86.7, 215/248",
+                "Alta Diversitat - Top 2 Experts": "83.0, 244/294",
+                "Alta Diversitat - Top 3 Experts": "92.6, 88/95",
+                "Alta Diversitat - Top 4 Experts": "88.3, 83/94",
+                "Alta Diversitat - Top 5 Experts": "87.4, 83/95"
+            }
+        },
+        {
+            "title": "Benchmarking Langgraph Top k Experts 100+300 preguntes",
+            "accuracies": {
+                "Baixa Diversitat - Top 1 Experts": "84.8, 326/387",
+                "Baixa Diversitat - Top 2 Experts": "85.5, 235/275",
+                "Baixa Diversitat - Top 3 Experts": "88.9, 185/208",
+                "Baixa Diversitat - Top 4 Experts": "86.9, 146/168",
+                "Baixa Diversitat - Top 5 Experts": "92.1, 128/139",
+                "Mitjana Diversitat - Top 1 Experts": "85.7, 102/119",
+                "Mitjana Diversitat - Top 2 Experts": "90.1, 82/91",
+                "Mitjana Diversitat - Top 3 Experts": "87.8, 219/250",
+                "Mitjana Diversitat - Top 4 Experts": "88.7, 86/97",
+                "Mitjana Diversitat - Top 5 Experts": "88.3, 83/94",
+                "Alta Diversitat - Top 1 Experts": "86.7, 215/248",
+                "Alta Diversitat - Top 2 Experts": "83.0, 244/294",
+                "Alta Diversitat - Top 3 Experts": "92.6, 88/95",
+                "Alta Diversitat - Top 4 Experts": "88.3, 83/94",
+                "Alta Diversitat - Top 5 Experts": "87.4, 83/95"
+            }
         }
     ]
 }
