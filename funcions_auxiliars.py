@@ -98,12 +98,12 @@ def _call_single_expert_llm(
             f"Case/Question: {question_text}\n\n"
             f"{critique_prompt_addition}"  # Add critique here
             f"Provide a concise analysis (around 100-200 words), including key insights and potential considerations. Format:\n"
-            f"Explanation: [Your analysis]\nConclusion: [Your main conclusion/summary]"
+            f"Explanation: [Your analysis]\Answer: [Your main conclusion/summary]"
         )
         max_tok, retry_max_tok = 1000, 2000
 
     raw_response = generate_content(expert_model_id, prompt, temperature=temperature, max_output_tokens=max_tok)
-    explanation, answer_or_conclusion = extract_explanation_and_answer_or_conclusion(raw_response)
+    explanation, answer_or_conclusion = extract_explanation_and_answer(raw_response)
 
     if (
         answer_or_conclusion is None and is_benchmark_mode and not critique_to_include
@@ -111,7 +111,7 @@ def _call_single_expert_llm(
         raw_response = generate_content(
             expert_model_id, prompt, temperature=max(0.1, temperature - 0.2), max_output_tokens=retry_max_tok
         )
-        explanation, answer_or_conclusion = extract_explanation_and_answer_or_conclusion(raw_response)
+        explanation, answer_or_conclusion = extract_explanation_and_answer(raw_response)
 
     response_key = "answer" if is_benchmark_mode else "conclusion"
     return {
@@ -122,16 +122,9 @@ def _call_single_expert_llm(
 
 def extract_answer(text: str) -> Optional[str]:
     m = re.search(r"Answer:\s*([ABCD])\b", text, re.IGNORECASE)
-    return m.group(1).upper() if m else None
-
-
-def extract_conclusion(text: str) -> Optional[str]:
-    # De Conclusion fins Explanation o Answer
-    m = re.search(r"Conclusion:(.*?)(?=\n(?:Explanation|Answer):|$)", text, re.DOTALL | re.IGNORECASE | re.UNICODE)
-    # Si no troba Explanation/Answer després de Conclusion, busca només Conclusion
     if not m:
-        m = re.search(r"Conclusion:(.*)", text, re.DOTALL | re.IGNORECASE | re.UNICODE)
-    return m.group(1).strip() if m else None
+        m = re.search(r"Answer:(.*)", text, re.DOTALL | re.IGNORECASE | re.UNICODE)
+    return m.group(1).upper() if m else None
 
 
 def extract_explanation(text: str) -> Optional[str]:
@@ -143,19 +136,9 @@ def extract_explanation(text: str) -> Optional[str]:
     return m.group(1).strip() if m else None
 
 
-def extract_explanation_and_answer_or_conclusion(text: str) -> Tuple[Optional[str], Optional[str]]:
+def extract_explanation_and_answer(text: str) -> Tuple[Optional[str], Optional[str]]:
     """Extracts explanation and answer/conclusion from the response text."""
-    explanation = extract_explanation(text)
-
-    answer_or_conclusion = extract_answer(text)
-
-    if not answer_or_conclusion:  # Si no hi ha resposta, intenta amb Conclusion
-        answer_or_conclusion = extract_conclusion(text)
-    elif explanation is None and answer_or_conclusion is None and text.strip():
-        # Si no s'ha trobat ni explicació ni resposta, utilitza el text complet i resposta amb None
-        explanation = text.strip()
-
-    return explanation, answer_or_conclusion
+    return extract_explanation(text), extract_answer(text)
 
 
 def benchmark_model(model_id, model_name, num_questions=10, temperature=0.6, k_shot=5):
@@ -208,7 +191,7 @@ def benchmark_model(model_id, model_name, num_questions=10, temperature=0.6, k_s
         )
 
         response_text = generate_content(model_id, prompt, temperature=temperature, max_output_tokens=300)
-        model_explanation, model_ans = extract_explanation_and_answer_or_conclusion(response_text)
+        model_explanation, model_ans = extract_explanation_and_answer(response_text)
 
         if model_ans is None:  # Si no hi ha resposta, intenta amb més tokens
             response_text = generate_content(model_id, prompt, temperature=temperature, max_output_tokens=500)

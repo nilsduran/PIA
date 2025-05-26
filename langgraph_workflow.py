@@ -5,7 +5,7 @@ import pandas as pd
 from langgraph.graph import StateGraph, END
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
-from funcions_auxiliars import generate_content, _call_single_expert_llm
+from funcions_auxiliars import generate_content, _call_single_expert_llm, extract_explanation_and_answer
 
 # --- CONFIGURATION ---
 AGENTS_EMBEDDINGS_DIR_PATH = "agents_embeddings"
@@ -132,7 +132,6 @@ def dynamic_expert_router_node(state: AgenticWorkflowState) -> Dict[str, any]:
 
 
 def initial_expert_consultation_node(state: AgenticWorkflowState) -> Dict[str, Any]:
-    # print("Starting initial expert consultation...")
     outputs = []
     selected_names = state.get("selected_expert_names", [])
 
@@ -163,7 +162,6 @@ def initial_expert_consultation_node(state: AgenticWorkflowState) -> Dict[str, A
 
 
 def critique_supervisor_node(state: AgenticWorkflowState) -> Dict[str, str]:
-    # print("Starting supervisor critique of initial expert outputs...")
     initial_outputs = state.get("initial_expert_responses", [])
     question_text = state["question_text"]
 
@@ -182,21 +180,19 @@ def critique_supervisor_node(state: AgenticWorkflowState) -> Dict[str, str]:
         # Use expert_display_id for anonymity
         prompt_parts.append(
             f"\n**{resp['expert_display_id']}**:\n"
-            f"  Conclusion/Answer: {resp.get('conclusion', 'N/A')}\n"
             f"  Explanation: {resp.get('explanation', 'N/A').strip()}"
+            f"  Answer: {resp.get('conclusion', 'N/A')}\n"
         )
     prompt_parts.append(
         "\n\n--- YOUR CONSOLIDATED CRITIQUE ---"
         "\nProvide a constructive critique (around 100-150 words) for the experts:"
     )
 
-    # Temperature for critique can be higher to encourage more diverse thought
-    critique_temp = 0.7 if not state["is_benchmark_mode"] else 0.5
     critique_text = generate_content(
         SUPERVISOR_MODEL_ID,  # Use the same supervisor model
         "\n".join(prompt_parts),
-        temperature=critique_temp,
-        max_output_tokens=250,
+        temperature=state["expert_temperature"],
+        max_output_tokens=600,
     )
 
     # print(f"Supervisor critique generated: {critique_text.strip()}")
@@ -204,7 +200,6 @@ def critique_supervisor_node(state: AgenticWorkflowState) -> Dict[str, str]:
 
 
 def revised_expert_consultation_node(state: AgenticWorkflowState) -> Dict[str, Any]:
-    # print("Starting revised expert consultation based on supervisor critique...")
     revised_outputs = []
     critique = state.get("supervisor_critique")
 
@@ -247,22 +242,21 @@ def revised_expert_consultation_node(state: AgenticWorkflowState) -> Dict[str, A
     return {"revised_expert_outputs": revised_outputs}
 
 
-def synthesis_supervisor_node(state: AgenticWorkflowState) -> Dict[str, str]:
-    # print("Starting final synthesis of expert outputs...")
-    # Prioritize revised outputs, fall back to initial if revision didn't happen or was skipped
+def synthesis_supervisor_node(state: AgenticWorkflowState) -> Dict[str, Any]:  # Canvia el tipus de retorn
     expert_outputs_to_synthesize = state.get("revised_expert_outputs", [])
-    if not expert_outputs_to_synthesize:  # Check if list is empty
+    if not expert_outputs_to_synthesize:
         expert_outputs_to_synthesize = state.get("initial_expert_responses", [])
 
     question_text = state["question_text"]
 
     if not expert_outputs_to_synthesize:
         print("No expert outputs available for final synthesis.")
-        return {"final_synthesis": "No expert outputs available for final synthesis."}
+        # Retorna un diccionari amb valors per defecte per a 'explanation' i 'answer'
+        return {"final_synthesis": {"explanation": "No expert outputs available.", "answer": None}}
 
     prompt_parts = [
-        "You are a Chief Medical Consultant AI. Your task is to synthesize a final, comprehensive, and standardized report based on refined (or initial, if no refinement occurred) analyses from several anonymized medical experts.",
-        "Focus on creating a coherent narrative that integrates the key insights, addresses the main question, and provides a clear conclusion. If there are differing opinions, acknowledge them if significant but aim for a dominant supported viewpoint.",
+        "You are a Chief Medical Consultant AI. Your task is to synthesize a final, comprehensive report based on refined (or initial) analyses from several anonymized medical experts.",
+        "Focus on creating a coherent narrative that integrates key insights, addresses the main question, and provides a clear conclusion/answer.",
         f"\n**Clinical Case/Question:**\n{question_text}",
     ]
     if state.get("is_benchmark_mode") and state.get("options"):
@@ -276,32 +270,71 @@ def synthesis_supervisor_node(state: AgenticWorkflowState) -> Dict[str, str]:
     for resp in expert_outputs_to_synthesize:
         prompt_parts.append(
             f"\n**{resp['expert_display_id']}**:\n"
-            f"  Conclusion/Answer: {resp.get('conclusion', 'N/A')}\n"
             f"  Explanation: {resp.get('explanation', 'N/A').strip()}"
+            f"  Answer: {resp.get('conclusion', 'N/A')}\n"
         )
 
-    expected_format_description = (
-        "Provide your synthesis as a single, well-structured text. "
-        "If in benchmark mode and options are provided, ensure your final answer explicitly states the chosen option (e.g., 'Final Answer: A')."
-        if state.get("is_benchmark_mode")
-        else "Provide your synthesis as a single, well-structured text. Start with a summary of findings and end with a clear overall conclusion."
-    )
-    prompt_parts.append(
-        f"\n\n--- YOUR FINAL SYNTHESIZED REPORT ---" f"\n{expected_format_description}" "\nSynthesized Report:"
-    )
+    # Prompt explícit per al format de sortida del supervisor en benchmark
+    if state.get("is_benchmark_mode"):
+        prompt_parts.append(
+            "\n\n--- YOUR FINAL SYNTHESIZED REPORT (Strict Benchmark Format) ---"
+            "\nOutput EXACTLY in this format:\n"
+            "Explanation: [Your synthesized reasoning for the chosen option]\n"
+            "Answer: [A or B or C or D]"
+        )
+    else:  # Mode UI/Conversa
+        prompt_parts.append(
+            "\n\n--- YOUR FINAL SYNTHESIZED REPORT (Well-Formatted for Readability) ---"
+            "\nDo not make any direct references to any expert, or how many experts were consulted."
+            "\nFocus on providing a clear, comprehensive synthesis of the information provided by the experts."
+            "\n\n**Important:**"
+            "\n- Do not include any expert names or identifiers in your synthesis."
+            "\n- Do not mention the number of experts consulted."
+            "\n- Focus on the clinical case and the question at hand."
+            "\n- Ensure your synthesis is coherent and addresses the question comprehensively."
+            "\nProvide your synthesis as a single, well-structured text using Markdown for clear formatting."
+            "Your response should be comprehensive and easy to read."
+            "\n\n**Use the following Markdown elements as appropriate:**"
+            "\n- Headings (e.g., `## Key Findings`, `### Differential Diagnosis`)"
+            "\n- Bold text (`**important points**`)"
+            "\n- Bullet points (`- Point 1`, `  - Sub-point 1.1`)"
+            "\n- Numbered lists (`1. First step`, `2. Second step`)"
+            "\n- Paragraphs for explanations."
+            "\n\n**Structure your output STRICTLY as follows:**"
+            "\nExplanation: [Your full synthesized report using Markdown. This should be a detailed analysis, addressing the question comprehensively. Aim for a logical flow, starting with a summary or overview if appropriate, then detailing findings, considerations, and rationale.]"
+            "\nAnswer: [Your overall textual conclusion or primary answer, as a concise and clear statement. This should be the main takeaway.]"
+        )
 
-    synthesis_temp = 0.5 if not state["is_benchmark_mode"] else 0.2
-    synthesized_text = generate_content(
+    max_tokens_synthesis = 900 if state.get("is_benchmark_mode") else 1500
+
+    raw_synthesized_text = generate_content(
         SUPERVISOR_MODEL_ID,
         "\n".join(prompt_parts),
-        temperature=synthesis_temp,
-        max_output_tokens=1500 if not state["is_benchmark_mode"] else 900,
+        temperature=state["expert_temperature"],
+        max_output_tokens=max_tokens_synthesis,
     )
 
-    # For benchmark mode, you might want to re-parse Explanation and Answer here if needed
-    # For UI mode, the full text is likely the desired synthesis.
-    # print(f"Final synthesis generated: {synthesized_text.strip()}")
-    return {"final_synthesis": synthesized_text.strip() or "Synthesis could not be generated."}
+    print(f"Raw synthesis from supervisor: {raw_synthesized_text}...")
+
+    explanation, answer = extract_explanation_and_answer(raw_synthesized_text)
+
+    if state.get("is_benchmark_mode"):
+        if not answer or answer not in ["A", "B", "C", "D"]:
+            print(
+                f"Warning: Supervisor in benchmark mode did not produce a valid A,B,C,D answer. Raw: '{raw_synthesized_text}', Parsed: '{answer}'"
+            )
+            answer = None
+        return {
+            "final_synthesis": {"explanation": explanation or "Supervisor explanation not parsed.", "answer": answer}
+        }
+    else:
+        # Per al mode no-benchmark, 'answer' contindrà la conclusió textual
+        return {
+            "final_synthesis": {
+                "explanation": explanation or "Supervisor explanation not parsed.",
+                "answer": answer or "Supervisor conclusion not parsed.",
+            }
+        }
 
 
 def create_compiled_agent():

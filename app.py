@@ -144,8 +144,6 @@ def display_consulta_response(response_data):
             """,
             unsafe_allow_html=True,
         )
-    else:
-        raise ValueError("La resposta del supervisor provisional no està disponible. SIMBA")
 
     if "revised_expert_outputs" in response_data and response_data["revised_expert_outputs"]:
         st.markdown(
@@ -161,28 +159,67 @@ def display_consulta_response(response_data):
                     f"<div class='explanation-text'>{resp.get('explanation', 'No disponible.')}</div>",
                     unsafe_allow_html=True,
                 )
-    else:
-        raise ValueError("Les respostes revisades dels experts no estan disponibles. NALA")
 
     if "final_synthesis" in response_data and response_data["final_synthesis"]:
+        explanation_text, response_text = response_data["final_synthesis"].get("explanation", ""), response_data[
+            "final_synthesis"
+        ].get("answer", "")
+        # Add extra # to explanation_text
+        explanation_text = explanation_text.replace("## ", "### ")
+        explanation_text = explanation_text.replace("# ", "## ")
+        if response_text == "Supervisor conclusion not parsed.":
+            st.markdown(
+                f"""
+                <div class="response-container">
+                    <div class="response-header">Síntesi Final</div>
+                    <div class='explanation-text'>{explanation_text or "No s'ha pogut generar una explicació."}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+        else:
+            st.markdown(
+                f"""
+                <div class="response-container">
+                    <div class="response-header">Síntesi Final</div>
+                    <div class='explanation-text'>{explanation_text or "No s'ha pogut generar una explicació."}</div>
+                    <div class='response-header'>Conclusió del Supervisor</div>
+                    <div class='explanation-text'>{response_text or "No disponible."}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+
+
+def display_battle_response(final_synthesis):
+    """Mostra la resposta per a una de les opcions de la Batalla."""
+    explanation_text, response_text = final_synthesis.get("explanation", ""), final_synthesis.get("answer", "")
+    # Add extra # to explanation_text
+    explanation_text = explanation_text.replace("## ", "### ")
+    explanation_text = explanation_text.replace("# ", "## ")
+    if response_text == "Supervisor conclusion not parsed.":
         st.markdown(
             f"""
             <div class="response-container">
-                <div class="response-header">Síntesi Final</div>
-                <div class='explanation-text'>{response_data["final_synthesis"] or "No disponible."}</div>
+                <div class="response-header">Conclusion</div>
+                <div class='explanation-text'>{explanation_text or "No disponible."}</div>
             </div>
             """,
             unsafe_allow_html=True,
         )
-
-
-def display_battle_response(response_text, title):
-    """Mostra la resposta per a una de les opcions de la Batalla."""
-    st.markdown(f"<div class='battle-title'>{title}</div>", unsafe_allow_html=True)
-    st.markdown(
-        f"<div class='explanation-text'>{response_text or 'No s''ha pogut generar una explicació.'}</div>",
-        unsafe_allow_html=True,
-    )
+    else:
+        st.markdown(
+            f"""
+                <div class="response-container">
+                    <div class="response-header">Síntesi Final</div>
+                    <div class='explanation-text'>{explanation_text or "No s'ha pogut generar una explicació."}</div>
+                    <div class='response-header'>Conclusió del Supervisor</div>
+                    <div class='explanation-text'>{response_text or "No disponible."}</div>
+                </div>
+                """,
+            unsafe_allow_html=True,
+        )
+        print("Supervisor conclusion was empty")
 
 
 # --- ESTAT DE LA SESSIÓ DE STREAMLIT ---
@@ -400,7 +437,7 @@ elif app_mode == "Batalla de Respostes":
 
             st.markdown(f"<div class='battle-card' style='{card_a_style}'>", unsafe_allow_html=True)
             st.markdown(f"<div class='battle-title'>Opció A</div>", unsafe_allow_html=True)
-            display_battle_response(st.session_state.battle_responses["A"], "")
+            display_battle_response(st.session_state.battle_responses["A"])
             st.markdown("</div>", unsafe_allow_html=True)
 
         with col2:
@@ -412,7 +449,7 @@ elif app_mode == "Batalla de Respostes":
 
             st.markdown(f"<div class='battle-card' style='{card_b_style}'>", unsafe_allow_html=True)
             st.markdown(f"<div class='battle-title'>Opció B</div>", unsafe_allow_html=True)
-            display_battle_response(st.session_state.battle_responses["B"], "")
+            display_battle_response(st.session_state.battle_responses["B"])
             st.markdown("</div>", unsafe_allow_html=True)
 
         st.markdown("---")

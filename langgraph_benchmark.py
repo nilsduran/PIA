@@ -160,28 +160,31 @@ def plot_benchmark_results(benchmark_outputs):
 # --- EXECUCIÓ PRINCIPAL ---
 if __name__ == "__main__":
     # Paràmetres de configuració per al benchmark
-    NUM_QUESTIONS = 10
+    NUM_QUESTIONS = 100
     MAX_EXPERTS_TO_TEST = 5
     K_SHOT = 5  # Nombre d'exemples few-shot per als experts
     EXPERT_TEMP = 0.4  # Temperatura per als models experts
+    DIVERSITY_OPTIONS = ["Baixa", "Mitjana", "Alta"]  # Opcions de diversitat per al router
 
     all_strategy_results = []
 
-    # Provar amb diferents nombres d'experts seleccionats pel router
-    for num_experts_routed in range(1, MAX_EXPERTS_TO_TEST + 1):
-        strategy_run_name = f"Bench - Top {num_experts_routed} Experts"
-        print(f"\nStarting benchmark run: {strategy_run_name}")
+    # Provar amb diferents opcions de diversitat i nombres d'experts
+    for diversity_option in DIVERSITY_OPTIONS:
+        for num_experts_routed in range(1, MAX_EXPERTS_TO_TEST + 1):
+            strategy_run_name = f"Bench - {diversity_option} Diversity - Top {num_experts_routed} Experts"
+            print(f"\nStarting benchmark run: {strategy_run_name}")
 
-        current_result = benchmark_agentic_workflow(
-            strategy_name=strategy_run_name,
-            num_experts_to_select=num_experts_routed,
-            num_questions_to_run=NUM_QUESTIONS,
-            k_shot=K_SHOT,
-            expert_temperature=EXPERT_TEMP,
-        )
-        all_strategy_results.append(current_result)
+            current_result = benchmark_agentic_workflow(
+                strategy_name=strategy_run_name,
+                num_experts_to_select=num_experts_routed,
+                num_questions_to_run=NUM_QUESTIONS,
+                diversity_option=diversity_option,
+                k_shot=K_SHOT,
+                expert_temperature=EXPERT_TEMP,
+            )
+            all_strategy_results.append(current_result)
 
-        print(f"Finished benchmark run: {strategy_run_name}")
+            print(f"Finished benchmark run: {strategy_run_name}")
 
     # Mostrar resultats finals i gràfic
     if all_strategy_results:
@@ -190,7 +193,7 @@ if __name__ == "__main__":
         header = f"{'Strategy':<30} | {'Accuracy':<10} | {'Correct':<10} | {'No Answer':<10} | {'Valid Total':<12}"
         print(header)
         print("-" * (len(header) + 2))  # Adjusted separator length
-        for r_item in sorted(all_strategy_results, key=lambda x: x.get("accuracy", 0.0), reverse=True):
+        for r_item in all_strategy_results:
             valid_total_calc = r_item["total"] - r_item["no_answer"]
             correct_disp = f"{r_item['correct']}/{valid_total_calc}" if valid_total_calc > 0 else "N/A"
             accuracy_disp = f"{r_item['accuracy']:.1f}%" if valid_total_calc > 0 else "N/A"
