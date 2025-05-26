@@ -1,6 +1,8 @@
 # Calculate elo rating from match results
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 def elo_rating(player1_rating, player2_rating, score1, score2, k=32):
@@ -71,6 +73,26 @@ def elo_with_confidence_intervals(matches, initial_rating=1000, k=32, n_bootstra
     return pd.DataFrame(rows, columns=["player", "rating", "ci_upper", "ci_lower"])
 
 
+def win_probability(player1_rating, player2_rating):
+    """
+    Calculate the expected score of player 1 against player 2 based on their Elo ratings.
+    """
+    return 1 / (1 + 10 ** ((player2_rating - player1_rating) / 400))
+
+
+def expected_score_matrix(ratings):
+    """
+    Calculate the expected score matrix for all players based on their Elo ratings.
+    """
+    n = len(ratings)
+    expected_scores = np.zeros((n, n))
+    for i in range(n):
+        for j in range(n):
+            if i != j:
+                expected_scores[i, j] = win_probability(ratings[i], ratings[j])
+    return expected_scores
+
+
 def update_elo_ratings():
     """
     Update Elo ratings from the battle votes CSV file.
@@ -78,12 +100,64 @@ def update_elo_ratings():
     matches_df = pd.read_csv("battle_votes.csv")
     ratings_ci_df = elo_with_confidence_intervals(matches_df, initial_rating=1000, k=32, n_bootstrap=1000, alpha=0.05)
     ratings_ci_df = ratings_ci_df.sort_values("rating", ascending=False)
-    print("Elo ratings with 95% CIs:")
-    for _, row in ratings_ci_df.iterrows():
-        print(f"{row['player']}: {row['rating']:.1f} " f"(+{row['ci_upper']:.1f}/-{row['ci_lower']:.1f})")
-
     ratings_ci_df.to_csv("elo_ratings_with_ci.csv", index=False)
 
 
 if __name__ == "__main__":
-    update_elo_ratings()
+    matches_df = pd.read_csv("battle_votes.csv")
+    ratings_df = elo_from_csv("battle_votes.csv")
+    models_order = [
+        "Medicina General",
+        "Ciències Bàsiques",
+        "Patologia i Farmacologia",
+        "Cirurgia",
+        "Pediatria i Ginecologia",
+        "experts_1_diversitat_Baixa",
+        "experts_2_diversitat_Baixa",
+        "experts_3_diversitat_Baixa",
+        "experts_4_diversitat_Baixa",
+        "experts_5_diversitat_Baixa",
+        "experts_1_diversitat_Mitjana",
+        "experts_2_diversitat_Mitjana",
+        "experts_3_diversitat_Mitjana",
+        "experts_4_diversitat_Mitjana",
+        "experts_5_diversitat_Mitjana",
+        "experts_1_diversitat_Alta",
+        "experts_2_diversitat_Alta",
+        "experts_3_diversitat_Alta",
+        "experts_4_diversitat_Alta",
+        "experts_5_diversitat_Alta",
+    ]
+
+    # Reindex ratings_df according to models_order, filling missing values with initial rating
+    ratings_df = ratings_df.set_index("player").reindex(models_order).fillna(1000).reset_index()
+
+    expected_score_matrix = expected_score_matrix(ratings_df["rating"].values)
+    print("Elo ratings:")
+    for _, row in ratings_df.iterrows():
+        print(f"{row['player']}: {row['rating']:.1f}")
+    plt.figure(figsize=(10, 10))
+    # Create a mask to set diagonal values to NaN
+    mask = np.zeros_like(expected_score_matrix)
+    np.fill_diagonal(mask, True)
+
+    # heatmap with colors red-green but if 0 then white
+    sns.heatmap(
+        expected_score_matrix,
+        annot=True,
+        fmt=".2f",
+        cmap="RdYlGn",
+        center=0.5,
+        vmin=0,
+        vmax=1,
+        xticklabels=ratings_df["player"],
+        yticklabels=ratings_df["player"],
+        mask=mask,  # Apply the mask
+        cbar_kws={"label": "Expected Score"},  # Add a label to the colorbar
+    )
+    plt.title("Expected Score Matrix")
+    plt.xlabel("Player")
+    plt.ylabel("Player")
+    plt.tight_layout()
+    plt.savefig("expected_scores_matrix.png")
+    plt.show()

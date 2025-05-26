@@ -387,7 +387,7 @@ elif app_mode == "Batalla":
             with st.spinner("Generant respostes per a la batalla..."):
                 try:
                     # Generació de Resposta A
-                    if random.random() < 0.2:
+                    if random.random() < 0.1:
                         st.session_state.battle_configs_parsed["A"] = {
                             "experts": None,
                             "diversity": None,
@@ -427,7 +427,7 @@ elif app_mode == "Batalla":
                         )
 
                     # Generació de Resposta B
-                    if random.random() < 0.2:
+                    if random.random() < 0.1:
                         st.session_state.battle_configs_parsed["B"] = {
                             "experts": None,
                             "diversity": None,
@@ -660,6 +660,7 @@ elif app_mode == "Resultats":
     st.markdown("---")
     st.markdown("## Gràfics de Resultats")
     # Add image from file
+    st.image("expected_scores_matrix.png", caption="Matriu de Puntuacions Esperades", use_container_width=True)
     st.image("agentic_workflow_benchmark.png", caption="Flux d'Agents Mèdics", use_container_width=True)
     st.image("model_benchmarks.png", caption="Comparació de Models", use_container_width=True)
     st.image(
