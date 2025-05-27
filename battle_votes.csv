@@ -46,3 +46,8 @@ experts_2_diversitat_Mitjana,experts_4_diversitat_Baixa,0.5
 experts_5_diversitat_Alta,experts_2_diversitat_Mitjana,1.0
 Medicina General,experts_5_diversitat_Alta,0.0
 experts_5_diversitat_Mitjana,experts_1_diversitat_Alta,0.5
+experts_2_diversitat_Mitjana,experts_3_diversitat_Mitjana,0.5
+experts_1_diversitat_Alta,Cirurgia,1.0
+experts_1_diversitat_Mitjana,experts_3_diversitat_Alta,1.0
+experts_5_diversitat_Mitjana,experts_2_diversitat_Mitjana,1.0
+experts_1_diversitat_Alta,experts_2_diversitat_Alta,0.0

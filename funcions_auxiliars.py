@@ -119,6 +119,9 @@ def _call_single_expert_llm(
 def extract_answer(text: str) -> Optional[str]:
     m = re.search(r"Answer:\s*([ABCD])\b", text, re.IGNORECASE)
     if not m:
+        # Look for \boxed{B} format
+        m = re.search(r"Answer:\s*\\boxed{([ABCD])}", text, re.IGNORECASE)
+    if not m:
         m = re.search(r"Answer:(.*)", text, re.DOTALL | re.IGNORECASE | re.UNICODE)
     return m.group(1).strip() if m else None
 

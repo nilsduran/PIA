@@ -667,6 +667,7 @@ elif app_mode == "Resultats":
     st.markdown("---")
     st.markdown("## Gràfics de Resultats")
     # Add image from file
+    st.image("elo_ratings_with_ci.png", caption="Classificació Elo amb IC", use_container_width=True)
     st.image("expected_scores_matrix.png", caption="Matriu de Puntuacions Esperades", use_container_width=True)
     st.image("agentic_workflow_benchmark.png", caption="Flux d'Agents Mèdics", use_container_width=True)
     st.image("model_benchmarks.png", caption="Comparació de Models", use_container_width=True)

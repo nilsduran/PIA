@@ -115,16 +115,17 @@ def benchmark_agentic_workflow(
 if __name__ == "__main__":
     # Paràmetres de configuració per al benchmark
     NUM_QUESTIONS = 300
-    MAX_EXPERTS_TO_TEST = 5
     K_SHOT = 5  # Nombre d'exemples few-shot per als experts
     EXPERT_TEMP = 0.4  # Temperatura per als models experts
+    MIN_EXPERTS_TO_TEST = 5
+    MAX_EXPERTS_TO_TEST = 5
     DIVERSITY_OPTIONS = ["Baixa", "Mitjana", "Alta"]  # Opcions de diversitat per al router
 
     all_strategy_results = []
 
     # Provar amb diferents opcions de diversitat i nombres d'experts
     for diversity_option in DIVERSITY_OPTIONS:
-        for num_experts_routed in range(1, MAX_EXPERTS_TO_TEST + 1):
+        for num_experts_routed in range(MIN_EXPERTS_TO_TEST, MAX_EXPERTS_TO_TEST + 1):
             strategy_run_name = f"Bench - Diversitat {diversity_option} - Top {num_experts_routed} Experts"
             print(f"\nStarting benchmark run: {strategy_run_name}")
 

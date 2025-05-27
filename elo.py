@@ -95,6 +95,70 @@ def update_elo_ratings():
     ratings_ci_df.to_csv("elo_ratings_with_ci.csv", index=False)
 
 
+def plot_elo_confidence_intervals(
+    title: str = "Confidence Intervals on Model Strength (via Bootstrapping)",
+    x_label: str = "Model",
+    y_label: str = "Elo Rating",
+    figsize: tuple = (10, 8),  # Mida similar a la de l'exemple
+):
+    ratings_ci_df = pd.read_csv("elo_ratings_with_ci.csv")
+    # Calcula els valors absoluts per a les barres d'error
+    y_err = np.array([ratings_ci_df["ci_lower"].values, ratings_ci_df["ci_upper"].values])
+
+    plt.style.use("dark_background")
+    point_color = "dodgerblue"  # Un blau brillant que es vegi bé en fons fosc
+    error_bar_color = "skyblue"
+    grid_color = "gray"
+    text_color = "white"
+
+    fig, ax = plt.subplots(figsize=figsize)
+
+    # Gràfic de punts amb barres d'error
+    ax.errorbar(
+        x=ratings_ci_df["player"],
+        y=ratings_ci_df["rating"],
+        yerr=y_err,
+        fmt="o",  # 'o' per a cercles als punts
+        markersize=8,
+        markerfacecolor=point_color,
+        markeredgecolor=point_color,
+        ecolor=error_bar_color,  # Color de les barres d'error
+        capsize=5,  # Mida dels "caps" de les barres d'error
+        elinewidth=2,  # Gruix de les barres d'error
+        linestyle="None",  # No volem línies connectant els punts
+    )
+
+    ax.set_title(title, fontsize=16, color=text_color, pad=20)
+    ax.set_xlabel(x_label, fontsize=12, color=text_color, labelpad=15)
+    ax.set_ylabel(y_label, fontsize=12, color=text_color, labelpad=15)
+
+    # Rotació de les etiquetes de l'eix X per a millor llegibilitat
+    plt.xticks(rotation=90, ha="center", color=text_color)  # Centrat i color
+    plt.yticks(color=text_color)
+
+    # Límits de l'eix Y (ajusta segons les teves dades, però l'exemple va de ~1350 a ~1450)
+    min_elo_overall = (ratings_ci_df["rating"] - ratings_ci_df["ci_lower"]).min()
+    max_elo_overall = (ratings_ci_df["rating"] + ratings_ci_df["ci_upper"]).max()
+    padding = 20  # Un petit padding
+    ax.set_ylim(min_elo_overall - padding, max_elo_overall + padding)
+
+    # Línies de la graella (com a l'exemple)
+    ax.yaxis.grid(True, linestyle="-", linewidth=0.5, color=grid_color, alpha=0.7)
+    ax.xaxis.grid(False)  # No hi ha graella vertical a l'exemple
+
+    # Treure les espines superiors i dretes per a un look més net
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+
+    ax.spines["bottom"].set_color(grid_color)
+    ax.spines["left"].set_color(grid_color)
+    ax.tick_params(axis="x", colors=text_color)
+    ax.tick_params(axis="y", colors=text_color)
+
+    plt.tight_layout()  # Ajusta per evitar que les etiquetes es tallin
+    return fig
+
+
 # Emparellaments òptims per a convergir l'elo més ràpidament
 def optimal_pairings(matches_df=None):
     """
@@ -132,9 +196,7 @@ if __name__ == "__main__":
     print("Optimal pairing:", op[0], "vs", op[1])
     matches_df = pd.read_csv("battle_votes.csv")
     emparellaments_optims = optimal_pairings(matches_df)
-    print("Optimal pairings for matches:")
-    for p1, p2, v, v2 in emparellaments_optims[:10]:  # Show only the top 10 pairings
-        print(f"{p1} vs {p2}: {v:.3f} |---| {v2:.3f}")
+    print(f"Optimal pairings for quick Elo convergence: {emparellaments_optims[0]} vs {emparellaments_optims[1]}")
     ratings_df = calculate_elo_ratings(matches_df, initial_rating=1000, k=32)
     models_order = [
         "Medicina General",
@@ -190,4 +252,12 @@ if __name__ == "__main__":
     plt.ylabel("Player")
     plt.tight_layout()
     plt.savefig("expected_scores_matrix.png")
-    plt.show()
+    # plt.show()
+    plt.close()
+    # Plot Elo ratings with confidence intervals
+    plot_elo_confidence_intervals(
+        title="Elo Ratings with Confidence Intervals",
+        x_label="Model",
+        y_label="Elo Rating",
+        figsize=(12, 8),
+    ).savefig("elo_ratings_with_ci.png")
