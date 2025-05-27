@@ -394,7 +394,7 @@ elif app_mode == "Batalla":
 
             with st.spinner("Generant respostes per a la batalla..."):
                 try:
-                    if random.random() < 0.1:
+                    if random.random() < 0.15:
                         st.session_state.battle_configs_parsed["A"] = {
                             "experts": None,
                             "diversity": None,
@@ -434,7 +434,7 @@ elif app_mode == "Batalla":
                         )
 
                     # Generació de Resposta B
-                    if random.random() < 0.1:
+                    if random.random() < 0.15:
                         st.session_state.battle_configs_parsed["B"] = {
                             "experts": None,
                             "diversity": None,
@@ -618,21 +618,21 @@ elif app_mode == "Resultats":
                     "Patologia i Farmacologia": 71.5,
                     "Cirurgia": 65.5,
                     "Pediatria i Ginecologia": 69.7,
-                    "experts_1_diversitat_Baixa": 82.5,
-                    "experts_2_diversitat_Baixa": 83.1,
-                    "experts_3_diversitat_Baixa": 86.2,
-                    "experts_4_diversitat_Baixa": 86.7,
+                    "experts_1_diversitat_Baixa": 87.3,
+                    "experts_2_diversitat_Baixa": 84.9,
+                    "experts_3_diversitat_Baixa": 83.1,
+                    "experts_4_diversitat_Baixa": 85.7,
                     "experts_5_diversitat_Baixa": 85.9,
-                    "experts_1_diversitat_Mitjana": 88.5,
-                    "experts_2_diversitat_Mitjana": 85.3,
-                    "experts_3_diversitat_Mitjana": 87.8,
-                    "experts_4_diversitat_Mitjana": 88.7,
-                    "experts_5_diversitat_Mitjana": 88.3,
-                    "experts_1_diversitat_Alta": 84.2,
-                    "experts_2_diversitat_Alta": 86.3,
-                    "experts_3_diversitat_Alta": 92.6,
-                    "experts_4_diversitat_Alta": 88.3,
-                    "experts_5_diversitat_Alta": 87.4,
+                    "experts_1_diversitat_Mitjana": 86.9,
+                    "experts_2_diversitat_Mitjana": 88.0,
+                    "experts_3_diversitat_Mitjana": 88.3,
+                    "experts_4_diversitat_Mitjana": 88.1,
+                    "experts_5_diversitat_Mitjana": 87.6,
+                    "experts_1_diversitat_Alta": 85.6,
+                    "experts_2_diversitat_Alta": 88.4,
+                    "experts_3_diversitat_Alta": 89.8,
+                    "experts_4_diversitat_Alta": 88.6,
+                    "experts_5_diversitat_Alta": 87.7,
                 }
                 elo_ratings_display = pd.DataFrame(
                     {
@@ -668,6 +668,7 @@ elif app_mode == "Resultats":
     st.markdown("## Gràfics de Resultats")
     # Add image from file
     st.image("elo_ratings_with_ci.png", caption="Classificació Elo amb IC", use_container_width=True)
+
     st.image("expected_scores_matrix.png", caption="Matriu de Puntuacions Esperades", use_container_width=True)
     st.image("agentic_workflow_benchmark.png", caption="Flux d'Agents Mèdics", use_container_width=True)
     st.image("model_benchmarks.png", caption="Comparació de Models", use_container_width=True)

@@ -114,10 +114,11 @@ def benchmark_agentic_workflow(
 # --- EXECUCIÓ PRINCIPAL ---
 if __name__ == "__main__":
     # Paràmetres de configuració per al benchmark
-    NUM_QUESTIONS = 300
+    NUM_QUESTIONS = 1273  # Nombre total de preguntes a processar
+    NUM_QUESTIONS = 200  # Per proves ràpides
     K_SHOT = 5  # Nombre d'exemples few-shot per als experts
     EXPERT_TEMP = 0.4  # Temperatura per als models experts
-    MIN_EXPERTS_TO_TEST = 5
+    MIN_EXPERTS_TO_TEST = 1
     MAX_EXPERTS_TO_TEST = 5
     DIVERSITY_OPTIONS = ["Baixa", "Mitjana", "Alta"]  # Opcions de diversitat per al router
 

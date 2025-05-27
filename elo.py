@@ -192,8 +192,6 @@ def optimal_pairings(matches_df=None):
 
 
 if __name__ == "__main__":
-    op = optimal_pairings()  # Get the top pairing
-    print("Optimal pairing:", op[0], "vs", op[1])
     matches_df = pd.read_csv("battle_votes.csv")
     emparellaments_optims = optimal_pairings(matches_df)
     print(f"Optimal pairings for quick Elo convergence: {emparellaments_optims[0]} vs {emparellaments_optims[1]}")
@@ -254,7 +252,6 @@ if __name__ == "__main__":
     plt.savefig("expected_scores_matrix.png")
     # plt.show()
     plt.close()
-    # Plot Elo ratings with confidence intervals
     plot_elo_confidence_intervals(
         title="Elo Ratings with Confidence Intervals",
         x_label="Model",
