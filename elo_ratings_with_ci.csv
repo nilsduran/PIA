@@ -1,20 +1,21 @@
 player,rating,ci_upper,ci_lower
-experts_3_diversitat_Alta,1047,50.0,61.7
-experts_5_diversitat_Alta,1029,40.6,29.0
-experts_2_diversitat_Baixa,1018,48.8,47.2
-experts_2_diversitat_Alta,1018,47.3,45.8
-experts_1_diversitat_Baixa,1017,27.6,17.0
-experts_4_diversitat_Baixa,1016,29.7,16.0
-experts_4_diversitat_Mitjana,1015,28.1,15.0
-experts_1_diversitat_Alta,1014,45.9,49.2
-experts_3_diversitat_Mitjana,1012,31.1,14.1
-experts_5_diversitat_Baixa,1001,37.1,42.8
-experts_5_diversitat_Mitjana,1000,41.2,42.3
-Medicina General,999,4.2,0.3
-Pediatria i Ginecologia,999,41.1,43.0
-experts_2_diversitat_Mitjana,985,15.0,28.8
-experts_1_diversitat_Mitjana,984,50.6,41.8
-Ciències Bàsiques,983,17.0,28.0
-experts_3_diversitat_Baixa,970,54.8,50.3
-Cirurgia,954,46.0,44.7
-Patologia i Farmacologia,940,44.0,45.8
+experts_4_diversitat_Mitjana,1046,39.3,45.8
+experts_3_diversitat_Alta,1043,51.1,57.4
+experts_1_diversitat_Baixa,1027,40.8,29.0
+experts_5_diversitat_Alta,1027,46.2,27.0
+experts_4_diversitat_Alta,1017,29.0,17.0
+experts_2_diversitat_Baixa,1017,42.8,47.0
+experts_5_diversitat_Baixa,1015,39.6,45.7
+experts_3_diversitat_Mitjana,1014,28.4,15.5
+experts_2_diversitat_Alta,1004,52.3,48.3
+experts_2_diversitat_Mitjana,1003,40.7,44.3
+experts_4_diversitat_Baixa,1001,42.9,39.5
+experts_5_diversitat_Mitjana,1000,38.3,43.5
+experts_1_diversitat_Alta,999,53.1,54.0
+Pediatria i Ginecologia,999,42.3,38.9
+experts_1_diversitat_Mitjana,984,49.5,43.6
+Medicina General,983,19.7,29.3
+Ciències Bàsiques,983,17.0,28.6
+experts_3_diversitat_Baixa,971,49.2,50.9
+Cirurgia,940,44.0,45.1
+Patologia i Farmacologia,927,57.0,46.3

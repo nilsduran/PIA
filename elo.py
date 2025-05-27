@@ -33,14 +33,6 @@ def calculate_elo_ratings(matches, initial_rating=1000, k=32):
     return pd.DataFrame(list(ratings.items()), columns=["player", "rating"])
 
 
-def elo_from_csv(file_path, initial_rating=1000, k=32):
-    """
-    Calculate Elo ratings from a CSV file containing match results.
-    """
-    matches = pd.read_csv(file_path)
-    return calculate_elo_ratings(matches, initial_rating, k)
-
-
 def elo_with_confidence_intervals(matches, initial_rating=1000, k=32, n_bootstrap=1000, alpha=0.05):
     """
     Calculate Elo ratings plus 95% confidence intervals via bootstrap.
@@ -103,61 +95,99 @@ def update_elo_ratings():
     ratings_ci_df.to_csv("elo_ratings_with_ci.csv", index=False)
 
 
+# Emparellaments òptims per a convergir l'elo més ràpidament
+def optimal_pairings(matches_df=None):
+    """
+    Generate optimal pairings for matches to converge Elo ratings quickly.
+    Also, give expected information gain per match.
+    This function assumes matches_df has columns 'model_A_config', 'model_B_config', and 'score_A_vs_B'.
+    """
+    if not isinstance(matches_df, pd.DataFrame):
+        matches_df = pd.read_csv("battle_votes.csv")
+    pairings = []
+    players = matches_df["model_A_config"].unique().tolist()
+    ratings = calculate_elo_ratings(matches_df).set_index("player")["rating"].to_dict()
+    ratings = {k: v for k, v in ratings.items() if k in players}
+    for i in range(len(players)):
+        for j in range(i + 1, len(players)):
+            p1 = players[i]
+            p2 = players[j]
+            if p1 in ratings and p2 in ratings:
+                expected_score_p1 = win_probability(ratings[p1], ratings[p2])
+                expected_score_p2 = win_probability(ratings[p2], ratings[p1])
+                expected_score_difference = abs(expected_score_p1 - expected_score_p2)
+                # Calculate information gain from expected_score_difference
+                information_gain = np.log2(1 / expected_score_difference)
+
+                pairings.append((p1, p2, information_gain))
+    # Sort pairings by expected score difference (descending)
+    pairings.sort(key=lambda x: x[2], reverse=True)
+    top_pairing = pairings.pop(0)
+
+    return top_pairing[0], top_pairing[1]
+
+
 if __name__ == "__main__":
-    matches_df = pd.read_csv("battle_votes.csv")
-    ratings_df = elo_from_csv("battle_votes.csv")
-    models_order = [
-        "Medicina General",
-        "Ciències Bàsiques",
-        "Patologia i Farmacologia",
-        "Cirurgia",
-        "Pediatria i Ginecologia",
-        "experts_1_diversitat_Baixa",
-        "experts_2_diversitat_Baixa",
-        "experts_3_diversitat_Baixa",
-        "experts_4_diversitat_Baixa",
-        "experts_5_diversitat_Baixa",
-        "experts_1_diversitat_Mitjana",
-        "experts_2_diversitat_Mitjana",
-        "experts_3_diversitat_Mitjana",
-        "experts_4_diversitat_Mitjana",
-        "experts_5_diversitat_Mitjana",
-        "experts_1_diversitat_Alta",
-        "experts_2_diversitat_Alta",
-        "experts_3_diversitat_Alta",
-        "experts_4_diversitat_Alta",
-        "experts_5_diversitat_Alta",
-    ]
+    op = optimal_pairings().pop(3)  # Get the top pairing
+    print("Optimal pairing:", op[0], "vs", op[1])
+    # matches_df = pd.read_csv("battle_votes.csv")
+    # emparellaments_optims = optimal_pairings(matches_df)
+    # print("Optimal pairings for matches:")
+    # for p1, p2, v, v2 in emparellaments_optims[:10]:  # Show only the top 10 pairings
+    #     print(f"{p1} vs {p2}: {v:.3f} |---| {v2:.3f}")
+    # ratings_df = calculate_elo_ratings(matches_df, initial_rating=1000, k=32)
+    # models_order = [
+    #     "Medicina General",
+    #     "Ciències Bàsiques",
+    #     "Patologia i Farmacologia",
+    #     "Cirurgia",
+    #     "Pediatria i Ginecologia",
+    #     "experts_1_diversitat_Baixa",
+    #     "experts_2_diversitat_Baixa",
+    #     "experts_3_diversitat_Baixa",
+    #     "experts_4_diversitat_Baixa",
+    #     "experts_5_diversitat_Baixa",
+    #     "experts_1_diversitat_Mitjana",
+    #     "experts_2_diversitat_Mitjana",
+    #     "experts_3_diversitat_Mitjana",
+    #     "experts_4_diversitat_Mitjana",
+    #     "experts_5_diversitat_Mitjana",
+    #     "experts_1_diversitat_Alta",
+    #     "experts_2_diversitat_Alta",
+    #     "experts_3_diversitat_Alta",
+    #     "experts_4_diversitat_Alta",
+    #     "experts_5_diversitat_Alta",
+    # ]
 
-    # Reindex ratings_df according to models_order, filling missing values with initial rating
-    ratings_df = ratings_df.set_index("player").reindex(models_order).fillna(1000).reset_index()
+    # # Reindex ratings_df according to models_order, filling missing values with initial rating
+    # ratings_df = ratings_df.set_index("player").reindex(models_order).fillna(1000).reset_index()
 
-    expected_score_matrix = expected_score_matrix(ratings_df["rating"].values)
-    print("Elo ratings:")
-    for _, row in ratings_df.iterrows():
-        print(f"{row['player']}: {row['rating']:.1f}")
-    plt.figure(figsize=(10, 10))
-    # Create a mask to set diagonal values to NaN
-    mask = np.zeros_like(expected_score_matrix)
-    np.fill_diagonal(mask, True)
+    # expected_score_matrix = expected_score_matrix(ratings_df["rating"].values)
+    # print("Elo ratings:")
+    # for _, row in ratings_df.iterrows():
+    #     print(f"{row['player']}: {row['rating']:.1f}")
+    # plt.figure(figsize=(10, 10))
+    # # Create a mask to set diagonal values to NaN
+    # mask = np.zeros_like(expected_score_matrix)
+    # np.fill_diagonal(mask, True)
 
-    # heatmap with colors red-green but if 0 then white
-    sns.heatmap(
-        expected_score_matrix,
-        annot=True,
-        fmt=".2f",
-        cmap="RdYlGn",
-        center=0.5,
-        vmin=0,
-        vmax=1,
-        xticklabels=ratings_df["player"],
-        yticklabels=ratings_df["player"],
-        mask=mask,  # Apply the mask
-        cbar_kws={"label": "Expected Score"},  # Add a label to the colorbar
-    )
-    plt.title("Expected Score Matrix")
-    plt.xlabel("Player")
-    plt.ylabel("Player")
-    plt.tight_layout()
-    plt.savefig("expected_scores_matrix.png")
-    plt.show()
+    # # heatmap with colors red-green but if 0 then white
+    # sns.heatmap(
+    #     expected_score_matrix,
+    #     annot=True,
+    #     fmt=".2f",
+    #     cmap="RdYlGn",
+    #     center=0.5,
+    #     vmin=0,
+    #     vmax=1,
+    #     xticklabels=ratings_df["player"],
+    #     yticklabels=ratings_df["player"],
+    #     mask=mask,  # Apply the mask
+    #     cbar_kws={"label": "Expected Score"},  # Add a label to the colorbar
+    # )
+    # plt.title("Expected Score Matrix")
+    # plt.xlabel("Player")
+    # plt.ylabel("Player")
+    # plt.tight_layout()
+    # plt.savefig("expected_scores_matrix.png")
+    # plt.show()
