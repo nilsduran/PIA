@@ -37,3 +37,12 @@ experts_4_diversitat_Mitjana,experts_1_diversitat_Alta,1.0
 experts_3_diversitat_Baixa,experts_2_diversitat_Alta,0.0
 experts_3_diversitat_Alta,experts_2_diversitat_Alta,0.5
 experts_4_diversitat_Alta,experts_4_diversitat_Baixa,1.0
+experts_2_diversitat_Alta,experts_2_diversitat_Baixa,0.5
+experts_1_diversitat_Mitjana,experts_5_diversitat_Alta,0.0
+Ciències Bàsiques,Medicina General,0.0
+Patologia i Farmacologia,experts_3_diversitat_Alta,0.0
+experts_5_diversitat_Alta,experts_1_diversitat_Alta,1.0
+experts_2_diversitat_Mitjana,experts_4_diversitat_Baixa,0.5
+experts_5_diversitat_Alta,experts_2_diversitat_Mitjana,1.0
+Medicina General,experts_5_diversitat_Alta,0.0
+experts_5_diversitat_Mitjana,experts_1_diversitat_Alta,0.5
