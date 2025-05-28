@@ -41,7 +41,7 @@ python benchmarking.py
 
 ### Demo
 
-![](https://github.com/nilsduran/PIA/Demo.mov)
+https://github.com/user-attachments/assets/60f4a9ab-ef25-4228-a35d-0584da7ca7e2
 
 ### Main Files
 - `app.py` - User application for interaction with the system
