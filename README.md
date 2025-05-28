@@ -32,10 +32,11 @@ $env:GOOGLE_API_KEY="your_api_key"
 ```
 
 ## Execution
-Per executar el sistema de conversa, utilitzeu el següent comandament:
+To run the conversation web app, use the following command:
 ```bash
 streamlit run app.py
 ```
+---
 
 ### Benchmarks
 Executing the benchmarks may take a couple of hours, depending on the number of questions and how many different model configurations you want to test.
