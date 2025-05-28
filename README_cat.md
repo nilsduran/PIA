@@ -21,6 +21,15 @@ Per a utilitzar l'API d'AI Studio, cal afegir la clau d'API com a variable d'ent
 ```bash
 export GOOGLE_API_KEY="la_teva_clau_api"
 ```
+O, si utilitzes Windows:
+cmd:
+```bash
+set GOOGLE_API_KEY=la_teva_clau_api
+```
+PowerShell:
+```bash
+$env:GOOGLE_API_KEY="la_teva_clau_api"
+```
 
 ## Execució
 Per executar el sistema de conversa, utilitzeu el següent comandament:

@@ -1,7 +1,7 @@
 # SinergIA - PIA + Telefónica
 
 ## Project Summary
-SinergIA is a multi-agent system designed to enhance the performance of language models through the integration of diverse expert agents. The project focuses on fine-tuning language models using LoRA (Low-Rank Adaptation) and evaluating their performance on the MedQA benchmark, which is a medical question-answering dataset. It also includes a user interface for interaction and visualization of results.
+SinergIA is a multi-agent system designed to enhance the performance of language models through the integration of diverse expert agents. The project focuses on fine-tuning language models using LoRA (Low-Rank Adaptation) and evaluating their performance on the MedQA benchmark, which is a medical question-answering dataset. It also includes a user interface for interaction and visualization of results. Final report at [PIA Final Report]("Informe Final.pdf").
 
 ## Installation
 ### Cloning the Repository
@@ -12,6 +12,7 @@ git clone https://github.com/nilsduran/PIA.git
 ### Requirements
 It is recommended to run the project in a virtual environment. 
 ```bash
+cd PIA
 python3.11 -m venv .venv-stable
 .\.venv-stable\Scripts\activate
 pip install -r requirements.txt
@@ -20,6 +21,14 @@ pip install -r requirements.txt
 To use the AI Studio API, you need to add the API key as an environment variable.
 ```bash
 export GOOGLE_API_KEY="your_api_key"
+```
+Or, if you are using cmd:
+```bash
+set GOOGLE_API_KEY=your_api_key
+```
+Or, if you are using PowerShell:
+```bash
+$env:GOOGLE_API_KEY="your_api_key"
 ```
 
 ## Execution
