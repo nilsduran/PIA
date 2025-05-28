@@ -1,4 +1,4 @@
-# SinergIA - La Unió en la Diversitat
+# SinergIA - PIA + Telefónica
 
 ## Project Summary
 SinergIA is a multi-agent system designed to enhance the performance of language models through the integration of diverse expert agents. The project focuses on fine-tuning language models using LoRA (Low-Rank Adaptation) and evaluating their performance on the MedQA benchmark, which is a medical question-answering dataset. It also includes a user interface for interaction and visualization of results.
