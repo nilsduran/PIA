@@ -1,7 +1,7 @@
 model_A_config,model_B_config,score_A_vs_B
 experts_5_diversitat_Alta,experts_5_diversitat_Baixa,1.0
 experts_5_diversitat_Mitjana,experts_5_diversitat_Alta,0.5
-experts_3_diversitat_Alta,experts_1_diversitat_Mitjana,0.0
+experts_3_diversitat_Alta,experts_1_diversitat_Mitjana,1.0
 experts_3_diversitat_Alta,experts_5_diversitat_Alta,0.5
 experts_1_diversitat_Alta,experts_3_diversitat_Baixa,1.0
 experts_2_diversitat_Mitjana,experts_5_diversitat_Alta,0.0
@@ -10,7 +10,7 @@ experts_3_diversitat_Baixa,experts_1_diversitat_Alta,0.0
 experts_2_diversitat_Alta,experts_3_diversitat_Alta,0.0
 experts_5_diversitat_Mitjana,experts_4_diversitat_Baixa,0.0
 experts_1_diversitat_Alta,experts_3_diversitat_Alta,0.0
-experts_1_diversitat_Mitjana,experts_1_diversitat_Baixa,0.0
+experts_1_diversitat_Mitjana,experts_1_diversitat_Baixa,0.5
 experts_2_diversitat_Alta,experts_1_diversitat_Mitjana,1.0
 Pediatria i Ginecologia,Patologia i Farmacologia,1.0
 experts_4_diversitat_Mitjana,Patologia i Farmacologia,1.0
@@ -24,13 +24,46 @@ experts_3_diversitat_Baixa,Cirurgia,1.0
 Ciències Bàsiques,experts_2_diversitat_Baixa,0.0
 experts_2_diversitat_Baixa,Pediatria i Ginecologia,1.0
 Patologia i Farmacologia,experts_1_diversitat_Baixa,0.0
-experts_5_diversitat_Alta,experts_2_diversitat_Mitjana,0.5
+experts_5_diversitat_Alta,experts_2_diversitat_Mitjana,1.0
 Medicina General,experts_2_diversitat_Mitjana,0.0
 experts_2_diversitat_Baixa,experts_5_diversitat_Baixa,0.5
 Cirurgia,experts_5_diversitat_Baixa,0.0
 experts_4_diversitat_Baixa,experts_4_diversitat_Mitjana,0.5
 experts_3_diversitat_Mitjana,experts_3_diversitat_Alta,0.5
 experts_4_diversitat_Baixa,experts_3_diversitat_Alta,0.5
+experts_1_diversitat_Baixa,experts_1_diversitat_Mitjana,0.5
 experts_3_diversitat_Baixa,experts_1_diversitat_Baixa,0.5
 experts_4_diversitat_Mitjana,experts_2_diversitat_Alta,1.0
 experts_4_diversitat_Mitjana,experts_1_diversitat_Alta,1.0
+experts_3_diversitat_Baixa,experts_2_diversitat_Alta,0.0
+experts_3_diversitat_Alta,experts_2_diversitat_Alta,0.5
+experts_4_diversitat_Alta,experts_4_diversitat_Baixa,1.0
+experts_2_diversitat_Alta,experts_2_diversitat_Baixa,0.5
+experts_1_diversitat_Mitjana,experts_5_diversitat_Alta,0.0
+Ciències Bàsiques,Medicina General,0.0
+Patologia i Farmacologia,experts_3_diversitat_Alta,0.0
+experts_5_diversitat_Alta,experts_1_diversitat_Alta,1.0
+experts_2_diversitat_Mitjana,experts_4_diversitat_Baixa,0.5
+experts_5_diversitat_Alta,experts_2_diversitat_Mitjana,1.0
+Medicina General,experts_5_diversitat_Alta,0.0
+experts_5_diversitat_Mitjana,experts_1_diversitat_Alta,0.5
+experts_2_diversitat_Mitjana,experts_3_diversitat_Mitjana,0.5
+experts_1_diversitat_Alta,Cirurgia,1.0
+experts_1_diversitat_Mitjana,experts_3_diversitat_Alta,1.0
+experts_5_diversitat_Mitjana,experts_2_diversitat_Mitjana,1.0
+experts_1_diversitat_Alta,experts_2_diversitat_Alta,0.0
+experts_1_diversitat_Alta,experts_1_diversitat_Baixa,0.5
+experts_5_diversitat_Mitjana,experts_3_diversitat_Mitjana,0.0
+experts_4_diversitat_Baixa,experts_3_diversitat_Baixa,1.0
+experts_3_diversitat_Baixa,Medicina General,1.0
+experts_4_diversitat_Alta,experts_1_diversitat_Alta,1.0
+experts_1_diversitat_Mitjana,experts_2_diversitat_Baixa,0.5
+Pediatria i Ginecologia,experts_5_diversitat_Mitjana,0.0
+experts_2_diversitat_Mitjana,experts_2_diversitat_Baixa,0.5
+experts_1_diversitat_Baixa,experts_2_diversitat_Baixa,0.0
+Medicina General,Patologia i Farmacologia,1.0
+Ciències Bàsiques,Patologia i Farmacologia,0.0
+Ciències Bàsiques,Cirurgia,0.5
+Cirurgia,Pediatria i Ginecologia,1.0
+Patologia i Farmacologia,Medicina General,1.0
+experts_1_diversitat_Alta,experts_1_diversitat_Baixa,1.0

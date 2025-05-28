@@ -1,5 +1,6 @@
 from datasets import load_dataset
 import re
+import os
 from tqdm import tqdm
 from google import genai
 from google.genai import types
@@ -18,8 +19,12 @@ def generate_content(
     - Models Gemini (2.5 Flash Preview) usant el SDK de Google.
     - Models afinats antics (p. ex., tunedModels/medicinageneralcsv-...) usant requests.
     """
-    api_key = "AIzaSyDxk7cxcrDx3mcofYIosCggfkVbyHedO4w"
+    api_key = os.environ.get("GOOGLE_API_KEY")
+    if not api_key:
+        raise ValueError("GOOGLE_API_KEY no està definit!")
     client = genai.Client(api_key=api_key)
+    # Nova forma correcta de configurar el client
+    genai.configure(api_key=api_key)
 
     # Instanciem el model específic
     contents = [types.Content(role="user", parts=[types.Part.from_text(text=prompt)])]
@@ -118,6 +123,9 @@ def _call_single_expert_llm(
 
 def extract_answer(text: str) -> Optional[str]:
     m = re.search(r"Answer:\s*([ABCD])\b", text, re.IGNORECASE)
+    if not m:
+        # Look for \boxed{B} format
+        m = re.search(r"Answer:\s*\\boxed{([ABCD])}", text, re.IGNORECASE)
     if not m:
         m = re.search(r"Answer:(.*)", text, re.DOTALL | re.IGNORECASE | re.UNICODE)
     return m.group(1).strip() if m else None
