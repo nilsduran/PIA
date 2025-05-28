@@ -23,8 +23,6 @@ def generate_content(
     if not api_key:
         raise ValueError("GOOGLE_API_KEY no està definit!")
     client = genai.Client(api_key=api_key)
-    # Nova forma correcta de configurar el client
-    genai.configure(api_key=api_key)
 
     # Instanciem el model específic
     contents = [types.Content(role="user", parts=[types.Part.from_text(text=prompt)])]
