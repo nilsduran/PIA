@@ -11,3 +11,4 @@ sentence_transformers==4.1.0
 statsmodels==0.14.4
 streamlit==1.45.1
 tqdm==4.67.1
+google-genai==1.14.0
