@@ -1,5 +1,6 @@
 from datasets import load_dataset
 import re
+import os
 from tqdm import tqdm
 from google import genai
 from google.genai import types
@@ -18,7 +19,7 @@ def generate_content(
     - Models Gemini (2.5 Flash Preview) usant el SDK de Google.
     - Models afinats antics (p. ex., tunedModels/medicinageneralcsv-...) usant requests.
     """
-    api_key = "AIzaSyDxk7cxcrDx3mcofYIosCggfkVbyHedO4w"
+    api_key = os.environ.get("GOOGLE_API_KEY")
     client = genai.Client(api_key=api_key)
 
     # Instanciem el model específic

@@ -1,72 +1,81 @@
 # SinergIA - La Unió en la Diversitat
 
-## Estructura del Projecte
+## Project Summary
+SinergIA is a multi-agent system designed to enhance the performance of language models through the integration of diverse expert agents. The project focuses on fine-tuning language models using LoRA (Low-Rank Adaptation) and evaluating their performance on the MedQA benchmark, which is a medical question-answering dataset. It also includes a user interface for interaction and visualization of results.
 
-### Fitxers Principals
-- `app.py` - Applicació d'usuari per a la interacció amb el sistema
-- `langgraph_benchmark.py` - Avaluació del benchmark MedQA del sistema multi-agent de LangGraph
-- `langgraph_workflow.py` - Implementació del flux de treball multi-agent amb LangGraph
-- `xat_models_finetuned.py` - MVP: Implementa la funcionalitat de conversa amb models de llenguatge ajustats LoRA
-- `benchmarking.py` - Avaluació de rendiment dels models de llenguatge ajustats LoRA
-
-### Fitxers Addicionals
-- `temperature_finder.py` - Eina per avaluar l'efecte de la temperatura en els models de llenguatge
-- `elo.py` - Càlcul de les puntuacions ELO dels models
-- `diversitat_LoRA.py` - Càlcul de la diversitat dels models ajustats LoRA
-- `Versió1_vs_Versió2.py` - Comparació head-to-head entre dues versions de LoRA per triar la millor
-- `xat_models_finetuned.py` - Conversa MVP amb models de llenguatge ajustats LoRA i temperatura com a paràmetre de diversitat
-- `crear_csv.py` - Script per crear fitxers CSV, probablement a partir de dades processades
-- `crear_embeddings.py` - Crea embeddings amb el contingut dels llibres de text
-- `dades_agents.py` - Script per crear i gestionar dades dels agents amb què s'ajusten els models i s'entrenenen els embeddings
-
-### Dades i Recursos
-
-- `agents_data/` - Directori que conté dades especialitzades dels agents
-- `agents_embeddings/` - Directori que conté els embeddings dels agents experts
-- `csv_output/` - Directori que conté els fitxers CSV amb les dades d'entrenament del LoRA
-- `textbooks/` - Directori que conté llibres de text mèdics i científics
-- `medmcqa_json/` - Directori que conté les dades del benchmark MedMCQA en format JSON
-- `battle_votes.csv` - Fitxer CSV que conté les votacions de la batalla entre models
-- `elo_ratings_with_ci.csv` - Fitxer CSV que conté les puntuacions ELO amb intervals de confiança
-- `dissimilarity_matrix.csv` - Fitxer CSV que conté les puntuacions de dissimilaritat entre models
-
-### Resultats i Visualització
-
-- `elo_ratings_with_ci.png` - Visualització de les puntuacions ELO amb intervals de confiança
-- `model_benchmarks.png` - Visualització de la precisió dels models ajustats LoRA a MedQA
-- `model_accuracy_vs_agents_zoomed.png` - Visualització de la precisió del LangGraph a MedQA, amb zoom en els agents
-- `expert_ranks.png` - Visualització de les dades de classificació d'experts
-- `dissimilarity_matrix_heatmap.png` - Visualització de les puntuacions de dissimilaritat de diversitat entre models
-- `agentic_workflow_benchmark.png` - Proves de rendiment dels fluxos de treball dels agents
-- `accuracy_comparison_all_models.png` - Visualització comparant la precisió dels models ajustats (v1 i v2)
-- `distribution_per_temperature.png` - Anàlisi de distribució segons configuracions de temperatura
-- `expert_scores.json` - Dades en brut de les puntuacions de la rellevància dels experts
-
-### Notebooks i Configuració
-
-- `plots_extres.ipynb` - Notebook per a la visualització de resultats misc.
-- `LoRA_kaggle.ipynb` - Notebook de Jupyter per a l'entrenament amb LoRA (deprecated per falta de recursos)
-- `PIA_RAG.ipynb` - Notebook per a la implementació de Retrieval-Augmented Generation (RAG) amb LangGraph (deprecated per falta de recursos)
-
-
-## Instal·lació
-Es recomana executar el projecte en un entorn virtual. 
+## Installation
+### Cloning the Repository
+To get started, clone the repository to your local machine:
+```bash
+git clone https://github.com/nilsduran/PIA.git
+```
+### Requirements
+It is recommended to run the project in a virtual environment. 
 ```bash
 python3.11 -m venv .venv-stable
 .\.venv-stable\Scripts\activate
 pip install -r requirements.txt
 ```
-## Execució
+### Include AI Studio API as an Environment Variable
+To use the AI Studio API, you need to add the API key as an environment variable.
+```bash
+export GOOGLE_API_KEY="your_api_key"
+```
+
+## Execution
 Per executar el sistema de conversa, utilitzeu el següent comandament:
 ```bash
 streamlit run app.py
 ```
-Els benchmarks trigen un parell d'hores, segons el nombre de preguntes i quantes configuracions diferents de models es volen provar.
-Per a l'avaluació del benchmark MedQA, utilitzeu:
+
+### Benchmarks
+Executing the benchmarks may take a couple of hours, depending on the number of questions and how many different model configurations you want to test.
+For the MedQA LangGraph benchmark evaluation, use:
 ```bash
 python langgraph_benchmark.py
 ```
-Per a l'avaluació de rendiment dels models de llenguatge ajustats LoRA, utilitzeu:
+For the performance evaluation of the fine-tuned LoRA language models, use:
 ```bash
 python benchmarking.py
 ```
+
+### Demo
+![](Demo.mov)
+
+### Main Files
+- `app.py` - User application for interaction with the system
+- `langgraph_benchmark.py` - Evaluation of the MedQA benchmark for the LangGraph multi-agent system
+- `langgraph_workflow.py` - Implementation of the multi-agent workflow with LangGraph
+- `benchmarking.py` - Performance evaluation of the fine-tuned LoRA language models
+### Additional Files
+- `temperature_finder.py` - Tool to evaluate the effect of temperature on language models
+- `elo.py` - Calculation of ELO scores for the models
+- `diversitat_LoRA.py` - Calculation of diversity for the fine-tuned LoRA models
+- `Versió1_vs_Versió2.py` - Head-to-head comparison between two versions of LoRA to choose the best one
+- `xat_models_finetuned.py` - MVP chat with fine-tuned language models and temperature as a diversity parameter
+- `crear_csv.py` - Script to create CSV files, likely from processed data
+- `crear_embeddings.py` - Creates embeddings with the content of textbooks
+- `dades_agents.py` - Script to create and manage data for the agents used to fine-tune models and train embeddings
+### Data and Resources
+- `agents_data/` - Directory containing specialized data for the agents
+- `agents_embeddings/` - Directory containing embeddings for expert agents
+- `csv_output/` - Directory containing CSV files with training data for LoRA
+- `textbooks/` - Directory containing medical and scientific textbooks
+- `medmcqa_json/` - Directory containing MedMCQA benchmark data in JSON format
+- `battle_votes.csv` - CSV file containing votes from the model battle
+- `elo_ratings_with_ci.csv` - CSV file containing ELO scores with confidence intervals
+- `dissimilarity_matrix.csv` - CSV file containing dissimilarity scores between models
+### Results and Visualization
+- `elo_ratings_with_ci.png` - Visualization of ELO scores with confidence intervals
+- `model_benchmarks.png` - Visualization of the accuracy of fine-tuned LoRA models on MedQA
+- `model_accuracy_vs_agents_zoomed.png` - Visualization of LangGraph accuracy on MedQA, zoomed in on agents
+- `expert_ranks.png` - Visualization of expert ranking data
+- `dissimilarity_matrix_heatmap.png` - Visualization of diversity dissimilarity scores between models
+- `agentic_workflow_benchmark.png` - Performance tests of agent workflows
+- `accuracy_comparison_all_models.png` - Visualization comparing the accuracy of fine-tuned models (v1 and v2)
+- `distribution_per_temperature.png` - Analysis of distribution based on temperature settings
+- `expert_scores.json` - Raw data of expert relevance scores
+### Notebooks and Configuration
+- `plots_extres.ipynb` - Notebook for miscellaneous result visualizations
+- `LoRA_kaggle.ipynb` - Jupyter notebook for training with LoRA (deprecated due to lack of resources)
+- `PIA_RAG.ipynb` - Notebook for implementing Retrieval-Augmented Generation (RAG) with LangGraph (deprecated due to lack of resources)
