@@ -40,7 +40,8 @@ python benchmarking.py
 ```
 
 ### Demo
-![](Demo.mov)
+
+![](https://github.com/nilsduran/PIA/Demo.mov)
 
 ### Main Files
 - `app.py` - User application for interaction with the system
