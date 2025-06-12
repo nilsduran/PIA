@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ```
 ### Include AI Studio API as an Environment Variable
 To use the AI Studio API, you need to add the API key as an environment variable. The API key is specific to the LoRA fine-tuned language models and cannot be used with any other key. To obtain your API key, please email us at
-nils.duran@estudiantat.upc.edu.
+<nils.duran@estudiantat.upc.edu>.
 ```bash
 export GOOGLE_API_KEY="your_api_key"
 ```

@@ -2,13 +2,13 @@ import streamlit as st
 import random
 import pandas as pd
 import os
-from langgraph_conversa import conversation_agentic_workflow
-from langgraph_workflow import EXPERT_DEFINITIONS, EXPERT_DEFINITIONS_REVERSED
-from funcions_auxiliars import _call_single_expert_llm
-from elo import update_elo_ratings
+from main.langgraph_conversa import conversation_agentic_workflow
+from main.langgraph_workflow import EXPERT_DEFINITIONS, EXPERT_DEFINITIONS_REVERSED
+from scripts.funcions_auxiliars import _call_single_expert_llm
+from scripts.elo import update_elo_ratings
+from scripts.embeddings_loader import preload_heavy_models
 
-csv_file = "battle_votes.csv"
-
+csv_file = "data/battle_votes.csv"
 
 # --- CONFIGURACIÓ DE LA PÀGINA DE STREAMLIT ---
 st.set_page_config(
@@ -255,6 +255,16 @@ if "random_cases" not in st.session_state:
     case_titles = list(EXAMPLE_CASES.keys())
     st.session_state.random_cases = random.sample(case_titles, 3)
 
+if os.environ.get("GOOGLE_API_KEY", None) is None:
+    st.error(
+        "No s'ha trobat la clau d'API de Google. Assegura't que la variable d'entorn GOOGLE_API_KEY està configurada correctament."
+        "Això es pot fer establint la variable d'entorn abans d'executar l'aplicació, per exemple:\n\n"
+        "\texport GOOGLE_API_KEY='la_teva_clau_d_api' (Linux/Mac)\n\tset GOOGLE_API_KEY=la_teva_clau_d_api (Windows).\n\t$env:GOOGLE_API_KEY='la_teva_clau_d_api' (PowerShell)"
+        "\nQualsevol clau d'API de Google no funcionarà, me l'hauràs de demanar a nils.duran@estudiantat.upc.edu"
+    )
+    # Exit the app if the API key is not set
+    st.stop()
+
 # --- BARRA LATERAL PER A LA CONFIGURACIÓ ---
 st.sidebar.title("⚕️ MedAgent UI")
 app_mode = st.sidebar.radio("Selecciona el Mode:", ("Consulta", "Batalla", "Resultats"), key="app_mode_selector")
@@ -301,7 +311,7 @@ elif app_mode == "Classificació elo":
             matches_df = pd.read_csv(csv_file)
             if not matches_df.empty:
                 st.sidebar.markdown("### Classificació Elo Actual:")
-                elo_ratings = pd.read_csv("elo_ratings_with_ci.csv")
+                elo_ratings = pd.read_csv("data/elo_ratings_with_ci.csv")
                 st.sidebar.dataframe(elo_ratings, use_container_width=True)
             else:
                 st.sidebar.warning("No hi ha dades de batalles registrades.")
@@ -341,6 +351,20 @@ if app_mode == "Consulta":
     )
 
     if st.button("Consultar Experts", key="consulta_button", type="primary"):
+        if "heavy_models_preloaded" not in st.session_state:
+            with st.spinner("Carregant models d'embedding... La primera consulta trigarà una mica."):
+                try:
+                    preload_heavy_models()
+                    st.session_state.heavy_models_preloaded = True
+                except FileNotFoundError as e:
+                    st.error(
+                        f"Error crític durant la pre-càrrega de models: {e}. Algunes funcionalitats poden no estar disponibles."
+                    )
+                except ImportError as e:
+                    st.error(f"Error crític: {e}. Assegura't que totes les llibreries necessàries estan instal·lades.")
+                except Exception as e:
+                    st.error(f"S'ha produït un error inesperat durant la pre-càrrega de models: {e}")
+
         if question.strip():
             with st.spinner("Processant la teva consulta... Aquest procés pot trigar una mica."):
                 try:
@@ -382,7 +406,20 @@ elif app_mode == "Batalla":
     )
 
     if st.button("Iniciar Batalla / Nova Pregunta", key="battle_start_button", type="primary"):
-        # st.session_state.vote_casted = False
+        if "heavy_models_preloaded" not in st.session_state:
+            with st.spinner("Carregant models d'embedding... La primera consulta trigarà una mica."):
+                try:
+                    preload_heavy_models()
+                    st.session_state.heavy_models_preloaded = True
+                except FileNotFoundError as e:
+                    st.error(
+                        f"Error crític durant la pre-càrrega de models: {e}. Algunes funcionalitats poden no estar disponibles."
+                    )
+                except ImportError as e:
+                    st.error(f"Error crític: {e}. Assegura't que totes les llibreries necessàries estan instal·lades.")
+                except Exception as e:
+                    st.error(f"S'ha produït un error inesperat durant la pre-càrrega de models: {e}")
+
         if current_question_battle.strip():
             st.session_state.battle_question = current_question_battle
             st.session_state.battle_mode = True
@@ -512,7 +549,7 @@ elif app_mode == "Batalla":
         col1, col2 = st.columns(2)
 
         with col1:
-            card_a_style = "border: 2px solid #404040;"  # Default border from .battle-card
+            card_a_style = "border: 2px solid #404040;"
             if vote_casted and user_vote == "A":
                 card_a_style = "border: 3px solid lightgreen !important; box-shadow: 0 0 10px lightgreen !important;"
             elif vote_casted and user_vote == "Tie":
@@ -524,7 +561,7 @@ elif app_mode == "Batalla":
             st.markdown("</div>", unsafe_allow_html=True)
 
         with col2:
-            card_b_style = "border: 2px solid #404040;"  # Default border
+            card_b_style = "border: 2px solid #404040;"
             if vote_casted and user_vote == "B":
                 card_b_style = "border: 3px solid lightgreen !important; box-shadow: 0 0 10px lightgreen !important;"
             elif vote_casted and user_vote == "Tie":
@@ -610,7 +647,7 @@ elif app_mode == "Resultats":
             if not matches_df.empty:
                 st.markdown("### Classificació Elo:")
                 update_elo_ratings()
-                elo_ratings = pd.read_csv("elo_ratings_with_ci.csv")
+                elo_ratings = pd.read_csv("data/elo_ratings_with_ci.csv")
                 # Add MedQA results column to elo_ratings
                 MedQA_results = {
                     "Medicina General": 65.4,
@@ -667,28 +704,28 @@ elif app_mode == "Resultats":
     st.markdown("---")
     st.markdown("## Gràfics de Resultats")
     # Add image from file
-    st.image("elo_ratings_with_ci.png", caption="Classificació Elo amb IC", use_container_width=True)
-    st.image("model_accuracy_vs_agents_zoomed.png", caption="Precisió dels Models vs Agents", use_container_width=True)
-    st.image("expected_scores_matrix.png", caption="Matriu de Puntuacions Esperades", use_container_width=True)
-    st.image("agentic_workflow_benchmark.png", caption="Flux d'Agents Mèdics", use_container_width=True)
-    st.image("model_benchmarks.png", caption="Comparació de Models", use_container_width=True)
+    st.image("plots/elo_ratings_with_ci.png", caption="Classificació Elo amb IC", use_container_width=True)
     st.image(
-        "dissimilarity_matrix_heatmap.png",
+        "plots/model_accuracy_vs_agents_zoomed.png", caption="Precisió dels Models vs Agents", use_container_width=True
+    )
+    st.image("plots/expected_scores_matrix.png", caption="Matriu de Puntuacions Esperades", use_container_width=True)
+    st.image("plots/model_benchmarks.png", caption="Comparació de Models", use_container_width=True)
+    st.image(
+        "plots/dissimilarity_matrix_heatmap.png",
         caption="Matriu de Dissimilaritat de Diversitat de Respostes",
         use_container_width=True,
     )
+    st.image("plots/expert_ranks.png", caption="Experts triats a cada fase", use_container_width=True)
     st.image(
-        "diversity_accuracy_correlation.png",
-        caption="Correlació entre Diversitat i Precisions",
-        use_container_width=True,
-    )
-    st.image("expert_ranks.png", caption="Experts triats a cada fase", use_container_width=True)
-    st.image(
-        "temperature_optimization_Patologia_i_Farmacologia.png",
+        "plots/temperature_optimization_Patologia_i_Farmacologia.png",
         caption="Precisió i taxa de refutació per a Patologia i Farmacologia",
         use_container_width=True,
     )
-
+    st.image(
+        "plots/diversity_accuracy_correlation.png",
+        caption="Correlació entre Diversitat i Precisions",
+        use_container_width=True,
+    )
 
 st.markdown("---")
 st.sidebar.info(
