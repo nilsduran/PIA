@@ -15,8 +15,10 @@ st.set_page_config(
     page_title="MedAgent Consult & Battle UI",
     page_icon="⚕️",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="collapsed",
 )
+
+
 
 # --- ESTILS CSS PERSONALITZATS (OPCIONAL) ---
 st.markdown(
@@ -267,7 +269,9 @@ if os.environ.get("GOOGLE_API_KEY", None) is None:
 
 # --- BARRA LATERAL PER A LA CONFIGURACIÓ ---
 st.sidebar.title("⚕️ MedAgent UI")
-app_mode = st.sidebar.radio("Selecciona el Mode:", ("Consulta", "Batalla", "Resultats"), key="app_mode_selector")
+app_mode = st.sidebar.radio(
+    "Selecciona el Mode:", ("Consulta", "Batalla", "Resultats"), index=2, key="app_mode_selector"
+)
 
 if app_mode == "Consulta":
     # Show sliders only in Consulta mode
@@ -323,6 +327,10 @@ elif app_mode == "Classificació elo":
 
 # --- LÒGICA PRINCIPAL DE LA UI ---
 if app_mode == "Consulta":
+    st.warning(
+        "⚠️ **Avís d'Obsolescència**: Aquesta aplicació utilitzava models experimentals (Gemini 1.5 Finetuned) que han estat discontinuats per Google. "
+        "Les funcionalitats interactives ja no estan disponibles."
+    )
     st.session_state.battle_mode = False
     st.session_state.vote_casted = False
 
@@ -380,6 +388,10 @@ if app_mode == "Consulta":
             st.warning("Si us plau, introdueix una pregunta.")
 
 elif app_mode == "Batalla":
+    st.warning(
+        "⚠️ **Avís d'Obsolescència**: Aquesta aplicació utilitzava models experimentals (Gemini 1.5 Finetuned) que han estat discontinuats per Google. "
+        "Les funcionalitats interactives ja no estan disponibles."
+    )
     st.title("Mode Batalla: Quina Resposta Prefereixes?")
     st.markdown(
         "Introdueix una pregunta. Es generaran dues explicacions utilitzant diferents configuracions (nombre d'experts i llur diversitat). Tria la que consideris millor."
