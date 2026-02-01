@@ -29,7 +29,7 @@ set GOOGLE_API_KEY=your_api_key
 ```
 Or, if you are using PowerShell:
 ```bash
-$env:GOOGLE_API_KEY="your_api_key"
+$env:GOOGLE_API_KEY = "your_api_key"
 ```
 
 ## Execution

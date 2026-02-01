@@ -28,7 +28,7 @@ set GOOGLE_API_KEY=la_teva_clau_api
 ```
 PowerShell:
 ```bash
-$env:GOOGLE_API_KEY="la_teva_clau_api"
+$env:GOOGLE_API_KEY = "la_teva_clau_api"
 ```
 
 ## Execució
